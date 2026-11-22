@@ -1,0 +1,361 @@
+[
+ {
+  "id": "hscmv-emescam-es",
+  "sigla": "HSCMV",
+  "instituicao": "Irmandade da Santa Casa de Misericórdia de Vitória / EMESCAM",
+  "hospital": "Hospital Santa Casa de Misericórdia de Vitória",
+  "cidade": "Vitória",
+  "uf": "ES",
+  "processo": "Processo de Seleção Pública - Programas de Residência Médica do HSCMV com Acesso Direto (Edital nº 01/2027)",
+  "banca": "COREME HSCMV / EMESCAM",
+  "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/10/EDITAL-01-2027-ACESSO-DIRETO.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "scmbh-mg",
+  "sigla": "SCMBH",
+  "instituicao": "Santa Casa de Misericórdia de Belo Horizonte",
+  "hospital": "Santa Casa BH",
+  "cidade": "Belo Horizonte",
+  "uf": "MG",
+  "processo": "Processo Seletivo da Residência Médica 2026 - Entrada em 2027 (Edital nº 005/2026, consolidado até a Retificação nº 01)",
+  "banca": "IBGP (Instituto Brasileiro de Gestão e Pesquisa)",
+  "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "psumg-hmtj-jf",
+  "sigla": "HMTJ",
+  "instituicao": "Hospital e Maternidade Therezinha de Jesus",
+  "hospital": "Hospital e Maternidade Therezinha de Jesus",
+  "cidade": "Juiz de Fora",
+  "uf": "MG",
+  "processo": "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)",
+  "banca": "AREMG (Associação de Apoio à Residência Médica de Minas Gerais)",
+  "link_edital": null,
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "psumg-hsvp-jf",
+  "sigla": "HSVP",
+  "instituicao": "Instituto de Saúde HSVP",
+  "hospital": "Hospital São Vicente de Paulo (Grupo HSVP)",
+  "cidade": "Juiz de Fora",
+  "uf": "MG",
+  "processo": "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)",
+  "banca": "AREMG (Associação de Apoio à Residência Médica de Minas Gerais)",
+  "link_edital": null,
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hospital-das-clinicas-doutor-mario-ribei",
+  "sigla": null,
+  "instituicao": "Hospital das Clínicas Doutor Mário Ribeiro da Silveira",
+  "hospital": "Hospital das Clínicas Doutor Mário Ribeiro da Silveira",
+  "cidade": "Montes Claros",
+  "uf": "MG",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "huop-unioeste-cascavel-amp",
+  "sigla": "HUOP/UNIOESTE",
+  "instituicao": "Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná",
+  "hospital": "Hospital Universitário do Oeste do Paraná",
+  "cidade": "Cascavel",
+  "uf": "PR",
+  "processo": "Exame AMP 2026 / Seleção Residência Médica UNIOESTE Cascavel 2027 (Edital 030/2026-CPS/COREME)",
+  "banca": "AMP/UCAMP (prova objetiva); COREME UNIOESTE (análise de currículo)",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hnsg-curitiba-amp",
+  "sigla": "HNSG",
+  "instituicao": "Hospital Nossa Senhora das Graças",
+  "hospital": "Hospital Nossa Senhora das Graças",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "processo": "Exame AMP 2026 / Residência Médica 2027 (Edital HNSG)",
+  "banca": "AMP/UCAMP (1ª fase); Hospital Nossa Senhora das Graças (2ª fase)",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "santacasa-curitiba-amp",
+  "sigla": "HSCC",
+  "instituicao": "Irmandade da Santa Casa de Misericórdia de Curitiba",
+  "hospital": "Hospital Santa Casa de Curitiba",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "processo": "Exame AMP 2026 / Concurso de Seleção para Residência Médica 2027 (COREME HSCC Edital 10/2026)",
+  "banca": "AMP/UCAMP (1ª fase); COREME Hospital Santa Casa de Curitiba (avaliação curricular)",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "huem-mackenzie-curitiba",
+  "sigla": "HUEM",
+  "instituicao": "Hospital Universitário Evangélico Mackenzie",
+  "hospital": "Hospital Universitário Evangélico Mackenzie",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "processo": "Processo Seletivo de Residência Médica 2027 HUEM (Edital COREME HUEM 03/2026)",
+  "banca": "FGV",
+  "link_edital": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-n-032026-processo-seletivo-de-residencia-medica-2026-2027retificado1.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hu-uel-londrina",
+  "sigla": "HU/UEL",
+  "instituicao": "Universidade Estadual de Londrina - Hospital Universitário Regional do Norte do Paraná",
+  "hospital": "Hospital Universitário Regional do Norte do Paraná",
+  "cidade": "Londrina",
+  "uf": "PR",
+  "processo": "Seleção Pública Residência Médica HU/UEL 2027 (Edital COREME RM012/2026)",
+  "banca": "COPS/UEL (1ª fase); COREME HU/UEL (análise de currículo)",
+  "link_edital": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hdspr-piraquara-amp",
+  "sigla": "HDSPR",
+  "instituicao": "Hospital de Dermatologia Sanitária do Paraná (SESA/FUNEAS)",
+  "hospital": "Hospital de Dermatologia Sanitária do Paraná",
+  "cidade": "Piraquara",
+  "uf": "PR",
+  "processo": "Exame AMP 2026 / Concurso de Residência Médica 2027 (COREME-HDSPR Edital 01/2026)",
+  "banca": "AMP/UCAMP (1ª fase); COREME-HDSPR (análise curricular)",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "instituto-de-pos-graduacao-em-ciencias-d",
+  "sigla": null,
+  "instituicao": "Instituto de Pós-Graduação em Ciências da Saúde Izamar Milidiu da Silva",
+  "hospital": "Instituto de Pós-Graduação em Ciências da Saúde Izamar Milidiu da Silva",
+  "cidade": "—",
+  "uf": "RJ",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "heaa-rj",
+  "sigla": "HEAA",
+  "instituicao": "Hospital Escola Álvaro Alvim",
+  "hospital": "DERMATOLOGIA DO HOSPITAL ESCOLA ÁLVARO ALVIM",
+  "cidade": "Campos dos Goytacazes",
+  "uf": "RJ",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hcap-cbmerj-rj",
+  "sigla": "HCAP / CBMERJ",
+  "instituicao": "Hospital Central Aristarcho Pessoa - Corpo de Bombeiros",
+  "hospital": "HOSPITAL CENTRAL ARISTARCHO PESSOA (HCAP)",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hnmd-rj",
+  "sigla": "HNMD",
+  "instituicao": "Hospital Naval Marcílio Dias - Marinha do Brasil",
+  "hospital": "Hospital Naval Marcílio Dias",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "Processo Seletivo de Admissão aos Programas de Residência Médica do HNMD com início em 2027 (Edital de 28/07/2026, DOU)",
+  "banca": "Serviço de Seleção do Pessoal da Marinha (SSPM)",
+  "link_edital": "https://www.in.gov.br/web/dou/-/edital-de-28-de-julho-de-2026-722090596",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hospital-municipal-ronaldo-gazolla-rj",
+  "sigla": null,
+  "instituicao": "Hospital Municipal Ronaldo Gazolla",
+  "hospital": "Hospital Municipal Ronaldo Gazolla",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "ims-rj",
+  "sigla": "Instituto IMS",
+  "instituicao": "Instituto de Pós-Graduação em Ciências da Saúde Izamar Milidiu da Silva",
+  "hospital": null,
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "Processo Seletivo para Residência Médica - Ingresso em 2027 (Edital nº 01/2026)",
+  "banca": "Instituto ACCESS",
+  "link_edital": "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/b9df3440-c13f-405e-97b5-eb9cdcfe790b.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "uerj-hupe-rj",
+  "sigla": "UERJ",
+  "instituicao": "Universidade do Estado do Rio de Janeiro - Faculdade de Ciências Médicas",
+  "hospital": "Hospital Universitário Pedro Ernesto (HUPE)",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "Processo Seletivo Residência Médica UERJ 2027 - Acesso Direto (Edital nº 15/2026 - Cepuerj)",
+  "banca": "Cepuerj (Centro de Produção da UERJ)",
+  "link_edital": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+  "historico_ja_tem": [
+   "2027 cv",
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "hsvp-passofundo-uffs-amrigs",
+  "sigla": "HSVP/UFFS",
+  "instituicao": "Hospital São Vicente de Paulo (UFFS)",
+  "hospital": "Hospital São Vicente de Paulo",
+  "cidade": "Passo Fundo",
+  "uf": "RS",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "banca": "AMRIGS/Fundatec",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "ghc-conceicao-amrigs",
+  "sigla": "GHC/HNSC",
+  "instituicao": "Grupo Hospitalar Conceição - Hospital Nossa Senhora da Conceição",
+  "hospital": "Hospital Nossa Senhora da Conceição",
+  "cidade": "Porto Alegre",
+  "uf": "RS",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "banca": "AMRIGS/Fundatec (1ª etapa); COREME GHC (2ª etapa)",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hcpa-portoalegre",
+  "sigla": "HCPA",
+  "instituicao": "Hospital de Clínicas de Porto Alegre",
+  "hospital": "Hospital de Clínicas de Porto Alegre",
+  "cidade": "Porto Alegre",
+  "uf": "RS",
+  "processo": "Processo Seletivo para Residência Médica 2027 HCPA (Edital nº 01)",
+  "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+  "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-3.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hsl-pucrs-amrigs",
+  "sigla": "HSL-PUCRS",
+  "instituicao": "Hospital São Lucas da PUCRS",
+  "hospital": "Hospital São Lucas da PUCRS",
+  "cidade": "Porto Alegre",
+  "uf": "RS",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital HSL 2027",
+  "banca": "AMRIGS/Fundatec (1ª etapa); COREME HSL-PUCRS (análise curricular)",
+  "link_edital": "https://portal.pucrs.br/wp-content/uploads/2026/09/Edital-HSL-2027-retificado.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "ufcspa-santacasa-poa",
+  "sigla": "UFCSPA/Santa Casa",
+  "instituicao": "Universidade Federal de Ciências da Saúde de Porto Alegre / Irmandade Santa Casa de Misericórdia de Porto Alegre",
+  "hospital": "Santa Casa de Porto Alegre",
+  "cidade": "Porto Alegre",
+  "uf": "RS",
+  "processo": "Processo Seletivo para Residência Médica 2027 UFCSPA/Santa Casa (Edital nº 01)",
+  "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+  "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "husm-ufsm-amrigs",
+  "sigla": "UFSM/HUSM",
+  "instituicao": "Universidade Federal de Santa Maria - Hospital Universitário de Santa Maria",
+  "hospital": "Hospital Universitário de Santa Maria",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "banca": "AMRIGS/Fundatec (1ª etapa); COREME UFSM (2ª etapa)",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hu-ufsc-florianopolis-amrigs",
+  "sigla": "HU-UFSC",
+  "instituicao": "Universidade Federal de Santa Catarina - Hospital Universitário Polydoro Ernani de São Thiago",
+  "hospital": "Hospital Universitário da UFSC",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital 06/2026/COREME/UFSC (ingresso 2027)",
+  "banca": "AMRIGS/Fundatec (prova); COREME/UFSC (títulos/2ª etapa)",
+  "link_edital": "http://residenciamedica.paginas.ufsc.br/files/2026/09/Edital_Processo_Seletivo_2026-2027-assinado.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "univali-itajai-amrigs",
+  "sigla": "UNIVALI",
+  "instituicao": "Universidade do Vale do Itajaí",
+  "hospital": "Fundação Universidade do Vale do Itajaí",
+  "cidade": "Itajaí",
+  "uf": "SC",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "banca": "AMRIGS/Fundatec (1ª etapa); COREME UNIVALI (2ª etapa)",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hst-saopedrodealcantara-amrigs",
+  "sigla": "HST",
+  "instituicao": "Hospital Santa Teresa - SES/SC",
+  "hospital": "Hospital Santa Teresa",
+  "cidade": "São Pedro de Alcântara",
+  "uf": "SC",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "banca": "AMRIGS/Fundatec (1ª etapa); COREME HST (2ª etapa)",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ }
+]

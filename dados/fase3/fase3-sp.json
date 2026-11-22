@@ -1,0 +1,877 @@
+{
+ "processos": {
+  "PUC-Campinas 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Art. 14 cita as 5 áreas básicas, sem número por área; há ainda prova dissertativa de 5 questões (4 subitens cada).",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 5 alternativas, mais dissertativa de 5 questões no mesmo dia",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova múltipla escolha (100 questões)",
+      "peso": "70%",
+      "carater": "eliminatória (nota > 50) e classificatória"
+     },
+     {
+      "etapa": "1ª fase: prova dissertativa (5 questões)",
+      "peso": "20%",
+      "carater": "classificatória; corrigida só para habilitados"
+     },
+     {
+      "etapa": "2ª fase: avaliação curricular (Anexo I)",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), Art. 17 §4º; pedido até 10/11/2026 com certificado",
+    "fonte": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line (Tekyou) com CPF, RG, CRM e faculdade",
+     "Boleto da taxa (R$ 870)",
+     "Comprovante de pagamento no dia da prova"
+    ],
+    "analise_curricular": [
+     "Documento de identidade",
+     "Link do Currículo Lattes com foto",
+     "Comprovantes do Anexo I, em PDF nos campos do site"
+    ],
+    "matricula": [
+     "Foto 3x4",
+     "RG e CPF",
+     "Carteira do CRM-SP",
+     "Diploma (frente e verso)",
+     "Comprovante de endereço",
+     "PIS/PASEP/NIT",
+     "Quitação militar e eleitoral",
+     "Carteira de vacinação (Hepatite B, tríplice viral, antitetânica)",
+     "Cartão SUS (CNS)",
+     "Situação cadastral do CPF"
+    ],
+    "fonte": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 08/12/2026; nota final mínima 50. Errata 1 só mexe na bolsa (MFC). Pela tabela do Art. 25, Dermatologia leva até o 25º à 2ª fase."
+  },
+  "UNICAMP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Itens 4.1.1 e 4.1.2: 50 de manhã e 50 à tarde nas 5 áreas básicas, sem número por área.",
+    "duracao_horas": 8,
+    "formato": "objetiva de respostas curtas (escritas), dois períodos de 4 horas no mesmo dia",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova objetiva de respostas curtas (manhã + tarde)",
+      "peso": "90",
+      "carater": "eliminatória (mínimo 50% de acertos) e classificatória"
+     },
+     {
+      "etapa": "2ª fase: avaliação curricular documental",
+      "peso": "10",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), item 8; requerida na inscrição (item 2.14)",
+    "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário eletrônico no site do processo",
+     "Boleto da taxa (R$ 770)",
+     "Pedido de redução de 50% com RG e comprovantes, se for o caso"
+    ],
+    "analise_curricular": [
+     "Formulário de avaliação de currículo",
+     "Comprovantes de cada item, na ordem do formulário",
+     "Diploma ou declaração de conclusão",
+     "Histórico escolar da graduação",
+     "Currículo Lattes atualizado"
+    ],
+    "matricula": [
+     "Diploma registrado ou declaração de conclusão",
+     "PIS/PASEP/NIT",
+     "Conta corrente no Banco do Brasil",
+     "Título de eleitor",
+     "CPF e RG/CIN",
+     "Documento militar",
+     "Certidão de nascimento ou casamento",
+     "CRM-SP ou protocolo",
+     "Foto 3x4 em JPG",
+     "Certificado do PRMFC, se usou a bonificação"
+    ],
+    "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 15/11/2026. Os cadernos e as respostas esperadas de 2027 já saíram em comvest.unicamp.br/residenciamedica/provas.html (dAD1.pdf, dAD2.pdf)."
+  },
+  "HCFMRP-USP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 3.3: igual número de questões para cada uma das 5 áreas básicas.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha (edital não diz o número de alternativas)",
+    "etapas": [
+     {
+      "etapa": "Exame escrito (100 questões)",
+      "peso": "0,5",
+      "carater": "eliminatória (mínimo 50% de acertos)"
+     },
+     {
+      "etapa": "Prova prática (5 estações, uma por área básica)",
+      "peso": "0,4",
+      "carater": "classificatória"
+     },
+     {
+      "etapa": "Avaliação curricular",
+      "peso": "0,1",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Lei 12.871/2013, art. 22-E; Portaria MEC 446/2026), item 1.15",
+    "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line no site do HCRP",
+     "Foto para identificação (item 1.6)",
+     "Boleto da taxa (R$ 800)"
+    ],
+    "analise_curricular": [
+     "Resumo do currículo na plataforma",
+     "Comprovantes em PDF, um arquivo por documento"
+    ],
+    "matricula": [
+     "Diploma ou declaração de conclusão",
+     "CPF e RG",
+     "Comprovante de residência",
+     "Quitação eleitoral e título",
+     "Reservista (homens)",
+     "CRM-SP ou protocolo",
+     "Currículo Lattes com foto",
+     "Conta no Banco do Brasil",
+     "Cartão SUS e PIS/PASEP/NIT",
+     "Termo do Programa de Moradias ou recusa",
+     "Carteira de vacinação"
+    ],
+    "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Escrito em 20/11/2026; prática em 05/12/2026; 3 candidatos por vaga passam do escrito. Caderno e gabarito de 2027 já publicados na página do edital 3650."
+  },
+  "FAMERP 2027": {
+   "prova": {
+    "questoes_total": 80,
+    "distribuicao": null,
+    "distribuicao_obs": "Item 9.1.1.2: igual número por área, mas lista CM, Cirurgia, Pediatria, GO, MPS, MFC e Saúde Coletiva, sem número; cobra saúde mental e urgência.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha (80 testes, uma alternativa correta; número de alternativas não consta)",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova objetiva (80 testes, 1,25 ponto cada)",
+      "peso": "9 (90%)",
+      "carater": "eliminatória (mínimo 50%) e classificatória"
+     },
+     {
+      "etapa": "2ª fase: avaliação curricular (Anexo VI)",
+      "peso": "1 (10%)",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10%, item 8; optar na inscrição e enviar certificado em PDF",
+    "fonte": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line no site da FAMERP",
+     "Pagamento da taxa por PIX até 21/10/2026",
+     "Certificado do PRMFC em PDF, se pedir bonificação"
+    ],
+    "analise_curricular": [
+     "Currículo com comprovantes do Anexo VI, em um único PDF",
+     "Cópia de RG e CPF",
+     "Certificado de conclusão ou declaração de último semestre"
+    ],
+    "matricula": [
+     "2 fotos 3x4",
+     "Diploma (cópia, frente e verso)",
+     "CRM-SP (até 29/04/2027)",
+     "CPF, situação cadastral e RG",
+     "Título e quitação eleitoral",
+     "Tipo sanguíneo e fator Rh",
+     "Conta bancária",
+     "Quitação militar (homens)",
+     "PIS/PASEP/NIT",
+     "Cartão SUS",
+     "Certidão de nascimento ou casamento",
+     "Situação vacinal e carteira de vacinação",
+     "Formulário e-Social",
+     "Comprovante de endereço",
+     "Taxas de expediente e crachá (R$ 125)"
+    ],
+    "fonte": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 24/11/2026 (comunicado de 09/11/2026). Dermatologia: do 1º ao 30º vão à 2ª fase. Retificação corrigiu só a planilha do Anexo VI."
+  },
+  "FMUSP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Item V-1.1: 'igual número de questões' citando CG, CM, GO, MPS, MFC, Saúde Coletiva e Pediatria, sem número; cobra saúde mental e urgência.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 4 alternativas (folha ABCD)",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova objetiva (100 questões)",
+      "peso": "9",
+      "carater": "eliminatória (mínimo 50% de acertos) e classificatória"
+     },
+     {
+      "etapa": "2ª fase: avaliação curricular",
+      "peso": "1",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "Não há: o edital (seção XIII, item 7) diz que não considera a bonificação da Portaria MEC 446/2026",
+    "fonte": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Prova R1 Áreas Básicas e Acesso Direto 2026 (caderno AD1; há também AD2 e AD3)",
+     "link_prova": "https://www.fuvest.br/wp-content/uploads/rm2026-prova-AD1-areasbasicas-acessodireto.pdf",
+     "link_gabarito": "https://www.fuvest.br/wp-content/uploads/rm2026-gabarito-AD-areasbasicas-acessodireto-retificado.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Cadastro no site da FUVEST com CPF e e-mail",
+     "CPF e documento de identidade anexados",
+     "Foto de rosto para reconhecimento facial",
+     "Boleto da taxa (R$ 620)"
+    ],
+    "analise_curricular": [
+     "Tabela de currículo na área do candidato",
+     "Um PDF por item, com comprovantes",
+     "Declaração ou certificado de conclusão da graduação (obrigatório no item 1)"
+    ],
+    "matricula": [
+     "Diploma (frente e verso)",
+     "Carteira de registro definitivo no CREMESP",
+     "Foto JPG ou PNG",
+     "RG e CPF",
+     "Documento militar",
+     "PIS/PASEP/NIT",
+     "Cartão SUS (CNS)",
+     "Comprovante de endereço",
+     "Quitação eleitoral",
+     "Formulário cadastral da fonte pagadora",
+     "Declaração de acumulação e termo de cadastro no HC",
+     "Conta corrente conforme a fonte da bolsa"
+    ],
+    "fonte": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 06/12/2026, 13h. Dermatologia: até a 21ª posição vai à 2ª fase. Três erratas (07/10, 12/11 e 18/11/2026) não mudam a prova de acesso direto."
+  },
+  "FAUSCS 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 3.1.1: 20 por área; preventiva inclui MFC e Saúde Coletiva; saúde mental e urgência entram nas áreas.",
+    "duracao_horas": 3,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (fase única)",
+      "peso": "100%",
+      "carater": "eliminatória (mínimo 50 pontos) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMGFC/PRMFC e PROVAB: +10%, Capítulo 5, Seção I; certificado e Anexo II enviados na inscrição",
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/325/concursos/30/anexos/7038f002-c4a1-42ca-bf9b-80756ed72bd3.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line no site da FAUSCS",
+     "Boleto da taxa (R$ 490)",
+     "Certificado PRMGFC/PROVAB e declaração do Anexo II, se pedir bônus"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Diploma ou declaração de conclusão",
+     "RG e CPF",
+     "Comprovante de inscrição no CRM",
+     "Reservista (homens)",
+     "Comprovante de residência",
+     "Quitação eleitoral",
+     "USCS/Barueri: fotos 3x4, cartão SUS, título, vacinação, certidão do CRM"
+    ],
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/325/concursos/30/anexos/7038f002-c4a1-42ca-bf9b-80756ed72bd3.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Dermatologia está no HFASP (2 vagas). Inscrições até 06/12/2026; prova prevista para 10/01/2027 (Anexo I)."
+  },
+  "IAMSPE 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 11.1.1: igual número de questões nas 5 áreas (I a V); a 5ª reúne MPS, MFC e Saúde Coletiva.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (fase única)",
+      "peso": "100%",
+      "carater": "eliminatória (mínimo 50% de acertos) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído até o fim das inscrições: +10% (Portaria MEC 446/2026), item 13",
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line no site do Instituto Avança SP",
+     "Boleto ou QR code da taxa (R$ 550)",
+     "Marcar PRMFC na inscrição e enviar comprovante, se pedir bônus"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Foto 3x4",
+     "RG/CIN e CPF, com situação cadastral",
+     "Carteira de vacinação (com COVID)",
+     "Quitação eleitoral",
+     "INSS ou PIS/PASEP",
+     "Quitação militar (homens)",
+     "Contas no Banco do Brasil e no Bradesco ou Santander",
+     "Diploma ou declaração de conclusão",
+     "Carteira definitiva do CREMESP",
+     "Taxa de matrícula (R$ 60)"
+    ],
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova prevista para 28/11/2026, 14h30, em São Paulo. Retificações 1 e 2 (22 e 29/10/2026) não mudam a prova de acesso direto."
+  },
+  "Santa Casa SP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Item 4.1: conteúdo de CM, CG, Pediatria, GO e MPS/MFC/Saúde Coletiva, sem número por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova objetiva (100 questões)",
+      "peso": "9",
+      "carater": "eliminatória (mínimo 50 pontos) e classificatória"
+     },
+     {
+      "etapa": "2ª fase: análise curricular (Anexo II)",
+      "peso": "1",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% em cada fase (Lei 12.871/2013, art. 22-E), item 1.21; comprovante de 25 a 27/11/2026",
+    "fonte": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line no site da FCC",
+     "Foto recente por upload",
+     "Pagamento da taxa (R$ 680) até 05/11/2026"
+    ],
+    "analise_curricular": [
+     "Comprovantes do Anexo II por upload (PDF, JPG ou GIF, até 5 MB)",
+     "Documentos digitais com código de autenticidade"
+    ],
+    "matricula": [
+     "RG (2 cópias; CNH não vale)",
+     "CPF e título de eleitor",
+     "PIS/NIT/NIS",
+     "Diploma ou atestado de conclusão (cópia autenticada)",
+     "Comprovante de endereço em SP (2 cópias)",
+     "CREMESP ou protocolo (definitivo em 30 dias)",
+     "Foto 3x4",
+     "Qualificação cadastral do e-Social",
+     "Ficha de matrícula da FCC",
+     "Reservista (homens)"
+    ],
+    "fonte": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 08/12/2026, à tarde. Dermatologia (2 vagas): 8 convocados por vaga para a 2ª fase. Retificação 01 não muda acesso direto."
+  },
+  "PUC-SP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 4.2.1: 20 questões por área básica; saúde mental e urgência entram nas áreas.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova escrita objetiva (100 questões)",
+      "peso": "0,9",
+      "carater": "eliminatória (mínimo 50% de acertos)"
+     },
+     {
+      "etapa": "2ª fase: avaliação curricular (até 10 pontos)",
+      "peso": "1",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), itens 2.6 e 4.5; documentos e declaração até o fim das inscrições",
+    "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Edital-RM-2027-ABAD.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Prova Áreas Básicas e Acesso Direto RM PUC-SP 2026",
+     "link_prova": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2026/abad/gabarito-e-prova/AREAS-BASICAS-ACESSO-DIRETO-ResidenciaPuc-2026-A4-v3-direito-autoral-dig.pdf",
+     "link_gabarito": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2026/abad/gabarito-e-prova/Gabarito-Geral-Acesso-Direto-e-Area-Basica_RM-PUCSP2026_Publicacao_28112025.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "Prova Áreas Básicas e Acesso Direto RM PUC-SP 2025 (gabarito pós-recurso)",
+     "link_prova": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2025/abad/gabarito-e-provas/AREAS-BASICAS-ACESSO-DIRETO-ResidenciaPuc-2025-A4-DIREITO-AUTORAL.pdf",
+     "link_gabarito": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2025/abad/gabarito-e-provas/Gabarito-Geral-Acesso-Direto-e-Area-Bassica-RM-PUCSP2025-Pos-Recurso.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "Prova Áreas Básicas e Acesso Direto RM PUC-SP 2024 (gabarito alterado)",
+     "link_prova": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2024/abad/gabarito-e-provas/AREAS-BASICAS-ACESSO-DIRETO-ResidenciaPuc-2024-A4-v2.pdf",
+     "link_gabarito": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2024/abad/gabarito-e-provas/1-AREA-BASICA-ACESSO-DIRETO-RM2024-Alterado.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha de inscrição no site do NUCVEST",
+     "Link do Currículo Lattes na ficha",
+     "Taxa de R$ 800 (boleto, cartão ou Pix)",
+     "Para bônus: certificado PRMFC e declaração de não utilização, por e-mail"
+    ],
+    "analise_curricular": [
+     "Currículo Lattes atualizado até 26/11/2026",
+     "Comprovantes do item 4.4.4 em PDF, por e-mail"
+    ],
+    "matricula": [
+     "Diploma ou certidão de conclusão",
+     "Carteira definitiva ou declaração do CRM-SP",
+     "INSS, PIS ou NIT",
+     "CPF regularizado",
+     "RG",
+     "Foto 3x4"
+    ],
+    "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Edital-RM-2027-ABAD.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova feita em 01/11/2026, em São Paulo; programas no campus Sorocaba. Termos aditivos 1 e 2 não mudam a prova (taxa e uma vaga de Anestesiologia)."
+  },
+  "SUS-SP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 9.1: 20 por área; a 5ª área reúne MPS, MFC e Saúde Coletiva.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 5 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (fase única)",
+      "peso": "100%",
+      "carater": "eliminatória (mínimo 50% das questões válidas) e classificatória"
+     },
+     {
+      "etapa": "Escolha de vaga no sistema eletrônico, pela classificação",
+      "peso": null,
+      "carater": "procedimento após o resultado"
+     }
+    ],
+    "bonificacao": "PRMFC concluído ou em curso (conclusão até 28/02/2027): +10%, Capítulo 8 (Portaria MEC 446/2026)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Caderno e gabarito Acesso Direto SUS-SP 2026 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NzUyNTQ2Mw%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NzUyNTQ0OA%3d%3d",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha de inscrição no site da Vunesp",
+     "Boleto da taxa (R$ 120)",
+     "Upload do certificado ou declaração do PRMFC, se pedir bônus"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "CPF próprio",
+     "RG ou carteira do CRM",
+     "Título de eleitor",
+     "Reservista (homens)",
+     "Inscrição no CRM ou diploma/certificado de conclusão",
+     "Comprovante de residência",
+     "2 fotos 3x4",
+     "Carteira de vacinação",
+     "PIS/PASEP/NIT/NIR",
+     "Comprovante do PRMFC, se usou o bônus"
+    ],
+    "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+    "selo": "oficial"
+   },
+   "obs": "Edital lido na publicação do DOE-SP de 01/10/2026 (mesmo arquivo da Vunesp). Seis retificações no DOE (02/10 a 04/11/2026): vagas, escolha de vagas, gabarito e anuladas fora do cálculo."
+  },
+  "Unesp Botucatu 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Capítulo V: áreas CM, CG, GO, Pediatria e MPS (Saúde Coletiva, Saúde Mental e MFC), sem número por área.",
+    "duracao_horas": null,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "1ª etapa: prova escrita objetiva",
+      "peso": "90%",
+      "carater": "eliminatória (nota ≥ média da especialidade menos 2 DP) e classificatória"
+     },
+     {
+      "etapa": "2ª etapa: avaliação curricular (3 convocados por vaga em Dermatologia)",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído ou em último ano: +10% (Lei 12.871/2013; Portaria MEC 446/2026), Capítulo V item 4",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Caderno e gabarito Áreas de Acesso Direto Botucatu 2026 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NzQ5MDg3Nw%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NzQ5MDg3MQ%3d%3d",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "Caderno e gabarito Acesso Direto Botucatu 2025 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NjYyMTMwMQ%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NjYyMTI5OQ%3d%3d",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "Edital de divulgação dos gabaritos 2024 (caderno não publicado)",
+     "link_prova": null,
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NTM4OTc4OA%3d%3d",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição no site da Vunesp",
+     "Boleto da taxa (R$ 648)",
+     "Certificado ou declaração do PRMFC, se pedir bônus"
+    ],
+    "analise_curricular": [
+     "Curriculum vitae em arquivo único",
+     "Comprovantes na ordem do item 7 e barema opcional (Anexo II)",
+     "Histórico escolar (obrigatório)",
+     "Diploma ou declaração de conclusão",
+     "Foto colorida"
+    ],
+    "matricula": [
+     "Ficha, declaração de acumulação e requerimento de matrícula",
+     "RG e CPF",
+     "NIT/PIS/PASEP",
+     "Quitação eleitoral (emitida a partir de jan/2027)",
+     "Certidão de nascimento ou casamento",
+     "Diploma ou atestado de conclusão",
+     "CRM-SP definitivo (até 30/04/2027)",
+     "Conta no Banco do Brasil",
+     "Foto 3x4",
+     "Carteira de vacinação"
+    ],
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+    "selo": "oficial"
+   },
+   "obs": "Edital lido no DOE-SP de 06/10/2026 (mesmo texto da Vunesp). Prova prevista para 12/12/2026, 14h, em Botucatu, São Paulo e Brasília. Duas retificações (19/10 e 03/11/2026)."
+  },
+  "UNIFESP 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 15.1.5: questões distribuídas equitativamente entre CM, Cirurgia, GO, Preventiva e Pediatria.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova teórica (nota de corte 7 em Dermatologia)",
+      "peso": "5",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "2ª fase: prova prática (habilidades e avaliação informatizada; mínimo 6,00 em Dermatologia)",
+      "peso": "4",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "3ª fase: análise curricular",
+      "peso": "1",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC/PRMGFC concluído na inscrição: pontuação adicional, item 7 (percentual não citado); PROVAB não vale (Lei 15.233/2025)",
+    "fonte": "https://site.unifesp.br/coreme/images/documentos/PSRM_20262027/Edital_690_-_2026_-_PSRM_2026-2027.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line no site da Vunesp",
+     "Taxa de R$ 726 (Pix ou cartão)",
+     "Formulário de pontuação adicional (07 a 30/10/2026), se for o caso"
+    ],
+    "analise_curricular": [
+     "Documento de identidade original",
+     "Histórico escolar com notas do curso",
+     "Memorial descritivo com foto 3x4",
+     "Currículo Lattes atualizado até 04/12/2026"
+    ],
+    "matricula": [
+     "Ficha de cadastro, termo de responsabilidade e de bolsa",
+     "Foto 3x4",
+     "Diploma ou declaração de conclusão",
+     "Carteira ou protocolo do CREMESP",
+     "CPF e comprovante de regularização",
+     "RG",
+     "Quitação eleitoral",
+     "Inscrição no INSS",
+     "Situação militar",
+     "Conta ativa em nome do bolsista",
+     "Taxa de expediente"
+    ],
+    "fonte": "https://site.unifesp.br/coreme/images/documentos/PSRM_20262027/Edital_690_-_2026_-_PSRM_2026-2027.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova teórica em 29/11/2026, 13h; prática em 08/01/2027. Edital também no site da Vunesp (UFSP2602). Emenda muda só prazos de isenção e bônus."
+  },
+  "FAMEMA 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 16,
+     "cirurgia": 16,
+     "ginecologia_obstetricia": 16,
+     "pediatria": 16,
+     "preventiva_social": 16,
+     "outras": 20
+    },
+    "distribuicao_obs": "Item 7.2.1.1: 16 por área (MPS inclui Saúde Coletiva e MGFC); 'outras' = 10 Saúde Mental + 10 Medicina de Emergência.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, questões baseadas em casos clínicos (número de alternativas não consta)",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (fase única)",
+      "peso": "1 (100%)",
+      "carater": "eliminatória (mínimo 50% das questões válidas) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído ou em curso (conclusão até 28/02/2027): +10% (Portaria MEC 446/2026), item 5.2",
+    "fonte": "https://www.famema.br/wp-content/uploads/2026/09/SEI_0122575211_FAMEMA_Edital_45.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Caderno e gabarito Áreas Básicas e Acesso Direto FAMEMA 2026 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NzUxMzc2MQ%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NzUxMzc2MA%3d%3d",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "Caderno e gabarito Áreas Básicas e Acesso Direto FAMEMA 2025 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NjYzOTYyMw%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NjYzOTYxOA%3d%3d",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha de inscrição no site da Vunesp",
+     "Taxa de R$ 600",
+     "Upload do certificado ou declaração do PRMFC até 27/10/2026, se pedir bônus"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Foto 3x4",
+     "PIS/PASEP/NIT",
+     "Conta corrente no Banco do Brasil",
+     "Certidão de conclusão ou diploma registrado",
+     "Título e quitação eleitoral",
+     "CPF",
+     "RG/CIN ou documento equivalente",
+     "Quitação militar (homens)",
+     "Certidão de nascimento ou casamento",
+     "Carteira de vacinação e comprovante COVID-19",
+     "CRM-SP (até 17/04/2027)",
+     "Cartão SUS",
+     "Declaração do PRMFC, se usou o bônus"
+    ],
+    "fonte": "https://www.famema.br/wp-content/uploads/2026/09/SEI_0122575211_FAMEMA_Edital_45.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prova em 08/12/2026, 14h, 5 horas. Rerratificação de 22/10/2026 só muda desempate (colação de grau mais antiga). Edital também na Vunesp (FMMA2602)."
+  },
+  "Sírio-Libanês 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 10.1.1: 20 por área; a 5ª reúne MPS, MFC e Saúde Coletiva.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 5 alternativas",
+    "etapas": [
+     {
+      "etapa": "1ª fase: prova objetiva (mínimo 70 pontos em Dermatologia; 8 por vaga seguem)",
+      "peso": "50%",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "2ª fase: prova prática na Faculdade Sírio-Libanês (mínimo 50%)",
+      "peso": "50%",
+      "carater": "eliminatória e classificatória"
+     }
+    ],
+    "bonificacao": "PROVAB ou PRMGFC/MGFC concluído: +10% em todas as fases, item 9.1 (Res. CNRM 2/2015 e 35/2018)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Caderno e gabarito Acesso Direto Sírio-Libanês 2026 (gabarito divulgado antes dos recursos)",
+     "link_prova": "https://documento.vunesp.com.br/documento/stream/NzQ4NzY3Mw%3d%3d",
+     "link_gabarito": "https://documento.vunesp.com.br/documento/stream/NzQ4NzY2NQ%3d%3d",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha de inscrição no site da Vunesp",
+     "Taxa de R$ 680 (paga até 14/08/2026)",
+     "Upload do comprovante PROVAB ou PRMGFC, se pedir bônus"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Foto 3x4 digital",
+     "RG (emitido há menos de 10 anos)",
+     "CPF",
+     "e-Título e quitação eleitoral",
+     "Reservista",
+     "Diploma ou declaração de conclusão",
+     "Certificado PRMFC, se for o caso",
+     "Registro definitivo no CREMESP ou protocolo",
+     "Regularidade fiscal e certidão ético-profissional do CRM",
+     "Comprovante do e-Social",
+     "Comprovante de residência",
+     "Carteira de vacinação (com COVID-19)"
+    ],
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+    "selo": "oficial"
+   },
+   "obs": "Edital de 15/05/2026; prova objetiva já feita em 27/09/2026. Dermatologia: 3 vagas em São Paulo. Rerratificação de 25/05/2026 só muda análise curricular dos programas com pré-requisito."
+  }
+ },
+ "lacunas": [
+  "PUC-Campinas 2027: distribuição por área não fixada no edital; provas e gabaritos de 2024–2026 não encontrados no site da Tekyou (só a página de 2027 está no ar).",
+  "UNICAMP 2027: edital não fixa número de questões por área; a página da Comvest só mostra as provas de 2027, sem arquivo oficial de 2024–2026.",
+  "HCFMRP-USP 2027: provas e gabaritos de 2024–2026 não localizados no extranet do HCRP (cada edição tem número de edital próprio, não listado); número de alternativas não consta no edital.",
+  "FAMERP 2027: edital não dá o número de questões por área nem o número de alternativas; provas e gabaritos de 2024–2026 não estão no site da FAMERP.",
+  "FMUSP 2027: edital não fixa número de questões por área; a FUVEST só mantém no ar as provas de 2026 (arquivos de 2024 e 2025 dão 404).",
+  "FAUSCS 2027: provas e gabaritos de 2024–2026 não localizados no site da FAUSCS (só há a página da seleção 2027).",
+  "IAMSPE 2027: provas e gabaritos de 2024–2026 não localizados em fonte oficial (a banca mudou para o Instituto Avança SP).",
+  "Santa Casa SP 2027: edital não fixa questões por área; a FCC não publica cadernos nem gabaritos nas páginas das edições anteriores (scmsp124, scmsp125).",
+  "SUS-SP 2027: provas de 2024–2025 não localizadas na Vunesp (só a edição 2026, SESA2504); gabarito linkado é o divulgado antes dos recursos.",
+  "Unesp Botucatu 2027: edital não fixa questões por área nem a duração da prova; caderno de 2024 não publicado (só o edital de gabaritos).",
+  "UNIFESP 2027: edital não diz o percentual da pontuação adicional do PRMFC; provas e gabaritos de 2024–2026 não estão no site da COREME (a página de provas só tem material de 2022/2023).",
+  "FAMEMA 2027: edital não diz o número de alternativas; caderno e gabarito de 2024 não publicados na página da Vunesp (FMMA2303); gabaritos de 2025–2026 são os divulgados antes dos recursos.",
+  "Sírio-Libanês 2027: só há prova anterior oficial de 2026 (HSLI2502); edições de 2024–2025 não localizadas na Vunesp. Gabarito linkado é o divulgado antes dos recursos."
+ ]
+}

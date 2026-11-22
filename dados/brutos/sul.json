@@ -1,0 +1,818 @@
+{
+  "frente": "sul",
+  "coletado_em": "2026-11-21",
+  "programas": [
+    {
+      "id": "hdspr-piraquara-amp",
+      "instituicao": "Hospital de Dermatologia Sanitária do Paraná (SESA/FUNEAS)",
+      "sigla": "HDSPR",
+      "hospital": "Hospital de Dermatologia Sanitária do Paraná",
+      "cidade": "Piraquara",
+      "uf": "PR",
+      "endereco": "Av. Frei Rui Guido Depiné, 1.115, Jardim Esmeralda, Piraquara-PR, 83301-390",
+      "natureza": "estadual",
+      "processo": "Exame AMP 2026 / Concurso de Residência Médica 2027 (COREME-HDSPR Edital 01/2026)",
+      "banca": "AMP/UCAMP (1ª fase); COREME-HDSPR (análise curricular)",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-09-03",
+        "inscricao_fim": "2026-10-05",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Convocação para análise de currículo (5x o número de vagas)",
+            "data": "2026-11-27"
+          },
+          {
+            "etapa": "Envio de documentos para análise de currículo (por e-mail)",
+            "data": "2026-11-30 a 2026-12-02"
+          },
+          {
+            "etapa": "Notas provisórias da análise de currículo",
+            "data": "2026-12-14"
+          },
+          {
+            "etapa": "Resultado final e convocação para matrícula",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": "2026-12-18",
+        "taxa_reais": 625,
+        "etapas_descricao": "1ª fase: Exame AMP (prova objetiva, 90% da nota final); 2ª fase: análise de currículo (10%), para 5x o número de vagas",
+        "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+        "link_inscricao": "https://www.amp.org.br",
+        "link_processo": "https://ucamp.org.br/web/residencia-medica",
+        "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 526,
+          "candidatos_por_vaga": 87.67,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga_1792435035.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Exame AMP 2026 (1ª fase, AMP/UCAMP, prova geral objetiva com nota 0-10; mínimo de 50% de acertos para a 2ª fase). Inscrição prorrogada até 05/10/2026 pela Retificação 02/2026 (https://cms.amp.org.br/arquivos/bibliotecaarquivos/edital-exame-amp-2026-retificacao-02-2026_1790966320.pdf). Resultado da 1ª fase até 26/11/2026. Histórico 2027 = 'Candidatos pagos por vaga - Concurso 2026' publicado pela AMP/UCAMP (ciclo de ingresso 2027, não é edição anterior). Edital COREME-HDSPR 01/2026: 6 vagas (ato autorizativo 237/2026; 3 ampla concorrência, 2 pretos/pardos, 1 PcD); sem taxa da COREME (total R$ 625,00, só a taxa AMP). Instituição pública: elegível à isenção da taxa AMP. Retificação 01 do edital da COREME (reserva de vagas/cronograma): https://cms.amp.org.br/arquivos/bibliotecaarquivos/retificacao-hospital-de-dermatologia-sanitaria_1792089301.pdf. Início das atividades 01/03/2027."
+    },
+    {
+      "id": "hnsg-curitiba-amp",
+      "instituicao": "Hospital Nossa Senhora das Graças",
+      "sigla": "HNSG",
+      "hospital": "Hospital Nossa Senhora das Graças",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "endereco": "Rua Alcides Munhoz, 433, Mercês, Curitiba-PR",
+      "natureza": "filantropica",
+      "processo": "Exame AMP 2026 / Residência Médica 2027 (Edital HNSG)",
+      "banca": "AMP/UCAMP (1ª fase); Hospital Nossa Senhora das Graças (2ª fase)",
+      "ciclo_2027": {
+        "vagas": 1,
+        "inscricao_inicio": "2026-09-03",
+        "inscricao_fim": "2026-10-05",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Lista de convocados para a 2ª fase",
+            "data": "2026-11-30"
+          },
+          {
+            "etapa": "Envio de currículos (sem pré-requisito)",
+            "data": "2026-12-01 a 2026-12-06"
+          },
+          {
+            "etapa": "Entrevista presencial e análise de currículo",
+            "data": "2026-12-09 a 2026-12-15"
+          },
+          {
+            "etapa": "Resultado final",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": "2026-12-18",
+        "taxa_reais": 1200,
+        "etapas_descricao": "1ª fase: Exame AMP (peso 90%); 2ª fase: entrevista e análise de currículo (peso 10%)",
+        "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+        "link_inscricao": "https://www.amp.org.br",
+        "link_processo": "https://ucamp.org.br/web/residencia-medica",
+        "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 1,
+          "inscritos": 115,
+          "candidatos_por_vaga": 115,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga_1792435035.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Exame AMP 2026 (1ª fase, AMP/UCAMP, prova geral objetiva com nota 0-10; mínimo de 50% de acertos para a 2ª fase). Inscrição prorrogada até 05/10/2026 pela Retificação 02/2026 (https://cms.amp.org.br/arquivos/bibliotecaarquivos/edital-exame-amp-2026-retificacao-02-2026_1790966320.pdf). Resultado da 1ª fase até 26/11/2026. Histórico 2027 = 'Candidatos pagos por vaga - Concurso 2026' publicado pela AMP/UCAMP (ciclo de ingresso 2027, não é edição anterior). Edital HNSG: Dermatologia com 1 vaga marcada como 'AGUARDANDO AUTORIZAÇÃO' da CNRM; o edital avisa que o processo para programas nessa situação pode ser cancelado a qualquer tempo. Taxa: R$ 625,00 (AMP) + R$ 575,00 (Centro de Estudos do HNSG) = R$ 1.200,00. A pista de '115 inscrições por vaga' confere: é o dado oficial do ciclo atual (1 vaga, 115 candidatos pagos), não de edição anterior."
+    },
+    {
+      "id": "santacasa-curitiba-amp",
+      "instituicao": "Irmandade da Santa Casa de Misericórdia de Curitiba",
+      "sigla": "HSCC",
+      "hospital": "Hospital Santa Casa de Curitiba",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Exame AMP 2026 / Concurso de Seleção para Residência Médica 2027 (COREME HSCC Edital 10/2026)",
+      "banca": "AMP/UCAMP (1ª fase); COREME Hospital Santa Casa de Curitiba (avaliação curricular)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-03",
+        "inscricao_fim": "2026-10-05",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Entrega dos currículos (avaliação curricular)",
+            "data": "2026-11-27 a 2026-11-28"
+          },
+          {
+            "etapa": "Resultado preliminar da avaliação curricular",
+            "data": "2026-12-16"
+          },
+          {
+            "etapa": "Resultado definitivo após recursos",
+            "data": "2026-12-23"
+          },
+          {
+            "etapa": "Relação de aprovados e suplentes",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "Matrícula",
+            "data": "2027-02-10 a 2027-02-11"
+          }
+        ],
+        "resultado_previsto": "2027-01-11",
+        "taxa_reais": 1320,
+        "etapas_descricao": "1ª fase: Exame AMP (prova objetiva, 90%); 2ª fase: avaliação curricular (10%)",
+        "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+        "link_inscricao": "https://www.amp.org.br",
+        "link_processo": "https://ucamp.org.br/web/residencia-medica",
+        "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 3,
+          "inscritos": 219,
+          "candidatos_por_vaga": 73,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga_1792435035.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Exame AMP 2026 (1ª fase, AMP/UCAMP, prova geral objetiva com nota 0-10; mínimo de 50% de acertos para a 2ª fase). Inscrição prorrogada até 05/10/2026 pela Retificação 02/2026 (https://cms.amp.org.br/arquivos/bibliotecaarquivos/edital-exame-amp-2026-retificacao-02-2026_1790966320.pdf). Resultado da 1ª fase até 26/11/2026. Histórico 2027 = 'Candidatos pagos por vaga - Concurso 2026' publicado pela AMP/UCAMP (ciclo de ingresso 2027, não é edição anterior). Edital 10/2026 (Quadro I): Dermatologia, 3 anos, 3 vagas, bolsa SIGRESIDÊNCIA, parecer CNRM 434/2020. Taxa: R$ 625,00 (AMP) + R$ 695,00 (Santa Casa) = R$ 1.320,00. PDF do edital é digitalizado (imagem); datas lidas do cronograma (item 13). Hospital de ensino ligado à PUCPR, mas o processo é da COREME da Santa Casa via AMP; não foi localizado programa de Dermatologia em processo próprio da PUCPR/Hospital Cajuru."
+    },
+    {
+      "id": "huop-unioeste-cascavel-amp",
+      "instituicao": "Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná",
+      "sigla": "HUOP/UNIOESTE",
+      "hospital": "Hospital Universitário do Oeste do Paraná",
+      "cidade": "Cascavel",
+      "uf": "PR",
+      "endereco": "Av. Tancredo Neves, 3224, Santo Onofre, Cascavel-PR, 85806-470",
+      "natureza": "estadual",
+      "processo": "Exame AMP 2026 / Seleção Residência Médica UNIOESTE Cascavel 2027 (Edital 030/2026-CPS/COREME)",
+      "banca": "AMP/UCAMP (prova objetiva); COREME UNIOESTE (análise de currículo)",
+      "ciclo_2027": {
+        "vagas": 1,
+        "inscricao_inicio": "2026-09-03",
+        "inscricao_fim": "2026-10-05",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Edital de selecionados para a 2ª fase (15 candidatos em Dermatologia)",
+            "data": "2026-11-26"
+          },
+          {
+            "etapa": "Postagem do currículo (SEDEX) - data máxima",
+            "data": "2026-12-07"
+          },
+          {
+            "etapa": "Análise de curriculum vitae",
+            "data": "2026-12-10 a 2026-12-15"
+          },
+          {
+            "etapa": "Resultado final e convocação para matrícula",
+            "data": "2026-12-21"
+          },
+          {
+            "etapa": "Matrícula",
+            "data": "2027-02-04 a 2027-02-05"
+          }
+        ],
+        "resultado_previsto": "2026-12-21",
+        "taxa_reais": 1275,
+        "etapas_descricao": "Prova objetiva (100 questões, até 90 pontos) + análise de currículo (até 10 pontos); 3ª etapa: heteroidentificação/perícia médica para cotistas",
+        "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+        "link_inscricao": "https://www.amp.org.br",
+        "link_processo": "https://ucamp.org.br/web/residencia-medica",
+        "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 1,
+          "inscritos": 94,
+          "candidatos_por_vaga": 94,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga_1792435035.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Exame AMP 2026 (1ª fase, AMP/UCAMP, prova geral objetiva com nota 0-10; mínimo de 50% de acertos para a 2ª fase). Inscrição prorrogada até 05/10/2026 pela Retificação 02/2026 (https://cms.amp.org.br/arquivos/bibliotecaarquivos/edital-exame-amp-2026-retificacao-02-2026_1790966320.pdf). Resultado da 1ª fase até 26/11/2026. Histórico 2027 = 'Candidatos pagos por vaga - Concurso 2026' publicado pela AMP/UCAMP (ciclo de ingresso 2027, não é edição anterior). Edital 030/2026-CPS/COREME: Dermatologia 1 vaga, 3 anos, credenciamento parecer 584/2025. Taxa: R$ 625,00 (AMP) + R$ 650,00 (COREME HUOP) = R$ 1.275,00. O edital próprio cita inscrição até 01/10/2026; prorrogação geral para 05/10/2026 pela Retificação 02/2026 da AMP. PDF digitalizado (imagem)."
+    },
+    {
+      "id": "hu-uel-londrina",
+      "instituicao": "Universidade Estadual de Londrina - Hospital Universitário Regional do Norte do Paraná",
+      "sigla": "HU/UEL",
+      "hospital": "Hospital Universitário Regional do Norte do Paraná",
+      "cidade": "Londrina",
+      "uf": "PR",
+      "endereco": "Av. Robert Koch, 60, Vila Operária, Londrina-PR, 86038-440",
+      "natureza": "estadual",
+      "processo": "Seleção Pública Residência Médica HU/UEL 2027 (Edital COREME RM012/2026)",
+      "banca": "COPS/UEL (1ª fase); COREME HU/UEL (análise de currículo)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-22",
+        "inscricao_fim": "2026-10-14",
+        "prova_1a_fase": "2026-11-08",
+        "outras_etapas": [
+          {
+            "etapa": "Entrega do curriculum vitae (físico, recolhido no dia da prova)",
+            "data": "2026-11-08"
+          },
+          {
+            "etapa": "Pontuação final da prova objetiva",
+            "data": "2026-11-27"
+          },
+          {
+            "etapa": "Nota final provisória (análise de currículo + bonificação)",
+            "data": "2026-12-09"
+          },
+          {
+            "etapa": "Homologação do resultado final e 1ª convocação para matrícula",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": "2026-12-18",
+        "taxa_reais": 692,
+        "etapas_descricao": "1ª fase: prova objetiva (100 questões, peso 9); 2ª fase: análise de curriculum vitae (peso 1), para 9 candidatos em Dermatologia",
+        "link_edital": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+        "link_inscricao": "https://www.cops.uel.br/v2/Selecao/DetalharSelecao/Selecao/409",
+        "link_processo": "https://sites.uel.br/proppg/residencias/",
+        "fonte": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 3,
+          "inscritos": 137,
+          "candidatos_por_vaga": 45.67,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://sites.uel.br/proppg/wp-content/uploads/2026/10/anexo_I_edital_025_2026-INSCRICOES-RESIDENCIA-MEDICA.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Edital RM012/2026 (publicado 20/07/2026): Dermatologia 3 vagas (renovação de reconhecimento, parecer 618/2025). Distribuição das vagas com ações afirmativas no Edital RM023/2026 (https://sites.uel.br/proppg/wp-content/uploads/2026/09/EDITAL-COREME-RM023-2026-DISTRIBUICAO-DAS-VAGAS.pdf). Inscrição de cotistas foi em janela anterior (18 a 25/08/2026); ampla concorrência 22/09 a 14/10/2026. Histórico 2027: 137 inscrições homologadas em Dermatologia (Anexo I do Edital RM025/2026, contagem dos nomes da lista oficial); candidatos por vaga = 137/3 calculado. Início em 01/03/2027."
+    },
+    {
+      "id": "huem-mackenzie-curitiba",
+      "instituicao": "Hospital Universitário Evangélico Mackenzie",
+      "sigla": "HUEM",
+      "hospital": "Hospital Universitário Evangélico Mackenzie",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Processo Seletivo de Residência Médica 2027 HUEM (Edital COREME HUEM 03/2026)",
+      "banca": "FGV",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-10-07",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-20",
+        "outras_etapas": [
+          {
+            "etapa": "Heteroidentificação / avaliação biopsicossocial (cotistas)",
+            "data": null
+          }
+        ],
+        "resultado_previsto": "2027-02-05",
+        "taxa_reais": 1000,
+        "etapas_descricao": "Fase única: prova geral objetiva (100 questões; aprovação com no mínimo 50 acertos), nota final = 100% da prova",
+        "link_edital": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-n-032026-processo-seletivo-de-residencia-medica-2026-2027retificado1.pdf",
+        "link_inscricao": "https://conhecimento.fgv.br/reshuem26",
+        "link_processo": "https://conhecimento.fgv.br/reshuem26",
+        "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-n-032026-processo-seletivo-de-residencia-medica-2026-2027retificado1.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Edital COREME HUEM 03/2026 (versão retificada 1): Dermatologia 5 vagas (3 ampla, 1 PcD, 1 negros), 3 anos, parecer 1552/2025, bolsa R$ 4.106,09. Prova em Curitiba, 8h-13h. O edital indica a página https://conhecimento.fgv.br/reshuem26 para publicações (o sufixo '26' é o que consta no documento)."
+    },
+    {
+      "id": "hcpa-portoalegre",
+      "instituicao": "Hospital de Clínicas de Porto Alegre",
+      "sigla": "HCPA",
+      "hospital": "Hospital de Clínicas de Porto Alegre",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Processo Seletivo para Residência Médica 2027 HCPA (Edital nº 01)",
+      "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-08-28",
+        "inscricao_fim": "2026-09-29",
+        "prova_1a_fase": "2026-10-31",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito e resultado definitivo da prova objetiva; convocação para análise curricular",
+            "data": "2026-11-23"
+          },
+          {
+            "etapa": "Prazo final para documentação da análise curricular",
+            "data": "2026-11-25"
+          },
+          {
+            "etapa": "Resultado preliminar da análise curricular",
+            "data": "2026-12-08"
+          },
+          {
+            "etapa": "Resultado definitivo da análise curricular",
+            "data": "2026-12-16"
+          },
+          {
+            "etapa": "Classificação e homologação final; 1ª convocação para pré-matrícula",
+            "data": "2027-01-15"
+          }
+        ],
+        "resultado_previsto": "2027-01-15",
+        "taxa_reais": 770,
+        "etapas_descricao": "Prova objetiva (100 questões, pontuação máxima 90) + análise curricular (limitada a 3x o número de vagas: 18 convocados em Dermatologia)",
+        "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-3.pdf",
+        "link_inscricao": "https://fundmed.org.br/residencias/",
+        "link_processo": "https://fundmed.org.br/residencias/",
+        "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-3.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 241,
+          "candidatos_por_vaga": 40.17,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/concorrencia-hcpa-residencia-medica-2027/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Edital nº 01 (13/08/2026): Dermatologia acesso direto, 6 vagas (5 ampla concorrência + 1 pessoas negras), multiplicador 3 para análise curricular (18 convocados). Prova em Porto Alegre e São Paulo, 14h. Integração dos residentes 01/03/2027. Histórico 2027: número de inscritos (241; 40,17 por vaga) é do Estratégia MED, calculado a partir dos editais de homologação da FUNDMED; não conferido na fonte oficial."
+    },
+    {
+      "id": "ufcspa-santacasa-poa",
+      "instituicao": "Universidade Federal de Ciências da Saúde de Porto Alegre / Irmandade Santa Casa de Misericórdia de Porto Alegre",
+      "sigla": "UFCSPA/Santa Casa",
+      "hospital": "Santa Casa de Porto Alegre",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Processo Seletivo para Residência Médica 2027 UFCSPA/Santa Casa (Edital nº 01)",
+      "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-08-28",
+        "inscricao_fim": "2026-09-30",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito e resultado definitivo da prova; convocação para análise curricular",
+            "data": "2026-11-24"
+          },
+          {
+            "etapa": "Prazo final para documentação da análise curricular",
+            "data": "2026-11-26"
+          },
+          {
+            "etapa": "Resultado definitivo da análise curricular",
+            "data": "2026-12-18"
+          },
+          {
+            "etapa": "Classificação e homologação final; 1ª convocação para pré-matrícula",
+            "data": "2027-01-25"
+          }
+        ],
+        "resultado_previsto": "2027-01-25",
+        "taxa_reais": 700,
+        "etapas_descricao": "Prova objetiva (100 questões, pontuação máxima 90) + análise curricular (limitada a 2x o número de vagas em Dermatologia)",
+        "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+        "link_inscricao": "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/",
+        "link_processo": "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/",
+        "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "COREME conjunta UFCSPA (federal) e Santa Casa de Porto Alegre (filantrópica); natureza registrada como a do hospital. Edital nº 01: Dermatologia acesso direto, 4 vagas, sem vagas ocupadas por serviço militar; limitador 2x vagas para análise curricular. Prova em Porto Alegre e São Paulo. A Santa Casa também oferece 'Especialização Médica em Dermatologia' (curso de especialização, não residência) no mesmo processo; ignorada. Concorrência 2027 não localizada em fonte oficial."
+    },
+    {
+      "id": "hsl-pucrs-amrigs",
+      "instituicao": "Hospital São Lucas da PUCRS",
+      "sigla": "HSL-PUCRS",
+      "hospital": "Hospital São Lucas da PUCRS",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "endereco": "Av. Ipiranga, 6681, Porto Alegre-RS, 90610-000",
+      "natureza": "filantropica",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital HSL 2027",
+      "banca": "AMRIGS/Fundatec (1ª etapa); COREME HSL-PUCRS (análise curricular)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Análise curricular (envio conforme edital AMRIGS)",
+            "data": null
+          },
+          {
+            "etapa": "Resultado final (portal PUCRS)",
+            "data": "2027-01-22"
+          },
+          {
+            "etapa": "Matrícula online",
+            "data": "2027-01-26 a 2027-01-28"
+          }
+        ],
+        "resultado_previsto": "2027-01-22",
+        "taxa_reais": 1350,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva AMRIGS (90%); 2ª etapa: análise curricular (10%), 9 candidatos por vaga",
+        "link_edital": "https://portal.pucrs.br/wp-content/uploads/2026/09/Edital-HSL-2027-retificado.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://portal.pucrs.br/wp-content/uploads/2026/09/Edital-HSL-2027-retificado.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 231,
+          "candidatos_por_vaga": 115.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 500.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Edital HSL 2027: Dermatologia 3 anos, 2 vagas (parecer 198/2024); taxa da instituição R$ 500,00; nota mínima 5,0/50%. 'PUCRS - Cursos de Especialização e Fellow - Dermatologia' (1 vaga, 122 inscritos) aparece na mesma tabela da AMRIGS, mas não é residência; ignorado."
+    },
+    {
+      "id": "ghc-conceicao-amrigs",
+      "instituicao": "Grupo Hospitalar Conceição - Hospital Nossa Senhora da Conceição",
+      "sigla": "GHC/HNSC",
+      "hospital": "Hospital Nossa Senhora da Conceição",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+      "banca": "AMRIGS/Fundatec (1ª etapa); COREME GHC (2ª etapa)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Notas definitivas da prova teórico-objetiva (AMRIGS/Fundatec)",
+            "data": "2026-12-17"
+          },
+          {
+            "etapa": "Relatório de classificação por instituição (AMRIGS/Fundatec)",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1150,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva (90%); 2ª etapa: currículo (10%)",
+        "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 222,
+          "candidatos_por_vaga": 111.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 300.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Edital próprio do GHC para a 2ª etapa não consultado (lista de editais das instituições na Fundatec não abriu)."
+    },
+    {
+      "id": "husm-ufsm-amrigs",
+      "instituicao": "Universidade Federal de Santa Maria - Hospital Universitário de Santa Maria",
+      "sigla": "UFSM/HUSM",
+      "hospital": "Hospital Universitário de Santa Maria",
+      "cidade": "Santa Maria",
+      "uf": "RS",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+      "banca": "AMRIGS/Fundatec (1ª etapa); COREME UFSM (2ª etapa)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Notas definitivas da prova teórico-objetiva (AMRIGS/Fundatec)",
+            "data": "2026-12-17"
+          },
+          {
+            "etapa": "Relatório de classificação por instituição (AMRIGS/Fundatec)",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1000,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva (90%); 2ª etapa: 10% (currículo 50% e arguição 50%)",
+        "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 200,
+          "candidatos_por_vaga": 100.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 150.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Edital próprio da UFSM para a 2ª etapa não consultado."
+    },
+    {
+      "id": "hsvp-passofundo-uffs-amrigs",
+      "instituicao": "Hospital São Vicente de Paulo (UFFS)",
+      "sigla": "HSVP/UFFS",
+      "hospital": "Hospital São Vicente de Paulo",
+      "cidade": "Passo Fundo",
+      "uf": "RS",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+      "banca": "AMRIGS/Fundatec",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Notas definitivas da prova teórico-objetiva (AMRIGS/Fundatec)",
+            "data": "2026-12-17"
+          },
+          {
+            "etapa": "Relatório de classificação por instituição (AMRIGS/Fundatec)",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1260,
+        "etapas_descricao": "Primeira etapa 100% (prova teórico-objetiva), sem 2ª etapa",
+        "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 193,
+          "candidatos_por_vaga": 96.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 410.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Natureza 'filantropica' atribuída ao hospital (programa vinculado à UFFS, federal) sem conferência em fonte; verificar."
+    },
+    {
+      "id": "hu-ufsc-florianopolis-amrigs",
+      "instituicao": "Universidade Federal de Santa Catarina - Hospital Universitário Polydoro Ernani de São Thiago",
+      "sigla": "HU-UFSC",
+      "hospital": "Hospital Universitário da UFSC",
+      "cidade": "Florianópolis",
+      "uf": "SC",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital 06/2026/COREME/UFSC (ingresso 2027)",
+      "banca": "AMRIGS/Fundatec (prova); COREME/UFSC (títulos/2ª etapa)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Envio de títulos ou artigos (prazo final, Edital 10/2026)",
+            "data": "2026-10-27"
+          },
+          {
+            "etapa": "Relatório de classificação pela AMRIGS",
+            "data": "2026-12-18"
+          },
+          {
+            "etapa": "Envio de documentos de ações afirmativas (PAI)",
+            "data": "2026-12-19 a 2026-12-28"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1550,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva (90%); 2ª etapa: currículo/títulos (10%)",
+        "link_edital": "http://residenciamedica.paginas.ufsc.br/files/2026/09/Edital_Processo_Seletivo_2026-2027-assinado.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "http://residenciamedica.paginas.ufsc.br/files/2026/09/Edital_Processo_Seletivo_2026-2027-assinado.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 3,
+          "inscritos": 217,
+          "candidatos_por_vaga": 72.33,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 700.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Edital 06/2026/COREME/UFSC: Dermatologia acesso direto 3 vagas, 3 anos; taxa da UFSC R$ 700,00. Retificações 07, 08, 09 e 10/2026 em https://residenciamedica.ufsc.br/. Datas de chamada/matrícula 'a publicar'. Programa da UFSC entra pela prova unificada AMRIGS/ACM, não pelo ENARE."
+    },
+    {
+      "id": "univali-itajai-amrigs",
+      "instituicao": "Universidade do Vale do Itajaí",
+      "sigla": "UNIVALI",
+      "hospital": null,
+      "cidade": "Itajaí",
+      "uf": "SC",
+      "endereco": null,
+      "natureza": "privada",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+      "banca": "AMRIGS/Fundatec (1ª etapa); COREME UNIVALI (2ª etapa)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Notas definitivas da prova teórico-objetiva (AMRIGS/Fundatec)",
+            "data": "2026-12-17"
+          },
+          {
+            "etapa": "Relatório de classificação por instituição (AMRIGS/Fundatec)",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1600,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva (90%); 2ª etapa: 10% (currículo 50% e arguição 50%)",
+        "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 3,
+          "inscritos": 227,
+          "candidatos_por_vaga": 75.67,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 750.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Hospital de prática do programa não informado no Anexo VI. Natureza 'privada' (universidade comunitária) não conferida em fonte; verificar. Edital próprio da UNIVALI não consultado."
+    },
+    {
+      "id": "hst-saopedrodealcantara-amrigs",
+      "instituicao": "Hospital Santa Teresa - SES/SC",
+      "sigla": "HST",
+      "hospital": "Hospital Santa Teresa",
+      "cidade": "São Pedro de Alcântara",
+      "uf": "SC",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+      "banca": "AMRIGS/Fundatec (1ª etapa); COREME HST (2ª etapa)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-09",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {
+            "etapa": "Notas definitivas da prova teórico-objetiva (AMRIGS/Fundatec)",
+            "data": "2026-12-17"
+          },
+          {
+            "etapa": "Relatório de classificação por instituição (AMRIGS/Fundatec)",
+            "data": "2026-12-18"
+          }
+        ],
+        "resultado_previsto": null,
+        "taxa_reais": 1268,
+        "etapas_descricao": "1ª etapa: prova teórico-objetiva (90%); 2ª etapa: currículo (10%)",
+        "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "link_inscricao": "https://fundatec.org.br/portal/cadastro/v1.0_cadastro_1.php?concurso=1111",
+        "link_processo": "https://www.amrigs.org.br/prova/",
+        "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 3,
+          "inscritos": 244,
+          "candidatos_por_vaga": 81.33,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/DensidadedeinscritosporinstituiAAoeespecialidade_REv2_6afb703c86e1c.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Prova AMB, AMRIGS, ACM e AMMS 01/2026 (edital unificado, executora Fundatec; prova teórico-objetiva de 100 questões para acesso direto). taxa_reais = taxa de adesão de acesso direto (R$ 850,00 para 1 associação médica, Edital 02/2026) + taxa da instituição (R$ 418.00), soma feita a partir dos valores oficiais. Inscrições prorrogadas até 26/10/2026 (Edital 08/2026). Nota mínima 50,00. Vagas e taxa da instituição conforme Anexo VI atualizado em 23/10/2026. Histórico 2027 = 'Densidade de inscritos por instituição e especialidade' (atualizado em 16/11/2026) do ciclo de ingresso 2027. As etapas seguintes (currículo, arguição, matrícula) seguem cronograma próprio de cada instituição. Hospital da Secretaria de Estado da Saúde de SC; é o 'Hospital Santa Teresa' citado como exemplo. Edital próprio da COREME HST não consultado."
+    }
+  ],
+  "lacunas": [
+    "Resultado final/convocação das instituições AMRIGS/ACM (GHC, UFSM, HSVP-UFFS, UFSC, UNIVALI, HST): editais próprios não abertos (página 'Editais das Instituições' da Fundatec não carregou); só há a relação oficial de candidatos por vaga da AMRIGS.",
+    "Histórico 2026 e 2025 (concorrência e notas de corte) não coletado para nenhum programa; os históricos gravados são do próprio ciclo de ingresso 2027.",
+    "HCPA: concorrência 2027 (241 inscritos, 40,17/vaga) só no agregador Estratégia MED (selo secundária); não conferida nos editais de homologação da FUNDMED.",
+    "Hospital Nossa Senhora das Graças: a vaga de Dermatologia está 'aguardando autorização' da CNRM e pode ser cancelada.",
+    "UFCSPA/Santa Casa POA: concorrência por programa não localizada.",
+    "HUEM (Evangélico Mackenzie): concorrência não localizada; prova em 20/12/2026, ainda sem dados.",
+    "CHC-UFPR (HC-UFPR): ingresso pelo ENARE, fora desta frente; o PDF dermatologia_2026 do gov.br/hubrasil pede autenticação.",
+    "HE-UFPel (Pelotas): a COREME UFPel usa o ENARE 2026/27 e não aparece com Dermatologia na prova AMRIGS 2026; fora desta frente, sem confirmação de que haja programa de Dermatologia.",
+    "UEM (HU Maringá): edital 033/2026 (ingresso 2027) sem Dermatologia; Santa Casa de Maringá também sem Dermatologia no material consultado.",
+    "UEPG e demais COREMES da AMP: sem Dermatologia na lista oficial 'Candidatos pagos por vaga - Concurso 2026'.",
+    "Santa Catarina fora da prova unificada (Hospital Regional de São José/SES-SC e outros): nenhum programa de Dermatologia com processo próprio localizado; a busca foi limitada (ferramentas de busca indisponíveis em parte da coleta).",
+    "Endereços não preenchidos para Santa Casa de Curitiba, HCPA, Santa Casa POA, GHC, HUSM, HSVP, HU-UFSC, UNIVALI, HST e HUEM."
+  ]
+}

@@ -1,0 +1,638 @@
+{
+ "processos": {
+  "ENARE 2026/2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Portaria Inep 413/2025 (republicada DOU 26/06/2025), art. 8º I: 100 questões, quantidade idêntica por área; 5 áreas (MFC/Saúde Coletiva conta em preventiva); saúde mental interdisciplinar.",
+    "duracao_horas": 5,
+    "formato": "Enamed 2026 (Inep, 13/09/2026): 100 questões de múltipla escolha, 4 alternativas; nota por TRI",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva = nota do Enamed (2026 ou edição anterior válida)",
+      "peso": "100%",
+      "carater": "eliminatória (nível Proficiente, ≥60 pontos) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), item 10 do Edital 02/2026 Enare; comprovante na inscrição",
+    "fonte": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Enamed 2026, caderno 1 (gabarito preliminar; definitivo previsto para 04/12/2026)",
+     "link_prova": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_caderno_1.pdf",
+     "link_gabarito": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_gabarito_caderno_1_preliminar.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2026,
+     "descricao": "Enamed 2026, caderno 2 (gabarito preliminar)",
+     "link_prova": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_caderno_2.pdf",
+     "link_gabarito": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_gabarito_caderno_2_preliminar.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "Enamed 2025, caderno 1 (gabarito v2, após nota de retificação do Inep)",
+     "link_prova": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2025_caderno_1_preliminar.pdf",
+     "link_gabarito": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2025_gabarito_caderno_1_v2.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição prévia no Enamed 2026 (Edital Inep 71/2026) ou nota Proficiente anterior",
+     "Requerimento on-line do Enare com CPF (15/06 a 05/07/2026)",
+     "Upload de 1 foto 3x4 do rosto",
+     "Taxa de R$ 330,00 por boleto (ou isenção deferida)",
+     "PRMFC: certificado ou declaração de conclusão até 28/02/2027",
+     "Cotas: documentos, fotos e vídeo enviados na inscrição"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Diploma de graduação",
+     "Documento oficial de identificação com foto e CPF",
+     "Comprovante de inscrição no CRM",
+     "Reservista ou dispensa (homens); quitação eleitoral",
+     "Comprovante de residência; PIS/PASEP",
+     "Cartão de vacinação: Covid, tétano, sarampo, difteria e hepatite B",
+     "Demais documentos do edital de matrícula da instituição escolhida"
+    ],
+    "fonte": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+    "selo": "oficial"
+   },
+   "obs": "Nota do Enamed convertida para escala 0-1000. Escolha da instituição depois da nota, em 3 oportunidades. Cadernos e gabaritos na página Provas e Gabaritos do Enamed (gov.br/inep); também há reaplicação 2026."
+  },
+  "PSURM Amazonas 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Anexo X do Edital 001/2027 fixa 20 questões por área (acesso direto).",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas (A-D), 1 ponto cada; prova em 10/01/2027, 8h-12h",
+    "etapas": [
+     {
+      "etapa": "Prova escrita objetiva",
+      "peso": "90%",
+      "carater": "eliminatória (mínimo 50% de acertos) e classificatória"
+     },
+     {
+      "etapa": "Análise de currículo",
+      "peso": "10%",
+      "carater": "classificatória; só para quem atingiu 50% na prova"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% em cada fase (Portaria MEC 446/2026), arts. 182 a 182-M do edital",
+    "fonte": "https://cermam.com.br/wp-content/uploads/2026/11/Anexos-Edital-001-2027-PSURM-AREMAM-versao-final.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line em cermam.com.br (10 a 30/11/2026)",
+     "Pagamento da taxa até 01/12/2026 (ou isenção deferida)",
+     "Documento de identidade, CPF, diploma ou declaração de conclusão (art. 45, 'poderão ser exigidos')",
+     "Fotografia recente; documentos de ação afirmativa e laudo PcD, se for o caso",
+     "Declaração de PRMFC na inscrição e comprovante, para a bonificação"
+    ],
+    "analise_curricular": [
+     "Envio on-line pelo link em cermam.com.br, no prazo do edital",
+     "Histórico escolar com CRA, assinado pela IES (até 2,0 pontos)",
+     "Currículo Lattes em PDF atualizado a partir de 11/2026 (obrigatório para pontuar)",
+     "Cursos na saúde ≥40 h (até 0,5) e eventos ≥10 h, últimos 5 anos (até 1,0)",
+     "Estágio extracurricular ≥200 h na graduação (até 0,5)",
+     "Trabalhos apresentados (até 1,0) e artigos/livros com ISSN/ISBN (até 1,0)",
+     "Extensão/ligas (até 1,0), iniciação científica ≥1 ano (até 2,0), monitoria (até 1,0)"
+    ],
+    "matricula": [
+     "Documento oficial de identificação e CPF",
+     "Diploma de Medicina ou declaração de conclusão",
+     "Registro ou protocolo no CRM-AM",
+     "Quitação eleitoral; reservista ou dispensa (homens)",
+     "Comprovante de residência e fotografia recente",
+     "Declaração de inexistência de matrícula ativa em outro PRM",
+     "Certificado de PRMFC, se pediu bonificação; documentos exigidos pela instituição"
+    ],
+    "fonte": "https://cermam.com.br/wp-content/uploads/2026/11/Anexos-Edital-001-2027-PSURM-AREMAM-versao-final.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Critérios de currículo no Manual do Candidato 2026/2027 (cermam.com.br, 04/11/2026). Adendo 002/2027: 5 dias corridos a partir de 01/03/2027 para regularizar documentos de matrícula."
+  },
+  "PSU-BA 2027": {
+   "prova": {
+    "questoes_total": 75,
+    "distribuicao": {
+     "clinica_medica": 15,
+     "cirurgia": 15,
+     "ginecologia_obstetricia": 15,
+     "pediatria": 15,
+     "preventiva_social": 15,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 6.1.1: 15 questões por área; preventiva inclui MFC e Saúde Coletiva; saúde mental e urgência transversais.",
+    "duracao_horas": 4,
+    "formato": "25 situações-problema: 45 de múltipla escolha (15 SP) e 30 de resposta curta (10 SP); nota máxima 30; prova em 29/11/2026",
+    "etapas": [
+     {
+      "etapa": "Prova geral (fase única)",
+      "peso": "100%",
+      "carater": "eliminatória (mínimo 50% da nota máxima possível) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (item 4 do edital); comprovante enviado até o fim das inscrições",
+    "fonte": "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "PSU-BA 2026, prova de acesso direto (Strix/ABAEM); gabarito definitivo e padrão de respostas de 28/01/2026",
+     "link_prova": "https://strixeducacao.com.br/wp-content/uploads/2025/11/ABAEM_2026_ACESSO-DIRETO.pdf",
+     "link_gabarito": "https://strixeducacao.com.br/wp-content/uploads/2026/01/GABARITO-DEFINITIVO_AD_PADRAO-DE-RESPOSTAS-2026.1.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line em strixeducacao.com.br (30/09 a 26/10/2026, prazo retificado)",
+     "Taxa de R$ 755,60 por boleto ou PIX (ou isenção deferida)",
+     "Pedido de PRMFC: certificado ou declaração em PDF na aba Documentos",
+     "Cotas: documento com foto, autodeclaração e vídeo ou laudo, pela Área do Candidato"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Documento oficial de identificação com foto e CPF",
+     "Ficha de cadastro de matrícula (publicada com o resultado)",
+     "CRM ou comprovante de inscrição; CREMEB em até 15 dias",
+     "Diploma ou declaração de conclusão com data da colação",
+     "Reservista ou dispensa (homens); quitação eleitoral; comprovante de residência",
+     "PIS/PASEP",
+     "Cartão de vacinação: Covid, tétano, sarampo, difteria e hepatite B"
+    ],
+    "fonte": "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Arquivo do edital tem 'Minuta' no nome, mas é o publicado como EDITAL na página da Strix (01/10/2026). Cópias autenticadas ou original para conferência; COREME pode pedir outros documentos."
+  },
+  "SES-DF 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Anexo II retificado (comunicado de 22/10/2026) fixa 20 por área; texto original dizia 25 por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas, 1 ponto cada; prova em 12/12/2026",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva",
+      "peso": "100%",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "Escolha do cenário de ensino (COREME) no SisRESID",
+      "peso": "0%",
+      "carater": "sem pontuação"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% na nota da prova (item 12, Portaria MEC 446/2026); comprovante por e-mail até 29/11/2026",
+    "fonte": "https://www.iades.com.br/inscricao/upload/1375/2026102314455131.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "RM SES-DF 2026 (prova de 21/12/2025): gabarito definitivo de todas as provas objetivas",
+     "link_prova": null,
+     "link_gabarito": "https://www.iades.com.br/inscricao/upload/1363/2026010603010364.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line em iades.com.br até 29/11/2026 (prorrogada)",
+     "Boleto da taxa de R$ 120,00 pago até 30/11/2026 (ou isenção deferida)",
+     "PRMFC: certificado ou declaração por e-mail, assunto BONIFICAÇÃO",
+     "PcD ou hipossuficiente: documentação por e-mail até 29/11/2026"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Cópia do diploma ou declaração de conclusão até 28/02/2027",
+     "Cópias da carteira de identidade e do CPF",
+     "Inscrição definitiva ou provisória no CRM-DF até 31/03/2027",
+     "Título eleitoral com quitação; reservista (homens)",
+     "PIS/PASEP/NIS/NIT ou requerimento de PASEP",
+     "Comprovante de conta no BRB para a bolsa",
+     "Estrangeiro: identidade de estrangeiro e visto de permanência"
+    ],
+    "fonte": "https://www.iades.com.br/inscricao/upload/1375/20260918151934900.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Prazos de inscrição e bonificação do comunicado de prorrogação de 18/11/2026. Lista final de documentos de matrícula sai em comunicado próprio (item 19.2)."
+  },
+  "PSU-GO 2027 (HC-UFG)": {
+   "prova": {
+    "questoes_total": null,
+    "distribuicao": null,
+    "distribuicao_obs": "Item 8.2.1.1 fixa 'até 100 questões', 'até 20 por área' (CG, CM, GO, MPS com Saúde Coletiva e MFC, Pediatria); número exato não fixado.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, prova geral unificada valendo 90 pontos; 29/11/2026 às 9h",
+    "etapas": [
+     {
+      "etapa": "Prova geral de conhecimentos médicos",
+      "peso": "90 pontos",
+      "carater": "eliminatória (mínimo 45 pontos; até 20 classificados por vaga) e classificatória"
+     },
+     {
+      "etapa": "Análise curricular padronizada (Anexo 1)",
+      "peso": "10 pontos",
+      "carater": "classificatória; nota zero exclui"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), item 11 do edital; documento enviado na inscrição",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "PSU-GO 2026: gabarito de acesso direto retificado; alterações pós-recursos em documento separado (edt0000212-0001519)",
+     "link_prova": null,
+     "link_gabarito": "https://www.ceremgoias.org.br/dados/editais/edt0000212-0001503.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line em aremg.org.br (07 a 20/10/2026), por computador",
+     "Documento de identidade com foto, frente e verso, digitalizado",
+     "Diploma ou CRM, ou comprovante de conclusão até 28/02/2027",
+     "Taxa de R$ 525,00 por programa (guia bancária)",
+     "Currículo e comprovantes enviados já na inscrição",
+     "PRMFC: certificado ou declaração de conclusão até 28/02/2027"
+    ],
+    "analise_curricular": [
+     "Currículo on-line no modelo do Anexo 1 (entrada direta), um PDF por item",
+     "Cópias rubricadas, com número do item e nome destacado",
+     "Diploma, CRM ou declaração de conclusão (até 1,0)",
+     "Monitoria ≥4 meses (0,25/semestre) e pesquisa PIBIC/PIVIC/PET (0,45 cada)",
+     "Trabalhos em congresso (0,25) e artigos/capítulos (0,5), 2020-2026",
+     "Eventos ≥8 h (0,1), ligas (0,25/ano), representação estudantil (0,25)",
+     "Teste de progresso (0,5/ano), ATLS/ACLS/BLS/PALS/PHTLS (0,5), proficiência, estágio ≥1 mês"
+    ],
+    "matricula": [
+     "Comprovante de convocação e 2 fotos 3x4",
+     "Cédula de identidade; certidão de nascimento ou casamento; CPF",
+     "Comprovante de endereço; quitação militar (homens)",
+     "CRM de qualquer estado (CRM-GO em 30 dias)",
+     "Diploma ou declaração de conclusão; histórico escolar",
+     "PIS/PASEP e INSS; atestado médico; conta Bradesco ou Santander",
+     "Título de eleitor com votação; Cartão SUS; cartão de vacinação"
+    ],
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Anexo 1 (currículo, 10 pontos) em ceremgoias.org.br/psu-go/2027; bônus Enade/Enamed da faculdade lançado automaticamente. Gabarito preliminar em até 6 h após a prova."
+  },
+  "SES-GO 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Quadro 17 lista 7 áreas (CM, CG, Urgência, GO, Pediatria, MPS/MFC/Saúde Coletiva, Saúde Mental) sem número por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas (A-D), 100 pontos, período vespertino em Goiânia",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva",
+      "peso": "90% (PO × 0,9)",
+      "carater": "eliminatória (mínimo 50 pontos) e classificatória"
+     },
+     {
+      "etapa": "Análise do currículo",
+      "peso": "10% (AC × 0,1)",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% sobre a nota final (item 9; Portaria MEC 446/2026); upload na inscrição",
+    "fonte": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "SES-GO 2026, acesso direto (R1), prova tipo A e gabarito final tipo A",
+     "link_prova": "https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/provas_gabaritos/provas/%C3%81REAS%20B%C3%81SICAS%20E%20ESPECIALIDADES%20DE%20ACESSO%20DIRETO%20(R1)%20TIPO%20A.pdf",
+     "link_gabarito": "https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/provas_gabaritos/gabaritos_finais/Gabarito%20Final%20-%20Acesso%20direto%20tipo%20A.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "SES-GO 2025, acesso direto (R1), prova e gabarito final",
+     "link_prova": "https://sistemas.institutoverbena.ufg.br/2025/coreme-ses/sistema/provas_gabaritos/prova/areas%20basicas%20e%20especialidades%20de%20acesso%20direto%20r1.pdf",
+     "link_gabarito": "https://sistemas.institutoverbena.ufg.br/2025/coreme-ses/sistema/provas_gabaritos/gabarito_final/areas%20basicas%20e%20especialidades%20de%20acesso%20direto%20r1%20final.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Formulário no Portal do Candidato do Instituto Verbena/UFG",
+     "Ordem de prioridade entre programas, se mais de uma inscrição",
+     "Boleto único: R$ 500 (1 inscrição), R$ 400 (2) ou R$ 300 (3+) cada",
+     "PRMFC: upload de certificado ou declaração (conclusão até 28/02/2027)"
+    ],
+    "analise_curricular": [
+     "Upload do currículo e comprovantes só após convocação, na ordem do Anexo V",
+     "Histórico escolar: média das notas (até 20 pontos)",
+     "Instituição de origem: ENADE, hospital-escola, OSCE, teste de progresso",
+     "Pesquisa ou extensão (5 pontos/atividade) e monitoria (2,5/semestre)",
+     "Artigos por Qualis, capítulos de livro, apresentações em eventos",
+     "Ligas e representação estudantil; eventos como ouvinte (≥8 h)",
+     "ATLS/ACLS/BLS/PALS/PHTLS/PNRN; estágio extracurricular ≥80 h; prova de proficiência"
+    ],
+    "matricula": [
+     "Formulário próprio em duas vias e termo de compromisso",
+     "Certificado ou declaração de conclusão de Medicina (original e cópia)",
+     "Identidade e CPF (original e cópia)",
+     "Quitação eleitoral; NIS, PASEP ou PIS; 2 fotos 3x4",
+     "Diploma ou registro no CRM-GO (original e cópia)",
+     "Serviço militar, se pertinente; certidão de casamento, se pertinente",
+     "Comprovante de endereço atualizado"
+    ],
+    "fonte": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Pontuação máxima do currículo: 100 (Quadro 32). Documentos do currículo devem ser específicos da especialidade escolhida; matrícula presencial na Escola de Saúde de Goiás."
+  },
+  "CESUPA 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "1ª etapa é a nota do Enamed 2026; distribuição da Portaria Inep 413/2025 (quantidade idêntica por área). Edital CESUPA não fixa números.",
+    "duracao_horas": 5,
+    "formato": "Enamed (100 questões, 4 alternativas, TRI) + prova de habilidades com 10 estações clínicas de 10 pontos",
+    "etapas": [
+     {
+      "etapa": "Nota do Enamed 2026",
+      "peso": "6",
+      "carater": "eliminatória (mínimo 50% do total de pontos) e classificatória"
+     },
+     {
+      "etapa": "Análise de currículo (Anexo II)",
+      "peso": "1",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "Prova de habilidades: 10 estações nas 5 áreas básicas (24/01/2027)",
+      "peso": "3",
+      "carater": "eliminatória e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% sobre a pontuação bruta (item 5.5; Portaria MEC 446/2026); documento na inscrição",
+    "fonte": "https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/Docs/EDITAL_42-_RESIDENCIA_MEDICA_20260706_081453.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Enamed 2026, caderno 1 (1ª etapa; gabarito preliminar)",
+     "link_prova": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_caderno_1.pdf",
+     "link_gabarito": "https://download.inep.gov.br/enamed/provas_e_gabaritos/2026_gabarito_caderno_1_preliminar.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha de inscrição on-line em cesupa.br (até 30/09/2026)",
+     "Taxa de R$ 500,00 por boleto ou cartão até 30/09/2026",
+     "Cartão de inscrição para as provas",
+     "Boletim do Enamed emitido pelo Inep, anexado na área do candidato",
+     "PRMFC: certificado ou declaração, indicado no formulário"
+    ],
+    "analise_curricular": [
+     "PDFs enviados de 10/12 (8h) a 11/12/2026 (18h), máximo 20 MB",
+     "Documento de identificação e diploma ou comprovante de escolaridade",
+     "Instrumento do Anexo II preenchido, com pontuação por item",
+     "Escola formadora: metodologia ativa, teste de progresso, mentoria",
+     "Estágio não obrigatório, cursos ≥30 h, suporte de vida (BLS/ACLS/PALS/ATLS)",
+     "Monitoria, pesquisa, publicações, congressos, ligas"
+    ],
+    "matricula": [
+     "Requerimento de matrícula à COREME (entregue no ato)",
+     "Identidade e CPF; comprovante de residência; certidão de nascimento ou casamento",
+     "Diploma autenticado ou declaração de conclusão",
+     "Reservista (homens); 2 fotos 3x4; registro no CRM",
+     "Título de eleitor com votação; conta salário; PIS",
+     "Caderneta de vacinação; seguro de acidentes pessoais para toda a residência"
+    ],
+    "fonte": "https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/Docs/EDITAL_42-_RESIDENCIA_MEDICA_20260706_081453.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital 45/2026 só cancelou a vaga de Medicina Intensiva e reescreveu itens 1.1, 2.3, 4.1 e 5.1.1.1; Dermatologia mantida. Matrícula com cópias em 2 vias e originais. Início em 01/03/2027."
+  },
+  "PSU-PA 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Item 6.2 (Grupo A) lista as 5 áreas básicas (CM, CG, GO, Pediatria, Saúde Coletiva/MPS) sem número por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva, 100 questões de 1 ponto, das 14h às 18h, em Belém ou Santarém; nº de alternativas não informado",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (etapa única)",
+      "peso": "100%",
+      "carater": "eliminatória (mínimo 50 pontos) e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% sobre a pontuação bruta, teto 100 (itens 2.29 e 7.3; Portaria MEC 446/2026)",
+    "fonte": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "PSU-PA 2026, Grupo A (acesso direto): boletim de questões e gabarito definitivo retificado",
+     "link_prova": "https://prosel.uepa.br/wp-content/uploads/Grupo-A-Acesso-Direto2026.pdf",
+     "link_gabarito": "https://prosel.uepa.br/wp-content/uploads/Grupo-A_GAB_Acesso-Direto_-PSURM_2026.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "PSU-PA 2025, Grupo A (acesso direto): boletim de questões e gabarito definitivo",
+     "link_prova": "https://prosel.uepa.br/wp-content/uploads/Grupo-A-Acesso-Direto2025.pdf",
+     "link_gabarito": "https://prosel.uepa.br/wp-content/uploads/Grupo-A_GAB_Acesso-Direto_-PSURM_2025-1.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Cadastro e ficha de inscrição em prosel.uepa.br/rm2027 (CPF e e-mail próprios)",
+     "Escolha de um único município do PRM (RMB, Santarém ou Marabá)",
+     "DAE da taxa de R$ 500,00 pago até a data do cronograma",
+     "PRMFC: opção marcada no formulário de inscrição"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "RG e CPF; comprovante de residência; PIS ou NIT (original e cópia)",
+     "Diploma ou declaração de conclusão (cópia autenticada ou original)",
+     "Certidão de nascimento ou casamento; CTPS física ou digital",
+     "Título de eleitor com quitação; certificado militar",
+     "2 fotos 3x4; dados bancários; seguro de acidentes pessoais",
+     "Certificado de PRMFC, se usou a bonificação",
+     "Declaração de último semestre, se ainda não formado"
+    ],
+    "fonte": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Matrícula logo após a escolha da vaga, em sessão presencial por ordem de classificação (até 4× o número de vagas convocados)."
+  },
+  "FAMENE 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Item 7.1 do Edital 89/2026 fixa 20 questões por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, em João Pessoa (13h30-17h30); nº de alternativas não informado",
+    "etapas": [
+     {
+      "etapa": "Prova escrita objetiva (etapa única)",
+      "peso": "100%",
+      "carater": "eliminatória e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (Portaria MEC 446/2026), capítulo X do edital; comprovante na inscrição",
+    "fonte": "https://www.facene.com.br/wp-content/uploads/2026/09/Edital-Residencia-Medica-2027.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line em famene.com.br (até 13/10/2026)",
+     "RG e CPF; foto 3x4",
+     "Taxa de R$ 470,00 por PIX ou cartão; sem isenção",
+     "Comprovante de PRMFC, se pedir bonificação"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Formulário cadastral, declaração de acumulação e termo de compromisso",
+     "Taxa de expediente de R$ 650,00 à COREME/FAMENE",
+     "1 foto 3x4; cópia da identidade; 2 cópias do CPF",
+     "Diploma ou declaração de conclusão datada a partir de 11/2026",
+     "2 cópias do CRM-PB definitivo (prazo até 02/02/2027 para formandos)",
+     "Cartão de vacinação; NIT; conta no Banco do Brasil"
+    ],
+    "fonte": "https://www.facene.com.br/wp-content/uploads/2026/09/Edital-Residencia-Medica-2027.pdf",
+    "selo": "oficial"
+   },
+   "obs": "1ª retificação tirou o Currículo Lattes da inscrição; 2ª ampliou Dermatologia para 2 vagas; 3ª mudou o cronograma (27/10/2026). Item 8.1 marca a prova para 31/10/2026. Cópias sem autenticação na matrícula."
+  },
+  "SUS-PE 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": null,
+    "distribuicao_obs": "Item 7.1 fixa 100 questões no Grupo 1 (acesso direto), sem número por área; áreas: CM, CG, GO, Pediatria, MPS.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas; prova em 20/12/2026",
+    "etapas": [
+     {
+      "etapa": "Prova escrita objetiva",
+      "peso": "90%",
+      "carater": "eliminatória (mínimo 50% das questões válidas) e classificatória"
+     },
+     {
+      "etapa": "Análise curricular",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC: +10% (item 2.2; Portaria MEC 446/2026 e Lei 15.233/2025); declaração na inscrição",
+    "fonte": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "SUS-PE 2026, Grupo 01 (áreas básicas com acesso direto): prova e gabarito definitivo (01/02/2026)",
+     "link_prova": "https://www.upenet.com.br/concursos/2026/26_RED_MED/provas-e-gab/PROVAS/GR%2001%20ACESSO.pdf",
+     "link_gabarito": "https://www.upenet.com.br/concursos/2026/26_RED_MED/provas-e-gab/GABARITOS%20DEFITIVOS/GABARITO%20DEFINITIVO%20ACESSO%20DIRETO%202026.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Assistente de inscrição em upenet.com.br, com média geral do histórico",
+     "Boleto da taxa de R$ 600,00",
+     "Upload de documento com foto e CPF ou CIN",
+     "Currículo com comprovantes: um PDF por item da análise curricular",
+     "Declaração de conclusão de PRMFC, se for o caso"
+    ],
+    "analise_curricular": [
+     "Histórico escolar: aproveitamento curricular (até 30 pontos)",
+     "Monitoria ou PID: 5 pontos/semestre, ≥108 h (até 15)",
+     "Iniciação científica PIBIC/PIC/PIBITI/PIVIC: 5 pontos/ano (até 15)",
+     "Extensão, PET-Saúde, PET ou VER-SUS: 5 pontos/semestre (até 20)",
+     "Artigo com orientador ou preceptor (até 5)",
+     "Apresentação oral, 2 pontos cada (até 10); pôster, 1 ponto cada (até 5)"
+    ],
+    "matricula": [
+     "Pré-matrícula on-line no Web Rhose com fotocópias autenticadas",
+     "CPF; identidade, CIN ou CNH; título de eleitor e quitação",
+     "Reservista válida; diploma ou declaração de conclusão",
+     "CRM-PE ou comprovante de inscrição no CRM",
+     "NIT, PIS ou PASEP; conta corrente Bradesco com dígito",
+     "Termo de compromisso autenticado ou assinado via gov.br",
+     "Formandos: declaração da IES do mês vigente sobre a colação"
+    ],
+    "fonte": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Sem envio de comprovantes, nota zero no currículo. Documentos digitais com QR code dispensam autenticação. CRM-PE definitivo na apresentação à COREME."
+  }
+ },
+ "lacunas": [
+  "PSURM Amazonas 2027: CERMAM não publica cadernos nem gabaritos de anos anteriores (página acompanhamento-editais verificada).",
+  "PSU-BA 2027: só achado 2026 na Strix; 2024-2025 não procurados em outras páginas da banca.",
+  "SES-DF 2027: caderno de acesso direto 2026 não está listado na página IADES (só gabarito definitivo); página de 2025 sem gabaritos.",
+  "PSU-GO 2027 (HC-UFG): edital fixa 'até 100' questões e 'até 20 por área' (número exato não fixado); caderno 2026 não publicado em ceremgoias.org.br.",
+  "SES-GO 2027: edital não fixa número de questões por área (Quadro 17 lista 7 áreas).",
+  "CESUPA 2027: distribuição vem do Enamed (Portaria Inep 413/2025), não do edital CESUPA; provas de habilidades anteriores não publicadas.",
+  "PSU-PA 2027: Edital 148/2026 não fixa questões por área nem nº de alternativas.",
+  "FAMENE 2027: edital veda fornecer cadernos; gabaritos só no site da FAMENE (não localizados); nº de alternativas não informado.",
+  "SUS-PE 2027: edital não fixa questões por área; página UPENET de 2025 não encontrada (404).",
+  "ENARE 2026/2027: gabarito definitivo do Enamed 2026 previsto para 04/12/2026 (hoje só preliminar)."
+ ]
+}

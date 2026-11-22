@@ -1,0 +1,176 @@
+[
+ {
+  "grupo": "SUS-SP 2027",
+  "banca": "Fundação Vunesp",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "uf": "SP",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "link_processo": "https://www.vunesp.com.br/SESA2601",
+  "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+  "ids": [
+   "sussp-santa-casa-barretos",
+   "sussp-ilsl-bauru",
+   "sussp-padre-bento-guarulhos",
+   "sussp-fmj-jundiai",
+   "sussp-heliopolis-sp",
+   "sussp-ipiranga-sp",
+   "sussp-unisa-sp"
+  ]
+ },
+ {
+  "grupo": "Unesp Botucatu 2027",
+  "banca": "Fundação Vunesp",
+  "processo": "Residência Médica Básica e Especializada de Acesso Direto 2027 (Edital nº 072/2026-FM/DTA)",
+  "uf": "SP",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+  "link_processo": "https://www.vunesp.com.br/FMHO2602",
+  "etapas_descricao": "1ª etapa: prova escrita objetiva com 100 questões (peso 90%); 2ª etapa: avaliação curricular (peso 10%), com 3 convocados por vaga em Dermatologia.",
+  "ids": [
+   "unesp-botucatu"
+  ]
+ },
+ {
+  "grupo": "PUC-Campinas 2027",
+  "banca": "COREME Hospital PUC-Campinas (inscrição pela plataforma Tekyou)",
+  "processo": "Processo Seletivo Residência Médica 2027 – Hospital PUC-Campinas",
+  "uf": "SP",
+  "link_edital": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+  "link_processo": "https://www.tekyou.com.br/puccampinas/selecao2027/",
+  "etapas_descricao": "1ª fase: prova objetiva com 100 questões de múltipla escolha e prova dissertativa, no mesmo dia; 2ª fase: avaliação curricular. Em Dermatologia, a classificação para a 2ª fase vai até a 25ª posição.",
+  "ids": [
+   "puc-campinas"
+  ]
+ },
+ {
+  "grupo": "UNICAMP 2027",
+  "banca": "COREME FCM-Unicamp com apoio da COMVEST",
+  "processo": "Processo Seletivo 2027 – Programas de Residência Médica de Acesso Direto (FCM-Unicamp)",
+  "uf": "SP",
+  "link_edital": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+  "link_processo": "https://portal.fcm.unicamp.br/residencias-em-saude/residencia-medica/processo-seletivo-2027/",
+  "etapas_descricao": "1ª fase (peso 90): prova objetiva de respostas curtas em dois períodos, com 50 questões de manhã e 50 à tarde; 2ª fase (peso 10): avaliação curricular documental.",
+  "ids": [
+   "unicamp-campinas"
+  ]
+ },
+ {
+  "grupo": "FAMEMA 2027",
+  "banca": "Fundação Vunesp",
+  "processo": "Residência Médica FAMEMA 2027 (Edital FAMEMA 45/2026)",
+  "uf": "SP",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4ODE2OQ%3d%3d",
+  "link_processo": "https://www.vunesp.com.br/FMMA2602",
+  "etapas_descricao": "Fase única: prova objetiva com 100 questões e peso 1 (80 das áreas básicas, 16 de cada, mais 10 de Saúde Mental e 10 de Medicina de Emergência).",
+  "ids": [
+   "famema-marilia"
+  ]
+ },
+ {
+  "grupo": "HCFMRP-USP 2027",
+  "banca": "COREME HCFMRP-USP (processo próprio)",
+  "processo": "Seleção de Médicos Residentes de 1º ano 2027 – Acesso Direto (HCFMRP-USP)",
+  "uf": "SP",
+  "link_edital": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+  "link_processo": "https://extranet.hcrp.usp.br/novorh/ListaArquivos.aspx?edital=3650&s=3",
+  "etapas_descricao": "3 fases: exame escrito eliminatório com 100 questões (peso 0,5), prova prática classificatória (peso 0,4) e avaliação curricular classificatória (peso 0,1). Exige mínimo de 50% de acertos no escrito.",
+  "ids": [
+   "hcfmrp-usp-ribeirao"
+  ]
+ },
+ {
+  "grupo": "FAMERP 2027",
+  "banca": "Comissão Organizadora FAMERP (processo próprio)",
+  "processo": "Residência Médica FAMERP 2027 – Acesso Direto (Edital G.D.G. nº 032/2026)",
+  "uf": "SP",
+  "link_edital": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+  "link_processo": "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/processo-seletivo-coreme-2027-acesso-direto-e-especialidades/",
+  "etapas_descricao": "1ª fase: prova objetiva com 80 testes (peso 9, 90% da nota); 2ª fase: avaliação curricular (peso 1). Em Dermatologia, vão para a 2ª fase do 1º ao 30º classificado.",
+  "ids": [
+   "famerp-rio-preto"
+  ]
+ },
+ {
+  "grupo": "FMUSP 2027",
+  "banca": "FUVEST",
+  "processo": "Processo Seletivo Residência Médica FMUSP 2027 (Edital COREME/FM nº 02/2026)",
+  "uf": "SP",
+  "link_edital": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+  "link_processo": "https://www.fuvest.br/residencia-medica/",
+  "etapas_descricao": "1ª fase: prova objetiva com 100 questões (peso 9), com mínimo de 50% de acertos e, em Dermatologia, classificação até a 21ª posição; 2ª fase: avaliação curricular (peso 1).",
+  "ids": [
+   "hcfmusp-sp"
+  ]
+ },
+ {
+  "grupo": "FAUSCS 2027",
+  "banca": "FAUSCS – Fundação de Apoio à Universidade Municipal de São Caetano do Sul",
+  "processo": "Seleção Pública para Residência Médica 2027 – FAUSCS (USCS, HFASP e Município de Barueri)",
+  "uf": "SP",
+  "link_edital": "https://fauscs.selecao.net.br/informacoes/30/",
+  "link_processo": "https://www.fauscs.org.br/post/sele%C3%A7%C3%A3o-p%C3%BAblica-para-resid%C3%AAncia-m%C3%A9dica-2027",
+  "etapas_descricao": "Etapa única: prova objetiva com 100 questões de 4 alternativas (20 de cada grande área).",
+  "ids": [
+   "hfasp-sp"
+  ]
+ },
+ {
+  "grupo": "Sírio-Libanês 2027",
+  "banca": "Fundação Vunesp",
+  "processo": "Residência Médica Sírio-Libanês – Processo Seletivo 2027",
+  "uf": "SP",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+  "link_processo": "https://www.vunesp.com.br/HSLI2601",
+  "etapas_descricao": "Acesso direto: prova objetiva (peso 50%) e prova prática presencial na Faculdade Sírio-Libanês (peso 50%).",
+  "ids": [
+   "sirio-libanes-sp"
+  ]
+ },
+ {
+  "grupo": "IAMSPE 2027",
+  "banca": "Instituto Avança São Paulo",
+  "processo": "Processo Seletivo Residência Médica 2027 – IAMSPE (Edital CEDEP nº 02/2026)",
+  "uf": "SP",
+  "link_edital": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+  "link_processo": "https://www.avancasp.org.br/informacoes/283/",
+  "etapas_descricao": "Fase única: prova objetiva eliminatória e classificatória com 100 questões de 5 alternativas.",
+  "ids": [
+   "iamspe-hspe-sp"
+  ]
+ },
+ {
+  "grupo": "Santa Casa SP 2027",
+  "banca": "Fundação Carlos Chagas (FCC)",
+  "processo": "Processo Seletivo para Médicos Residentes 2027 – ISCMSP",
+  "uf": "SP",
+  "link_edital": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+  "link_processo": "https://www.concursosfcc.com.br/concursos/scmsp126/index.html",
+  "etapas_descricao": "1ª fase: prova objetiva com 100 questões de 5 alternativas (peso 9); 2ª fase: análise curricular (peso 1).",
+  "ids": [
+   "scmsp-sp"
+  ]
+ },
+ {
+  "grupo": "UNIFESP 2027",
+  "banca": "Fundação Vunesp (1ª fase)",
+  "processo": "Processo Seletivo Público para Residência Médica da EPM 2026/2027 (Edital nº 690/2026)",
+  "uf": "SP",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4NzcyOA%3d%3d",
+  "link_processo": "https://www.vunesp.com.br/UFSP2602",
+  "etapas_descricao": "1ª fase: prova teórica com 100 questões (peso 5) e nota de corte 7 em Dermatologia; 2ª fase: prova prática (peso 4), com mínimo de 6,00 em Dermatologia; 3ª fase: análise curricular (peso 1).",
+  "ids": [
+   "unifesp-epm-sp"
+  ]
+ },
+ {
+  "grupo": "PUC-SP 2027",
+  "banca": "NUCVEST",
+  "processo": "Processo Seletivo Residência Médica Área Básica e Acesso Direto PUC-SP 2027 (Edital nº 01/2026)",
+  "uf": "SP",
+  "link_edital": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Edital-RM-2027-ABAD.pdf",
+  "link_processo": "https://www.nucvest.com.br/pucsp/residencia-medica/2027/abad/index.html",
+  "etapas_descricao": "1ª fase: prova escrita objetiva com 100 questões (peso 0,9); 2ª fase: avaliação curricular documental (até 10 pontos).",
+  "ids": [
+   "pucsp-sorocaba"
+  ]
+ }
+]

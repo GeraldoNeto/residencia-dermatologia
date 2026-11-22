@@ -1,0 +1,383 @@
+{
+ "fonte": "https://openalex.org (API, subcampo Dermatology 2708, publicações 2021–2025)",
+ "consultado_em": "2026-11-22",
+ "pendentes": [],
+ "dados": {
+  "enare-ufal": {
+   "openalex": null,
+   "nome": "Universidade Federal de Alagoas",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 31
+  },
+  "fmt-hvd-am-psurm": {
+   "openalex": null,
+   "nome": "Fundação de Medicina Tropical",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 14
+  },
+  "enare-ufam": {
+   "openalex": null,
+   "nome": "Universidade Federal do Amazonas",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 47
+  },
+  "santa-izabel-psu-ba": {
+   "openalex": null,
+   "nome": "Hospital Santa Izabel",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 3
+  },
+  "enare-ufba": {
+   "openalex": null,
+   "nome": "Universidade Federal da Bahia",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 81
+  },
+  "enare-ufc": {
+   "openalex": null,
+   "nome": "Universidade Federal do Ceará",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 86
+  },
+  "enare-unb": {
+   "openalex": null,
+   "nome": "Universidade de Brasília",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 90
+  },
+  "enare-ufes": {
+   "openalex": null,
+   "nome": "Universidade Federal do Espírito Santo",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 51
+  },
+  "hc-ufg-psu-go-2027": {
+   "openalex": null,
+   "nome": "Universidade Federal de Goiás",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 81
+  },
+  "enare-ufmg": {
+   "openalex": null,
+   "nome": "Universidade Federal de Minas Gerais",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 191
+  },
+  "enare-ufjf": {
+   "openalex": null,
+   "nome": "Universidade Federal de Juiz de Fora",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 67
+  },
+  "enare-uftm": {
+   "openalex": null,
+   "nome": "Universidade Federal do Triângulo Mineiro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 45
+  },
+  "enare-ufu": {
+   "openalex": null,
+   "nome": "Universidade Federal de Uberlândia",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 52
+  },
+  "enare-ufms": {
+   "openalex": null,
+   "nome": "Universidade Federal de Mato Grosso do Sul",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 37
+  },
+  "enare-ufmt": {
+   "openalex": null,
+   "nome": "Universidade Federal de Mato Grosso",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 34
+  },
+  "uepa-pa-psu": {
+   "openalex": null,
+   "nome": "Universidade do Estado do Pará",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 74
+  },
+  "enare-ufpa": {
+   "openalex": null,
+   "nome": "Universidade Federal do Pará",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 66
+  },
+  "upe-huoc-sus-pe": {
+   "openalex": null,
+   "nome": "Universidade de Pernambuco",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 50
+  },
+  "imip-sus-pe": {
+   "openalex": null,
+   "nome": "Instituto de Medicina Integral Professor Fernando Figueira",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 9
+  },
+  "enare-ufpe": {
+   "openalex": null,
+   "nome": "Universidade Federal de Pernambuco",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 109
+  },
+  "enare-hu-ufpi": {
+   "openalex": null,
+   "nome": "Universidade Federal do Piauí",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 68
+  },
+  "hnsg-curitiba-amp": {
+   "openalex": null,
+   "nome": "Hospital Nossa Senhora das Graças",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 2
+  },
+  "enare-ufpr": {
+   "openalex": null,
+   "nome": "Universidade Federal do Paraná",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 150
+  },
+  "hu-uel-londrina": {
+   "openalex": null,
+   "nome": "Universidade Estadual de Londrina",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 48
+  },
+  "enare-uff": {
+   "openalex": null,
+   "nome": "Universidade Federal Fluminense",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 154
+  },
+  "enare-hfb": {
+   "openalex": null,
+   "nome": "Hospital Geral de Bonsucesso",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 18
+  },
+  "enare-huse": {
+   "openalex": null,
+   "nome": "Universidade Federal do Estado do Rio de Janeiro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 66
+  },
+  "uerj-hupe-rj": {
+   "openalex": null,
+   "nome": "Universidade do Estado do Rio de Janeiro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 199
+  },
+  "enare-ufrj": {
+   "openalex": null,
+   "nome": "Universidade Federal do Rio de Janeiro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 195
+  },
+  "enare-unirio": {
+   "openalex": null,
+   "nome": "Universidade Federal do Estado do Rio de Janeiro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 66
+  },
+  "enare-ufrn": {
+   "openalex": null,
+   "nome": "Universidade Federal do Rio Grande do Norte",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 88
+  },
+  "hsvp-passofundo-uffs-amrigs": {
+   "openalex": null,
+   "nome": "Hospital São Vicente de Paulo",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 4
+  },
+  "ghc-conceicao-amrigs": {
+   "openalex": null,
+   "nome": "Hospital Nossa Senhora da Conceição",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 3
+  },
+  "hcpa-portoalegre": {
+   "openalex": null,
+   "nome": "Hospital de Clínicas de Porto Alegre",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 94
+  },
+  "hsl-pucrs-amrigs": {
+   "openalex": null,
+   "nome": "Pontifícia Universidade Católica do Rio Grande do Sul",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 47
+  },
+  "ufcspa-santacasa-poa": {
+   "openalex": null,
+   "nome": "Universidade Federal de Ciências da Saúde de Porto Alegre",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 81
+  },
+  "husm-ufsm-amrigs": {
+   "openalex": null,
+   "nome": "Hospital Universitário de Santa Maria",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 8
+  },
+  "hu-ufsc-florianopolis-amrigs": {
+   "openalex": null,
+   "nome": "Universidade Federal de Santa Catarina",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 79
+  },
+  "enare-ufs": {
+   "openalex": null,
+   "nome": "Universidade Federal de Sergipe",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 69
+  },
+  "sussp-ilsl-bauru": {
+   "openalex": null,
+   "nome": "Instituto Lauro de Souza Lima",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 5
+  },
+  "unicamp-campinas": {
+   "openalex": null,
+   "nome": "Universidade Estadual de Campinas (UNICAMP)",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 194
+  },
+  "sussp-fmj-jundiai": {
+   "openalex": null,
+   "nome": "Faculdade de Medicina de Jundiaí",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 41
+  },
+  "hospital-regional-de-presidente-prudente": {
+   "openalex": null,
+   "nome": "Hospital Regional de Presidente Prudente",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 10
+  },
+  "famerp-rio-preto": {
+   "openalex": null,
+   "nome": "Faculdade de Medicina de São José do Rio Preto",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 35
+  },
+  "hcfmusp-sp": {
+   "openalex": null,
+   "nome": "Universidade de São Paulo (toda a USP)",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 2003
+  },
+  "hcfmrp-usp-ribeirao": {
+   "openalex": null,
+   "nome": "Universidade de São Paulo (toda a USP)",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 2003
+  },
+  "enare-uncisal": null,
+  "fuham-am-psurm": null,
+  "enare-cderm-ce": null,
+  "ses-df-rm1-2027": null,
+  "hscmv-emescam-es": null,
+  "hdt-ses-go-2027": null,
+  "enare-hcm-ma": null,
+  "enare-hpm-mg": null,
+  "psumg-hmtj-jf": null,
+  "psumg-hsvp-jf": null,
+  "hospital-das-clinicas-doutor-mario-ribei": null,
+  "cesupa-pa": null,
+  "cesed-unifacisa-pb": null,
+  "enare-fpa-help": null,
+  "enare-ufcg": null,
+  "famene-jp-pb": null,
+  "enare-ufpb": null,
+  "hof-sus-pe": null,
+  "enare-ams-apucarana": null,
+  "huop-unioeste-cascavel-amp": null,
+  "santacasa-curitiba-amp": null,
+  "hdspr-piraquara-amp": null,
+  "instituto-de-pos-graduacao-em-ciencias-d": null,
+  "heaa-rj": null,
+  "enare-hca": null,
+  "hcap-cbmerj-rj": null,
+  "enare-hce": null,
+  "enare-hfag": null,
+  "hnmd-rj": null,
+  "hospital-municipal-ronaldo-gazolla-rj": null,
+  "ims-rj": null,
+  "enare-sms-rj": null,
+  "univali-itajai-amrigs": null,
+  "hst-saopedrodealcantara-amrigs": null,
+  "associacao-hospitalar-filhas-de-nossa-se": null,
+  "unifai-sp": null,
+  "sussp-santa-casa-barretos": null,
+  "puc-campinas": null,
+  "sussp-padre-bento-guarulhos": null,
+  "famema-marilia": null,
+  "enare-umc": null,
+  "enare-hem-mg": null,
+  "hfasp-sp": null,
+  "sirio-libanes-sp": {
+   "openalex": "I4210149843",
+   "nome": "Hospital Sírio-Libanês",
+   "via": "manual",
+   "artigos_derm_2021_2025": 64
+  },
+  "enare-hspm-sp": {
+   "openalex": "I4210090574",
+   "nome": "Hospital do Servidor Público Municipal",
+   "via": "nome do hospital",
+   "artigos_derm_2021_2025": 68
+  },
+  "iamspe-hspe-sp": {
+   "openalex": "I4401200253",
+   "nome": "Instituto de Assistência Médica ao Servidor Público Estadual",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 15
+  },
+  "scmsp-sp": {
+   "openalex": "I4210112182",
+   "nome": "Faculdade de Ciências Médicas da Santa Casa de São Paulo",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 31
+  },
+  "sussp-heliopolis-sp": null,
+  "sussp-ipiranga-sp": null,
+  "sussp-unisa-sp": {
+   "openalex": "I4210166250",
+   "nome": "Universidade de Santo Amaro",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 111
+  },
+  "unifesp-epm-sp": {
+   "openalex": "I88273585",
+   "nome": "Universidade Federal de São Paulo",
+   "via": "IES CAPES",
+   "artigos_derm_2021_2025": 341
+  },
+  "pucsp-sorocaba": null,
+  "scmbh-mg": {
+   "openalex": "I4210123796",
+   "nome": "Grupo Santa Casa de Belo Horizonte",
+   "via": "manual",
+   "artigos_derm_2021_2025": 21
+  },
+  "huem-mackenzie-curitiba": {
+   "openalex": "I4210137114",
+   "nome": "Faculdade Evangélica Mackenzie do Paraná",
+   "via": "manual",
+   "artigos_derm_2021_2025": 13
+  },
+  "unesp-botucatu": {
+   "openalex": "I879563668",
+   "nome": "Universidade Estadual Paulista (Unesp)",
+   "via": "manual",
+   "artigos_derm_2021_2025": 349
+  }
+ }
+}

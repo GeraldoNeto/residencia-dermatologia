@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-21",
+ "visitados": 35,
+ "mudaram": [
+  {
+   "processo": "PSU-GO 2027 (HC-UFG)",
+   "url": "https://www.aremg.org.br/processos-atuais",
+   "programas": [
+    "hc-ufg-psu-go-2027",
+    "psumg-hmtj-jf",
+    "psumg-hsvp-jf"
+   ],
+   "docs_novos": [],
+   "so_texto": true,
+   "visto_antes": "2026-11-21"
+  }
+ ],
+ "erros": [
+  {
+   "processo": "SUS-PE 2027",
+   "url": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+   "erro": "fetch failed"
+  },
+  {
+   "processo": "HNMD (Marinha) 2027",
+   "url": "https://www.marinha.mil.br/sspm/",
+   "erro": "HTTP 403"
+  },
+  {
+   "processo": "UERJ 2027",
+   "url": "https://www.cepuerj.uerj.br/concursos2.php?concurso=S04597&ano=2027",
+   "erro": "fetch failed"
+  }
+ ],
+ "primeira_visita": []
+}

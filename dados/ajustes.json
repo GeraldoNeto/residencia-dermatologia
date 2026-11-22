@@ -1,0 +1,99 @@
+{
+  "fundir": {
+    "santa-casa-bh-mg": "scmbh-mg",
+    "santa-casa-de-curitiba-pr": "santacasa-curitiba-amp",
+    "fmj-sp": "sussp-fmj-jundiai",
+    "scm-barretos-sp": "sussp-santa-casa-barretos",
+    "hip-uga-ii-sp": "sussp-ipiranga-sp",
+    "hfse-rj": "enare-huse",
+    "univali-sc": "univali-itajai-amrigs",
+    "hnsc-ghc-rs": "ghc-conceicao-amrigs",
+    "instituto-de-saude-hsvp-mg": "psumg-hsvp-jf",
+    "hu-ufs-se": "enare-ufs",
+    "fundacao-pedro-americo-pb": "enare-fpa-help"
+  },
+  "nao_fundir": [],
+  "excluir": [
+    "hspm-sp"
+  ],
+  "sobrescrever": {
+    "hospital-das-clinicas-doutor-mario-ribei": {
+      "cidade": "Montes Claros"
+    },
+    "cesed-unifacisa-pb": {
+      "cidade": "Campina Grande"
+    },
+    "hospital-municipal-ronaldo-gazolla-rj": {
+      "cidade": "Rio de Janeiro"
+    }
+  },
+  "coordenadas": {},
+  "grupos": {
+    "ENARE 2026/2027": "ENARE 2026/2027",
+    "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)": "PSURM Amazonas 2027",
+    "PSU Residência Médica/Bahia 2027 (SUS-BA, ABAEM)": "PSU-BA 2027",
+    "Processo Seletivo RM-1/SES/DF/2027 (Edital Normativo nº 1, de 15/09/2026)": "SES-DF 2027",
+    "Processo de Seleção Pública - Programas de Residência Médica do HSCMV com Acesso Direto (Edital nº 01/2027)": "Santa Casa de Vitória 2027",
+    "PSU-GO 2027 (Processo Seletivo Unificado de Residência Médica de Goiás; edital próprio do HC-UFG, retificado)": "PSU-GO 2027 (HC-UFG)",
+    "Processo Seletivo Unificado COREME/SES-GO 2027 (Edital de Abertura nº 24/2026 SESG/SES-GO)": "SES-GO 2027",
+    "Processo Seletivo da Residência Médica 2026 - Entrada em 2027 (Edital nº 005/2026, consolidado até a Retificação nº 01)": "Santa Casa BH 2027",
+    "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)": "PSU-MG 2027",
+    "Processo Seletivo de Residência Médica do CESUPA 2027 (Edital 42/2026, retificado pelo Edital 45/2026)": "CESUPA 2027",
+    "PSU/2027: Processo Seletivo Unificado para os Programas de Residência Médica do Estado do Pará (Edital 148/2026 - UEPA)": "PSU-PA 2027",
+    "Processo Seletivo de Residência Médica 2027 COREME/FAMENE (Edital nº 89/2026/FAMENE)": "FAMENE 2027",
+    "SUS-PE 2027 (Residência Médica)": "SUS-PE 2027",
+    "Exame AMP 2026 / Seleção Residência Médica UNIOESTE Cascavel 2027 (Edital 030/2026-CPS/COREME)": "AMP 2026 · UNIOESTE",
+    "Exame AMP 2026 / Residência Médica 2027 (Edital HNSG)": "AMP 2026 · HNSG",
+    "Exame AMP 2026 / Concurso de Seleção para Residência Médica 2027 (COREME HSCC Edital 10/2026)": "AMP 2026 · Santa Casa Curitiba",
+    "Processo Seletivo de Residência Médica 2027 HUEM (Edital COREME HUEM 03/2026)": "HUEM Mackenzie 2027",
+    "Seleção Pública Residência Médica HU/UEL 2027 (Edital COREME RM012/2026)": "HU/UEL 2027",
+    "Exame AMP 2026 / Concurso de Residência Médica 2027 (COREME-HDSPR Edital 01/2026)": "AMP 2026 · HDS-PR",
+    "Processo Seletivo de Admissão aos Programas de Residência Médica do HNMD com início em 2027 (Edital de 28/07/2026, DOU)": "HNMD (Marinha) 2027",
+    "Processo Seletivo para Residência Médica - Ingresso em 2027 (Edital nº 01/2026)": "Instituto IMS 2027",
+    "Processo Seletivo Residência Médica UERJ 2027 - Acesso Direto (Edital nº 15/2026 - Cepuerj)": "UERJ 2027",
+    "Prova AMB/AMRIGS/ACM/AMMS 01/2026": "AMRIGS/ACM 2026",
+    "Processo Seletivo para Residência Médica 2027 HCPA (Edital nº 01)": "HCPA 2027",
+    "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital HSL 2027": "AMRIGS/ACM 2026",
+    "Processo Seletivo para Residência Médica 2027 UFCSPA/Santa Casa (Edital nº 01)": "UFCSPA/Santa Casa POA 2027",
+    "Prova AMB/AMRIGS/ACM/AMMS 01/2026 + Edital 06/2026/COREME/UFSC (ingresso 2027)": "AMRIGS/ACM 2026",
+    "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)": "SUS-SP 2027",
+    "Residência Médica Básica e Especializada de Acesso Direto 2027 (Edital nº 072/2026-FM/DTA)": "Unesp Botucatu 2027",
+    "Processo Seletivo Residência Médica 2027 – Hospital PUC-Campinas": "PUC-Campinas 2027",
+    "Processo Seletivo 2027 – Programas de Residência Médica de Acesso Direto (FCM-Unicamp)": "UNICAMP 2027",
+    "Residência Médica FAMEMA 2027 (Edital FAMEMA 45/2026)": "FAMEMA 2027",
+    "Seleção de Médicos Residentes de 1º ano 2027 – Acesso Direto (HCFMRP-USP)": "HCFMRP-USP 2027",
+    "Residência Médica FAMERP 2027 – Acesso Direto (Edital G.D.G. nº 032/2026)": "FAMERP 2027",
+    "Processo Seletivo Residência Médica FMUSP 2027 (Edital COREME/FM nº 02/2026)": "FMUSP 2027",
+    "Seleção Pública para Residência Médica 2027 – FAUSCS (USCS, HFASP e Município de Barueri)": "FAUSCS 2027",
+    "Residência Médica Sírio-Libanês – Processo Seletivo 2027": "Sírio-Libanês 2027",
+    "Processo Seletivo Residência Médica 2027 – IAMSPE (Edital CEDEP nº 02/2026)": "IAMSPE 2027",
+    "Processo Seletivo para Médicos Residentes 2027 – ISCMSP": "Santa Casa SP 2027",
+    "Processo Seletivo Público para Residência Médica da EPM 2026/2027 (Edital nº 690/2026)": "UNIFESP 2027",
+    "Processo Seletivo Residência Médica Área Básica e Acesso Direto PUC-SP 2027 (Edital nº 01/2026)": "PUC-SP 2027"
+  },
+  "lacunas_extra": [
+    "[consolidação] HSPM (São Paulo): entra pelo ENARE (4 vagas); edital próprio 2027 não localizado.",
+    "[consolidação] UNOESTE e Hospital Regional de Presidente Prudente podem ser o mesmo serviço; mantidos separados até confirmação.",
+    "[consolidação] SUS-SP não publica candidatos por vaga por instituição."
+  ],
+  "fontes_extra": [],
+  "avisos_dominio": {
+    "cermam.com.br": "o site oficial da CERMAM (Manaus) exibia propaganda de apostas injetada em 21/11/2026, sinal de invasão. Abra com cuidado, não clique em anúncios e não baixe nada além do PDF do edital."
+  },
+  "previstos": [
+    {
+      "processo": "PSU-AL 2027",
+      "cidade": "Maceió",
+      "uf": "AL",
+      "inscricao_inicio": "2026-11-26",
+      "inscricao_fim": "2027-01-06",
+      "prova": "2027-01-24",
+      "taxa_reais": 650,
+      "dermatologia": "não confirmada: o quadro de vagas sai com o edital completo, previsto para 26/11/2026; a edição 2026 não teve Dermatologia",
+      "fonte": "https://med.estrategia.com/portal/noticias/psu-al-2027-edital-resumido-para-residencia-medica-traz-datas-do-processo-seletivo/",
+      "selo": "secundaria",
+      "conferido_em": "2026-11-21",
+      "obs": "Datas do edital resumido da ALAEM, publicadas por cursinho; o documento oficial não foi localizado."
+    }
+  ]
+}

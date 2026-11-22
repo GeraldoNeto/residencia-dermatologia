@@ -1,0 +1,1002 @@
+{
+ "processos": {
+  "Santa Casa de Vitória 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital 01/2027, item 5.1.17: 20 questões por área básica (Medicina Social = preventiva), 0,5 ponto cada.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova teórica (22/11/2026, pela errata)",
+      "peso": "50 pontos",
+      "carater": "eliminatória e classificatória"
+     },
+     {
+      "etapa": "Prova prática (4 por vaga)",
+      "peso": "40 pontos",
+      "carater": "classificatória"
+     },
+     {
+      "etapa": "Análise de currículo (Anexo I)",
+      "peso": "10 pontos",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% em cada etapa (Lei 12.871/2013 art. 22-E; Comunicado Oficial 01/2026)",
+    "fonte": "https://emescam.br/wp-content/uploads/2026/10/ERRATA-EDITAL-01.2027-ACESSO-DIRETO-2027-2.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário on-line com CPF",
+     "Boleto da taxa (R$ 650) pago",
+     "Laudo, se pedir condição especial",
+     "Pedido de bônus PRMFC por e-mail, com certificado"
+    ],
+    "analise_curricular": [
+     "Ficha do Anexo I preenchida",
+     "Cópias dos comprovantes na ordem do Anexo I",
+     "Tudo encadernado em espiral, entregue no dia da prova prática",
+     "Itens: monitoria, IC, Teste de Progresso, conceito Enamed, extensão, congressos, artigos"
+    ],
+    "matricula": [
+     "2 fotos 3x4",
+     "RG, CPF, certidão de nascimento ou casamento",
+     "Currículo Lattes, CTPS, PIS/PASEP",
+     "Reservista (homens), título e quitação eleitoral",
+     "CRM-ES e quitação do CRM-ES",
+     "Comprovante de endereço na Grande Vitória",
+     "Cartão SUS, CNH válida, vacinação",
+     "Cópia autenticada do diploma ou declaração de conclusão"
+    ],
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/10/EDITAL-01-2027-ACESSO-DIRETO.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital lido em cópia do Estratégia (texto do edital, assinado); errata e comunicado no site da EMESCAM. Errata antecipou a prova para 22/11/2026."
+  },
+  "Santa Casa BH 2027": {
+   "prova": {
+    "questoes_total": 75,
+    "distribuicao": {
+     "clinica_medica": 15,
+     "cirurgia": 15,
+     "ginecologia_obstetricia": 15,
+     "pediatria": 15,
+     "preventiva_social": 15,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital 005/2026, item 6.1.2: 15 questões por área, 1,2 ponto cada (90 pontos); preventiva inclui MFC e Saúde Coletiva.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (fase única, 21/11/2026, 14h)",
+      "peso": "100% (90 pontos)",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% na nota (item 6.2; Portaria MEC 446/2026), com Anexo II",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário eletrônico no site do IBGP",
+     "Boleto pago (R$ 824; R$ 412 cotista PROUNI/SISU)",
+     "Cotista: declaração da faculdade + Anexo III",
+     "Bônus PRMFC: certificado/declaração + Anexo II, por upload"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Foto 3x4, RG, CPF, certidão de nascimento ou casamento",
+     "Comprovante de endereço, reservista, quitação eleitoral",
+     "CRM-MG ou protocolo",
+     "Diploma de Medicina",
+     "Atestado de aptidão, PIS/PASEP ou NIT",
+     "Declaração de desligamento ou de ausência de vínculo com outro PRM",
+     "Termo de adesão, dados bancários, cartão de vacinação",
+     "Certificado PRMFC, se usou o bônus"
+    ],
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital consolidado até a Retificação 01, lido em cópia do Estratégia; página do IBGP carrega documentos dinamicamente e não foi lida. Gabarito preliminar previsto para 22/11/2026."
+  },
+  "PSU-MG 2027": {
+   "prova": {
+    "questoes_total": null,
+    "distribuicao": null,
+    "distribuicao_obs": "Editais HMTJ e Instituto de Saúde HSVP (item 8.2.1) dizem 'até 100 questões, até 20 por área' (CM, CG, GO, Pediatria, Preventiva/MFC); não fixam número exato.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha (alternativas não informadas no edital)",
+    "etapas": [
+     {
+      "etapa": "Prova geral (22/11/2026, 9h)",
+      "peso": "90 pontos",
+      "carater": "eliminatória e classificatória (mínimo 45 pontos; até 20 por vaga)"
+     },
+     {
+      "etapa": "Avaliação curricular padronizada (Anexo 1)",
+      "peso": "10 pontos",
+      "carater": "classificatória (nota zero exclui)"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% na nota final (item 11; Portaria MEC 446/2026), comprovado na inscrição",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaleMaternidadeTherezinhadeJesus-HMTJ-EditalPSUMG2027-20260921182814.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "PSU MG 2026 prova geral: gabarito preliminar tipo 1 (alterações após recurso em documento à parte)",
+     "link_prova": null,
+     "link_gabarito": "https://www.galaxcms.com.br/up_crud_comum/601/GabaritoPreliminarPROVAGERALTIPO1-PSUMG2026-20251130173104.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "PSU MG 2025 prova geral: gabarito preliminar tipo 1 (alterações após recurso à parte)",
+     "link_prova": null,
+     "link_gabarito": "https://www.galaxcms.com.br/up_crud_comum/601/GABARITOPRELIMINARPROVAGERALTIPO1-PSUMG2025-20241201170547.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "PSU MG 2024 prova geral: gabarito preliminar tipo 1 (alterações após recurso à parte)",
+     "link_prova": null,
+     "link_gabarito": "https://www.galaxcms.com.br/up_crud_comum/601/GABARITOPROVAGERALTIPO1PSU2024-20231203172436.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Cadastro e formulário no site da AREMG (computador)",
+     "Documento de identidade com foto, frente e verso",
+     "Diploma ou CRM; declaração só se conclusão até 28/02/2027",
+     "Taxa de R$ 300 por programa",
+     "Currículo e comprovantes enviados na própria inscrição",
+     "Certificado/declaração PRMFC, se pedir bônus"
+    ],
+    "analise_curricular": [
+     "Modelo padronizado CEREM-MG (Anexo 1), preenchido no sistema",
+     "Comprovantes digitalizados, autenticados quando exigido, rubricados e numerados",
+     "Itens: histórico, idioma, atividades, IC, congressos, ligas, cursos, extensão, trabalhos, artigos"
+    ],
+    "matricula": [
+     "Comprovante de convocação, 2 fotos 3x4",
+     "Identidade, CPF, certidão de nascimento ou casamento",
+     "Comprovante de endereço, reservista (homens), título e votação",
+     "CRM (HMTJ exige CRM-MG e certidão negativa)",
+     "Diploma ou declaração de conclusão",
+     "PIS/PASEP ou INSS, conta bancária, Cartão SUS, vacinação",
+     "HMTJ: currículo simplificado (Lattes); HSVP: atestado médico"
+    ],
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/InstitutodeSaudeHSVP-EditalPSUMG2027-20260921184619.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Editais por hospital: HMTJ e Instituto de Saúde HSVP (Juiz de Fora). Não confundir com o edital 'Hospital São Vicente de Paulo HSVP' (Bom Jesus do Itabapoana, sem Dermatologia). Retificações 2 e 3 alteraram item 8 do currículo."
+  },
+  "HUEM Mackenzie 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital COREME HUEM 03/2026, item 9.7.1: 100 questões em número igual nas 5 áreas básicas (GO como uma área).",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 5 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova geral objetiva (fase única, 20/12/2026, 8h-13h, Curitiba)",
+      "peso": "100%",
+      "carater": "eliminatória e classificatória (mínimo 50 acertos)"
+     }
+    ],
+    "bonificacao": "PRMGFC: +10% na nota final (item 8; Portaria MEC 446/2026), com declaração na inscrição",
+    "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-no-032026-processo-seletivo-de-residencia-medica-2026-2027retificado2.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "HUEM Residência Médica 2026 (FGV, dez/2025): prova geral tipo 1 e gabarito definitivo",
+     "link_prova": "https://conhecimento.fgv.br/sites/default/files/concursos/101-prova-geral-nsc101-tipo-1.pdf",
+     "link_gabarito": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-huem-resisdencia-medica.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Requerimento on-line no site da FGV",
+     "Boleto da taxa (R$ 1.000) pago",
+     "Bônus PRMGFC: declaração de conclusão com datas, enviada na inscrição",
+     "Laudo, se pedir atendimento especial ou vaga PcD"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Matrícula on-line, 10 a 24/02/2027",
+     "Foto com fundo branco",
+     "Diploma com registro no CRM ou declaração de último período",
+     "RG, CPF, CTPS com PIS/PASEP, comprovante de endereço",
+     "CRM-PR ou comprovante de inscrição no CRM-PR",
+     "Vacinação: hepatite B, dT, tríplice viral, covid-19",
+     "Reservista (homens) e quitação eleitoral",
+     "Declaração de retenção de INSS, se houver"
+    ],
+    "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-no-032026-processo-seletivo-de-residencia-medica-2026-2027retificado2.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital retificado em 05/11/2026 (2ª retificação prorrogou inscrições até 11/11/2026). Prova em 20/12/2026."
+  },
+  "HU/UEL 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital COREME RM012/2026, item 9.1.1: quadro com 20 questões por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas (a-e), nota 0 a 10",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (08/11/2026)",
+      "peso": "peso 9",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Análise de curriculum vitae (9 convocados em Dermatologia)",
+      "peso": "peso 1 (até 10 pontos)",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% em todas as fases (item 8; Portaria MEC 446/2026), documentos até 14/10/2026",
+    "fonte": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Formulário no site da COPS/UEL",
+     "Guia de arrecadação paga",
+     "Upload: RG, CPF, documento militar (até 45 anos), certidão",
+     "Diploma, certificado de conclusão ou atestado de último semestre",
+     "CRM, se já formado",
+     "PRMFC: certificado ou declaração, até 14/10/2026"
+    ],
+    "analise_curricular": [
+     "Dermatologia: currículo físico entregue na sala da prova (08/11/2026)",
+     "Encadernado em espiral: 1ª página com nome, foto e especialidade",
+     "2ª página: Quadro I com autopontuação (Anexos III a V)",
+     "Cópias simples dos comprovantes na ordem do Quadro I",
+     "Itens: escola médica, histórico, IC, artigos, monitoria, cursos, extensão, ligas, idioma"
+    ],
+    "matricula": [
+     "Upload de 03 a 11/02/2027 do que faltou na inscrição",
+     "Diploma ou certificado de conclusão até 28/02/2027",
+     "Foto 3x4, carteira ou comprovante de inscrição no CRM",
+     "PIS/PASEP ou NIT e conta corrente no Banco do Brasil",
+     "Cartão de vacinação (covid-19, hepatite B, dT, febre amarela, tríplice)",
+     "Ficha do residente, inquérito vacinal, ficha CNES, termo de matrícula",
+     "CRM-PR até 30/03/2027"
+    ],
+    "fonte": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Retificações RM014/2026 (pré-requisitos) e RM022/2026 (total de vagas) não mudam a prova de acesso direto."
+  },
+  "AMP 2026 · HDS-PR": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Mesmo Exame AMP; 20 por área conforme item 8.4.1 do edital UNIOESTE (oficial). Edital AMP diz só 'número igual' por área.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas (prova geral; +15 min para o cartão)",
+    "etapas": [
+     {
+      "etapa": "Exame AMP, prova geral (01/11/2026)",
+      "peso": "90%",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Análise de currículo (5x vagas), COREME-HDSPR",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMGFC: +10% em cada fase (edital HDS-PR item 6; Edital AMP item 4), certificado SisCNRM na inscrição",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Exame AMP 2026, prova geral (aplicada em 01/11/2026, ciclo 2027) e gabarito oficial pós-recursos",
+     "link_prova": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/prova-geral_1793579147.pdf",
+     "link_gabarito": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/gabarito-oficial-2026_1793890235.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha no Portal do Candidato da AMP",
+     "Taxa AMP R$ 625 via PIX (HDS-PR não cobra taxa)",
+     "Certificado PRMGFC registrado no SisCNRM, se pedir bônus",
+     "Cotas: Anexo 3 ou Anexo 4 + laudo, por e-mail, 19 a 23/10/2026"
+    ],
+    "analise_curricular": [
+     "Envio por e-mail, 30/11 a 02/12/2026, só PDF",
+     "PDF 1: RG e diploma (ou declaração de último ano)",
+     "PDF 2: comprovantes do Anexo 1, com capa e sumário por categoria",
+     "Itens: monitoria, IC, artigos, extensão, eventos, prêmios, ligas, idioma, pós-graduação"
+    ],
+    "matricula": [
+     "1ª etapa por e-mail, 10 a 12/02/2027",
+     "Diploma ou declaração de conclusão até 28/02/2027",
+     "RG, CPF, inscrição no CRM, reservista (homens)",
+     "Comprovante de residência, quitação eleitoral, PIS/PASEP",
+     "Dados de conta Santander ou Bradesco",
+     "2ª etapa presencial em 26/02/2027 com originais e CRM-PR"
+    ],
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Mesma prova dos outros grupos AMP 2026. Nota final = (prova x 9 + currículo x 1) / 10; currículo pontua até 100. Retificações 01 e 02 tratam só de cotas e cronograma."
+  },
+  "AMP 2026 · UNIOESTE": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital 030/2026-CPS/COREME UNIOESTE, item 8.4.1: 100 questões igualmente distribuídas nas 5 áreas (prova = Exame AMP).",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas (Exame AMP, prova geral; +15 min para o cartão)",
+    "etapas": [
+     {
+      "etapa": "Exame AMP, prova geral (01/11/2026)",
+      "peso": "90 pontos",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Análise de currículo (15 convocados em Dermatologia)",
+      "peso": "10 pontos (100 / 10)",
+      "carater": "classificatória"
+     },
+     {
+      "etapa": "Heteroidentificação e/ou perícia médica (cotistas)",
+      "peso": null,
+      "carater": "eliminatória para a vaga reservada"
+     }
+    ],
+    "bonificacao": "PROVAB, PRMGFC ou Mais Médicos: +10% em todas as fases (item 3; Res. CNRM 2/2015), pedido até 01/10/2026",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Exame AMP 2026, prova geral (aplicada em 01/11/2026, ciclo 2027) e gabarito oficial pós-recursos",
+     "link_prova": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/prova-geral_1793579147.pdf",
+     "link_gabarito": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/gabarito-oficial-2026_1793890235.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Ficha no Portal do Candidato da AMP",
+     "Taxas: R$ 625 (AMP) + R$ 650 (COREME HUOP)",
+     "Bônus: Anexo II + certificado ou comprovante, por e-mail até 01/10/2026",
+     "Cotas: autodeclaração e documentos por e-mail nos prazos do edital"
+    ],
+    "analise_curricular": [
+     "Currículo por SEDEX, postagem até 07/12/2026",
+     "Encadernado em espiral: 1ª página com nome, foto e especialidade",
+     "2ª página: Quadro I (Anexo I) com autopontuação",
+     "Cópias simples dos comprovantes numeradas na ordem do Quadro I",
+     "Itens: estágios, monitoria, extensão ou liga, IC, trabalhos, eventos, inglês"
+    ],
+    "matricula": [
+     "Matrícula presencial em 04 e 05/02/2027",
+     "2 cópias: RG, CPF, título de eleitor, documento militar",
+     "2 cópias: carteira ou comprovante de inscrição no CRM, PIS/PASEP ou NIT",
+     "Certidão de nascimento ou casamento, comprovante de residência",
+     "Diploma e histórico autenticados (ou certificado de conclusão)",
+     "Conta bancária, foto 3x4, cartão de vacinação"
+    ],
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital escaneado, lido por OCR (trechos ilegíveis em itens de cotas e currículo). Nota final = prova (90) + currículo (10)."
+  },
+  "AMP 2026 · HNSG": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Mesmo Exame AMP; 20 por área conforme item 8.4.1 do edital UNIOESTE (oficial). Edital HNSG remete ao edital AMP.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas (Exame AMP, prova geral; +15 min para o cartão)",
+    "etapas": [
+     {
+      "etapa": "Exame AMP, prova geral (01/11/2026)",
+      "peso": "90%",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Entrevista presencial e análise de currículo (09 a 15/12/2026)",
+      "peso": "10%",
+      "carater": "classificatória; ausência desclassifica"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% na nota de cada fase (item 8.2), comprovado no prazo do edital AMP",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Exame AMP 2026, prova geral (aplicada em 01/11/2026, ciclo 2027) e gabarito oficial pós-recursos",
+     "link_prova": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/prova-geral_1793579147.pdf",
+     "link_gabarito": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/gabarito-oficial-2026_1793890235.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição no Exame AMP (Portal do Candidato)",
+     "Taxas: R$ 625 (AMP) + R$ 575 (Centro de Estudos HNSG)",
+     "Certificado PRMFC no prazo do edital AMP, se pedir bônus"
+    ],
+    "analise_curricular": [
+     "Só convocados (lista até 30/11/2026); envio de 01 a 06/12/2026",
+     "Currículo próprio + comprovantes em PDF único, pelo link web.hnsg.org.br/residentes",
+     "Ordem dos documentos conforme Anexo 01",
+     "Itens: monitoria, IC, artigos, extensão, eventos, prêmios, ligas, idioma, pós"
+    ],
+    "matricula": [
+     "Ficha de matrícula on-line, 10 a 14/02/2027",
+     "Diploma ou declaração de conclusão até o início do programa",
+     "RG, CPF, PIS/PASEP",
+     "Carteira do CRM-PR ou declaração oficial do CRM-PR",
+     "Reservista (homens), quitação eleitoral, comprovante de residência",
+     "Declaração de retenção de INSS, se houver"
+    ],
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Dermatologia: 1 vaga 'aguardando autorização' da CNRM no quadro do edital. Edital escaneado, lido por OCR."
+  },
+  "HNMD (Marinha) 2027": {
+   "prova": {
+    "questoes_total": 50,
+    "distribuicao": {
+     "clinica_medica": 10,
+     "cirurgia": 10,
+     "ginecologia_obstetricia": 10,
+     "pediatria": 10,
+     "preventiva_social": 10,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital item 5.1.1: 50 questões em igual número nas 5 áreas básicas (10 cada).",
+    "duracao_horas": 3,
+    "formato": "objetiva de múltipla escolha (nº de alternativas não informado no edital); escala 0 a 100",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva única (08/11/2026, Rio de Janeiro)",
+      "peso": "100%",
+      "carater": "eliminatória e classificatória (mínimo 50/100)"
+     },
+     {
+      "etapa": "Procedimentos complementares à autodeclaração (PCAd), só cotistas",
+      "peso": null,
+      "carater": "eliminatória para a vaga reservada"
+     }
+    ],
+    "bonificacao": "PRMGFC concluído ou com término até 28/02/2027: +10% (item 7.5); original e cópia autenticada no dia da prova",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/07/edital_hnmd2027.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Inscrição pela internet no site do SSPM",
+     "Taxa de R$ 320 (ou isenção)",
+     "CPF e documento oficial com foto",
+     "CRM, se já formado",
+     "Bônus PRMGFC: documento original + cópia autenticada no dia da prova"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Matrícula presencial na ESM (16/02/2027 para Dermatologia)",
+     "CPF, identidade original, comprovante de endereço e de inscrição",
+     "4 fotos 3x4, NIT, tipagem sanguínea e fator Rh",
+     "Título de eleitor e certidão de quitação eleitoral",
+     "Reservista ou quitação militar (homens)",
+     "Carteira do CREMERJ (ou transferência) e diploma ou declaração",
+     "Conta-corrente em banco conveniado e vacinação dT e hepatite B"
+    ],
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/07/edital_hnmd2027.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital integral lido em cópia do Estratégia (íntegra do edital do SSPM); extrato oficial no DOU de 28/07/2026. Sites da Marinha bloqueiam acesso automatizado."
+  },
+  "Instituto IMS 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital 01/2026, item 10.1: 20 por área; saúde mental e urgência entram dentro das áreas.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas, 0,9 ponto cada",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (06/12/2026, Rio de Janeiro, tarde)",
+      "peso": "90 pontos",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Avaliação curricular (Anexo II)",
+      "peso": "10 pontos",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% na nota final (item 13; Portaria MEC 446/2026), comprovado na inscrição",
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/b9df3440-c13f-405e-97b5-eb9cdcfe790b.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [],
+   "documentos": {
+    "inscricao": [
+     "Cadastro com CPF e formulário no site do Instituto ACCESS",
+     "Taxa de R$ 850 (boleto ou Pix)",
+     "Certificado ou declaração PRMFC na inscrição, se pedir bônus",
+     "Currículo e comprovantes enviados durante as inscrições"
+    ],
+    "analise_curricular": [
+     "Upload na Área do Candidato até o fim das inscrições (12/11/2026)",
+     "Arquivos PNG, JPG ou PDF até 5 MB, frente e verso",
+     "Cópias autenticadas, salvo assinatura eletrônica e publicações",
+     "Letra do item no canto superior direito; dados destacados com marca-texto",
+     "Itens: monitoria, extensão, estágio, congressos, trabalhos, artigos, IC, residência"
+    ],
+    "matricula": [
+     "Presencial na COREME do Instituto IMS",
+     "2 fotos 3x4, diploma, CRM (inscrição secundária no CREMERJ se de outro estado)",
+     "CPF com regularidade, RG, título e quitação eleitoral",
+     "Grupo sanguíneo e Rh, reservista (homens), inscrição no INSS",
+     "Certidão de nascimento ou casamento, antecedentes criminais",
+     "Carteira de vacinação e comprovante de conta bancária"
+    ],
+    "fonte": "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/b9df3440-c13f-405e-97b5-eb9cdcfe790b.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital de abertura consolidado em 10/11/2026 (inclui a Retificação I de 05/11/2026)."
+  },
+  "UERJ 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital 15/2026, quadro do item 5: 20 por conteúdo; a 5ª área é Medicina de Família e Comunidade (contada como preventiva).",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, 4 opções, 1 ponto cada",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (01/11/2026, Campus Maracanã)",
+      "peso": "100%",
+      "carater": "eliminatória e classificatória (mínimo 50 pontos, sem zerar conteúdo)"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% na nota (item 4; Portaria MEC 446/2026), pedido na inscrição",
+    "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2027,
+     "descricao": "UERJ 2027 (ciclo atual, prova de 01/11/2026): caderno e gabarito de acesso direto",
+     "link_prova": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/de0518ce168ce8827997a6636781110af3707e4a5e90b8b8a4026d5858f39cd6.pdf",
+     "link_gabarito": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/320b3f8712a8dcd0542a9f4f3dfbd775914fa262ed5fc890ea8a8158e62b6cc7.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2026,
+     "descricao": "UERJ 2026, acesso direto: gabarito pós-recurso (caderno não está mais publicado)",
+     "link_prova": null,
+     "link_gabarito": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2026/ff8c5d9122e1b1e2c1e607802372101232687c89c72ded205740da5a8859db66.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "UERJ 2025, acesso direto: gabarito pós-recurso (caderno não está mais publicado)",
+     "link_prova": null,
+     "link_gabarito": "https://www.cepuerj.uerj.br/uploads/concursos/173446515942074584d0b8391f5e5029ba80cbee78e7ee39a/706086236.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line no site do Cepuerj",
+     "Taxa de R$ 380",
+     "Bônus PRMFC: pedido na inscrição + certificado e documento com CPF por e-mail"
+    ],
+    "analise_curricular": [],
+    "matricula": [
+     "Pré-matrícula on-line obrigatória (01 a 03/02/2027)",
+     "Diploma, certificado ou declaração de conclusão até 28/02/2027",
+     "Registro regular no CREMERJ",
+     "Quitação eleitoral e militar (homens)",
+     "Lista completa só no Edital Complementar de Matrícula"
+    ],
+    "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Gabarito 2027 publicado é o preliminar; o final estava previsto para 26/11/2026. Matrícula detalhada em edital complementar ainda não lido."
+  },
+  "AMRIGS/ACM 2026": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital de Abertura, item 7.2.1 e Anexo I: 20 questões por área, 1 ponto cada.",
+    "duracao_horas": 5,
+    "formato": "teórico-objetiva de múltipla escolha, 4 alternativas (A-D)",
+    "etapas": [
+     {
+      "etapa": "Prova teórico-objetiva (22/11/2026, 9h20)",
+      "peso": "90% (100% no HSVP Passo Fundo)",
+      "carater": "eliminatória e classificatória (nota mínima 50)"
+     },
+     {
+      "etapa": "2ª etapa na instituição: currículo (HNSC, HSL-PUCRS, UFSC, HST)",
+      "peso": "10%",
+      "carater": "classificatória"
+     },
+     {
+      "etapa": "2ª etapa: currículo 50% + arguição 50% (UFSM, UNIVALI)",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "PRMGFC: +10% em todas as fases (item 6.10; Portaria MEC 446/2026), conforme a instituição; UNIVALI sem marcação no Anexo VI",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_EditalAbertura_Rev4_6a99eedaa2720.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2025,
+     "descricao": "Prova AMB/AMRIGS/ACM/AMMS 01/2025, acesso direto, e gabarito definitivo",
+     "link_prova": "https://www.amrigs.org.br/wp-content/uploads/2026/06/Prova-AMB-AMRIGS-2025.pdf",
+     "link_gabarito": "https://www.amrigs.org.br/wp-content/uploads/2026/06/Gabarito-Definitivo-AD-e-Resp.-Recursos-2025.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "Prova AMB/AMRIGS/ACM/AMMS 01/2024, acesso direto, e gabarito definitivo",
+     "link_prova": "https://www.amrigs.org.br/wp-content/uploads/2024/06/Prova-Acesso-Direto.pdf",
+     "link_gabarito": "https://www.amrigs.org.br/wp-content/uploads/2024/06/Edital_Gabarito_Definitivo_AcessoDireto.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição on-line no site da FUNDATEC",
+     "Taxa AMRIGS/ACM (R$ 850 para uma associação) + valor de cada instituição",
+     "Currículo Online com comprovante de escolaridade, na inscrição",
+     "PRMGFC: certificado ou declaração no formulário on-line próprio"
+    ],
+    "analise_curricular": [
+     "Currículo Online na FUNDATEC, atualizável até a data do cronograma",
+     "Diploma, histórico, RG e CPF, boletim do Enade",
+     "Pós-graduação, cursos e congressos, publicações",
+     "Eventos como palestrante ou pôster, IC e projetos de pesquisa",
+     "Comprovantes podem ser pedidos por correio, na entrevista ou na matrícula"
+    ],
+    "matricula": [
+     "Comprovante de conclusão da graduação em Medicina",
+     "Diploma estrangeiro: revalidação no Brasil",
+     "Documentos estrangeiros com tradução juramentada",
+     "Demais documentos nos editais de cada instituição"
+    ],
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_EditalAbertura_Rev4_6a99eedaa2720.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Pesos por instituição no Anexo VI (23/10/2026): só HSVP Passo Fundo tem fase única; os outros 6 programas têm 2ª etapa de 10%. Editais 02, 04, 12 e 17 não mudam a prova."
+  },
+  "HCPA 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital nº 01, Tabela I (10.2.1.1): 20 por área, 0,9 ponto cada; preventiva inclui Saúde Coletiva e MFC.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, até 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (31/10/2026, 14h, Porto Alegre ou São Paulo)",
+      "peso": "90 pontos",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Análise curricular (Dermatologia: 3x vagas = 18 convocados)",
+      "peso": "10 pontos",
+      "carater": "eliminatória e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% em cada etapa, só acesso direto (item 5; Portaria MEC 446/2026), Anexo I-C na inscrição",
+    "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-4.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "HCPA Residência Médica 2026, acesso direto: gabarito definitivo (caderno não listado)",
+     "link_prova": null,
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2026/11/HCPA-MEDICA-Gabarito-Definitivo.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "HCPA Residência Médica 2025, acesso direto (1º edital): caderno e gabarito",
+     "link_prova": "https://fundmed.org.br/website/wp-content/uploads/2025/04/HCPA-PROCESSO-SELETIVO-PUBLICO-PARA-RESIDENCIAS-MEDICAS-2025-ACESSO-DIRETO-E-PROVA-DE-AUTOAVALIACAO-1o-EDITAL.pdf",
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2025/04/HCPA-GABARITO-MEDICA-2025-1o-EDITAL.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "HCPA Residência Médica 2024, acesso direto: caderno e gabarito",
+     "link_prova": "https://fundmed.org.br/website/wp-content/uploads/2024/04/2024-HCPA-Residencia-Medica-Acesso-Direto.pdf",
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2024/04/2024-HCPA-Residencia-Medica-Acesso-Direto-GABARITO.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição na plataforma da FUNDMED",
+     "Taxa de R$ 770 (PIX ou cartão)",
+     "Bônus PRMFC: Anexo I-C + certificado ou declaração em arquivo único",
+     "Cotas PcD/PN: anexos I-A/I-B e laudo, quando for o caso"
+    ],
+    "analise_curricular": [
+     "Envio on-line na área do participante, só para convocados",
+     "Um PDF por documento (até 5 MB), no tópico do quesito do Barema",
+     "Itens (Anexo III): histórico, Enade, Teste de Progresso, produção científica",
+     "Eventos, monitorias, extensão, ligas, IC, línguas, experiências extracurriculares"
+    ],
+    "matricula": [
+     "Pré-matrícula on-line (Anexo IV): ficha de cadastro e foto",
+     "RG ou CIN (até 10 anos), CPF e situação cadastral",
+     "Título e quitação eleitoral, reservista (homens), PIS/PASEP ou NIS",
+     "Comprovante de endereço e de CEP",
+     "Inscrição no CREMERS e comprovante de conclusão de Medicina",
+     "Carteira de vacinação e tipo sanguíneo; declaração de veracidade"
+    ],
+    "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-4.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Lida a versão 3 do edital (link da lista) e conferida a versão 4 (alteração do Edital nº 05, sem mudança na prova). Caderno 2027 já publicado: fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-ACESSO-DIRETO.pdf."
+  },
+  "UFCSPA/Santa Casa POA 2027": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Edital nº 01, Tabela I: 20 por área (0,9 ponto); 2 questões de Psiquiatria dentro de cada área.",
+    "duracao_horas": 5,
+    "formato": "objetiva de múltipla escolha, até 4 alternativas",
+    "etapas": [
+     {
+      "etapa": "Prova objetiva (01/11/2026, 14h, Porto Alegre ou São Paulo)",
+      "peso": "90 pontos",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Análise curricular (Dermatologia: 2x vagas)",
+      "peso": "10 pontos",
+      "carater": "eliminatória e classificatória"
+     }
+    ],
+    "bonificacao": "PRMFC concluído: +10% em cada etapa, só acesso direto (item 5; Portaria MEC 446/2026), Anexo I-D na inscrição",
+    "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "UFCSPA/Santa Casa 2026, acesso direto: gabarito definitivo (caderno não listado)",
+     "link_prova": null,
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2026/11/UFCSPA-MEDICA-Gabarito.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2025,
+     "descricao": "UFCSPA/Santa Casa 2025, acesso direto (1º edital): caderno e gabarito",
+     "link_prova": "https://fundmed.org.br/website/wp-content/uploads/2025/04/UFCSPA-PROCESSO-SELETIVO-PUBLICO-PARA-RESIDENCIAS-MEDICAS-E-ESPECIALIZACAO-MEDICA-2025-ACESSO-DIRETOICSANTA-CASA-1o-EDITAL.pdf",
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2025/04/UFCSPA-GABARITO-MEDICA-2025-1o-EDITAL.pdf",
+     "selo": "oficial"
+    },
+    {
+     "ano": 2024,
+     "descricao": "UFCSPA 2024: gabarito acesso direto e pré-requisito (caderno principal não listado)",
+     "link_prova": null,
+     "link_gabarito": "https://fundmed.org.br/website/wp-content/uploads/2024/04/2024-UFCSPA-Residencia-Medica-AD-PR-GABARITO.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Inscrição na plataforma da FUNDMED",
+     "Taxa de R$ 700 (PIX ou cartão)",
+     "Bônus PRMFC: Anexo I-D + certificado ou declaração em arquivo único",
+     "Cotas PcD/PAPP/PAIQ: anexos I-A a I-C, quando for o caso"
+    ],
+    "analise_curricular": [
+     "Envio on-line na área do participante, só para convocados",
+     "Um PDF por documento, no tópico do quesito do Barema (Anexo III)",
+     "Itens: Enade, Teste de Progresso, produção científica, monitorias e IC",
+     "Inglês, experiências extracurriculares, pós-graduação"
+    ],
+    "matricula": [
+     "Pré-matrícula on-line (Anexo IV): ficha de cadastro e foto",
+     "RG, CIN ou CNH (até 10 anos), CPF e situação cadastral",
+     "Título e quitação eleitoral, reservista (homens), PIS/PASEP ou NIS",
+     "Comprovante de endereço",
+     "Inscrição no CREMERS e comprovante de conclusão de Medicina",
+     "Carteira de vacinação e tipo sanguíneo; declaração de veracidade"
+    ],
+    "fonte": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Caderno 2027 já publicado: fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-Medica-ACESSO-DIRETO.pdf. Editais 01-A e 05-A não mudam a prova."
+  },
+  "AMP 2026 · Santa Casa Curitiba": {
+   "prova": {
+    "questoes_total": 100,
+    "distribuicao": {
+     "clinica_medica": 20,
+     "cirurgia": 20,
+     "ginecologia_obstetricia": 20,
+     "pediatria": 20,
+     "preventiva_social": 20,
+     "outras": 0
+    },
+    "distribuicao_obs": "Mesmo Exame AMP; 20 por área conforme item 8.4.1 do edital UNIOESTE (oficial). Edital HSCC remete ao edital AMP.",
+    "duracao_horas": 4,
+    "formato": "objetiva de múltipla escolha, 5 alternativas (Exame AMP, prova geral; +15 min para o cartão)",
+    "etapas": [
+     {
+      "etapa": "Exame AMP, prova geral (01/11/2026)",
+      "peso": "90%",
+      "carater": "eliminatória e classificatória (mínimo 50%)"
+     },
+     {
+      "etapa": "Avaliação curricular (todos os aprovados na 1ª fase)",
+      "peso": "10%",
+      "carater": "classificatória"
+     }
+    ],
+    "bonificacao": "Residência em MFC concluída: +10% (itens 5.11 a 5.14; Lei 15.233/2025 e Portaria MEC 446/2026)",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+    "selo": "oficial"
+   },
+   "provas_anteriores": [
+    {
+     "ano": 2026,
+     "descricao": "Exame AMP 2026, prova geral (aplicada em 01/11/2026, ciclo 2027) e gabarito oficial pós-recursos",
+     "link_prova": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/prova-geral_1793579147.pdf",
+     "link_gabarito": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/gabarito-oficial-2026_1793890235.pdf",
+     "selo": "oficial"
+    }
+   ],
+   "documentos": {
+    "inscricao": [
+     "Formulário de inscrição no site da AMP",
+     "Taxa de R$ 695 (item 3.8), além das regras do edital AMP",
+     "Cotas: autodeclarações dos anexos IV a VII, quando for o caso"
+    ],
+    "analise_curricular": [
+     "Envio on-line em 27 e 28/11/2026, arquivo único, pelo formulário do edital",
+     "1º Anexo II preenchido com nota e assinado; 2º currículo ou Lattes com foto",
+     "Comprovantes na ordem do Anexo III, sob pena de nota zero",
+     "Itens: ligas, inglês, extensão, IC, monitorias, artigos, eventos, estágios, cursos",
+     "Certificado de residência em MFC, se houver"
+    ],
+    "matricula": [
+     "Matrícula on-line em 10 e 11/02/2027, assinaturas via Gov.br",
+     "Identidade com foto, CPF regular, CRM-PR ou protocolo e quitação do CRM-PR",
+     "Diploma ou declaração de conclusão de Medicina",
+     "Quitação eleitoral, reservista, PIS/NIT, comprovante de endereço",
+     "Foto 3x4 digital e vacinação conforme calendário SBIm",
+     "Seguro contra acidentes pessoais para todo o programa"
+    ],
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+    "selo": "oficial"
+   },
+   "obs": "Edital COREME HSCC 10/2026 escaneado, lido por OCR. Dermatologia: 3 vagas (parecer 434/2020). Nota final = 1ª fase x 0,9 + 2ª fase x 0,1."
+  }
+ },
+ "lacunas": [
+  "Santa Casa de Vitória 2027: provas e gabaritos anteriores não publicados no site da EMESCAM (só editais 2027).",
+  "Santa Casa BH 2027: provas anteriores não localizadas em fonte oficial; página do IBGP carrega documentos por script.",
+  "PSU-MG 2027: edital não fixa número exato de questões por área ('até'); cadernos de prova anteriores não publicados pela AREMG, só gabaritos.",
+  "HU/UEL 2027: prova e gabarito na COPS/UEL exigem login do candidato (CPF e senha); provas de anos anteriores não localizadas em acesso público.",
+  "HUEM Mackenzie 2027: só a prova de 2026 (FGV) está publicada; HUEM 2024 e 2025 não localizados na FGV.",
+  "HNMD (Marinha) 2027: sites do SSPM/Marinha bloqueiam acesso automatizado; provas e gabaritos anteriores oficiais não obtidos; nº de alternativas não consta no edital.",
+  "Instituto IMS 2027: provas anteriores não localizadas (banca ACCESS só publica o ciclo 2027).",
+  "UERJ 2027: lista completa de documentos de matrícula depende do Edital Complementar (não publicado até a consulta); UERJ 2024 sem prova/gabarito no Cepuerj.",
+  "AMP 2026 · HNSG e AMP 2026 · UNIOESTE: editais escaneados, lidos por OCR; alguns trechos ilegíveis.",
+  "AMP 2026 (4 grupos): edital AMP diz só 'número igual' por área; 20 por área vem do edital UNIOESTE. Provas AMP 2024 e 2025 não estão mais no site da UCAMP.",
+  "AMRIGS/ACM 2026: matrícula e regras da 2ª etapa estão nos editais de cada instituição, não lidos; bônus da UNIVALI sem marcação no Anexo VI.",
+  "HCPA 2027 e UFCSPA/Santa Casa POA 2027: cadernos de 2026 não listados na FUNDMED (só gabarito definitivo); UFCSPA 2024 sem caderno principal.",
+  "AMP 2026 · Santa Casa Curitiba: edital escaneado (OCR com trechos ilegíveis); não fica claro se a taxa de R$ 695 inclui a taxa AMP de R$ 625."
+ ]
+}

@@ -1,0 +1,189 @@
+[
+ {
+  "grupo": "Santa Casa de Vitória 2027",
+  "banca": "COREME HSCMV / EMESCAM",
+  "processo": "Processo de Seleção Pública - Programas de Residência Médica do HSCMV com Acesso Direto (Edital nº 01/2027)",
+  "uf": "ES",
+  "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/10/EDITAL-01-2027-ACESSO-DIRETO.pdf",
+  "link_processo": "https://emescam.br/candidato/residencia-medica/residencia-medica-editais/",
+  "etapas_descricao": "1ª etapa: prova teórica de 100 questões (20 de cada: Cirurgia Geral, Clínica Médica, Medicina Social, Pediatria, GO), 0,5 ponto cada = 50 pontos, eliminatória e classificatória. 2ª etapa (4 por vaga): prova prática de 40 pontos + análise de currículo (ficha do Anexo I) de 10 pontos. Total de 100 pontos. Bonificação de 10% para PRMFC (Comunicado Oficial nº 01/2026).",
+  "ids": [
+   "hscmv-emescam-es"
+  ]
+ },
+ {
+  "grupo": "Santa Casa BH 2027",
+  "banca": "IBGP (Instituto Brasileiro de Gestão e Pesquisa)",
+  "processo": "Processo Seletivo da Residência Médica 2026 - Entrada em 2027 (Edital nº 005/2026, consolidado até a Retificação nº 01)",
+  "uf": "MG",
+  "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+  "link_processo": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777",
+  "etapas_descricao": "Fase única: prova objetiva eliminatória e classificatória (acesso direto com 75 questões em até 4 h e 90 pontos, segundo o Estratégia MED; mínimo de 50%), mais bonificação PRMFC. Sem análise curricular nem prova prática.",
+  "ids": [
+   "scmbh-mg"
+  ]
+ },
+ {
+  "grupo": "PSU-MG 2027",
+  "banca": "AREMG (Associação de Apoio à Residência Médica de Minas Gerais)",
+  "processo": "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)",
+  "uf": "MG",
+  "link_edital": null,
+  "link_processo": "https://www.aremg.org.br/processos-atuais",
+  "etapas_descricao": "Duas etapas: prova escrita em 22/11/2026 e avaliação curricular padronizada (enviada na inscrição) para até 20 candidatos por vaga com nota mínima de 50% na prova; seleção final de até 15 por vaga. Pesos de 90 pontos (prova) + 10 (currículo) informados pela Medway, sem conferência no edital da instituição. Bônus PRMFC.",
+  "ids": [
+   "psumg-hmtj-jf",
+   "psumg-hsvp-jf"
+  ]
+ },
+ {
+  "grupo": "AMP 2026 · UNIOESTE",
+  "banca": "AMP/UCAMP (prova objetiva); COREME UNIOESTE (análise de currículo)",
+  "processo": "Exame AMP 2026 / Seleção Residência Médica UNIOESTE Cascavel 2027 (Edital 030/2026-CPS/COREME)",
+  "uf": "PR",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/universidade-estadual-do-oeste-do-parana-unioeste-cascavel_1787076101.pdf",
+  "link_processo": "https://ucamp.org.br/web/residencia-medica",
+  "etapas_descricao": "Prova objetiva (100 questões, até 90 pontos) + análise de currículo (até 10 pontos); 3ª etapa: heteroidentificação/perícia médica para cotistas",
+  "ids": [
+   "huop-unioeste-cascavel-amp"
+  ]
+ },
+ {
+  "grupo": "AMP 2026 · HNSG",
+  "banca": "AMP/UCAMP (1ª fase); Hospital Nossa Senhora das Graças (2ª fase)",
+  "processo": "Exame AMP 2026 / Residência Médica 2027 (Edital HNSG)",
+  "uf": "PR",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-nossa-senhora-das-gracas_1787060306.pdf",
+  "link_processo": "https://ucamp.org.br/web/residencia-medica",
+  "etapas_descricao": "1ª fase: Exame AMP (peso 90%); 2ª fase: entrevista e análise de currículo (peso 10%)",
+  "ids": [
+   "hnsg-curitiba-amp"
+  ]
+ },
+ {
+  "grupo": "AMP 2026 · Santa Casa Curitiba",
+  "banca": "AMP/UCAMP (1ª fase); COREME Hospital Santa Casa de Curitiba (avaliação curricular)",
+  "processo": "Exame AMP 2026 / Concurso de Seleção para Residência Médica 2027 (COREME HSCC Edital 10/2026)",
+  "uf": "PR",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-santa-casa-de-curitiba_1787060417.pdf",
+  "link_processo": "https://ucamp.org.br/web/residencia-medica",
+  "etapas_descricao": "1ª fase: Exame AMP (prova objetiva, 90%); 2ª fase: avaliação curricular (10%)",
+  "ids": [
+   "santacasa-curitiba-amp"
+  ]
+ },
+ {
+  "grupo": "HUEM Mackenzie 2027",
+  "banca": "FGV",
+  "processo": "Processo Seletivo de Residência Médica 2027 HUEM (Edital COREME HUEM 03/2026)",
+  "uf": "PR",
+  "link_edital": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-n-032026-processo-seletivo-de-residencia-medica-2026-2027retificado1.pdf",
+  "link_processo": "https://conhecimento.fgv.br/reshuem26",
+  "etapas_descricao": "Fase única: prova geral objetiva (100 questões; aprovação com no mínimo 50 acertos), nota final = 100% da prova",
+  "ids": [
+   "huem-mackenzie-curitiba"
+  ]
+ },
+ {
+  "grupo": "HU/UEL 2027",
+  "banca": "COPS/UEL (1ª fase); COREME HU/UEL (análise de currículo)",
+  "processo": "Seleção Pública Residência Médica HU/UEL 2027 (Edital COREME RM012/2026)",
+  "uf": "PR",
+  "link_edital": "https://sites.uel.br/proppg/wp-content/uploads/2026/07/Edital-COREME-No-RM12_2026_RESIDENCIA-MEDICA.pdf",
+  "link_processo": "https://sites.uel.br/proppg/residencias/",
+  "etapas_descricao": "1ª fase: prova objetiva (100 questões, peso 9); 2ª fase: análise de curriculum vitae (peso 1), para 9 candidatos em Dermatologia",
+  "ids": [
+   "hu-uel-londrina"
+  ]
+ },
+ {
+  "grupo": "AMP 2026 · HDS-PR",
+  "banca": "AMP/UCAMP (1ª fase); COREME-HDSPR (análise curricular)",
+  "processo": "Exame AMP 2026 / Concurso de Residência Médica 2027 (COREME-HDSPR Edital 01/2026)",
+  "uf": "PR",
+  "link_edital": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/hospital-de-dermatologia-sanitaria-do-parana_1787059676.pdf",
+  "link_processo": "https://ucamp.org.br/web/residencia-medica",
+  "etapas_descricao": "1ª fase: Exame AMP (prova objetiva, 90% da nota final); 2ª fase: análise de currículo (10%), para 5x o número de vagas",
+  "ids": [
+   "hdspr-piraquara-amp"
+  ]
+ },
+ {
+  "grupo": "HNMD (Marinha) 2027",
+  "banca": "Serviço de Seleção do Pessoal da Marinha (SSPM)",
+  "processo": "Processo Seletivo de Admissão aos Programas de Residência Médica do HNMD com início em 2027 (Edital de 28/07/2026, DOU)",
+  "uf": "RJ",
+  "link_edital": "https://www.in.gov.br/web/dou/-/edital-de-28-de-julho-de-2026-722090596",
+  "link_processo": "https://www.marinha.mil.br/sspm/",
+  "etapas_descricao": "Prova objetiva (PO) em 08/11/2026 no Rio de Janeiro; gabarito em 10/11/2026. Procedimentos complementares (PCAd) apenas para candidatos às vagas reservadas. Resultado final do PS em 29/01/2027; início do curso em 01/03/2027.",
+  "ids": [
+   "hnmd-rj"
+  ]
+ },
+ {
+  "grupo": "Instituto IMS 2027",
+  "banca": "Instituto ACCESS",
+  "processo": "Processo Seletivo para Residência Médica - Ingresso em 2027 (Edital nº 01/2026)",
+  "uf": "RJ",
+  "link_edital": "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/b9df3440-c13f-405e-97b5-eb9cdcfe790b.pdf",
+  "link_processo": "https://concursos.access.org.br/informacoes/181/",
+  "etapas_descricao": "Prova objetiva (eliminatória e classificatória): 100 questões, 20 de cada área (Clínica Médica, Cirurgia Geral, GO, Pediatria, Medicina Preventiva e Social), 0,9 ponto cada, máximo 90 pontos, aprovação com 50%; 4 horas, turno da tarde. Avaliação curricular classificatória até 10 pontos (documentos enviados no período de inscrição). Nota final = soma. Bonificação de 10% para PRMFC.",
+  "ids": [
+   "ims-rj"
+  ]
+ },
+ {
+  "grupo": "UERJ 2027",
+  "banca": "Cepuerj (Centro de Produção da UERJ)",
+  "processo": "Processo Seletivo Residência Médica UERJ 2027 - Acesso Direto (Edital nº 15/2026 - Cepuerj)",
+  "uf": "RJ",
+  "link_edital": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+  "link_processo": "https://www.cepuerj.uerj.br/concursos2.php?concurso=S04597&ano=2027",
+  "etapas_descricao": "Etapa única: prova objetiva de 100 questões (20 de cada: Clínica Médica, Cirurgia Geral, Ginecologia/Obstetrícia, Pediatria, Medicina de Família e Comunidade), 4 alternativas, 1 ponto cada; aprovação com mínimo de 50 pontos sem zerar nenhum conteúdo. Bonificação de 10% para PRMFC concluído. Matrícula 16 a 18/02/2027; início 01/03/2027.",
+  "ids": [
+   "uerj-hupe-rj"
+  ]
+ },
+ {
+  "grupo": "AMRIGS/ACM 2026",
+  "banca": "AMRIGS/Fundatec",
+  "processo": "Prova AMB/AMRIGS/ACM/AMMS 01/2026",
+  "uf": "RS,SC",
+  "link_edital": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+  "link_processo": "https://www.amrigs.org.br/prova/",
+  "etapas_descricao": "Primeira etapa 100% (prova teórico-objetiva), sem 2ª etapa",
+  "ids": [
+   "hsvp-passofundo-uffs-amrigs",
+   "ghc-conceicao-amrigs",
+   "hsl-pucrs-amrigs",
+   "husm-ufsm-amrigs",
+   "hu-ufsc-florianopolis-amrigs",
+   "univali-itajai-amrigs",
+   "hst-saopedrodealcantara-amrigs"
+  ]
+ },
+ {
+  "grupo": "HCPA 2027",
+  "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+  "processo": "Processo Seletivo para Residência Médica 2027 HCPA (Edital nº 01)",
+  "uf": "RS",
+  "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/HCPA-MEDICA-Edital-de-Abertura-das-Inscricoes-3.pdf",
+  "link_processo": "https://fundmed.org.br/residencias/",
+  "etapas_descricao": "Prova objetiva (100 questões, pontuação máxima 90) + análise curricular (limitada a 3x o número de vagas: 18 convocados em Dermatologia)",
+  "ids": [
+   "hcpa-portoalegre"
+  ]
+ },
+ {
+  "grupo": "UFCSPA/Santa Casa POA 2027",
+  "banca": "FUNDMED (execução) / Objetiva Concursos (plataforma de prova)",
+  "processo": "Processo Seletivo para Residência Médica 2027 UFCSPA/Santa Casa (Edital nº 01)",
+  "uf": "RS",
+  "link_edital": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
+  "link_processo": "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/",
+  "etapas_descricao": "Prova objetiva (100 questões, pontuação máxima 90) + análise curricular (limitada a 2x o número de vagas em Dermatologia)",
+  "ids": [
+   "ufcspa-santacasa-poa"
+  ]
+ }
+]

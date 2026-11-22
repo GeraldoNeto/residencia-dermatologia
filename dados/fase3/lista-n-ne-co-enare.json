@@ -1,0 +1,128 @@
+[
+ {
+  "grupo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "processo": "ENARE 2026/2027",
+  "uf": "AL,AM,BA,CE,DF,ES,MA,MG,MS,MT,PA,PB,PE,PI,PR,RJ,RN,SE,SP",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "link_processo": "https://enare2026.conhecimento.fgv.br/",
+  "etapas_descricao": "Etapa única: nota final do Enamed 2026 (Inep, TRI; prova em 13/09/2026) ou de edição anterior válida, exigido nível \"Proficiente\" (eliminatório); nota convertida para a escala 0-1000; bonificação de 10% só para concluintes de Residência em Medicina de Família e Comunidade (Portaria MEC 446/2026). Sem análise curricular nem prova prática. A inscrição é por especialidade; a escolha da instituição ocorre depois da nota, em 3 oportunidades (18-19/01, 25-26/01 e 01-02/02/2027). Exige inscrição prévia no Enamed 2026 (Edital Inep nº 71/2026).",
+  "ids": [
+   "enare-ufal",
+   "enare-uncisal",
+   "enare-ufam",
+   "... (38 programas, mesma prova)"
+  ]
+ },
+ {
+  "grupo": "PSURM Amazonas 2027",
+  "banca": "AREMAM / CEREM-AM (execução própria)",
+  "processo": "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)",
+  "uf": "AM",
+  "link_edital": "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
+  "link_processo": "https://cermam.com.br/acompanhamento-editais/",
+  "etapas_descricao": "1ª etapa: prova objetiva de 100 questões (20 por área: Clínica Médica, Cirurgia Geral, Pediatria, GO, Medicina Preventiva e Social), 4 alternativas, 4 h, peso 90%, eliminatória (mínimo de 50% de acertos). 2ª etapa: análise de currículo/prova de títulos, peso 10%. Vagas (Retificação 001/2027): 2 regulares = 1 ampla concorrência + 1 PNP; parecer CNRM 420/25.",
+  "ids": [
+   "fmt-hvd-am-psurm",
+   "fuham-am-psurm"
+  ]
+ },
+ {
+  "grupo": "PSU-BA 2027",
+  "banca": "Strix Educação, Avaliação e Projetos (para a ABAEM)",
+  "processo": "PSU Residência Médica/Bahia 2027 (SUS-BA, ABAEM)",
+  "uf": "BA",
+  "link_edital": "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
+  "link_processo": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+  "etapas_descricao": "Fase única: prova geral, eliminatória e classificatória, com 25 situações-problema e 75 questões: 45 de múltipla escolha (15 situações-problema) e 30 de resposta curta (10 situações-problema). São 15 questões por área: Clínica Médica; Cirurgia Geral; GO; Pediatria; Medicina Preventiva e Social/MFC/Saúde Coletiva. É eliminado quem não atingir 50% da nota máxima possível. Há pontuação adicional para quem fez PRMFC, conforme o edital.",
+  "ids": [
+   "santa-izabel-psu-ba"
+  ]
+ },
+ {
+  "grupo": "SES-DF 2027",
+  "banca": "IADES",
+  "processo": "Processo Seletivo RM-1/SES/DF/2027 (Edital Normativo nº 1, de 15/09/2026)",
+  "uf": "DF",
+  "link_edital": "https://www.iades.com.br/inscricao/upload/1375/20260918151934900.pdf",
+  "link_processo": "https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=9f948e958f",
+  "etapas_descricao": "1ª fase: prova objetiva de 100 questões (1 ponto cada, 4 alternativas, 4 h). 2ª fase: escolha do cenário de ensino (COREME) no SisRESID, sem pontuação. Bônus de 10% para quem concluiu PRM em Medicina de Família e Comunidade. Vagas de Dermatologia (Anexo I, código 405, 3 anos): 2 ampla concorrência + 1 PcD + 1 negros = 4.",
+  "ids": [
+   "ses-df-rm1-2027"
+  ]
+ },
+ {
+  "grupo": "PSU-GO 2027 (HC-UFG)",
+  "banca": "AGRM (Associação Goiana de Residência Médica) com apoio operacional da AREMG",
+  "processo": "PSU-GO 2027 (Processo Seletivo Unificado de Residência Médica de Goiás; edital próprio do HC-UFG, retificado)",
+  "uf": "GO",
+  "link_edital": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+  "link_processo": "https://www.aremg.org.br/processos-atuais",
+  "etapas_descricao": "1ª etapa: prova geral de conhecimentos médicos com até 100 questões (até 20 por área: Cirurgia Geral, Clínica Médica, GO, Medicina Preventiva e Social, Pediatria), valendo 90 pontos; classificam-se até 20 candidatos por vaga, com nota mínima de 45. 2ª etapa: análise curricular padronizada, valendo 10 pontos, com o currículo enviado na inscrição. Bônus de 10% para PRMFC (Portaria 446/2026). Dermatologia: 4 vagas, todas de ampla concorrência (programa reconhecido, parecer 428/2025).",
+  "ids": [
+   "hc-ufg-psu-go-2027"
+  ]
+ },
+ {
+  "grupo": "SES-GO 2027",
+  "banca": "Instituto Verbena/UFG",
+  "processo": "Processo Seletivo Unificado COREME/SES-GO 2027 (Edital de Abertura nº 24/2026 SESG/SES-GO)",
+  "uf": "GO",
+  "link_edital": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+  "link_processo": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/",
+  "etapas_descricao": "1ª fase: prova objetiva de 100 questões (acesso direto), 4 alternativas, 100 pontos, eliminatória abaixo de 50 pontos. 2ª fase: análise do currículo, classificatória. Pontuação final PF = (PO × 0,9) + (AC × 0,1). Bônus de 10% para PRMFC. Vagas de Dermatologia no HDT (Anexo II): 1 ampla concorrência + 1 negros = 2.",
+  "ids": [
+   "hdt-ses-go-2027"
+  ]
+ },
+ {
+  "grupo": "CESUPA 2027",
+  "banca": "COREME/CESUPA (própria)",
+  "processo": "Processo Seletivo de Residência Médica do CESUPA 2027 (Edital 42/2026, retificado pelo Edital 45/2026)",
+  "uf": "PA",
+  "link_edital": "https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/Docs/EDITAL_42-_RESIDENCIA_MEDICA_20260706_081453.pdf",
+  "link_processo": "https://www.cesupa.br/pos-graduacao/residencia/clinica-medica",
+  "etapas_descricao": "1ª etapa: nota do ENAMED 2026 (escala de proficiência TRI), eliminatória com mínimo de 50%, peso 6. 2ª etapa: análise de currículo (Anexo II), peso 1. 3ª etapa: prova de habilidades com 10 estações clínicas simuladas nas 5 áreas básicas, peso 3.",
+  "ids": [
+   "cesupa-pa"
+  ]
+ },
+ {
+  "grupo": "PSU-PA 2027",
+  "banca": "UEPA (PROGRAD/DAA e CCBS)",
+  "processo": "PSU/2027: Processo Seletivo Unificado para os Programas de Residência Médica do Estado do Pará (Edital 148/2026 - UEPA)",
+  "uf": "PA",
+  "link_edital": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+  "link_processo": "https://prosel.uepa.br/rm2027/",
+  "etapas_descricao": "Etapa única, eliminatória e classificatória: prova objetiva (grupo A, acesso direto) com 100 questões de 1 ponto nas 5 áreas básicas (Clínica Médica, Cirurgia Geral, GO, Pediatria, Saúde Coletiva), às 14h; mínimo de 50 pontos. Bonificação de 10% para egressos de PRM em MFC (Portaria MEC 446/2026).",
+  "ids": [
+   "uepa-pa-psu"
+  ]
+ },
+ {
+  "grupo": "FAMENE 2027",
+  "banca": "COREME/FAMENE (própria instituição)",
+  "processo": "Processo Seletivo de Residência Médica 2027 COREME/FAMENE (Edital nº 89/2026/FAMENE)",
+  "uf": "PB",
+  "link_edital": "https://www.facene.com.br/wp-content/uploads/2026/09/Edital-Residencia-Medica-2027.pdf",
+  "link_processo": "https://www.facene.com.br/processo-seletivo/residencia-medica/",
+  "etapas_descricao": "Etapa única: prova escrita objetiva de 100 questões (20 Clínica Médica, 20 Cirurgia Geral, 20 GO, 20 Pediatria, 20 Medicina Preventiva e Social), 100% da nota, 4 h, em João Pessoa; bonificação de 10% para egressos de PRMFC (Portaria MEC nº 446/2026); desempate pela idade (mais velho). Taxa de expediente de R$ 650 na efetivação do vínculo.",
+  "ids": [
+   "famene-jp-pb"
+  ]
+ },
+ {
+  "grupo": "SUS-PE 2027",
+  "banca": "IAUPE / UPENET",
+  "processo": "SUS-PE 2027 (Residência Médica)",
+  "uf": "PE",
+  "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+  "link_processo": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+  "etapas_descricao": "1ª fase: prova escrita objetiva, peso 90%, eliminatória e classificatória. No acesso direto são 100 questões de 5 alternativas (Clínica Médica, Cirurgia Geral, GO, Pediatria e Medicina Preventiva e Social), em até 4 h, com escala de 0 a 100; é eliminado quem tiver menos de 50% de acertos. 2ª fase: análise curricular, peso 10%, classificatória. O candidato indica a ordem de preferência entre as instituições da especialidade, e a lotação segue a classificação geral. Início da residência em 2027-03-01.",
+  "ids": [
+   "upe-huoc-sus-pe",
+   "hof-sus-pe",
+   "imip-sus-pe"
+  ]
+ }
+]

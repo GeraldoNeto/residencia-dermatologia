@@ -1,0 +1,290 @@
+[
+ {
+  "id": "associacao-hospitalar-filhas-de-nossa-se",
+  "sigla": null,
+  "instituicao": "Associação Hospitalar Filhas de Nossa Senhora do Monte Calvário - Hospital Santa Virgínia",
+  "hospital": "Associação Hospitalar Filhas de Nossa Senhora do Monte Calvário - Hospital Santa Virgínia",
+  "cidade": "—",
+  "uf": "SP",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "unifai-sp",
+  "sigla": "UNIFAI",
+  "instituicao": "Centro Universitário de Adamantina - UNIFAI",
+  "hospital": "Centro Universitário de Adamantina - UNIFAI",
+  "cidade": "Adamantina",
+  "uf": "SP",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-santa-casa-barretos",
+  "sigla": "SUS-SP",
+  "instituicao": "Santa Casa de Misericórdia de Barretos",
+  "hospital": "Santa Casa de Misericórdia de Barretos",
+  "cidade": "Barretos",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-ilsl-bauru",
+  "sigla": "SUS-SP",
+  "instituicao": "Instituto Lauro de Souza Lima",
+  "hospital": "Instituto Lauro de Souza Lima",
+  "cidade": "Bauru",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "unesp-botucatu",
+  "sigla": "FMB-UNESP",
+  "instituicao": "Faculdade de Medicina de Botucatu – UNESP",
+  "hospital": "Hospital das Clínicas da Faculdade de Medicina de Botucatu",
+  "cidade": "Botucatu",
+  "uf": "SP",
+  "processo": "Residência Médica Básica e Especializada de Acesso Direto 2027 (Edital nº 072/2026-FM/DTA)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "puc-campinas",
+  "sigla": "PUC-Campinas",
+  "instituicao": "Hospital PUC-Campinas \"Celso Pierro\" / Pontifícia Universidade Católica de Campinas",
+  "hospital": "Hospital PUC-Campinas Celso Pierro",
+  "cidade": "Campinas",
+  "uf": "SP",
+  "processo": "Processo Seletivo Residência Médica 2027 – Hospital PUC-Campinas",
+  "banca": "COREME Hospital PUC-Campinas (inscrição pela plataforma Tekyou)",
+  "link_edital": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "unicamp-campinas",
+  "sigla": "UNICAMP",
+  "instituicao": "Universidade Estadual de Campinas – Faculdade de Ciências Médicas",
+  "hospital": "Hospital de Clínicas da Unicamp",
+  "cidade": "Campinas",
+  "uf": "SP",
+  "processo": "Processo Seletivo 2027 – Programas de Residência Médica de Acesso Direto (FCM-Unicamp)",
+  "banca": "COREME FCM-Unicamp com apoio da COMVEST",
+  "link_edital": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+  "historico_ja_tem": [
+   "2027 cv",
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "sussp-padre-bento-guarulhos",
+  "sigla": "SUS-SP",
+  "instituicao": "Complexo Hospitalar Padre Bento de Guarulhos",
+  "hospital": "Complexo Hospitalar Padre Bento de Guarulhos",
+  "cidade": "Guarulhos",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-fmj-jundiai",
+  "sigla": "SUS-SP",
+  "instituicao": "Faculdade de Medicina de Jundiaí",
+  "hospital": "Faculdade de Medicina de Jundiaí (hospital não especificado no quadro de vagas)",
+  "cidade": "Jundiaí",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "famema-marilia",
+  "sigla": "FAMEMA",
+  "instituicao": "Faculdade de Medicina de Marília",
+  "hospital": "Hospital das Clínicas de Marília",
+  "cidade": "Marília",
+  "uf": "SP",
+  "processo": "Residência Médica FAMEMA 2027 (Edital FAMEMA 45/2026)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4ODE2OQ%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hospital-regional-de-presidente-prudente",
+  "sigla": null,
+  "instituicao": "Hospital Regional de Presidente Prudente",
+  "hospital": "Hospital Regional de Presidente Prudente",
+  "cidade": "Presidente Prudente",
+  "uf": "SP",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "hcfmrp-usp-ribeirao",
+  "sigla": "HCFMRP-USP",
+  "instituicao": "Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da USP",
+  "hospital": "Hospital das Clínicas da FMRP-USP",
+  "cidade": "Ribeirão Preto",
+  "uf": "SP",
+  "processo": "Seleção de Médicos Residentes de 1º ano 2027 – Acesso Direto (HCFMRP-USP)",
+  "banca": "COREME HCFMRP-USP (processo próprio)",
+  "link_edital": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "famerp-rio-preto",
+  "sigla": "FAMERP",
+  "instituicao": "Faculdade de Medicina de São José do Rio Preto",
+  "hospital": "Hospital de Base de São José do Rio Preto (complexo FAMERP/FUNFARME)",
+  "cidade": "São José do Rio Preto",
+  "uf": "SP",
+  "processo": "Residência Médica FAMERP 2027 – Acesso Direto (Edital G.D.G. nº 032/2026)",
+  "banca": "Comissão Organizadora FAMERP (processo próprio)",
+  "link_edital": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hcfmusp-sp",
+  "sigla": "HC-FMUSP",
+  "instituicao": "Faculdade de Medicina da Universidade de São Paulo / Hospital das Clínicas da FMUSP",
+  "hospital": "Hospital das Clínicas da FMUSP",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Processo Seletivo Residência Médica FMUSP 2027 (Edital COREME/FM nº 02/2026)",
+  "banca": "FUVEST",
+  "link_edital": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+  "historico_ja_tem": [
+   "2027 cv",
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "hfasp-sp",
+  "sigla": "HFASP",
+  "instituicao": "Hospital de Força Aérea de São Paulo (seleção unificada FAUSCS/USCS)",
+  "hospital": "Hospital de Força Aérea de São Paulo",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica 2027 – FAUSCS (USCS, HFASP e Município de Barueri)",
+  "banca": "FAUSCS – Fundação de Apoio à Universidade Municipal de São Caetano do Sul",
+  "link_edital": "https://fauscs.selecao.net.br/informacoes/30/",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sirio-libanes-sp",
+  "sigla": "HSL",
+  "instituicao": "Hospital Sírio-Libanês",
+  "hospital": "Hospital Sírio-Libanês",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Residência Médica Sírio-Libanês – Processo Seletivo 2027",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "iamspe-hspe-sp",
+  "sigla": "IAMSPE",
+  "instituicao": "Instituto de Assistência Médica ao Servidor Público Estadual",
+  "hospital": "Hospital do Servidor Público Estadual (HSPE)",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Processo Seletivo Residência Médica 2027 – IAMSPE (Edital CEDEP nº 02/2026)",
+  "banca": "Instituto Avança São Paulo",
+  "link_edital": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "scmsp-sp",
+  "sigla": "ISCMSP",
+  "instituicao": "Irmandade da Santa Casa de Misericórdia de São Paulo",
+  "hospital": "Santa Casa de São Paulo",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Processo Seletivo para Médicos Residentes 2027 – ISCMSP",
+  "banca": "Fundação Carlos Chagas (FCC)",
+  "link_edital": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-heliopolis-sp",
+  "sigla": "SUS-SP",
+  "instituicao": "Hospital Heliópolis (UGA-I)",
+  "hospital": "Hospital Heliópolis",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-ipiranga-sp",
+  "sigla": "SUS-SP",
+  "instituicao": "Hospital Ipiranga",
+  "hospital": "Hospital Ipiranga",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "sussp-unisa-sp",
+  "sigla": "SUS-SP",
+  "instituicao": "Universidade Santo Amaro – UNISA",
+  "hospital": "Serviço da UNISA (hospital não especificado no edital)",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+  "banca": "Fundação Vunesp",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "unifesp-epm-sp",
+  "sigla": "UNIFESP/EPM",
+  "instituicao": "Universidade Federal de São Paulo – Escola Paulista de Medicina",
+  "hospital": "Hospital São Paulo (EPM-UNIFESP)",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "Processo Seletivo Público para Residência Médica da EPM 2026/2027 (Edital nº 690/2026)",
+  "banca": "Fundação Vunesp (1ª fase)",
+  "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4NzcyOA%3d%3d",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "pucsp-sorocaba",
+  "sigla": "PUC-SP",
+  "instituicao": "Pontifícia Universidade Católica de São Paulo – Faculdade de Ciências Médicas e da Saúde (Campus Sorocaba)",
+  "hospital": "Hospital Santa Lucinda / Conjunto Hospitalar de Sorocaba",
+  "cidade": "Sorocaba",
+  "uf": "SP",
+  "processo": "Processo Seletivo Residência Médica Área Básica e Acesso Direto PUC-SP 2027 (Edital nº 01/2026)",
+  "banca": "NUCVEST",
+  "link_edital": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Edital-RM-2027-ABAD.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ }
+]

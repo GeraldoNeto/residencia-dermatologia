@@ -1,0 +1,1071 @@
+{
+ "frente": "n-ne-co-enare",
+ "coletado_em": "2026-11-21",
+ "historico": {
+  "fmt-hvd-am-psurm": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 8.49,
+    "nota_corte_escala": "0-10 (nota final = prova 90% + currículo 10%, com bonificação de 10% quando houver)",
+    "nota_corte_etapa": "Lista para matrícula do acesso direto (CERMAM/AREMAM, jan/2026): nota do 2º matriculado na FMT-HVD",
+    "fonte": "https://cermam.com.br/wp-content/uploads/2026/01/LISTA-PARA-MATRICULA-ACESSO-DIRETO-3.pdf",
+    "selo": "oficial",
+    "obs": "Lista única do PSURM; na FMT-HDV ficaram 8,536 (com bonificação) e 8,490. Resultado final do acesso direto: https://cermam.com.br/wp-content/uploads/2026/01/RESULTADO-FINAL-ACESSO-DIRETO-1.pdf. Concorrência só por especialidade (ver processo_geral)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://cermam.com.br/wp-content/uploads/2024/10/EDITAL-01-DA-CERMAM-2024-25-ACESSO-DIRETO-1.pdf",
+    "selo": "oficial",
+    "obs": "Vagas do quadro do Edital 01 CERMAM 2024/25: Fundação de Medicina Tropical Doutor Heitor Vieira Dourado, Dermatologia, 2 vagas. Resultado final de 2025 não localizado."
+   }
+  ],
+  "fuham-am-psurm": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 8.73,
+    "nota_corte_escala": "0-10 (nota final = prova 90% + currículo 10%, com bonificação de 10% quando houver)",
+    "nota_corte_etapa": "Lista para matrícula do acesso direto (CERMAM/AREMAM, jan/2026): nota do 2º matriculado na Fundação Alfredo da Matta",
+    "fonte": "https://cermam.com.br/wp-content/uploads/2026/01/LISTA-PARA-MATRICULA-ACESSO-DIRETO-3.pdf",
+    "selo": "oficial",
+    "obs": "A Dermatologia do PSURM tem lista única; o candidato escolhe a instituição pela ordem. Matriculados com sigla 'FUAM': 9,090 e 8,730 (FUAM tratado como Fundação Alfredo da Matta porque o Comunicado Oficial da Dermatologia manda a reclassificada para lá). Depois, o Comunicado Oficial da Dermatologia (fev/2026, https://cermam.com.br/wp-content/uploads/2026/02/COMUNICADO-OFICIAL-DA-DERMATOLOGIA.pdf) inseriu a nota de 2ª etapa de [nome omitido] (8,756), reclassificada em 3º lugar e com matrícula na Fundação Alfredo da Matta. Resultado final do acesso direto: https://cermam.com.br/wp-content/uploads/2026/01/RESULTADO-FINAL-ACESSO-DIRETO-1.pdf. Concorrência só por especialidade (ver processo_geral)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://cermam.com.br/wp-content/uploads/2024/10/EDITAL-01-DA-CERMAM-2024-25-ACESSO-DIRETO-1.pdf",
+    "selo": "oficial",
+    "obs": "Vagas do quadro do Edital 01 CERMAM 2024/25: Fundação Alfredo da Matta, Dermatologia, 2 vagas. Resultado final de jan-fev/2025 não localizado (nem no site nem no Wayback)."
+   }
+  ],
+  "santa-izabel-psu-ba": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": 59.5,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://strixeducacao.com.br/wp-content/uploads/2025/10/ABAEM_20261-ANEXO_II_20251013_1226.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: Anexo II retificado em 13/10/2025 (Hospital Santa Izabel, 2 vagas disponíveis, única instituição com Dermatologia no PSU-BA 2026). C/v 59,50 da Concorrência por Programa da ABAEM (https://strixeducacao.com.br/wp-content/uploads/2025/11/ABAEM_2026-CONCORRENCIA_AD_20251124_1310.pdf); como só o Santa Izabel oferta, o número do programa vale para a instituição. Nota de corte não gravada: o resultado final (https://strixeducacao.com.br/wp-content/uploads/2026/02/CEREMBA_2026-Resultado_Final_AC_AD_20260210_1923.pdf) é só a lista de classificação (1º 28,50; 2º 26,85 na AC; 1º 21,50 na lista PN), sem marcar quem ocupa vaga, e o Anexo II não traz a divisão AC/PN por programa. A escala da 'nota' também não está no documento."
+   }
+  ],
+  "ses-df-rm1-2027": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": 230,
+    "candidatos_por_vaga": 57.5,
+    "nota_corte": 110.0,
+    "nota_corte_escala": "pontuação final publicada pela FEPECS (passa de 100: prova objetiva somada a análise curricular e/ou bonificação; o Estratégia MED cita máximo de 110 pontos no processo 2025; não conferi a composição no edital 2026)",
+    "nota_corte_etapa": "Resultado final homologado (RM-1/SES-DF/2026, fev/2026), após escolha de cenário: pontuação do último classificado na ampla concorrência, HRAN",
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2026/02/resultado-final-sesdf-2026.pdf",
+    "selo": "secundaria",
+    "obs": "O PDF é o documento oficial da FEPECS, mas foi baixado da cópia hospedada no Estratégia MED (não localizei o original no IADES). Vagas: 2 ampla (110,55 e 110,00) + 1 PcD (100,50) + 1 negro (104,25), todas no HRAN. Inscritos 230 conferidos no documento oficial do IADES 'Quantidade de inscrições homologadas' (https://www.iades.com.br/inscricao/upload/1363/20251217182037386.pdf); c/v calculado = 230/4. O Medway cita '2 vagas, 230, 115', contando só as vagas de ampla."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 92.34,
+    "nota_corte_escala": "pontuação total (prova objetiva + análise curricular; máximo de 110 pontos segundo o Estratégia MED)",
+    "nota_corte_etapa": "Anexo I da retificação por determinação judicial da convocação em 1ª chamada (IADES, 07/02/2025): pontuação do 2º classificado na ampla concorrência, HRAN",
+    "fonte": "https://iades.com.br/inscricao/upload/1349/2025020717478366.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 ampla (97,22 sub judice e 92,34) + 1 PcD (79,40) + 1 PNP (86,13). No resultado final original (FEPECS, jan/2025, cópia no Estratégia MED: https://med.estrategia.com/portal/wp-content/uploads/2025/01/resultado-final-ses-df.pdf) as 2 vagas de ampla eram 92,34 e 92,03; uma inclusão judicial deslocou a candidata de 92,03. Houve 2ª chamada com ampla 92,03 e 90,65 (https://iades.com.br/inscricao/upload/1349/2025021320947801.pdf). Concorrência só em agregador: Medway cita 165 candidatos para 4 vagas, 41,25 c/v (https://www.medway.com.br/conteudos/concorrencia-residencia-medica-ses-df/), não conferido em fonte oficial."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 91.5,
+    "nota_corte_escala": "pontuação total do processo (prova objetiva + análise curricular; teto não conferido no edital 2024)",
+    "nota_corte_etapa": "Convocação para matrícula em 1ª chamada, retificada (FEPECS/IADES, resultado de 19/01/2024): pontuação do 4º classificado na ampla concorrência, HRAN",
+    "fonte": "https://www.iades.com.br/inscricao/upload/1335/20240126162114671.pdf",
+    "selo": "oficial",
+    "obs": "As 4 vagas foram ocupadas por ampla concorrência (92,70; 92,50; 92,40; 91,50); a retificação explica que vagas de PcD e pessoas pretas não ocupadas foram redirecionadas. Houve 2ª chamada com ampla 91,50 (https://www.iades.com.br/inscricao/upload/1335/2024020216616548.pdf). Inscritos 2024 não localizados."
+   }
+  ],
+  "hc-ufg-psu-go-2027": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 80.2,
+    "nota_corte_escala": "0-100 (nota final = prova 90% + análise curricular 10%, com bonificação quando houver)",
+    "nota_corte_etapa": "Convocação nº 01 do PSU-GO 2026 (AREMG/AGRM, 09/02/2026): nota final do 4º convocado",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/convoc1psugoias2026public-20260209213940.pdf",
+    "selo": "oficial",
+    "obs": "Convocados: 81,50; 81,35; 81,29; 80,20. A lista não separa cotas. Concorrência só em agregador: Estratégia MED cita 177 inscritos para 4 vagas, 44,25 c/v (https://med.estrategia.com/portal/noticias/psu-go-libera-relacao-candidato-vaga-para-selecao-de-residencia-medica-2026/), não conferido no PDF oficial da AREMG."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 76.6,
+    "nota_corte_escala": "0-100 (prova até 90 pontos + análise curricular até 10 + bonificação)",
+    "nota_corte_etapa": "Convocação nº 01 do PSU-GO 2025 (AREMG/AGRM, 30/01/2025): nota final do 4º convocado",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/Convoca1PSUGoias2025public-20250130190928.pdf",
+    "selo": "oficial",
+    "obs": "Convocados: 80,20; 77,83; 77,50; 76,60. Concorrência: a relação candidato/vaga da AREMG (PDF oficial baixado da cópia do Estratégia MED, https://med.estrategia.com/portal/wp-content/uploads/2024/11/RelatorioCandidatosporVaga-PSUGO2025-20241106165923.pdf) traz HC-UFG Dermatologia 157 inscrições, 4 vagas, 39,25 c/v; não está mais no galaxcms, por isso ficou só aqui na obs."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": 123,
+    "candidatos_por_vaga": 41.0,
+    "nota_corte": 79.25,
+    "nota_corte_escala": "0-100 (nota final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Convocação 1 do PSU Goiás 2024 (AREMG, 31/01/2024): nota final do 3º convocado",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/Convoca1PSUGoia2024public-20240131180917.pdf",
+    "selo": "oficial",
+    "obs": "Convocados: 82,00; 79,70; 79,25. Inscritos e c/v da Relação Candidato/Vaga de Ampla Concorrência PSU Goiás 2024 (AREMG): https://www.galaxcms.com.br/up_crud_comum/601/RelacaoCandidato-VagaAmplaConcorrenciaPSUGoias2024-20231124134427.pdf (HC-UFG Dermatologia 123 / 3 / 41)."
+   }
+  ],
+  "hdt-ses-go-2027": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 168,
+    "candidatos_por_vaga": 84.0,
+    "nota_corte": 82.28,
+    "nota_corte_escala": "0-100 (pontuação final = 90% da prova objetiva + 10% da análise de currículo)",
+    "nota_corte_etapa": "Resultado final do Processo Seletivo COREME/SES-GO 2026, Ampla Concorrência (06/02/2026): 1º da lista AC (única vaga de ampla)",
+    "fonte": "https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/arquivos/anexos/2026_02_06_COREME_SES_Resultado_final_PS_AC.pdf",
+    "selo": "oficial",
+    "obs": "Vagas do Anexo do edital consolidado EC4 (https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/arquivos/editais/EDITAL_CONSOLIDADO_COREME_EC4.pdf): Dermatologia 1 AC + 1 negro, total 2. 1º da lista de negros: 77,92 (https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/arquivos/anexos/2026_02_06_COREME_SES_Resultado_final_PS_Negros.pdf). Inscritos = contagem minha das inscrições homologadas em D001-Dermatologia-HDT na lista final de 19/11/2025 (https://sistemas.institutoverbena.ufg.br/2026/coreme-ses/sistema/arquivos/anexos/2025_11_19_COREME_SES_Resultado_Inscricoes_Homologadas_Final.pdf); c/v calculado = 168/2. Houve resultados reprocessados sub judice depois (fev e abr/2026), não conferidos para Dermatologia."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 88,
+    "candidatos_por_vaga": 44.0,
+    "nota_corte": 79.0,
+    "nota_corte_escala": "0-100 (pontuação final = 90% da prova objetiva + 10% da análise de currículo)",
+    "nota_corte_etapa": "Resultado final do Processo Seletivo COREME/SES-GO 2025, Ampla Concorrência (06/02/2025): 1º da lista AC (única vaga de ampla)",
+    "fonte": "https://sistemas.institutoverbena.ufg.br/2025/coreme-ses/sistema/arquivos/2025_02_06_COREME_SES_Resultado_final_PS_AC.pdf",
+    "selo": "oficial",
+    "obs": "Vagas do edital consolidado EC2 (https://sistemas.institutoverbena.ufg.br/2025/coreme-ses/sistema/arquivos/Edital_Consolidado_EC2.pdf): 1 AC + 1 negro. 1º da lista de negros: 60,30. Inscritos = contagem minha das inscrições homologadas em 'Dermatologia - HDT' (81 AC, 6 negro, 1 PcD) na lista final de 19/11/2024 (https://sistemas.institutoverbena.ufg.br/2025/coreme-ses/sistema/arquivos/anexos/2024_11_19_COREME_SES_Resultado_final_Inscricoes_homologadas.pdf); c/v calculado = 88/2. Existe resultado AC reprocessado sub judice de 25/02/2025, não conferido."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 142,
+    "candidatos_por_vaga": 71.0,
+    "nota_corte": 76.05,
+    "nota_corte_escala": "0-100 (nota final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Convocação 1 do PSU Goiás 2024 (AREMG, 31/01/2024): nota final do 2º convocado",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/Convoca1PSUGoia2024public-20240131180917.pdf",
+    "selo": "oficial",
+    "obs": "Em 2024 o HDT ofertou Dermatologia pelo PSU-GO (AREMG), não pelo processo da COREME/SES-GO. Convocados: 77,80 e 76,05. Inscritos e c/v da Relação Candidato/Vaga de Ampla Concorrência PSU Goiás 2024: https://www.galaxcms.com.br/up_crud_comum/601/RelacaoCandidato-VagaAmplaConcorrenciaPSUGoias2024-20231124134427.pdf (142 / 2 / 71)."
+   }
+  ],
+  "uepa-pa-psu": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 5,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 89.1,
+    "nota_corte_escala": "pontuação total = prova objetiva 0-100 + bonificação PRMGFC de 10% quando houver",
+    "nota_corte_etapa": "Relação de candidatos classificados, republicada (UEPA/PROGRAD, 27/02/2026): pontuação total do 5º classificado",
+    "fonte": "https://prosel.uepa.br/wp-content/uploads/prosel_unificado_residencia_medica_2026_relacao_de_classficados_republicado.pdf",
+    "selo": "oficial",
+    "obs": "O documento oficial diz 'Vagas Disponíveis: 5' para Região Metropolitana de Belém, Dermatologia; o registro anterior (Estratégia MED) falava em 3 vagas e 93 inscritos, 31 c/v. Os 5 primeiros têm bonificação PRMGFC (94,60; 92,40; 90,20; 90,20; 89,10). A lista não separa cotas."
+   }
+  ],
+  "famene-jp-pb": [
+   {
+    "ano_ingresso": 2027,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 1000,
+    "nota_corte_escala": "0-1000 (prova única = 100% da nota; asterisco = adicional da Portaria MEC nº 446/2026)",
+    "nota_corte_etapa": "Resultado final do Processo Seletivo 2027 (13/11/2026): nota do 2º colocado (os 3 primeiros empataram com 1000)",
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2026/11/resultado_final_famene2027_acesso_direto.pdf",
+    "selo": "secundaria",
+    "obs": "PDF do resultado oficial da FAMENE baixado da cópia do Estratégia MED (https://med.estrategia.com/portal/?p=117981). 2 vagas após a retificação (o edital previa 1). A lista de Dermatologia tem 90 candidatos (4 com nota 0); não é a lista oficial de inscritos. O desempate entre os 3 com 1000 não aparece no PDF."
+   }
+  ],
+  "upe-huoc-sus-pe": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 76.709,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 04/02/2026): argumento do aprovado na vaga de concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/2026/26_RED_MED/Resultado/ResidMedica%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-%20%28Publicar%29-2026-02-04_.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 1 concorrência geral (76,709) + 1 PcD (69,833) + 1 pretos e pardos (66,581). A concorrência do SUS-PE é publicada só por especialidade (ver processo_geral)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 80.44,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 03/02/2025): argumento do aprovado na vaga de concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/25_RED_MED/Resultado_Concurso/ResidMed%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-2025-02-03.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 1 concorrência geral (80,440) + 1 pretos e pardos (66,252) + 1 PcD (64,498). No resultado o programa aparece como 'UPE - Universidade de Pernambuco'."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 73.876,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados (IAUPE/UPENET, 26/01/2024, republicado): argumento do 2º aprovado em concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/24_Resid_Med/Resultado/ResM%C3%A9dica%20-%20Aprovados%20e%20Classific%20-%20%28Publicar%29-26-01-2024xx.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 concorrência geral (74,786 sub judice; 73,876) + 1 pretos e pardos (63,315)."
+   }
+  ],
+  "hof-sus-pe": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 75.646,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 04/02/2026): argumento do 2º aprovado em concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/2026/26_RED_MED/Resultado/ResidMedica%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-%20%28Publicar%29-2026-02-04_.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 concorrência geral (76,022 e 75,646)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 76.932,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 03/02/2025): argumento do 2º aprovado em concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/25_RED_MED/Resultado_Concurso/ResidMed%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-2025-02-03.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 concorrência geral (78,186 e 76,932)."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 68.737,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados (IAUPE/UPENET, 26/01/2024, republicado): argumento do 2º aprovado na lista de concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/24_Resid_Med/Resultado/ResM%C3%A9dica%20-%20Aprovados%20e%20Classific%20-%20%28Publicar%29-26-01-2024xx.pdf",
+    "selo": "oficial",
+    "obs": "As 2 vagas ficaram na lista de concorrência geral: 68,843 (candidato que concorria como pretos e pardos, aprovado na geral) e 68,737."
+   }
+  ],
+  "imip-sus-pe": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 79.361,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 04/02/2026): argumento do aprovado na vaga de concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/2026/26_RED_MED/Resultado/ResidMedica%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-%20%28Publicar%29-2026-02-04_.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 1 concorrência geral (79,361) + 1 pretos e pardos (67,144)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 78.522,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados, ordem por hospital (IAUPE/UPENET, 03/02/2025): argumento do 2º aprovado em concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/25_RED_MED/Resultado_Concurso/ResidMed%20-%20Aprovados%20e%20Classific%20-%20HospOrdem%20-2025-02-03.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 concorrência geral (78,686 e 78,522)."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 70.876,
+    "nota_corte_escala": "0-100 (argumento final = prova 90% + análise curricular 10%)",
+    "nota_corte_etapa": "Aprovados e classificados (IAUPE/UPENET, 26/01/2024, republicado): argumento do 2º aprovado em concorrência geral",
+    "fonte": "https://www.upenet.com.br/concursos/24_Resid_Med/Resultado/ResM%C3%A9dica%20-%20Aprovados%20e%20Classific%20-%20%28Publicar%29-26-01-2024xx.pdf",
+    "selo": "oficial",
+    "obs": "Vagas: 2 concorrência geral (71,271 e 70,876)."
+   }
+  ],
+  "enare-ufal": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 795.4,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 1,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 861.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 1 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (1 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Só 1 aprovado dentro das vagas. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-uncisal": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 778.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 840.5,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufam": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 8.69,
+    "nota_corte_escala": "0-10 (nota final = prova 90% + currículo 10%, com bonificação de 10% quando houver)",
+    "nota_corte_etapa": "Lista para matrícula do acesso direto do PSURM/CERMAM (jan/2026): nota do 2º matriculado no HUGV",
+    "fonte": "https://cermam.com.br/wp-content/uploads/2026/01/LISTA-PARA-MATRICULA-ACESSO-DIRETO-3.pdf",
+    "selo": "oficial",
+    "obs": "Atenção: não é Enare. Em 2026 a Dermatologia da UFAM (Hospital Universitário Getúlio Vargas, HUGV) entrou pelo PSURM do Amazonas. Matriculados no HUGV: 8,811 (com bonificação) e 8,690. Em 2025 o Edital 01 CERMAM 2024/25 também lista Hospital Universitário Getúlio Vargas/UFAM, Dermatologia, 2 vagas (https://cermam.com.br/wp-content/uploads/2024/10/EDITAL-01-DA-CERMAM-2024-25-ACESSO-DIRETO-1.pdf)."
+   }
+  ],
+  "enare-cderm-ce": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 801.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 786,61."
+   }
+  ],
+  "enare-ufc": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 790.2,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   }
+  ],
+  "enare-unb": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 821.7,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 3 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (3 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 718,50."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 889.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 3 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (3 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 2 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 825,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-hcm-ma": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 792.3,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 854.5,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-hem-mg": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 794.5,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 1 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (1 Ampla, 1 PCD, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 695,50."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 5,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 871.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 3 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (3 ampla + 2 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 2 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 762,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-hpm-mg": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 810.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 899.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufmg": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 842.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 3 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (3 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 819,90."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 928.95,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 3 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (3 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 2 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 848,00. Um dos aprovados em ampla consta como sub judice (939,40). Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufjf": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 792.9,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 871.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 1 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufu": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 1,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 808.4,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 1 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (1 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Só 1 classificado em vaga no Anexo final (em 2025/2026 o programa ofertou 2); o Estratégia MED cita 791,1 como corte de 2025 (1ª chamada)."
+   }
+  ],
+  "enare-ufms": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 786.94,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 653,20."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 852.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 767,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufmt": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 784.7,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 848.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufpa": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 70,
+    "candidatos_por_vaga": 23.33,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://ceps.ufpa.br/images/conteudo/residencia/medica%202026/demanda/PSRM2026DemandaCandidatos.pdf",
+    "selo": "oficial",
+    "obs": "Atenção: não é Enare. Em 2026 a Dermatologia da UFPA (Belém) entrou pelo processo próprio PSRM 2026 da UFPA (CEPS): 3 vagas, 70 inscrições homologadas, demanda 23,33 (28/10/2025). Nota de corte não gravada: o resultado definitivo não foi localizado e houve pelo menos 14 convocações de repescagem do HUJBB (ex.: https://ceps.ufpa.br/images/conteudo/residencia/medica%202026/repescagem/14_CONV_RESI_MEDICA_HUJBB.pdf)."
+   }
+  ],
+  "enare-ufpb": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 808.7,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 862.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufpe": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 806.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 704,00."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 870.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 829,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-hu-ufpi": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 811.36,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 2 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 862.4,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 1 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ams-apucarana": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 799.9,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 726,10."
+   }
+  ],
+  "enare-ufpr": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 826.4,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 3 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (3 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 719,90."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 888.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 3 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (3 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 843,15. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-uff": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 7,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 816.1,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 5 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (5 Ampla, 1 PCD, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 2 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 680,50."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 7,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 863.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 5 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (5 ampla + 2 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 1 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 759,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-hfb": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 5,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 785.9,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 4 classificados em vaga de ampla concorrência (o último entrou na 3ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (4 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 683,90. O 4º classificado em ampla entrou na 3ª oportunidade; entre os que entraram na 1ª oportunidade, o último em ampla tinha 796,50."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 817.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 3 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (3 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 800,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-huse": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 805.0,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 716,40. Em 2024/2025 o cenário aparece como Hospital Federal dos Servidores do Estado."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 851.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 775,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-sms-rj": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 782.1,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 643,20."
+   }
+  ],
+  "enare-unirio": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 794.5,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 691,50. Cenário em 2024/2025: Hospital Universitário Gaffrée e Guinle (mesmo critério do registro 2026)."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 855.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 0 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 799,00. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufrn": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 801.6,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 1 dos classificados em ampla tinham bonificação."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 852.5,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 0 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 2 dos aprovados em ampla tinham bônus. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ],
+  "enare-ufs": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 786.6,
+    "nota_corte_escala": "0-1000 (nota final Enare = 9 x exame escrito 0-100 + análise curricular 0-100; bonificação de 10% PROVAB/PRMGFC quando houver)",
+    "nota_corte_etapa": "Resultado das Oportunidades de Escolha (3 oportunidades; Anexo Único retificado em 05/02/2025): nota final do último classificado em vaga de ampla concorrência",
+    "fonte": "https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2024/2025. Nota de corte extraída por mim do Anexo Único do Resultado das Oportunidades de Escolha (Edital nº 03/2024, retificado em 05/02/2025; arquivo resultadooportunidades_medica_v3, cópia preservada no Wayback: http://web.archive.org/web/2025id_/https://www.gov.br/ebserh/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/anexos-residencia-medica/resultadooportunidades_medica_v3.pdf): menor nota final entre os 2 classificados em vaga de ampla concorrência (o último entrou na 1ª Oportunidade). 'vagas' = nº de candidatos classificados nas vagas no Anexo (2 Ampla, 1 PNP); o quadro de vagas por programa de 2024/2025 (Anexo II do edital) não foi localizado, e pode haver vaga ofertada não preenchida (total nacional ofertado 82; classificados nas vagas, somando as 27 instituições, 78). 0 dos classificados em ampla tinham bonificação. Menor nota entre todos os classificados nas vagas, cotas incluídas: 624,50."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 866.0,
+    "nota_corte_escala": "0-1000 (nota final = 9 x exame escrito 0-100 + análise curricular 0-100; bônus de 10% quando houver)",
+    "nota_corte_etapa": "1ª oportunidade de escolha (29/01/2024): nota final do último aprovado dentro das vagas na classificação de ampla concorrência",
+    "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/29-01-2024-anexo-unico-do-edital-de-resultado-da-1a-oportunidade-de-escolha-para-admissao-e-informacoes-sobre-a-matricula-enare-area-medica.pdf",
+    "selo": "oficial",
+    "obs": "Edição Enare 2023/2024 (4ª edição, Edital nº 03/2023, Instituto AOCP). Nota extraída por mim do Anexo Único do Edital de Resultado da 1ª Oportunidade de Escolha (29/01/2024): menor nota final entre os 2 aprovados dentro das vagas pela classificação de ampla concorrência. 'vagas' = nº de aprovados dentro das vagas (2 ampla + 1 cota). A Dermatologia não aparece nos resultados da 2ª (08/02/2024) nem da 3ª (22/02/2024) oportunidades. A soma dos aprovados das 22 instituições (66) bate com as 66 vagas disponíveis do comunicado de 28/09/2023. 1 dos aprovados em ampla tinham bônus. Menor nota entre todos os aprovados nas vagas: 813,50. Os valores conferem com a coluna 2024 da tabela de notas de corte do Estratégia MED (https://med.estrategia.com/portal/?p=24240)."
+   }
+  ]
+ },
+ "processo_geral": [
+  {
+   "processo": "ENARE (Dermatologia, acesso direto)",
+   "ano_ingresso": 2025,
+   "vagas": 82,
+   "inscritos": 2330,
+   "candidatos_por_vaga": 28.41,
+   "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2024-2025/anexos-residencia-medica/enare_res_medica-demanda-de-candidatos-por-vaga.pdf",
+   "selo": "oficial",
+   "obs": "Enare 2024/2025, Demanda de candidatos por vaga (conferido no PDF, cópia do Wayback do caminho ebserh). No Anexo Único final, 78 candidatos aparecem classificados nas vagas de Dermatologia, em 27 instituições."
+  },
+  {
+   "processo": "ENARE (Dermatologia, acesso direto)",
+   "ano_ingresso": 2024,
+   "vagas": 66,
+   "inscritos": 1835,
+   "candidatos_por_vaga": 27.8,
+   "fonte": "https://www.gov.br/hubrasil/pt-br/ensino-e-pesquisa/exame-nacional-de-residencia-enare/edicoes-anteriores/2023-2024/area-medica/28-09-2023-comunicado-de-divulgacao-de-estatisticas-de-candidato-homologados-e-vagas-ofertadas-enare-area-medica.pdf",
+   "selo": "oficial",
+   "obs": "Enare 2023/2024: 66 vagas disponíveis + 1 vaga de serviço militar; 1.835 candidatos homologados (28/09/2023). C/v calculado = 1835/66. Houve comunicados posteriores de alteração de vagas (16/10/2023, 28/12/2023, 22/01/2024); os 66 aprovados na 1ª oportunidade batem com as 66 vagas."
+  },
+  {
+   "processo": "SUS-PE (Dermatologia 03 anos)",
+   "ano_ingresso": 2026,
+   "vagas": 7,
+   "inscritos": 213,
+   "candidatos_por_vaga": 30.43,
+   "fonte": "https://www.upenet.com.br/concursos/2026/26_RED_MED/concorrencia/Resid%20med%20-%20CONCORR-%20Todos%20os%20Cargos%20-%20Geral.pdf",
+   "selo": "oficial",
+   "obs": "HOF 2 + IMIP 2 + FCM/UPE 3. O registro anterior (Estratégia MED) trazia 30,42."
+  },
+  {
+   "processo": "SUS-PE (Dermatologia 03 anos)",
+   "ano_ingresso": 2025,
+   "vagas": 7,
+   "inscritos": 220,
+   "candidatos_por_vaga": 31.43,
+   "fonte": "https://www.upenet.com.br/concursos/25_RED_MED/Concorr%C3%AAncia/ResidM%C3%A9dica%20-%20CONCORR-%20Todos%20os%20Cargos%20-%20Geral.pdf",
+   "selo": "oficial",
+   "obs": "HOF 2 + IMIP 2 + UPE 3."
+  },
+  {
+   "processo": "SUS-PE (Dermatologia 03 anos)",
+   "ano_ingresso": 2024,
+   "vagas": 7,
+   "inscritos": 122,
+   "candidatos_por_vaga": 17.43,
+   "fonte": "https://www.upenet.com.br/concursos/24_Resid_Med/Concorrencia/ResidM%C3%A9dica%20-%20CONCORR-%20Todos%20os%20Cargos%20-%20Geral-07-12-2023.pdf",
+   "selo": "oficial",
+   "obs": "Relação de 07/12/2023. HOF 2 + IMIP 2 + UPE 3."
+  },
+  {
+   "processo": "PSU-BA / CEREM-BA (Dermatologia, acesso direto)",
+   "ano_ingresso": 2025,
+   "vagas": null,
+   "inscritos": null,
+   "candidatos_por_vaga": 31.0,
+   "fonte": "https://strixeducacao.com.br/wp-content/uploads/2024/11/CEREMBA_2025-CONCORRENCIA_20241114_0921.pdf",
+   "selo": "oficial",
+   "obs": "Concorrência por programa do PSU 2025.1 (14/11/2024). Não confirmei as vagas nem se o Santa Izabel era a única instituição com Dermatologia em 2025."
+  },
+  {
+   "processo": "PSURM / CERMAM-AREMAM Amazonas (Dermatologia)",
+   "ano_ingresso": 2026,
+   "vagas": 6,
+   "inscritos": 66,
+   "candidatos_por_vaga": 11.0,
+   "fonte": "https://cermam.com.br/wp-content/uploads/2025/11/ERRATA-DO-QUANTITATIVO-DEFINITIVA-25-26.pdf",
+   "selo": "oficial",
+   "obs": "66 inscritos no quantitativo definitivo (errata). Vagas = 2 FUHAM + 2 HUGV/UFAM + 2 FMT-HVD, contadas na lista para matrícula; c/v calculado = 66/6."
+  },
+  {
+   "processo": "PSURM / CERMAM-AREMAM Amazonas (Dermatologia)",
+   "ano_ingresso": 2025,
+   "vagas": 6,
+   "inscritos": 64,
+   "candidatos_por_vaga": 10.67,
+   "fonte": "https://cermam.com.br/wp-content/uploads/2024/11/ERRATA-da-Relacao-do-quantitativo.pdf",
+   "selo": "oficial",
+   "obs": "64 inscritos (errata do quantitativo; a relação definitiva tinha 63 + 1). Vagas = 2 FMT-HVD + 2 FUHAM + 2 HUGV/UFAM, do Edital 01 CERMAM 2024/25; c/v calculado = 64/6."
+  }
+ ],
+ "lacunas": [
+  "ENARE 2024/2025 (ingresso 2025): não achei o quadro oficial de vagas por programa (Anexo II do Edital 03/2024 fica fora do PDF do edital, e as páginas do gov.br estavam em manutenção). O campo 'vagas' de 2025 é o nº de classificados nas vagas no Anexo Único (78 no total, contra 82 ofertadas no país); UFU, por exemplo, tem só 1 classificado.",
+  "santa-izabel-psu-ba: o resultado final 2026 é só a lista de classificação (AC e PN), sem marcar quem ocupa vaga, e o Anexo II não divide as 2 vagas entre AC e PN, por isso não há nota de corte; 2024 e 2025 sem dado por programa (só c/v 31,00 do programa em 2025).",
+  "uepa-pa-psu: as listas de classificados do PSU 2024 e 2025 não foram localizadas no prosel.uepa.br (só o processo suplementar de 2025); a de 2026 traz 5 vagas, contra 3 no registro anterior.",
+  "fmt-hvd-am-psurm e fuham-am-psurm: resultado final de 2025 (CERMAM 2024/25) não localizado no site nem no Wayback; 2024 sem nada. Só 2026 tem nota de corte.",
+  "cesupa-pa e cesed-unifacisa-pb: nenhum resultado, concorrência ou nota publicada para 2024-2026 (CESED tem credenciamento provisório da CNRM só desde jan/2025).",
+  "enare-ufam: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufam: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufba: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufba: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-cderm-ce: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufc: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufes: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufes: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-uftm: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-uftm: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufu: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufpa: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufpa: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-fpa-help: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-fpa-help: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufcg: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufcg: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ams-apucarana: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-hca: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-hca: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-hce: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-hce: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-hfag: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-hfag: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-sms-rj: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-ufrj: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-ufrj: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-umc: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-umc: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "enare-hspm-sp: Dermatologia não aparece no Anexo Único do Resultado das Oportunidades de Escolha do Enare 2024/2025 (sem dado de ingresso 2025 pelo Enare)",
+  "enare-hspm-sp: Dermatologia não aparece no resultado da 1ª oportunidade do Enare 2023/2024 (sem dado de ingresso 2024 pelo Enare)",
+  "famene-jp-pb: resultados de 2024, 2025 e 2026 não localizados (só o resultado de 2027, em cópia do Estratégia MED).",
+  "ses-df-rm1-2027: inscritos de 2024 não localizados; inscritos e c/v de 2025 só no Medway (165, 41,25); escala exata da pontuação de 2026 (valores acima de 100) não conferida no edital 2026.",
+  "hc-ufg-psu-go-2027: inscritos de 2025 (157) e 2026 (177) só em PDFs/tabelas hospedados no Estratégia MED; não conferidos no site da AREMG.",
+  "enare-ufpa: nota de corte da UFPA no PSRM 2026 não determinada (resultado definitivo não localizado; muitas repescagens).",
+  "Enare: nenhuma das notas de 2024/2025 usa a escala Enamed x10 de 2026; as séries não são diretamente comparáveis entre 2024-2025 (prova própria + currículo) e 2026 (Enamed)."
+ ]
+}

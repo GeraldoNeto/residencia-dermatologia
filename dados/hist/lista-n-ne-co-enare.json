@@ -1,0 +1,702 @@
+[
+ {
+  "id": "fmt-hvd-am-psurm",
+  "sigla": "FMT-HVD",
+  "instituicao": "Fundação de Medicina Tropical Doutor Heitor Vieira Dourado",
+  "hospital": "Fundação de Medicina Tropical Doutor Heitor Vieira Dourado",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "processo": "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)",
+  "banca": "AREMAM / CEREM-AM (execução própria)",
+  "link_edital": "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "fuham-am-psurm",
+  "sigla": "FUHAM",
+  "instituicao": "Fundação de Dermatologia Tropical e Venerologia Alfredo da Matta",
+  "hospital": "Fundação Hospitalar Alfredo da Matta",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "processo": "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)",
+  "banca": "AREMAM / CEREM-AM (execução própria)",
+  "link_edital": "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "santa-izabel-psu-ba",
+  "sigla": "HSI / SCMBA",
+  "instituicao": "Santa Casa de Misericórdia da Bahia, Hospital Santa Izabel",
+  "hospital": "Hospital Santa Izabel",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "processo": "PSU Residência Médica/Bahia 2027 (SUS-BA, ABAEM)",
+  "banca": "Strix Educação, Avaliação e Projetos (para a ABAEM)",
+  "link_edital": "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "ses-df-rm1-2027",
+  "sigla": "SES-DF",
+  "instituicao": "Secretaria de Estado de Saúde do Distrito Federal / FEPECS",
+  "hospital": "Rede SES-DF (cenário de ensino/COREME escolhido na 2ª fase pelo SisRESID; o edital não vincula a Dermatologia a um hospital específico)",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "processo": "Processo Seletivo RM-1/SES/DF/2027 (Edital Normativo nº 1, de 15/09/2026)",
+  "banca": "IADES",
+  "link_edital": "https://www.iades.com.br/inscricao/upload/1375/20260918151934900.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "hc-ufg-psu-go-2027",
+  "sigla": "HC-UFG",
+  "instituicao": "Universidade Federal de Goiás / Hospital das Clínicas (EBSERH)",
+  "hospital": "Hospital das Clínicas da Universidade Federal de Goiás",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "processo": "PSU-GO 2027 (Processo Seletivo Unificado de Residência Médica de Goiás; edital próprio do HC-UFG, retificado)",
+  "banca": "AGRM (Associação Goiana de Residência Médica) com apoio operacional da AREMG",
+  "link_edital": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "hdt-ses-go-2027",
+  "sigla": "SES-GO / HDT",
+  "instituicao": "Secretaria de Estado da Saúde de Goiás",
+  "hospital": "Hospital Estadual de Doenças Tropicais Dr. Anuar Auad (HDT)",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "processo": "Processo Seletivo Unificado COREME/SES-GO 2027 (Edital de Abertura nº 24/2026 SESG/SES-GO)",
+  "banca": "Instituto Verbena/UFG",
+  "link_edital": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+  "historico_ja_tem": [
+   "2027 cv"
+  ]
+ },
+ {
+  "id": "cesupa-pa",
+  "sigla": "CESUPA",
+  "instituicao": "Centro Universitário do Estado do Pará",
+  "hospital": "CENTRO UNIVERSITÁRIO DO ESTADO DO PARÁ - CESUPA",
+  "cidade": "Belém",
+  "uf": "PA",
+  "processo": "Processo Seletivo de Residência Médica do CESUPA 2027 (Edital 42/2026, retificado pelo Edital 45/2026)",
+  "banca": "COREME/CESUPA (própria)",
+  "link_edital": "https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/Docs/EDITAL_42-_RESIDENCIA_MEDICA_20260706_081453.pdf",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "uepa-pa-psu",
+  "sigla": "UEPA",
+  "instituicao": "Universidade do Estado do Pará",
+  "hospital": "SERVIÇO DE DERMATOLOGIA DA UNIV.DO ESTADO DO PARÁ - UEPA",
+  "cidade": "Belém",
+  "uf": "PA",
+  "processo": "PSU/2027: Processo Seletivo Unificado para os Programas de Residência Médica do Estado do Pará (Edital 148/2026 - UEPA)",
+  "banca": "UEPA (PROGRAD/DAA e CCBS)",
+  "link_edital": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "cesed-unifacisa-pb",
+  "sigla": "CESED / UNIFACISA",
+  "instituicao": "CESED - Centro de Ensino Superior e Desenvolvimento",
+  "hospital": "CESED - Centro de Ensino Superior e Desenvolvimento",
+  "cidade": "Campina Grande",
+  "uf": "PB",
+  "processo": null,
+  "banca": null,
+  "link_edital": null,
+  "historico_ja_tem": []
+ },
+ {
+  "id": "famene-jp-pb",
+  "sigla": "FAMENE",
+  "instituicao": "Faculdade de Medicina Nova Esperança (em parceria com a Fundação José Leite de Souza)",
+  "hospital": "FACULDADE DE MEDICINA NOVA ESPERANÇA - FAMENE - PB",
+  "cidade": "João Pessoa",
+  "uf": "PB",
+  "processo": "Processo Seletivo de Residência Médica 2027 COREME/FAMENE (Edital nº 89/2026/FAMENE)",
+  "banca": "COREME/FAMENE (própria instituição)",
+  "link_edital": "https://www.facene.com.br/wp-content/uploads/2026/09/Edital-Residencia-Medica-2027.pdf",
+  "historico_ja_tem": [
+   "2026"
+  ]
+ },
+ {
+  "id": "upe-huoc-sus-pe",
+  "sigla": "FCM/UPE",
+  "instituicao": "Universidade de Pernambuco, Faculdade de Ciências Médicas (FCM/UPE), Campus Recife",
+  "hospital": "FCM/UPE Campus Recife (provavelmente o HUOC, Hospital Universitário Oswaldo Cruz; o quadro não informa o hospital)",
+  "cidade": "Recife",
+  "uf": "PE",
+  "processo": "SUS-PE 2027 (Residência Médica)",
+  "banca": "IAUPE / UPENET",
+  "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "hof-sus-pe",
+  "sigla": "HOF",
+  "instituicao": "Hospital Otávio de Freitas (SES-PE)",
+  "hospital": "Hospital Otávio de Freitas",
+  "cidade": "Recife",
+  "uf": "PE",
+  "processo": "SUS-PE 2027 (Residência Médica)",
+  "banca": "IAUPE / UPENET",
+  "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "imip-sus-pe",
+  "sigla": "IMIP",
+  "instituicao": "Instituto de Medicina Integral Prof. Fernando Figueira",
+  "hospital": "IMIP",
+  "cidade": "Recife",
+  "uf": "PE",
+  "processo": "SUS-PE 2027 (Residência Médica)",
+  "banca": "IAUPE / UPENET",
+  "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+  "historico_ja_tem": [
+   "2026 cv"
+  ]
+ },
+ {
+  "id": "enare-ufal",
+  "sigla": "UFAL",
+  "instituicao": "Universidade Federal de Alagoas",
+  "hospital": "UFAL - SERVIÇO DERMATOLOGIA DO HOSPITAL UNIVERSITÁRIO PROF. ALBERTO ANTUNES",
+  "cidade": "Maceió",
+  "uf": "AL",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-uncisal",
+  "sigla": "UNCISAL",
+  "instituicao": "Universidade Estadual de Ciências da Saúde de Alagoas",
+  "hospital": "Hospital Escola Dr. Hélvio Auto",
+  "cidade": "Maceió",
+  "uf": "AL",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufam",
+  "sigla": "FUA / UFAM",
+  "instituicao": "Fundação Universidade do Amazonas - FUA",
+  "hospital": null,
+  "cidade": "Manaus",
+  "uf": "AM",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "enare-ufba",
+  "sigla": "UFBA",
+  "instituicao": "Universidade Federal da Bahia",
+  "hospital": "HOSPITAL UNIVERSITÁRIO PROF. EDGARD SANTOS",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-cderm-ce",
+  "sigla": "SESA-CE / CDERM",
+  "instituicao": "Secretaria da Saúde do Estado do Ceará",
+  "hospital": "Centro de Referência Nacional em Dermatologia Sanitária Dona Libânia",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufc",
+  "sigla": "UFC",
+  "instituicao": "Universidade Federal do Ceará",
+  "hospital": "Hospital Universitário Walter Cantídio - HUWC",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-unb",
+  "sigla": "UnB",
+  "instituicao": "Universidade de Brasília",
+  "hospital": "HOSPITAL UNIVERSITÁRIO DE BRASÍLIA",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufes",
+  "sigla": "UFES",
+  "instituicao": "Universidade Federal do Espírito Santo",
+  "hospital": "UFES - HOSPITAL UNIVERSIT. CASSIANO ANTÔNIO MORAES",
+  "cidade": "Vitória",
+  "uf": "ES",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hcm-ma",
+  "sigla": "HCM-MA",
+  "instituicao": "HOSPITAL DE REFERENCIA ESTADUAL DE ALTA COMPLEXIDADE DR CARLOS MACIEIRA",
+  "hospital": "Hospital de Referência Estadual de Alta Complexidade Dr. Carlos Macieira",
+  "cidade": "São Luís",
+  "uf": "MA",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hem-mg",
+  "sigla": "HEM",
+  "instituicao": "Hospital Eduardo de Menezes",
+  "hospital": "Hospital Eduardo de Menezes",
+  "cidade": "Belo Horizonte",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hpm-mg",
+  "sigla": "HPM-MG",
+  "instituicao": "HOSPITAL DA POLÍCIA MILITAR DE MINAS GERAIS",
+  "hospital": "Hospital da Polícia Militar de Minas Gerais",
+  "cidade": "Belo Horizonte",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufmg",
+  "sigla": "UFMG",
+  "instituicao": "Universidade Federal de Minas Gerais",
+  "hospital": "Hospital das Clínicas da UFMG",
+  "cidade": "Belo Horizonte",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufjf",
+  "sigla": "UFJF",
+  "instituicao": "Universidade Federal de Juiz de Fora (UFJF)",
+  "hospital": "Hospital Universitário da Universidade Federal de Juiz de Fora",
+  "cidade": "Juiz de Fora",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-uftm",
+  "sigla": "UFTM",
+  "instituicao": "Universidade Federal do Triângulo Mineiro",
+  "hospital": "Hospital de Clínicas da Universidade Federal do Triângulo Mineiro",
+  "cidade": "Uberaba",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufu",
+  "sigla": "UFU",
+  "instituicao": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA - UFU",
+  "hospital": "Hospital de Clínicas da Universidade Federal de Uberlândia",
+  "cidade": "Uberlândia",
+  "uf": "MG",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufms",
+  "sigla": "UFMS",
+  "instituicao": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL - UFMS",
+  "hospital": "Hospital Universitário Maria Aparecida Pedrossian - Humap-UFMS",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufmt",
+  "sigla": "UFMT",
+  "instituicao": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
+  "hospital": "Hospital Universitário Júlio Müller",
+  "cidade": "Cuiabá",
+  "uf": "MT",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufpa",
+  "sigla": "UFPA",
+  "instituicao": "Universidade Federal do Pará",
+  "hospital": "UNIVERSIDADE FEDERAL DO PARÁ",
+  "cidade": "Belém",
+  "uf": "PA",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "enare-fpa-help",
+  "sigla": "FPA / HELP",
+  "instituicao": "Fundação Pedro Américo",
+  "hospital": "Hospital de Ensino e Laboratórios de Pesquisa - HELP",
+  "cidade": "Campina Grande",
+  "uf": "PB",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": []
+ },
+ {
+  "id": "enare-ufcg",
+  "sigla": "UFCG",
+  "instituicao": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+  "hospital": "Hospital Universitário Alcides Carneiro",
+  "cidade": "Campina Grande",
+  "uf": "PB",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufpb",
+  "sigla": "UFPB",
+  "instituicao": "UNIVERSIDADE FEDERAL DA PARAIBA UFPB",
+  "hospital": "UFPB - HOSPITAL UNIVERSITÁRIO LAURO WANDERLEY",
+  "cidade": "João Pessoa",
+  "uf": "PB",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufpe",
+  "sigla": "UFPE",
+  "instituicao": "Universidade Federal de Pernambuco",
+  "hospital": "Hospital das Clínicas Professor Romero Marques",
+  "cidade": "Recife",
+  "uf": "PE",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hu-ufpi",
+  "sigla": "HU-UFPI",
+  "instituicao": "Hospital Universitário da Universidade Federal do Piauí",
+  "hospital": "Hospital Universitário da Universidade Federal do Piauí",
+  "cidade": "Teresina",
+  "uf": "PI",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ams-apucarana",
+  "sigla": "AMS Apucarana",
+  "instituicao": "Autarquia Municipal de Saúde de Apucarana",
+  "hospital": "HOSPITAL DE APUCARANA / AUTARQUIA MUNICIPAL DE SAÚDE APUCARANA - PR",
+  "cidade": "Apucarana",
+  "uf": "PR",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufpr",
+  "sigla": "UFPR",
+  "instituicao": "Universidade Federal do Paraná",
+  "hospital": "Complexo do Hospital de Clínicas da UFPR",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-uff",
+  "sigla": "UFF",
+  "instituicao": "Universidade Federal Fluminense/Hospital Universitário Antonio Pedro",
+  "hospital": "Hospital Universitário Antonio Pedro",
+  "cidade": "Niterói",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hca",
+  "sigla": "HCA",
+  "instituicao": "HOSPITAL CENTRAL DA AERONÁUTICA",
+  "hospital": "Hospital Central da Aeronáutica",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hce",
+  "sigla": "HCE",
+  "instituicao": "Hospital Central do Exército",
+  "hospital": "Hospital Central do Exército",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hfag",
+  "sigla": "HFAG",
+  "instituicao": "Hospital de Força Aérea do Galeão",
+  "hospital": "Hospital de Força Aérea do Galeão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hfb",
+  "sigla": "HFB",
+  "instituicao": "Hospital Federal de Bonsucesso",
+  "hospital": "Hospital Federal de Bonsucesso",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-huse",
+  "sigla": "HUSE",
+  "instituicao": "Hospital Universitário dos Servidores do Estado",
+  "hospital": "Hospital Universitário dos Servidores do Estado",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-sms-rj",
+  "sigla": "SMS-RJ",
+  "instituicao": "Secretaria Municipal de Saúde do Rio de Janeiro",
+  "hospital": null,
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufrj",
+  "sigla": "UFRJ",
+  "instituicao": "Universidade Federal do Rio de Janeiro",
+  "hospital": "Hospital Universitário Clementino Fraga Filho - HUCFF",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-unirio",
+  "sigla": "UNIRIO",
+  "instituicao": "Universidade Federal do Estado do Rio de Janeiro",
+  "hospital": "Hospital Universitário dos Servidores do Estado",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufrn",
+  "sigla": "UFRN",
+  "instituicao": "Universidade Federal do Rio Grande do Norte",
+  "hospital": "Hospital Universitário Onofre Lopes",
+  "cidade": "Natal",
+  "uf": "RN",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-ufs",
+  "sigla": "UFS",
+  "instituicao": "Universidade Federal de Sergipe",
+  "hospital": "Hospital Universitário de Sergipe",
+  "cidade": "São Cristóvão",
+  "uf": "SE",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-umc",
+  "sigla": "FAEP-UMC",
+  "instituicao": "Fundação de Amparo ao Ensino e Pesquisa - Universidade de Mogi das Cruzes",
+  "hospital": "Instituto Central de Saúde - Policlínica",
+  "cidade": "Mogi das Cruzes",
+  "uf": "SP",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ },
+ {
+  "id": "enare-hspm-sp",
+  "sigla": "HSPM",
+  "instituicao": "Hospital do Servidor Público Municipal",
+  "hospital": "Hospital do Servidor Público Municipal",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "processo": "ENARE 2026/2027",
+  "banca": "FGV Conhecimento (organização HU Brasil/Ebserh; prova objetiva = Enamed/Inep)",
+  "link_edital": "https://enare2026.conhecimento.fgv.br/docs/36fa57ca8c688040ad69c657f67c4a5d.pdf?v=09eff16e",
+  "historico_ja_tem": [
+   "2026 corte"
+  ]
+ }
+]

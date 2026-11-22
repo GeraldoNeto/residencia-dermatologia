@@ -1,0 +1,2157 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Residência em Dermatologia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>/*__LEAFLETCSS__*/</style>
+<style>
+/* Layout: app de consulta — cabeçalho com contagem, abas fixas, barra de filtros, conteúdo em grade; ficha em gaveta lateral */
+:root{
+  --bg:#f4f6f8; --surface:#ffffff; --surface-2:#eef1f4; --ink:#17212b; --muted:#46525e; --line:#d9dee4;
+  --accent:#8c2f5c; --accent-ink:#ffffff; --accent-soft:#f6e7ee; --teal:#1f6a72; --teal-soft:#e2f0f1;
+  --ok:#1c7445; --ok-soft:#e3f3ea; --warn:#9a5b00; --warn-soft:#fbf0dc; --crit:#b0281f; --crit-soft:#fbe6e4; --none:#6b7682; --none-soft:#eceff2;
+  --map-land:#e9edf1; --map-line:#b9c2cc; --shadow:0 8px 30px rgba(23,33,43,.12);
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"Instrument Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141a; --surface:#161d25; --surface-2:#1d2630; --ink:#e7ecf1; --muted:#aab5c1; --line:#2c3743;
+  --accent:#e483b0; --accent-ink:#20101a; --accent-soft:#3a2130; --teal:#6cc3cb; --teal-soft:#16343a;
+  --ok:#6fd39a; --ok-soft:#173527; --warn:#f2b45a; --warn-soft:#3a2b12; --crit:#f2867d; --crit-soft:#3d1d1a; --none:#93a0ad; --none-soft:#232c36;
+  --map-land:#1f2832; --map-line:#3b4856; --shadow:0 8px 30px rgba(0,0,0,.45); color-scheme:dark}}
+:root[data-theme="light"]{color-scheme:light}
+:root[data-theme="dark"]{
+  --bg:#0f141a; --surface:#161d25; --surface-2:#1d2630; --ink:#e7ecf1; --muted:#aab5c1; --line:#2c3743;
+  --accent:#e483b0; --accent-ink:#20101a; --accent-soft:#3a2130; --teal:#6cc3cb; --teal-soft:#16343a;
+  --ok:#6fd39a; --ok-soft:#173527; --warn:#f2b45a; --warn-soft:#3a2b12; --crit:#f2867d; --crit-soft:#3d1d1a; --none:#93a0ad; --none-soft:#232c36;
+  --map-land:#1f2832; --map-line:#3b4856; --shadow:0 8px 30px rgba(0,0,0,.45); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:1101;background:var(--surface)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.num,.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+
+/* cabeçalho */
+header.top{background:var(--surface);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-block:20px 16px}
+header.top h1{font-size:clamp(24px,3.2vw,34px);font-weight:700}
+header.top h1 span{color:var(--accent)}
+header.top p{margin:4px 0 0;color:var(--muted);max-width:60ch}
+.atual{font-size:13px;color:var(--muted);text-align:right}
+.atual b{color:var(--ink);font-weight:600}
+
+/* abas */
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:1100;background:var(--surface);border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs a{flex:none;padding:12px 14px;color:var(--muted);text-decoration:none;font-weight:600;font-size:14px;border-bottom:3px solid transparent}
+nav.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+nav.tabs a:hover{color:var(--ink)}
+
+/* filtros */
+.filtros{padding-block:14px;display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.campo{display:flex;flex-direction:column;gap:4px;min-width:0}
+.campo label{font-size:12px;font-weight:600;color:var(--muted)}
+.campo select,.campo input{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+.campo input{width:220px;max-width:100%}
+.chk{display:flex;align-items:center;gap:6px;font-size:14px;padding:8px 2px;cursor:pointer}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:8px;padding:8px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.prim{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.contagem{margin-left:auto;font-size:13px;color:var(--muted);padding:8px 0}
+#bt-filtros{display:none}
+@media (max-width:760px){
+  #bt-filtros{display:inline-flex}
+  #filtros .campo,#filtros .chk,#bt-limpar{display:none}
+  #filtros.aberto .campo,#filtros.aberto .chk,#filtros.aberto #bt-limpar{display:flex}
+  #filtros.aberto .campo{flex:1 1 45%}
+  .campo input{width:100%}
+}
+
+main{padding-block:8px 48px}
+section.view{display:grid;gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;min-width:0}
+.card h2{font-size:19px;font-weight:700;margin-bottom:12px}
+.card h2 small{font-family:var(--f-body);font-weight:500;font-size:13px;color:var(--muted);margin-left:6px}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+
+/* KPIs */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+.kpi .v{font-family:var(--f-display);font-size:36px;font-weight:700;line-height:1.05;font-variant-numeric:tabular-nums}
+.kpi .l{font-weight:600}
+.kpi .s{font-size:13px;color:var(--muted)}
+.kpi.destaque{background:var(--accent-soft);border-color:transparent}
+.kpi.destaque .v{color:var(--accent)}
+
+/* selos e pílulas */
+.selo{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.selo::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.selo.oficial{color:var(--ok);background:var(--ok-soft)}
+.selo.secundaria{color:var(--warn);background:var(--warn-soft)}
+.selo.nd{color:var(--none);background:var(--none-soft)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:99px;white-space:normal;line-height:1.3}
+.st-aberta{color:var(--ok);background:var(--ok-soft)}
+.st-breve{color:var(--teal);background:var(--teal-soft)}
+.st-prova{color:var(--accent);background:var(--accent-soft)}
+.st-realizada,.st-encerrada{color:var(--muted);background:var(--surface-2)}
+.st-sem{color:var(--none);background:var(--none-soft)}
+.cv-baixa{color:var(--ok);background:var(--ok-soft)}
+.cv-media{color:var(--teal);background:var(--teal-soft)}
+.cv-alta{color:var(--warn);background:var(--warn-soft)}
+.cv-muito{color:var(--crit);background:var(--crit-soft)}
+.cv-sem{color:var(--none);background:var(--none-soft)}
+
+/* barras */
+.barras{display:grid;gap:8px}
+.barra{display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:10px;font-size:14px}
+.barra .trilho{height:12px;background:var(--surface-2);border-radius:6px;overflow:hidden}
+.barra .ench{height:100%;background:var(--teal);border-radius:6px}
+.barra .n{text-align:right}
+.cob{display:grid;gap:12px}
+.cob-l{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center;font-size:14px}
+.empilha{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--surface-2)}
+.empilha span{display:block;height:100%}
+.empilha .o{background:var(--ok)} .empilha .s{background:var(--warn)} .empilha .n{background:var(--none);opacity:.35}
+.legenda{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;color:var(--muted);margin-top:10px}
+@media (max-width:520px){.cob-l{grid-template-columns:1fr}}
+
+/* prazos */
+.prazos{list-style:none;margin:0;padding:0;display:grid}
+.prazos li{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.prazos li:first-child{border-top:0}
+.prazos .d{font-family:var(--f-mono);font-size:13px;line-height:1.25}
+.prazos .d b{display:block;font-size:15px;color:var(--ink)}
+.prazos .t{min-width:0}
+.prazos .t b{display:block}
+.prazos .t span{font-size:13px;color:var(--muted)}
+.dn{font-family:var(--f-mono);font-size:13px;font-weight:500;color:var(--accent);white-space:nowrap}
+
+/* mapa */
+.mapa-lay{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+#mapa-box{height:min(72vh,640px);min-height:420px;border-radius:14px;border:1px solid var(--line);background:var(--surface)}
+.leaflet-container{background:var(--surface);font-family:var(--f-body)}
+.leaflet-control-zoom a{background:var(--surface)!important;color:var(--ink)!important;border-color:var(--line)!important}
+.leaflet-tooltip{background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);font-family:var(--f-body);font-size:13px}
+.leaflet-tooltip-top:before{border-top-color:var(--surface)}
+.cidade-lista{height:min(72vh,640px);min-height:420px;overflow:auto;border-radius:14px}
+.cidade-lista h3{font-size:17px;margin-bottom:4px}
+.map-leg{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:13px;color:var(--muted);margin-top:10px;align-items:center}
+.map-leg i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.map-modo{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:-8px}
+.map-modo button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+@media (max-width:900px){.mapa-lay{grid-template-columns:1fr} #mapa-box{height:58vh;min-height:340px} .cidade-lista{height:auto;min-height:0;max-height:none}}
+
+/* lista de programas */
+.lista{display:grid}
+.lin{display:grid;grid-template-columns:34px minmax(0,2.4fr) minmax(0,1.1fr) minmax(0,1.4fr) 70px minmax(0,1.5fr) 90px 92px;gap:12px;align-items:center;padding:12px 8px;border-top:1px solid var(--line)}
+.lin.cab{border-top:0;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-block:6px}
+.lin.cab button{all:unset;cursor:pointer}
+.lin.cab button:hover,.lin.cab button[aria-sort]{color:var(--ink)}
+.lin.cab button[aria-sort="ascending"]::after{content:" ↑"} .lin.cab button[aria-sort="descending"]::after{content:" ↓"}
+.lin.item{cursor:pointer;border-radius:8px}
+.lin.item:hover{background:var(--surface-2)}
+.lin .nome b{display:block;font-weight:600}
+.lin .nome span,.lin .sub{font-size:13px;color:var(--muted)}
+.estrela{all:unset;cursor:pointer;font-size:20px;line-height:1;color:var(--line);text-align:center;width:28px}
+.estrela[aria-pressed="true"]{color:var(--accent)}
+.estrela:hover{color:var(--accent)}
+.rot{display:none;font-size:12px;color:var(--muted);font-weight:600}
+@media (max-width:960px){
+  .lin.cab{display:none}
+  .lin.item{grid-template-columns:34px 1fr 1fr;grid-template-areas:"e n n" "e l p" "e v s" "e c c";row-gap:6px;padding:14px 6px}
+  .lin.item>:nth-child(1){grid-area:e;align-self:start}
+  .lin.item>:nth-child(2){grid-area:n}
+  .lin.item>:nth-child(3){grid-area:l}
+  .lin.item>:nth-child(4){grid-area:p}
+  .lin.item>:nth-child(5){grid-area:v}
+  .lin.item>:nth-child(6){grid-area:s}
+  .lin.item>:nth-child(7){grid-area:c}
+  .lin.item>:nth-child(8){display:none}
+  .rot{display:block}
+}
+.vazio{padding:28px 8px;color:var(--muted);text-align:center}
+
+/* calendário */
+.tl-scroll{overflow-x:auto}
+.tl{min-width:860px;position:relative}
+.tl-meses{display:grid;margin-left:260px;border-bottom:1px solid var(--line);font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.tl-meses div{padding:6px 6px;border-left:1px solid var(--line)}
+.tl-linha{display:grid;grid-template-columns:260px 1fr;align-items:center;border-bottom:1px solid var(--line);min-height:46px}
+.tl-rot{padding:6px 12px 6px 0;font-size:13.5px;min-width:0}
+.tl-rot b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tl-rot span{color:var(--muted);font-size:12.5px}
+.tl-trilha{position:relative;height:46px}
+.tl-insc{position:absolute;top:17px;height:12px;border-radius:6px;background:var(--teal);opacity:.85}
+.tl-prova{position:absolute;top:13px;width:20px;height:20px;margin-left:-10px;transform:rotate(45deg);background:var(--accent);border-radius:3px;border:2px solid var(--surface)}
+.tl-etapa{position:absolute;top:16px;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
+.tl-res{position:absolute;top:15px;width:4px;height:16px;margin-left:-2px;background:var(--ink);border-radius:2px}
+.tl-hoje{position:absolute;top:0;bottom:0;width:2px;background:var(--crit);z-index:2}
+.tl-hoje::after{content:"hoje";position:absolute;top:-2px;left:4px;font-size:11px;font-weight:600;color:var(--crit)}
+.tl-grade{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.tl-leg{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted);margin-top:12px;align-items:center}
+.tl-leg i{display:inline-block;vertical-align:-2px;margin-right:6px}
+.alerta{border:1px solid var(--warn);background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:14px}
+.alerta b{color:var(--warn)}
+
+/* ficha */
+#ficha-fundo{position:fixed;inset:0;background:rgba(10,15,20,.45);z-index:1200}
+#ficha{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--surface);z-index:1201;box-shadow:var(--shadow);overflow-y:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) max(20px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 28px) 20px}
+#ficha .fecha{position:sticky;top:0;float:right;margin:-4px -4px 0 8px}
+#ficha h2{font-size:24px;margin:4px 0 2px}
+#ficha .sub{color:var(--muted)}
+.bloco{margin-top:20px;display:grid;gap:8px}
+.bloco h3{font-size:15px;font-family:var(--f-body);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.par{display:grid;grid-template-columns:150px 1fr;gap:10px;font-size:14px;padding:6px 0;border-top:1px solid var(--line)}
+.par:first-of-type{border-top:0}
+.par dt{color:var(--muted)} .par dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{display:inline-flex;gap:6px;align-items:center;font-weight:600;font-size:14px;text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:8px 12px;color:var(--ink)}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+.hist{width:100%;border-collapse:collapse;font-size:14px}
+.hist th,.hist td{text-align:left;padding:7px 8px;border-top:1px solid var(--line)}
+.hist th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-top:0}
+.obs{font-size:14px;color:var(--muted);background:var(--surface-2);border-radius:10px;padding:10px 12px}
+@media (max-width:520px){.par{grid-template-columns:1fr;gap:2px}}
+
+/* fontes */
+.met p{margin:0 0 10px;max-width:72ch}
+.lac{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14px;overflow-wrap:anywhere}
+.lin>*{min-width:0;overflow-wrap:anywhere}
+.hist td{overflow-wrap:anywhere}
+.lac li::marker{color:var(--muted)}
+.fontes-l{margin:0;padding-left:18px;font-size:14px;display:grid;gap:4px;overflow-wrap:anywhere}
+.intro{margin:0 0 12px;color:var(--muted);max-width:80ch;font-size:14px}
+.pesos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px}
+.peso{display:grid;gap:4px;font-size:14px;align-content:start}
+.peso label{font-weight:600;display:flex;justify-content:space-between;gap:8px}
+.peso label span{font-family:var(--f-mono);color:var(--accent)}
+.peso small{color:var(--muted);font-size:12.5px}
+.peso input[type=range]{width:100%;accent-color:var(--accent)}
+.lin.rk{grid-template-columns:44px minmax(0,2.2fr) minmax(0,1fr) minmax(0,2.6fr) 64px 56px}
+.pos{font-family:var(--f-display);font-weight:700;font-size:20px;color:var(--muted);text-align:center}
+.pilha{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--surface-2)}
+.pilha span{height:100%}
+.dim-capes{background:var(--accent)} .dim-pub{background:var(--teal)} .dim-vagas{background:var(--warn)} .dim-sbd{background:var(--ok)} .dim-cv{background:var(--crit)}
+.idx{font-family:var(--f-display);font-weight:700;font-size:20px;text-align:right}
+.cmpchk{display:flex;align-items:center;justify-content:center}
+@media (max-width:960px){
+  .lin.rk.cab{display:none}
+  .lin.item.rk{grid-template-columns:40px 1fr 56px;grid-template-areas:"p n i" "p b b" "p l c"}
+  .lin.item.rk>:nth-child(1){grid-area:p} .lin.item.rk>:nth-child(2){grid-area:n} .lin.item.rk>:nth-child(3){grid-area:l} .lin.item.rk>:nth-child(4){grid-area:b} .lin.item.rk>:nth-child(5){grid-area:i} .lin.item.rk>:nth-child(6){grid-area:c;justify-content:flex-end;display:flex}
+}
+.dispersao-box{width:100%;overflow-x:auto}
+#dispersao{width:100%;min-width:560px;height:auto;display:block}
+#dispersao text{fill:var(--muted);font-family:var(--f-body);font-size:12px}
+#dispersao .eixo{stroke:var(--line)} #dispersao .med{stroke:var(--muted);stroke-dasharray:4 4;opacity:.6}
+#dispersao .joia{fill:var(--ok-soft)}
+#dispersao circle{stroke:var(--surface);stroke-width:1.5;cursor:pointer}
+#dispersao circle:hover{stroke:var(--ink);stroke-width:2}
+#dispersao .rot-ponto{fill:var(--ink);font-size:11px}
+.cmp-lay{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:860px){.cmp-lay{grid-template-columns:1fr}}
+#radar{width:100%;max-width:340px;height:auto;display:block;margin:0 auto}
+#radar text{fill:var(--muted);font-size:11px;font-family:var(--f-body)}
+#radar .grade{fill:none;stroke:var(--line)}
+.cmp th{white-space:nowrap} .cmp td,.cmp th{vertical-align:top;min-width:140px}
+.cmp td:first-child,.cmp th:first-child{min-width:150px;color:var(--muted);font-weight:600}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:0}
+.fx-acima{color:var(--ok);background:var(--ok-soft)} .fx-faixa{color:var(--warn);background:var(--warn-soft)} .fx-abaixo{color:var(--crit);background:var(--crit-soft)}
+/* ---------- Fase 3 ---------- */
+:root{--ar1:#8c2f5c;--ar2:#1f6a72;--ar3:#9a5b00;--ar4:#1c7445;--ar5:#4b4fb0;--ar6:#6b7682}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ar1:#e483b0;--ar2:#6cc3cb;--ar3:#f2b45a;--ar4:#6fd39a;--ar5:#a9acf5;--ar6:#93a0ad}}
+:root[data-theme="dark"]{--ar1:#e483b0;--ar2:#6cc3cb;--ar3:#f2b45a;--ar4:#6fd39a;--ar5:#a9acf5;--ar6:#93a0ad}
+.pl-lista{display:flex;flex-direction:column;gap:12px}
+.pl-proc{border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 16px;align-items:start}
+.pl-proc>*{min-width:0}
+.pl-proc h3{font-size:16px;margin:0 0 4px}
+.pl-proc .progs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.pl-proc .progs button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);border-radius:99px;padding:2px 10px;cursor:pointer}
+.pl-proc .datas{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13.5px;color:var(--muted)}
+.pl-proc .datas b{color:var(--ink);font-weight:600}
+.pl-proc .nota-pl{grid-column:1/-1}
+.pl-proc .nota-pl input{width:100%;font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+.etapas-pl{display:flex;flex-wrap:wrap;gap:4px}
+.etapas-pl button{font:inherit;font-size:12.5px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:8px;padding:5px 9px;cursor:pointer}
+.etapas-pl button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.etapas-pl button.feito{color:var(--accent);border-color:var(--accent-soft);background:var(--accent-soft)}
+.acoes-pl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+.orc{width:100%;border-collapse:collapse;font-size:14px}
+.orc th,.orc td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.orc th{font-size:12px;color:var(--muted);font-weight:600}
+.orc td.num,.orc th.num{text-align:right}
+.orc input{width:100px;font:inherit;font-size:14px;text-align:right;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
+.orc tfoot td{font-weight:700;border-bottom:0}
+.docs-proc{margin-bottom:14px}
+.docs-proc h3{font-size:15px;margin:0 0 6px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.docs-proc h4{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:8px 0 4px}
+.docs-proc label{display:flex;gap:8px;align-items:flex-start;font-size:14px;padding:3px 0;overflow-wrap:anywhere}
+.docs-proc label input{margin-top:3px;flex:none}
+.docs-proc label.ok span{color:var(--muted);text-decoration:line-through}
+.pv-lista{display:flex;flex-direction:column;gap:12px}
+.pv{border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0;overflow-wrap:anywhere}
+.pl-proc,.docs-proc,#es-out{overflow-wrap:anywhere}
+.pv.fav{border-color:var(--accent)}
+.pv h3{font-size:16px;margin:0;display:flex;gap:8px;flex-wrap:wrap;align-items:baseline}
+.pv .meta{font-size:13.5px;color:var(--muted);margin:4px 0 8px;overflow-wrap:anywhere}
+.dist{display:flex;height:26px;border-radius:7px;overflow:hidden;gap:2px;margin:6px 0 4px}
+.dist span{display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;min-width:0;overflow:hidden;white-space:nowrap}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .dist span{color:#10161c}}
+:root[data-theme="dark"] .dist span{color:#10161c}
+.leg-ar{display:inline-flex;align-items:center;gap:6px;font-size:13px;margin-right:12px}
+.leg-ar i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.pv ul{margin:6px 0 0;padding-left:18px;font-size:14px}
+.pv .links{margin-top:8px}
+.es-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:10px;margin:6px 0 14px}
+.es-sem{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr));gap:8px;margin-top:10px}
+.es-sem div{border:1px solid var(--line);border-left:5px solid var(--c,var(--line));border-radius:8px;padding:7px 10px;font-size:13.5px;min-width:0}
+.es-sem div b{display:block;font-size:12px;color:var(--muted);font-weight:600}
+.novo-pill{font-size:11.5px;font-weight:700;padding:1px 8px;border-radius:99px;color:var(--teal);background:var(--teal-soft);white-space:nowrap}
+.novidades li{padding:6px 0;border-bottom:1px solid var(--line);font-size:14px;list-style:none;overflow-wrap:anywhere}
+.novidades{margin:0;padding:0}
+@media (max-width:760px){.pl-proc{grid-template-columns:1fr}}
+@media print{
+  header.top,nav.tabs,#filtros,footer,#ficha,#ficha-fundo,.acoes-pl,.view:not(#v-plano){display:none!important}
+  #v-plano{display:block!important}
+  body{background:#fff;color:#000}
+  .card{border:0;padding:0 0 12px}
+  .pl-proc,.docs-proc{break-inside:avoid}
+  .orc input,.pl-proc .nota-pl input{border:0;padding:0}
+}
+/* ---------- Revisão de 21/11/2026: responsividade e interação ---------- */
+header.top h1 a{color:inherit;text-decoration:none}
+[data-ir],[data-cid],[data-dica]{cursor:pointer}
+.tl-rot[data-abre]{cursor:pointer}
+.tl-rot[data-abre]:hover b,.tl-rot[data-ir]:hover b{color:var(--accent)}
+
+/* cartões e linhas que levam a algum lugar */
+.kpi[data-ir],.kpi[data-abre]{cursor:pointer;transition:border-color .15s}
+.kpi[data-ir]:hover,.kpi[data-abre]:hover{border-color:var(--accent)}
+.kpi .ir{font-size:12.5px;font-weight:600;color:var(--accent);margin-top:auto;padding-top:6px}
+.prazos li[data-ir],.prazos li[data-abre],.prazos li[data-cid]{cursor:pointer;margin-inline:-8px;padding-inline:8px;border-radius:8px}
+.prazos li[data-ir]:hover,.prazos li[data-abre]:hover,.prazos li[data-cid]:hover{background:var(--surface-2)}
+.barra[data-ir]{padding:3px 6px;margin:-3px -6px;border-radius:6px}
+.barra[data-ir]:hover{background:var(--surface-2)}
+.barra[data-ir]:hover .ench{background:var(--accent)}
+.cob-l[data-ir]{padding:5px 8px;margin:-5px -8px;border-radius:8px}
+.cob-l[data-ir]:hover{background:var(--surface-2)}
+.ir-s{color:var(--accent);font-weight:600}
+.novidades li[data-abre]:hover{background:var(--surface-2)}
+#cortes tr[data-abre]:hover,#ch-tab tr[data-abre]:hover{background:var(--surface-2)}
+.ch-faixas{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.ch-faixas .sw{margin-right:6px}
+#ch-mais:empty,#cortes-mais:empty{display:none}
+/* Notas de corte: vira cartão quando a caixa fica estreita (celular e a meia largura do tablet deitado) */
+.cq{container-type:inline-size}
+@container (max-width:520px){
+  .cq .hist,.cq .hist tbody{display:block;width:100%}
+  .cq .hist thead{display:none}
+  .cq .hist tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 10px;padding:12px 6px;border-top:1px solid var(--line)}
+  .cq .hist tr:first-child{border-top:0}
+  .cq .hist td{border:0;padding:0;min-width:0}
+  .cq .hist td.prog,.cq .hist td.vazio{grid-column:1/-1}
+  #cortes td.corte,.cq .hist td.orig{grid-column:span 2}
+  .cq .hist td[data-l]::before{content:attr(data-l);display:block;font:600 11.5px/1.4 var(--f-body);color:var(--muted)}
+}
+/* Minhas chances no celular: cada programa vira um cartão, sem rolagem lateral */
+@media (max-width:760px){
+  #ch-tab,#ch-tab tbody{display:block;width:100%}
+  #ch-tab thead{display:none}
+  #ch-tab tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 10px;padding:12px 6px;border-top:1px solid var(--line)}
+  #ch-tab tr:first-child{border-top:0}
+  #ch-tab td{border:0;padding:0;min-width:0}
+  #ch-tab td.prog,#ch-tab td.vazio{grid-column:1/-1}
+  #ch-tab td.corte{grid-column:span 2}
+  #ch-tab td.minha{display:none}
+  #ch-tab td.fx{grid-column:span 2;align-self:end;justify-self:start}
+  #ch-tab td[data-l]::before{content:attr(data-l);display:block;font:600 11.5px/1.4 var(--f-body);color:var(--muted)}
+}
+#cidade-lista{scroll-margin-top:60px}
+
+/* legendas que filtram */
+.leg-bt{font:inherit;font-size:13px;color:var(--muted);background:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;cursor:pointer;display:inline-flex;align-items:center}
+.leg-bt:hover{border-color:var(--accent);color:var(--ink)}
+.leg-bt[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);background:var(--accent-soft);font-weight:600}
+
+/* filtros ativos */
+.chips{flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px}
+.chips:empty{display:none}
+.chip{font:inherit;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:1px solid transparent;border-radius:99px;padding:4px 10px;cursor:pointer;text-align:left}
+.chip:hover{border-color:var(--accent)}
+
+/* abas: setas quando não cabem */
+.tab-seta{position:absolute;top:0;bottom:0;width:44px;border:0;padding:0;font-size:24px;line-height:1;color:var(--ink);cursor:pointer;z-index:1}
+#tab-esq{left:0;background:linear-gradient(to right,var(--surface) 60%,transparent);text-align:left;padding-left:10px}
+#tab-dir{right:0;background:linear-gradient(to left,var(--surface) 60%,transparent);text-align:right;padding-right:10px}
+
+/* filtros recolhidos também no tablet */
+@media (max-width:1024px){
+  #bt-filtros{display:inline-flex}
+  #filtros .campo,#filtros .chk,#bt-limpar{display:none}
+  #filtros.aberto .campo,#filtros.aberto .chk,#filtros.aberto #bt-limpar{display:flex}
+  #filtros.aberto .campo{flex:1 1 30%}
+  #filtros.aberto .campo input,#filtros.aberto .campo select{width:100%}
+}
+@media (max-width:760px){
+  #filtros.aberto .campo{flex:1 1 45%}
+  header.top .wrap{padding-block:14px 10px;gap:6px 16px}
+  header.top p{display:none}
+  .atual{text-align:left;font-size:12px}
+  .atual br{display:none}
+  .atual span::before{content:" · "}
+}
+
+/* lista: estrela maior, ordenação fora do desktop, mostrar mais */
+.estrela{width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px}
+.lin{grid-template-columns:40px minmax(0,2.4fr) minmax(0,1.1fr) minmax(0,1.4fr) 70px minmax(0,1.5fr) 90px 92px}
+.lin.cab button{padding:4px 0}
+.ord-m{display:none;gap:8px;align-items:flex-end;padding:8px 6px 12px;border-bottom:1px solid var(--line)}
+.ord-m .campo{flex:1}
+@media (max-width:960px){.ord-m{display:flex} .lin.item{grid-template-columns:40px 1fr 1fr}}
+.mais{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;padding:16px 8px 8px}
+
+/* calendário: rótulo fixo à esquerda e mais estreito no celular */
+.tl{--rot:260px}
+.tl-meses{margin-left:var(--rot)}
+.tl-linha{grid-template-columns:var(--rot) 1fr}
+.tl-rot{position:sticky;left:0;z-index:3;background:var(--surface);align-self:stretch;display:flex;flex-direction:column;justify-content:center}
+.tl-trilha [tabindex]{scroll-margin-left:calc(var(--rot) + 24px);scroll-margin-right:24px;scroll-margin-top:72px;scroll-margin-bottom:24px}
+.tl-trilha [tabindex]:focus{outline:none}
+.tl-trilha [tabindex]:focus-visible{outline:3px solid var(--ink);outline-offset:3px;z-index:2}
+.tl-rot:focus-visible{outline-offset:-2px}
+.tl-ajuda{font-size:12.5px;margin:10px 0 0}
+@media (pointer:coarse){.tl-ajuda{display:none}}
+.tl-res::after,.tl-etapa::after{content:"";position:absolute;inset:-9px -10px}
+.tl-insc::after{content:"";position:absolute;inset:-9px 0}
+@media (max-width:760px){
+  .tl{--rot:132px;min-width:740px}
+  .tl-rot{padding-right:8px}
+  .tl-rot b{white-space:normal;font-size:13px;line-height:1.25}
+  .tl-rot span{font-size:11.5px;line-height:1.3}
+  .tl-linha{min-height:58px}
+}
+
+/* balão de detalhe (substitui o title, que não aparece no toque) */
+#dica{position:fixed;z-index:1300;max-width:min(320px,calc(100vw - 16px));background:var(--ink);color:var(--surface);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:8px;box-shadow:var(--shadow);pointer-events:none}
+
+/* áreas com rolagem lateral: sombra indica que há mais */
+.rola-x,.dispersao-box,.tl-scroll{overflow-x:auto;
+  background:linear-gradient(to right,var(--surface) 30%,transparent) left/36px 100% no-repeat local,
+    linear-gradient(to left,var(--surface) 30%,transparent) right/36px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.22),transparent) left/12px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.22),transparent) right/12px 100% no-repeat scroll}
+
+/* dispersão: área de toque maior */
+#dispersao circle.hit{fill:transparent;stroke:none}
+#dispersao .rot-ponto{pointer-events:none}
+
+/* comparar: primeira coluna fixa */
+.cmp td:first-child,.cmp th:first-child{position:sticky;left:0;background:var(--surface);z-index:1}
+.cmp .tira{padding:0;min-width:32px;min-height:32px;font-size:12px;margin-left:4px}
+@media (max-width:760px){.cmp td:first-child,.cmp th:first-child{min-width:104px;max-width:120px;white-space:normal} .cmp td,.cmp th{min-width:128px}}
+
+/* perfil de prova recolhível e fontes recolhíveis */
+details.pv>summary,details.card>summary{list-style:none;cursor:pointer;display:block}
+details.pv>summary::-webkit-details-marker,details.card>summary::-webkit-details-marker{display:none}
+details.pv>summary h3::before{content:"▸";color:var(--muted);font-size:14px}
+details.pv[open]>summary h3::before{content:"▾"}
+details.pv>summary:hover h3{color:var(--accent)}
+details.pv .ver{font-family:var(--f-body);font-size:12.5px;font-weight:600;color:var(--accent);letter-spacing:0}
+details.pv[open] .ver{display:none}
+details.card>summary h2{margin:0}
+details.card[open]>summary h2{margin-bottom:12px}
+details.card>summary h2::before{content:"▸ ";color:var(--muted)}
+details.card[open]>summary h2::before{content:"▾ "}
+
+/* meu plano */
+.pl-proc .datas a{display:inline-block;padding:3px 0}
+.pl-proc .progs button:hover{border-color:var(--accent)}
+
+/* voltar ao topo */
+#bt-topo{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:1050;width:44px;height:44px;border-radius:50%;padding:0;font-size:18px;box-shadow:var(--shadow)}
+
+/* toque: alvos maiores e campos sem zoom automático no iPhone */
+@media (pointer:coarse){
+  .btn{min-height:40px}
+  .etapas-pl button{min-height:38px;padding:7px 11px}
+  .pl-proc .progs button{min-height:36px;padding:5px 12px}
+  .pl-proc .datas a{padding:8px 0}
+  .docs-proc label{padding:8px 0}
+  .docs-proc label input,.chk input{width:20px;height:20px}
+  .peso input[type=range]{height:32px}
+  .links a{padding:10px 12px}
+  .leg-bt{padding:7px 12px}
+  .chip{padding:8px 12px}
+  .hist td a{display:inline-block;padding:6px 0}
+  input,select,textarea{font-size:16px!important}
+}
+@media print{#bt-topo,#dica,.tab-seta,.tema{display:none!important}
+  :root,:root:not([data-theme="light"]),:root[data-theme]{--bg:#f4f6f8; --surface:#ffffff; --surface-2:#eef1f4; --ink:#17212b; --muted:#46525e; --line:#d9dee4;
+  --accent:#8c2f5c; --accent-ink:#ffffff; --accent-soft:#f6e7ee; --teal:#1f6a72; --teal-soft:#e2f0f1;
+  --ok:#1c7445; --ok-soft:#e3f3ea; --warn:#9a5b00; --warn-soft:#fbf0dc; --crit:#b0281f; --crit-soft:#fbe6e4; --none:#6b7682; --none-soft:#eceff2;
+  --map-land:#e9edf1; --map-line:#b9c2cc; --shadow:0 8px 30px rgba(23,33,43,.12); color-scheme:light;
+    --ar1:#8c2f5c;--ar2:#1f6a72;--ar3:#9a5b00;--ar4:#1c7445;--ar5:#4b4fb0;--ar6:#6b7682}
+  :root[data-theme] .dist span,:root:not([data-theme="light"]) .dist span{color:#fff}
+}
+/* radar de editais */
+.rd-lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:12px;margin-top:12px}
+.rd-card{border:1px solid var(--line);border-left:5px solid var(--line);border-radius:12px;padding:14px;min-width:0;overflow-wrap:anywhere;display:flex;flex-direction:column;gap:6px}
+.rd-card.fav{box-shadow:inset 0 0 0 1px var(--accent)}
+.rd-card.st-b-aberta{border-left-color:var(--ok)} .rd-card.st-b-breve{border-left-color:var(--teal)} .rd-card.st-b-prova{border-left-color:var(--accent)}
+.rd-card.st-b-realizada,.rd-card.st-b-sem{border-left-color:var(--none)}
+.rd-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.rd-top h3{font-size:16px;margin:0 4px 0 0}
+.rd-grade{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px;margin:6px 0 2px}
+.rd-d{display:flex;flex-direction:column;min-width:0;font-size:14px}
+.rd-r{font-size:11.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.rd-d b{font-family:var(--f-mono);font-weight:500;font-size:14px}
+.rd-d .sub{font-size:12.5px}
+.rd-mud-l{font-size:13.5px;background:var(--warn-soft);border-radius:8px;padding:7px 10px}
+.rd-mud-l b{color:var(--warn)}
+.rd-card .links{margin-top:4px}
+.rd-card .links a,.rd-card .links .btn{font-size:13px;padding:6px 10px}
+.rd-fonte{font-size:12.5px;margin-top:auto;padding-top:4px}
+.rd-sem{margin:0;padding-left:18px;font-size:14px;columns:2 180px}
+.rd-cf{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.rd-cf li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px;align-items:start;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+.rd-cf li.mesmo{border-color:var(--crit);background:var(--crit-soft)}
+.rd-cf .pill{justify-self:start}
+.rd-mud{list-style:none;margin:10px 0 0;padding:0;display:grid}
+.rd-mud li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;padding:10px 8px;border-top:1px solid var(--line);font-size:14px;overflow-wrap:anywhere}
+.rd-mud li:first-child{border-top:0}
+.rd-mud li.recente{background:var(--accent-soft);border-radius:8px}
+.rd-mud li.vazio-l{display:block;color:var(--muted)}
+.rd-quando{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.rd-campo{font-weight:600}
+@media (max-width:560px){.rd-cf li,.rd-mud li{grid-template-columns:1fr;gap:4px}}
+/* aviso de prazo terminando */
+.alerta-prazo{margin:4px 0 14px;border:1px solid var(--warn);background:var(--warn-soft);border-radius:14px;padding:14px 16px}
+.ap-cab{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:flex-end;justify-content:space-between}
+.ap-cab h2{font-size:17px;margin:0;color:var(--ink)}
+.ap-cab h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--warn);margin-right:8px;vertical-align:1px}
+.ap-cab .sub{margin:2px 0 0;font-size:13px}
+.ap-cab .campo select{background:var(--surface)}
+.ap-lista{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.ap-lista li{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--warn);border-radius:10px;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
+.ap-lista li.urgente{border-left-color:var(--crit)}
+.ap-lista li.urgente .ap-txt > b:nth-of-type(2){color:var(--crit)}
+.ap-txt{flex:1 1 320px;min-width:0;font-size:14.5px;overflow-wrap:anywhere}
+.ap-prorr{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.ap-acoes{display:flex;flex-wrap:wrap;gap:6px}
+.ap-acoes .btn{font-size:13px;padding:6px 10px;text-decoration:none;display:inline-flex;align-items:center}
+.pill.fx-prazo{color:var(--crit);background:var(--crit-soft)}
+@media print{.alerta-prazo{display:none!important}}
+/* navegação simplificada */
+.topo-pag{padding-top:10px}
+.subnav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.subnav a{font-size:14.5px;font-weight:600;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px}
+.subnav a:hover{border-color:var(--accent)}
+.subnav a[aria-current="page"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.ajuda-pag{margin:4px 0 0;font-size:15px;color:var(--ink);max-width:80ch}
+nav.tabs a{font-size:15px;padding:13px 16px}
+@media (min-width:1025px){#filtros:not(.mais) .extra{display:none!important}}
+@media (max-width:1024px){#bt-mais{display:none}}
+.guia>summary{list-style:none;cursor:pointer}
+.guia>summary::-webkit-details-marker{display:none}
+.guia>summary h2{margin:0;display:flex;align-items:baseline;gap:8px}
+.guia>summary h2::before{content:"▸";color:var(--muted);font-size:15px}
+.guia[open]>summary h2::before{content:"▾"}
+.passos{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.passos li{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.passos li p{margin:2px 0 4px;font-size:14.5px;color:var(--ink)}
+.passos li b{font-size:16px}
+.num-passo{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;background:var(--surface-2);color:var(--ink)}
+.passos li.feito .num-passo{background:var(--ok);color:#fff}
+.st-passo{font-size:13.5px;font-weight:600;color:var(--muted)}
+.passos li.feito .st-passo{color:var(--ok)}
+.passos .btn{white-space:nowrap;text-decoration:none}
+@media (max-width:640px){.passos li{grid-template-columns:36px minmax(0,1fr)}.passos .btn{grid-column:2;justify-self:start}}
+.rodape-links{margin:0 0 6px;font-size:14px}
+.autor{margin:0 0 8px;font-size:14px;color:var(--ink)}
+.autor a{font-weight:600}
+/* celular: os 6 itens do menu à vista, em duas linhas, sem rolar de lado */
+@media (max-width:760px){
+  nav.tabs .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;gap:0}
+  nav.tabs a{text-align:center;padding:10px 4px;font-size:14px;line-height:1.25;display:flex;align-items:center;justify-content:center;min-height:46px}
+  nav.tabs .tab-seta{display:none!important}
+}
+/* leitor de tela e teclado */
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pular{position:fixed;left:12px;top:-80px;z-index:2000;font:inherit;font-weight:600;background:var(--ink);color:var(--surface);border:0;border-radius:8px;padding:10px 14px;cursor:pointer}
+.pular:focus{top:calc(env(safe-area-inset-top,0px) + 12px)}
+main:focus{outline:none}
+.lk{color:inherit;text-decoration:none;font:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:left}
+.lk:hover{text-decoration:underline;text-underline-offset:2px}
+.lk:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+/* seletor de tema */
+.tema{display:inline-flex;border:1px solid var(--line);border-radius:99px;padding:2px;gap:2px;margin-bottom:8px;background:var(--surface-2)}
+.tema button{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:none;border:0;border-radius:99px;padding:4px 11px;cursor:pointer;min-height:28px;display:inline-flex;align-items:center;gap:5px}
+.tema button:hover{color:var(--ink)}
+.tema button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.tema svg{width:14px;height:14px;flex:none}
+@media (pointer:coarse){.tema button{min-height:36px;padding:6px 12px}}
+@media (max-width:760px){.atual{display:flex;flex-direction:column;align-items:flex-start}.tema{margin-bottom:6px}}
+
+footer{padding-block:24px 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<script>
+/* tema: "auto" segue o claude.ai (quando ele marca a página) ou o aparelho; "light"/"dark" é escolha de quem vê, guardada só neste navegador */
+document.documentElement.lang = 'pt-BR';
+const TEMA_UI = (() => {
+  const root = document.documentElement, T = {pref: 'auto', host: root.getAttribute('data-theme')};
+  try { const v = localStorage.getItem('derma-tema'); if (v === 'light' || v === 'dark') T.pref = v; } catch {}
+  const quer = () => T.pref === 'auto' ? T.host : T.pref;
+  T.aplica = () => { const q = quer(), c = root.getAttribute('data-theme'); if (q == null) { if (c != null) root.removeAttribute('data-theme'); } else if (c !== q) root.setAttribute('data-theme', q); };
+  T.escolhe = v => { T.pref = v; try { v === 'auto' ? localStorage.removeItem('derma-tema') : localStorage.setItem('derma-tema', v); } catch {} T.aplica(); };
+  new MutationObserver(() => { const c = root.getAttribute('data-theme'); if (c !== quer()) { T.host = c; T.aplica(); } }).observe(root, {attributes: true, attributeFilter: ['data-theme']});
+  T.aplica();
+  return T;
+})();
+</script>
+<button type="button" class="pular" id="bt-pular">Pular para o conteúdo</button>
+<header class="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">R1 · acesso direto · 3 anos</div>
+      <h1><a href="#visao">Residência em <span>Dermatologia</span></a></h1>
+      <p>Programas, editais, datas e concorrência do ciclo de ingresso em março de 2027. Cada número leva a fonte e um selo de origem.</p>
+    </div>
+    <div class="atual"><div class="tema" role="group" aria-label="Tema da página"><button type="button" data-tema="auto" title="Segue o tema do aparelho" aria-label="Tema automático, segue o aparelho"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>Auto</button><button type="button" data-tema="light" aria-label="Tema claro"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></g></svg>Claro</button><button type="button" data-tema="dark" aria-label="Tema escuro"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 10.4A6 6 0 0 1 5.6 2.4a6 6 0 1 0 8 8z" fill="currentColor"/></svg>Escuro</button></div><div>Dados conferidos em <b id="gerado"></b><br><span id="hoje-txt"></span></div></div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Seções">
+  <button type="button" class="tab-seta" id="tab-esq" hidden aria-label="Ver abas anteriores">‹</button>
+  <div class="wrap" id="tabs-rol">
+    <a href="#visao" data-grupo="visao">Início</a>
+    <a href="#programas" data-grupo="programas mapa">Programas</a>
+    <a href="#radar" data-grupo="radar calendario">Prazos e provas</a>
+    <a href="#chances" data-grupo="chances concorrencia ranking comparar">Comparar</a>
+    <a href="#plano" data-grupo="plano">Minhas inscrições</a>
+    <a href="#provas" data-grupo="provas">Estudar</a>
+  </div>
+  <button type="button" class="tab-seta" id="tab-dir" hidden aria-label="Ver mais abas">›</button>
+</nav>
+
+<div class="wrap topo-pag"><nav class="subnav" id="subnav" aria-label="Partes desta seção" hidden></nav><p class="ajuda-pag" id="ajuda-pag"></p></div>
+<div class="wrap" id="filtros-box">
+  <form class="filtros" id="filtros" autocomplete="off">
+    <button type="button" class="btn" id="bt-filtros" aria-expanded="false">Filtros</button>
+    <div class="campo"><label for="f-busca">Buscar por nome ou cidade</label><input id="f-busca" type="search" placeholder="Ex.: Unifesp, Recife"></div>
+    <div class="campo extra"><label for="f-regiao">Região</label><select id="f-regiao"><option value="">Todas</option></select></div>
+    <div class="campo"><label for="f-uf">Estado</label><select id="f-uf"><option value="">Todos</option></select></div>
+    <div class="campo"><label for="f-situacao">Situação hoje</label><select id="f-situacao">
+      <option value="">Todas</option><option value="aberta">Inscrição aberta</option><option value="breve">Inscrição em breve</option>
+      <option value="prova">Inscrição encerrada, prova a fazer</option><option value="realizada">Prova já realizada</option><option value="sem">Edital 2027 não localizado</option></select></div>
+    <div class="campo extra"><label for="f-cv">Concorrência</label><select id="f-cv">
+      <option value="">Todas</option><option value="baixa">Baixa</option><option value="media">Média</option><option value="alta">Alta</option><option value="muito">Muito alta</option><option value="sem">Sem dado publicado</option></select></div>
+    <div class="campo extra"><label for="f-ano">Ano dos dados de concorrência</label><select id="f-ano"><option value="">Mais recente</option></select></div>
+    <div class="campo extra"><label for="f-banca">Processo seletivo</label><select id="f-banca"><option value="">Todos</option></select></div>
+    <label class="chk"><input type="checkbox" id="f-fav"> Só minha lista ★</label>
+    <label class="chk extra"><input type="checkbox" id="f-sbd"> Mostrar também serviços sem confirmação do MEC</label>
+    <button type="button" class="btn" id="bt-mais" aria-expanded="false">Mais filtros</button>
+    <button type="button" class="btn" id="bt-limpar">Limpar filtros</button>
+    <span class="contagem" id="contagem" aria-live="polite"></span>
+    <div class="chips" id="chips"></div>
+  </form>
+</div>
+
+<div class="wrap"><section class="alerta-prazo" id="alerta-prazo" hidden aria-labelledby="ap-tit">
+  <div class="ap-cab"><div><h2 id="ap-tit">Inscrições terminando</h2><p class="sub" id="ap-escopo"></p></div>
+    <div class="campo"><label for="ap-dias">Avisar com antecedência de</label><select id="ap-dias"><option value="3">3 dias</option><option value="7">7 dias</option><option value="15">15 dias</option><option value="30">30 dias</option></select></div></div>
+  <ul id="ap-lista" class="ap-lista"></ul>
+</section></div>
+
+<main class="wrap" id="conteudo" tabindex="-1">
+  <section class="view" id="v-visao" hidden>
+    <h2 class="sr">Início</h2>
+    <details class="card guia" id="guia"><summary><h2>Como usar o painel <small>5 passos</small></h2></summary><ol class="passos" id="passos"></ol></details>
+    <div class="kpis" id="kpis"></div>
+    <div class="card" id="novidades-card" hidden><h2>Novidades <small>mudanças nos editais e na série histórica nas últimas 2 semanas</small></h2><ul class="novidades" id="novidades"></ul></div>
+    <div class="grid-2">
+      <div class="card"><h2>Próximos prazos <small>dos programas filtrados</small></h2><ul class="prazos" id="prazos"></ul></div>
+      <div class="card"><h2>Vagas no ciclo 2027 por estado <small>só números publicados</small></h2><div class="barras" id="vagas-uf"></div></div>
+    </div>
+    <div class="card"><h2>De onde vêm os números <small>proporção de programas por tipo de fonte</small></h2><div class="cob" id="cobertura"></div>
+      <div class="legenda"><span class="selo oficial">Oficial: edital, resultado ou órgão</span><span class="selo secundaria">Não oficial: só um site de cursinho trazia o número</span><span class="selo nd">Não divulgado ou não localizado</span></div></div>
+  </section>
+
+  <section class="view" id="v-mapa" hidden>
+    <h2 class="sr">Mapa dos programas</h2>
+    <div class="map-modo" role="group" aria-label="Cor dos círculos">
+      <button type="button" class="btn" data-modo="situacao" aria-pressed="true">Cor: situação hoje</button>
+      <button type="button" class="btn" data-modo="cv" aria-pressed="false">Cor: concorrência</button>
+    </div>
+    <div class="mapa-lay">
+      <div>
+        <div id="mapa-box" role="region" aria-label="Mapa dos programas por cidade"></div>
+        <div class="map-leg" id="map-leg"></div>
+      </div>
+      <div class="card cidade-lista" id="cidade-lista"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-programas" hidden>
+    <h2 class="sr">Lista de programas</h2>
+    <div class="card" style="padding:8px 10px">
+      <div class="lista" id="lista"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-calendario" hidden>
+    <div id="conflitos"></div>
+    <div class="card"><h2>Linha do tempo do ciclo 2027 <small>uma linha por processo seletivo</small></h2>
+      <div class="tl-scroll"><div class="tl" id="tl"></div></div>
+      <div class="tl-leg">
+        <span><i style="width:26px;height:10px;border-radius:5px;background:var(--teal)"></i>Inscrições</span>
+        <span><i style="width:12px;height:12px;transform:rotate(45deg);background:var(--accent);border-radius:2px"></i>Prova objetiva</span>
+        <span><i style="width:12px;height:12px;border-radius:50%;border:3px solid var(--accent)"></i>Outras etapas</span>
+        <span><i style="width:4px;height:14px;background:var(--ink)"></i>Resultado previsto</span>
+      </div>
+      <p class="sub tl-ajuda" id="tl-ajuda">No teclado: Tab passa de processo em processo; as setas → e ← percorrem as datas da linha, ↑ e ↓ trocam de linha; Enter abre o programa ou a lista do processo; Esc volta ao nome.</p>
+    </div>
+  </section>
+
+  <section class="view" id="v-radar" hidden>
+    <h2 class="sr">Radar de editais</h2>
+    <div class="kpis" id="rd-kpis"></div>
+    <div class="card" id="rd-lista-card"><h2>Inscrições e provas <small>de cada processo seletivo do ingresso em 2027</small></h2>
+      <p class="intro">Um cartão por processo seletivo, do mais urgente para o mais distante: inscrições abertas, as que ainda vão abrir, provas a fazer e processos encerrados. Previsões sem edital completo aparecem marcadas como previsão, com a fonte.</p>
+      <div class="ch-faixas" id="rd-sit" role="group" aria-label="Mostrar só"></div>
+      <div id="rd-lista" class="rd-lista"></div>
+    </div>
+    <div class="card" id="rd-cf-card"><h2>Conflitos entre provas <small id="rd-cf-sub"></small></h2>
+      <div class="filtros" style="padding-block:4px 10px">
+        <div class="campo"><label for="rd-cf-esc">Comparar</label><select id="rd-cf-esc"><option value="lista">Só os processos da minha lista ★</option><option value="todos">Todos os processos do filtro atual</option></select></div>
+        <div class="campo"><label for="rd-cf-dias">Avisar quando as provas estiverem a</label><select id="rd-cf-dias"><option value="0">0 dias (só no mesmo dia)</option><option value="1">1 dia ou menos</option><option value="2">2 dias ou menos</option><option value="3">3 dias ou menos</option><option value="7">7 dias ou menos</option></select></div>
+      </div>
+      <div id="rd-cf"></div>
+    </div>
+    <div class="card" id="rd-mud-card"><h2>Mudanças e comunicados <small>o que mudou, quando e a fonte oficial</small></h2>
+      <div class="ch-faixas" id="rd-per" role="group" aria-label="Período"></div>
+      <ul id="rd-mud" class="rd-mud"></ul>
+      <p class="sub" id="rd-mon" style="margin-top:10px"></p>
+    </div>
+  </section>
+
+  <section class="view" id="v-ranking" hidden>
+    <div class="card">
+      <h2>Pontuação dos programas <small>de 0 a 100 · não é ranking oficial: nenhum órgão classifica residências</small></h2>
+      <p class="intro">A pontuação vai de 0 a 100 e soma dados públicos com os pesos abaixo. Mexa nos pesos para ver a ordem mudar. Vagas e procura sem dado saem da conta do programa em vez de virar zero; em CAPES, OpenAlex e SBD a ausência é informação e conta como zero.</p>
+      <div class="pesos" id="pesos"></div>
+    </div>
+    <div class="card" style="padding:8px 10px"><div class="lista" id="rank-lista"></div></div>
+  </section>
+
+  <section class="view" id="v-concorrencia" hidden>
+    <div class="card"><h2>Pontuação × concorrência <small>cada ponto é um programa com candidatos por vaga publicados</small></h2>
+      <p class="intro">No canto de cima, à esquerda, ficam os programas com pontuação acima da média e menos candidatos por vaga: boa estrutura e menos disputa.</p>
+      <div class="dispersao-box"><svg id="dispersao" role="img" aria-label="Gráfico de dispersão: candidatos por vaga no eixo horizontal, índice no eixo vertical"></svg></div>
+      <div class="legenda" id="disp-leg"></div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h2>Notas de corte publicadas <small>último ano de cada programa</small></h2><div class="rola-x cq"><table class="hist" id="cortes"></table></div><div id="cortes-mais"></div></div>
+      <div class="card"><h2>Concorrência do processo inteiro <small>quando a banca só publica o total da especialidade</small></h2><div class="rola-x cq"><table class="hist" id="gerais"></table></div></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-comparar" hidden>
+    <div class="card"><h2>Comparar programas <small>até 4, lado a lado</small></h2>
+      <div id="cmp-vazio" class="obs">Nenhum programa na comparação ainda. Abra a ficha de um programa e toque em “⇄ Comparar”, ou use o botão ⇄ de cada linha em Comparar › Pontuação.<div class="links" style="margin-top:10px"><a href="#ranking">Ir para Pontuação <span aria-hidden="true">→</span></a><a href="#programas">Ir para Programas <span aria-hidden="true">→</span></a></div></div>
+      <div id="cmp-conteudo" hidden>
+        <div class="cmp-lay"><div><svg id="radar" role="img" aria-label="Radar das dimensões do índice"></svg><div class="legenda" id="radar-leg"></div></div>
+        <div class="rola-x" style="min-width:0"><table class="hist cmp" id="cmp-tab"></table></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="v-chances" hidden>
+    <div class="card"><h2>Com a minha nota <small>sua nota comparada às notas de corte já publicadas</small></h2>
+      <div class="filtros" style="padding-block:4px 10px">
+        <div class="campo"><label for="ch-nota">Sua nota (simulado ou prova)</label><input id="ch-nota" type="number" min="0" step="0.1" placeholder="Ex.: 78" style="width:160px"></div>
+        <div class="campo"><label for="ch-escala">Escala da sua nota</label><select id="ch-escala"><option value="100">Percentual de acertos (0 a 100)</option><option value="1000">Nota ENARE/Enamed (0 a 1000)</option></select></div>
+      </div>
+      <p class="intro">A comparação é aproximada. Cada banca tem prova, peso de currículo e bônus diferentes, e os cortes do ENARE já incluem a bonificação de até 10%. Nada aqui vira probabilidade: a tabela só mostra se a sua nota ficaria acima, perto ou abaixo do último corte publicado.</p>
+      <div id="ch-resumo"></div>
+      <div class="rola-x"><table class="hist" id="ch-tab"></table></div>
+      <div id="ch-mais"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-plano" hidden>
+    <div class="card"><h2>Minhas inscrições <small>os processos da sua lista ★</small></h2>
+      <p class="intro" id="pl-salvo">Salvo neste aparelho.</p>
+      <div id="pl-vazio" class="obs" hidden>Sua lista está vazia. Toque na ★ ao lado do nome de um programa, em Programas, para começar.<div class="links" style="margin-top:10px"><a href="#programas">Ir para Programas <span aria-hidden="true">→</span></a><a href="#mapa">Escolher pelo mapa <span aria-hidden="true">→</span></a></div></div>
+      <div id="pl-lista" class="pl-lista"></div>
+      <div class="acoes-pl"><button type="button" class="btn" id="pl-imprimir">Imprimir ou salvar em PDF</button><button type="button" class="btn" id="pl-baixar" hidden>Baixar uma cópia</button><span class="sub" id="pl-msg" role="status"></span></div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h2>Orçamento <small>taxas dos editais e seus gastos previstos</small></h2><div id="pl-orc"></div></div>
+      <div class="card"><h2>Documentos <small>conforme cada edital</small></h2><div id="pl-docs"></div></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-provas" hidden>
+    <div class="card"><h2>Plano de estudo até a prova <small>quanto tempo dedicar a cada área</small></h2>
+      <div class="filtros" style="padding-block:4px 10px">
+        <div class="campo"><label for="es-alvo">Prova-alvo</label><select id="es-alvo"></select></div>
+        <div class="campo" id="es-data-c" hidden><label for="es-data">Data da prova</label><input id="es-data" type="date"></div>
+        <div class="campo" id="es-perfil-c" hidden><label for="es-perfil">Questões por área como em</label><select id="es-perfil"></select></div>
+        <div class="campo"><label for="es-horas">Horas de estudo por semana</label><input id="es-horas" type="number" min="1" max="100" step="1" style="width:120px"></div>
+        <div class="campo"><label for="es-rev">Semanas finais de revisão</label><input id="es-rev" type="number" min="0" max="12" step="1" placeholder="automático" style="width:140px"></div>
+      </div>
+      <div id="es-out"></div>
+    </div>
+    <div class="card"><h2>Como é cada prova <small id="pv-sub"></small></h2>
+      <p class="intro">Número de questões por grande área, etapas e pesos, bonificação e provas anteriores, como estão no edital de cada processo. Os processos da sua lista ★ aparecem primeiro.</p>
+      <div class="legenda" id="pv-leg"></div>
+      <div id="pv-lista" class="pv-lista"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-fontes" hidden>
+    <div class="grid-2">
+      <div class="card met"><h2>Como os dados foram montados</h2>
+        <p>Cada programa veio de uma fonte pública: a lista de programas e serviços credenciados (MEC/CNRM e SBD), os editais do ciclo de ingresso em 2027 e os relatórios de concorrência das bancas.</p>
+        <p><span class="selo oficial">Oficial</span> quer dizer que o número foi conferido no edital, no resultado ou no site da instituição ou da banca. <span class="selo secundaria">Não oficial</span> quer dizer que só um compilado de cursinho trazia o número; use como pista e confira no edital antes de decidir.</p>
+        <p>Nada aqui é estimado. Campo sem fonte aparece como <span class="selo nd">não divulgado</span>.</p>
+        <p>Concorrência: as faixas baixa, média, alta e muito alta são os quartis dos programas que publicaram candidatos por vaga no ano escolhido. Elas mudam quando entram dados novos.</p>
+        <p>Datas: a situação de cada programa é calculada com a data de hoje do seu aparelho. Datas de edital mudam por retificação; confira sempre o link oficial.</p>
+        <p>Série histórica: vagas, candidatos por vaga e notas de corte dos ingressos 2024 a 2027, conforme publicados. Nota de corte é a do último aprovado ou convocado na lista oficial; quando a banca só publica a 1ª fase (FMUSP, AMRIGS), a ficha avisa.</p><p>Índice da aba Ranking: pós-graduação (CAPES, áreas Medicina I a III), produção em Dermatologia (OpenAlex, 2021 a 2025), vagas e lista de serviços credenciados da SBD. Não é ranking oficial; os pesos são seus.</p>
+      </div>
+      <div class="card"><h2>O que ainda falta <small id="lac-n"></small></h2><ul class="lac" id="lacunas"></ul><div class="mais" id="lac-mais"></div></div>
+    </div>
+    <details class="card" id="fontes-det"><summary><h2>Fontes consultadas <small id="fontes-n"></small></h2></summary><ol class="fontes-l" id="fontes-l"></ol></details>
+  </section>
+</main>
+
+<footer><div class="wrap" id="rodape"></div></footer>
+
+<button type="button" class="btn" id="bt-topo" hidden aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+<div id="ficha-fundo" hidden></div>
+<aside id="ficha" hidden role="dialog" aria-modal="true" aria-labelledby="ficha-titulo"></aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const DADOS = /*__DADOS__*/null;
+const GEO_UF = /*__GEO__*/null;
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+const url = u => (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : null;
+const hoje = new Date(); hoje.setHours(0,0,0,0);
+const dt = iso => iso ? new Date(iso + 'T00:00:00') : null;
+const dias = iso => Math.round((dt(iso) - hoje) / 864e5);
+const MES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+const fD = iso => { if (!iso) return '—'; const d = dt(iso); return `${String(d.getDate()).padStart(2,'0')} ${MES[d.getMonth()]}`; };
+const fDA = iso => { if (!iso) return '—'; const d = dt(iso); return `${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}/${d.getFullYear()}`; };
+const fN = n => (n == null ? '—' : Number(n).toLocaleString('pt-BR', {maximumFractionDigits: 2}));
+const dN = n => n === 0 ? 'hoje' : n === 1 ? 'amanhã' : n > 0 ? `em ${n} dias` : `há ${-n} dias`;
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+/* ---------- interação: atalhos clicáveis, balão de detalhe, paginação ---------- */
+const TOQUE = matchMedia('(pointer:coarse)').matches;
+const PASSO = 40;
+let nLista = PASSO, nRank = PASSO, nCh = PASSO, nCorte = PASSO, calPos = false, lacTodas = false;
+const estadoPv = {};
+const lkA = (id, html, rot) => `<a class="lk" href="#p-${esc(id)}"${rot ? ` aria-label="${esc(rot)}"` : ''}>${html}</a>`;
+const irA = o => `data-ir="${esc(JSON.stringify(o))}" role="button" tabindex="0"`;
+const abreA = id => `data-abre="${esc(id)}" role="button" tabindex="0"`;
+const legBt = (campo, k, html) => `<button type="button" class="leg-bt" data-ir="${esc(JSON.stringify({f: {[campo]: k}, alterna: true}))}" aria-pressed="${F[campo] === k}">${html}</button>`;
+const maisHTML = (k, n, tot) => n < tot ? `<div class="mais"><span class="sub">Mostrando ${n} de ${tot}</span><button type="button" class="btn" data-mais="${k}">Mostrar mais ${Math.min(PASSO, tot - n)}</button><button type="button" class="btn" data-mais="${k}" data-todos="1">Mostrar todos</button></div>` : '';
+function sincF() {
+  for (const k of ['busca','regiao','uf','situacao','cv','ano','banca']) $('#f-' + k).value = F[k] || '';
+  $('#f-fav').checked = !!F.fav; $('#f-sbd').checked = !!F.sbd;
+  store.set('derma-filtros', F); calcQuartis(F.ano); nLista = nRank = nCh = nCorte = PASSO;
+}
+// leva a uma aba, com filtro e ordenação opcionais; "alterna" liga e desliga o mesmo filtro
+function ir(o) {
+  if (o.rd) {
+    fechaFicha(true);
+    if (o.rd !== 'mud') { RD.sit = o.rd; RD.lista = false; salvaRD(); }
+    if (vista !== 'radar') location.hash = 'radar'; else render();
+    setTimeout(() => $(o.rd === 'mud' ? '#rd-mud-card' : '#rd-lista-card')?.scrollIntoView({block: 'start'}), 60);
+    return;
+  }
+  if (o.f) {
+    const igual = Object.entries(o.f).every(([k, v]) => F[k] === v);
+    if (o.alterna && igual) Object.keys(o.f).forEach(k => F[k] = ''); else Object.assign(F, o.f);
+    sincF();
+  }
+  if (o.ord) { ordem = o.ord; store.set('derma-ordem', ordem); }
+  const empilhada = fichaEmpilhada && !$('#ficha').hidden;
+  fechaFicha(true);
+  if (o.v && o.v !== vista) { if (empilhada) { history.replaceState(null, '', '#' + o.v); mostra(o.v); } else location.hash = o.v; } else render();
+}
+const ROT_F = {busca: 'Busca', regiao: 'Região', uf: 'Estado', situacao: 'Situação', cv: 'Concorrência', ano: 'Ano da concorrência', banca: 'Processo'};
+function rChips() {
+  $('#chips').innerHTML = Object.keys(ROT_F).filter(k => F[k]).map(k => {
+    const el = $('#f-' + k), t = el.tagName === 'SELECT' ? (el.selectedOptions[0]?.textContent || F[k]) : F[k];
+    return `<button type="button" class="chip" data-limpa="${k}" aria-label="Tirar o filtro ${ROT_F[k]}: ${esc(t)}">${ROT_F[k]}: ${esc(t)} ✕</button>`;
+  }).join('') + (F.fav ? '<button type="button" class="chip" data-limpa="fav" aria-label="Tirar o filtro Só minha lista">Só minha lista ★ ✕</button>' : '');
+}
+const dica = document.createElement('div'); dica.id = 'dica'; dica.hidden = true; dica.setAttribute('role', 'tooltip'); document.body.appendChild(dica);
+let dicaEl = null, dicaFixa = false;
+function mostraDica(el, fixa) {
+  dicaEl = el; dicaFixa = !!fixa; dica.textContent = el.dataset.dica; dica.hidden = false;
+  const r = el.getBoundingClientRect(), w = dica.offsetWidth, h = dica.offsetHeight, vw = document.documentElement.clientWidth;
+  dica.style.left = Math.max(8, Math.min(r.left + r.width / 2 - w / 2, vw - w - 8)) + 'px';
+  dica.style.top = (r.top - h - 8 < 8 ? r.bottom + 8 : r.top - h - 8) + 'px';
+}
+function escondeDica() { dica.hidden = true; dicaEl = null; dicaFixa = false; }
+
+const P = DADOS.programas;
+const fav = new Set(store.get('derma-fav', []));
+
+/* ---------- situação e concorrência ---------- */
+function situacao(p) {
+  const c = p.ciclo || {};
+  const ini = c.inscricao_inicio, fim = c.inscricao_fim, prova = c.prova_1a_fase;
+  if (!fim && !prova && !ini) return {k:'sem', t:'Edital 2027 não localizado', ord: 9e9};
+  if (ini && dias(ini) > 0) return {k:'breve', t:`Inscrições abrem ${fD(ini)}`, ord: dias(ini)};
+  if (fim && dias(fim) >= 0) return {k:'aberta', t:`Inscrição até ${fD(fim)}`, ord: dias(fim)};
+  if (prova && dias(prova) >= 0) return {k:'prova', t:`Prova ${fD(prova)}`, ord: dias(prova)};
+  const prox = [...(c.outras_etapas || []).map(e => e.data), c.resultado_previsto].filter(d => d && dias(d) >= 0).sort()[0];
+  if (prox) return {k:'realizada', t:`Prova feita · próxima etapa ${fD(prox)}`, ord: 5e8 + dias(prox)};
+  if (prova) return {k:'realizada', t:`Prova feita ${fD(prova)}`, ord: 1e9 - dias(prova)};
+  return {k:'realizada', t:'Inscrições encerradas', ord: 1e9};
+}
+function cvDe(p, ano) {
+  const h = (p.historico || []).filter(x => x.candidatos_por_vaga != null && (!ano || x.ano_ingresso == ano))
+    .sort((a,b) => b.ano_ingresso - a.ano_ingresso)[0];
+  return h || null;
+}
+let quartis = null;
+function calcQuartis(ano) {
+  const v = P.map(p => cvDe(p, ano)).filter(Boolean).map(h => h.candidatos_por_vaga).sort((a,b) => a-b);
+  if (v.length < 4) { quartis = v.length ? {q1: v[0], q2: v[Math.floor(v.length/2)], q3: v[v.length-1], n: v.length} : null; return; }
+  const q = f => { const i = (v.length - 1) * f, lo = Math.floor(i), hi = Math.ceil(i); return v[lo] + (v[hi] - v[lo]) * (i - lo); };
+  quartis = {q1: q(.25), q2: q(.5), q3: q(.75), n: v.length};
+}
+function faixa(h) {
+  if (!h || !quartis) return {k:'sem', t:'sem dado'};
+  const x = h.candidatos_por_vaga;
+  if (x <= quartis.q1) return {k:'baixa', t:'baixa'};
+  if (x <= quartis.q2) return {k:'media', t:'média'};
+  if (x <= quartis.q3) return {k:'alta', t:'alta'};
+  return {k:'muito', t:'muito alta'};
+}
+const selo = (s, txt) => s === 'oficial' ? `<span class="selo oficial">${txt || 'oficial'}</span>`
+  : s === 'secundaria' ? `<span class="selo secundaria">${txt || 'não oficial'}</span>` : `<span class="selo nd">${txt || 'não divulgado'}</span>`;
+const valSelo = (v, s) => v == null || v === '' ? 'nd' : (s || 'nd');
+
+/* ---------- filtros ---------- */
+const F = Object.assign({busca:'', regiao:'', uf:'', situacao:'', cv:'', ano:'', banca:'', fav:false, sbd:false}, store.get('derma-filtros', {}));
+function opcoes() {
+  const add = (sel, vals) => { const el = $(sel); vals.forEach(([v, t]) => { const o = document.createElement('option'); o.value = v; o.textContent = t; el.appendChild(o); }); };
+  const reg = [...new Set(P.map(p => p.regiao).filter(Boolean))].sort();
+  add('#f-regiao', reg.map(r => [r, r]));
+  const ufs = [...new Set(P.map(p => p.uf).filter(Boolean))].sort();
+  add('#f-uf', ufs.map(u => [u, `${u} · ${DADOS.ufs[u]?.nome || u}`]));
+  const anos = [...new Set(P.flatMap(p => (p.historico || []).filter(h => h.candidatos_por_vaga != null).map(h => h.ano_ingresso)))].sort((a,b) => b-a);
+  add('#f-ano', anos.map(a => [a, `Ingresso ${a}`]));
+  const bancas = [...new Set(P.map(p => p.grupo).filter(Boolean))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
+  add('#f-banca', bancas.map(b => [b, b]));
+  for (const k of ['busca','regiao','uf','situacao','cv','ano','banca']) $('#f-' + k).value = F[k] || '';
+  $('#f-fav').checked = !!F.fav; $('#f-sbd').checked = !!F.sbd;
+}
+function filtrados() {
+  const b = norm(F.busca);
+  return P.filter(p => {
+    if (!F.sbd && p.tipo === 'sbd') return false;
+    if (F.regiao && p.regiao !== F.regiao) return false;
+    if (F.uf && p.uf !== F.uf) return false;
+    if (F.banca && p.grupo !== F.banca) return false;
+    if (F.fav && !fav.has(p.id)) return false;
+    if (F.situacao && situacao(p).k !== F.situacao) return false;
+    if (F.cv && faixa(cvDe(p, F.ano)).k !== F.cv) return false;
+    if (b && !norm([p.instituicao, p.sigla, p.hospital, p.cidade, p.uf, p.processo, p.banca].join(' ')).includes(b)) return false;
+    return true;
+  });
+}
+function lerFiltros() {
+  for (const k of ['busca','regiao','uf','situacao','cv','ano','banca']) F[k] = $('#f-' + k).value;
+  F.fav = $('#f-fav').checked; F.sbd = $('#f-sbd').checked;
+  store.set('derma-filtros', F);
+  calcQuartis(F.ano);
+  nLista = nRank = nCh = nCorte = PASSO;
+  render();
+}
+
+/* ---------- visão geral ---------- */
+function rGuia() {
+  const g = $('#guia');
+  if (!g.dataset.pronto) { let fechado = false; try { fechado = localStorage.getItem('derma-guia') === 'fechado'; } catch {} g.open = !fechado; g.dataset.pronto = '1'; }
+  const nFav = fav.size, procs = procsDaLista(), marcados = procs.filter(e => PL.st[e.k] && PL.st[e.k] !== 'interesse').length;
+  const term = typeof prazosTerminando === 'function' ? prazosTerminando().itens.length : 0;
+  const passos = [
+    ['Encontre os programas', 'Veja a lista com todos os programas, ou o mapa. A busca e os filtros ajudam a achar por cidade ou estado.', '#programas', 'Ver os programas', `${P.filter(p => p.tipo !== 'sbd').length} programas no painel`, nFav > 0],
+    ['Guarde os que interessam', 'Toque na ★ ao lado do nome do programa. Tudo o que é pessoal no painel parte dessa lista.', '#programas', 'Escolher programas', nFav ? `${nFav} guardado${nFav > 1 ? 's' : ''}` : 'nenhum guardado ainda', nFav > 0],
+    ['Acompanhe prazos e provas', 'Inscrições abertas, provas no mesmo dia e mudanças nos editais aparecem lá, com a fonte oficial.', '#radar', 'Ver prazos e provas', term ? `${term} inscriç${term > 1 ? 'ões terminando' : 'ão terminando'}` : 'nenhum prazo urgente', !term],
+    ['Organize suas inscrições', 'Marque em que etapa está cada inscrição, veja quanto vai gastar e os documentos de cada edital.', '#plano', 'Abrir minhas inscrições', procs.length ? `${marcados} de ${procs.length} com etapa marcada` : 'guarde programas primeiro', procs.length > 0 && marcados === procs.length],
+    ['Prepare-se para a prova', 'Veja quantas questões de cada área caem e monte um plano de estudo até a data da prova.', '#provas', 'Ir para Estudar', '', false],
+  ];
+  $('#passos').innerHTML = passos.map(([t, d, h, b, st, ok], i) => `<li class="${ok ? 'feito' : ''}"><span class="num-passo" aria-hidden="true">${ok ? '✓' : i + 1}</span><div><b>${t}</b><p>${d}</p>${st ? `<span class="st-passo">${ok ? '<span class="sr">Feito: </span>' : ''}${esc(st)}</span>` : ''}</div><a class="btn" href="${h}">${b}</a></li>`).join('');
+}
+function rVisao(L) {
+  rGuia();
+  const residencias = L.filter(p => p.tipo !== 'sbd');
+  const comVagas = L.filter(p => p.ciclo?.vagas != null);
+  const totVagas = comVagas.reduce((s, p) => s + p.ciclo.vagas, 0);
+  const abertas = L.filter(p => situacao(p).k === 'aberta');
+  const provas = L.filter(p => p.ciclo?.prova_1a_fase && dias(p.ciclo.prova_1a_fase) >= 0).sort((a,b) => dias(a.ciclo.prova_1a_fase) - dias(b.ciclo.prova_1a_fase));
+  const prox = provas[0];
+  const semEdital = L.filter(p => situacao(p).k === 'sem').length;
+  $('#kpis').innerHTML = `
+    <div class="kpi" ${irA({v:'programas'})}><span class="v">${residencias.length}</span> <span class="l">Programas de residência</span> <span class="s">${L.length - residencias.length ? `+ ${L.length - residencias.length} serviços SBD sem ato MEC confirmado · ` : ''}${semEdital} sem edital 2027 localizado</span> <span class="ir">Ver a lista <span aria-hidden="true">→</span></span></div>
+    <div class="kpi" ${irA({v:'programas', ord:{k:'vagas', dir:-1}})}><span class="v">${fN(totVagas)}</span> <span class="l">Vagas publicadas para 2027</span> <span class="s">em ${comVagas.length} programas com número divulgado</span> <span class="ir">Ver por número de vagas <span aria-hidden="true">→</span></span></div>
+    <div class="kpi ${abertas.length ? 'destaque' : ''}" ${irA(abertas.length ? {v:'programas', f:{situacao:'aberta'}} : {v:'calendario'})}><span class="v">${abertas.length}</span> <span class="l">Com inscrição aberta hoje</span> <span class="s">${abertas.length ? 'os prazos estão logo abaixo' : 'nenhuma no filtro atual'}</span> <span class="ir">${abertas.length ? 'Ver quais são <span aria-hidden="true">→</span>' : 'Ver o calendário <span aria-hidden="true">→</span>'}</span></div>
+    <div class="kpi" ${prox ? (prox.grupo ? irA({v:'programas', f:{banca: prox.grupo}}) : abreA(prox.id)) : irA({v:'calendario'})}><span class="v">${prox ? esc(fD(prox.ciclo.prova_1a_fase)) : '—'}</span> <span class="l">Próxima prova</span> <span class="s">${prox ? `${esc(prox.grupo || prox.instituicao)} · ${dN(dias(prox.ciclo.prova_1a_fase))}` : 'nenhuma prova futura no filtro'}</span> <span class="ir">${prox ? 'Ver os programas desta prova <span aria-hidden="true">→</span>' : 'Ver o calendário <span aria-hidden="true">→</span>'}</span></div>`;
+
+  // prazos agrupados por processo
+  const ev = new Map();
+  for (const p of L) {
+    const c = p.ciclo || {};
+    const push = (d, tipo) => { if (!d || dias(d) < 0) return; const k = `${p.grupo}|${tipo}|${d}`; const e = ev.get(k) || {d, tipo, proc: p.grupo || p.instituicao, progs: []}; e.progs.push(p); ev.set(k, e); };
+    push(c.inscricao_inicio, 'Abrem as inscrições');
+    push(c.inscricao_fim, 'Fim das inscrições');
+    push(c.prova_1a_fase, 'Prova objetiva');
+    (c.outras_etapas || []).forEach(e => push(e.data, e.etapa || 'Etapa'));
+    push(c.resultado_previsto, 'Resultado previsto');
+  }
+  const lst = [...ev.values()].sort((a,b) => a.d.localeCompare(b.d)).slice(0, 9);
+  $('#prazos').innerHTML = lst.length ? lst.map(e => {
+    const um = e.progs.length === 1 ? e.progs[0] : null;
+    const g0 = !um && e.progs[0].grupo, oIr = g0 && esc(JSON.stringify({v:'programas', f:{banca: g0}}));
+    const rotPz = `${e.tipo}, ${fDA(e.d)}, ${e.proc}${um ? `, ${um.cidade}/${um.uf}` : `, ${e.progs.length} programas`}`;
+    return `<li ${g0 ? `data-ir="${oIr}"` : `data-abre="${esc((um || e.progs[0]).id)}"`}><div class="d"><b>${esc(fD(e.d))}</b>${dt(e.d).getFullYear()}</div>
+      <div class="t"><b>${g0 ? `<button type="button" class="lk" data-ir="${oIr}" aria-label="${esc(rotPz)}: ver os programas">${esc(e.tipo)}</button>` : lkA((um || e.progs[0]).id, esc(e.tipo), rotPz)}</b><span>${esc(e.proc)}${um ? ` · ${esc(um.cidade)}/${esc(um.uf)}` : ` · ${e.progs.length} programas`}</span></div>
+      <span class="dn">${dN(dias(e.d))}</span></li>`; }).join('')
+    : `<li class="vazio" style="display:block">Nenhum prazo futuro com data publicada no filtro atual.</li>`;
+
+  // vagas por UF
+  const porUF = {};
+  comVagas.forEach(p => porUF[p.uf] = (porUF[p.uf] || 0) + p.ciclo.vagas);
+  const arr = Object.entries(porUF).sort((a,b) => b[1] - a[1]);
+  const max = arr[0]?.[1] || 1;
+  $('#vagas-uf').innerHTML = arr.length ? arr.map(([uf, n]) => `<div class="barra" ${irA({v:'programas', f:{uf}, ord:{k:'vagas', dir:-1}})} aria-label="Ver os programas de ${uf}: ${n} vagas"><b>${uf}</b><div class="trilho"><div class="ench" style="width:${(n/max*100).toFixed(1)}%"></div></div><span class="n num">${n}</span></div>`).join('')
+    : `<div class="vazio">Nenhum programa com vagas publicadas no filtro atual.</div>`;
+
+  // cobertura
+  const campos = [
+    ['Vagas 2027', p => valSelo(p.ciclo?.vagas, p.ciclo?.selo), {v:'programas', ord:{k:'vagas', dir:-1}}],
+    ['Datas do processo', p => valSelo(p.ciclo?.prova_1a_fase || p.ciclo?.inscricao_fim, p.ciclo?.selo), {v:'calendario'}],
+    ['Link do edital', p => url(p.ciclo?.link_edital) ? (p.ciclo?.selo || 'nd') : 'nd', {v:'programas'}],
+    ['Candidatos por vaga', p => { const h = cvDe(p, F.ano); return h ? (h.selo || 'nd') : 'nd'; }, {v:'concorrencia'}],
+    ['Nota de corte', p => { const h = (p.historico || []).find(x => x.nota_corte != null); return h ? (h.selo || 'nd') : 'nd'; }, {v:'concorrencia'}],
+  ];
+  const n = residencias.length || 1;
+  $('#cobertura').innerHTML = campos.map(([t, f, o]) => {
+    const c = {oficial:0, secundaria:0, nd:0}; residencias.forEach(p => c[f(p)]++);
+    const pc = k => (c[k] / n * 100);
+    return `<div class="cob-l" ${irA(o)}><span>${t} <span class="ir-s"><span aria-hidden="true">→</span></span></span><div>
+      <div class="empilha"><span class="o" style="width:${pc('oficial')}%"></span><span class="s" style="width:${pc('secundaria')}%"></span><span class="n" style="width:${pc('nd')}%"></span></div>
+      <div class="sub num" style="font-size:12.5px;margin-top:3px">${c.oficial} oficial · ${c.secundaria} não oficial · ${c.nd} sem dado</div></div></div>`;
+  }).join('');
+}
+
+/* ---------- mapa ---------- */
+let mapa, camadaCid, modoCor = 'situacao', ajustado = false, gesto = false, cidadeSel = null;
+const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const corSit = k => cssv({aberta:'--ok', breve:'--teal', prova:'--accent', realizada:'--none', encerrada:'--none', sem:'--none'}[k]);
+const corCv = k => cssv({baixa:'--ok', media:'--teal', alta:'--warn', muito:'--crit', sem:'--none'}[k]);
+const ORD_SIT = ['aberta','breve','prova','realizada','sem'];
+const ORD_CV = ['muito','alta','media','baixa','sem'];
+let camadaUF;
+function iniciaMapa() {
+  mapa = L.map('mapa-box', {zoomSnap: 0, zoomDelta: .5, minZoom: 3, maxZoom: 11, preferCanvas: true, renderer: L.canvas({tolerance: TOQUE ? 10 : 3}), dragging: !TOQUE, attributionControl: false, zoomControl: false});
+  L.control.zoom({zoomInTitle: 'Aproximar', zoomOutTitle: 'Afastar'}).addTo(mapa);
+  camadaUF = L.geoJSON(GEO_UF, {style: estiloUF, interactive: false}).addTo(mapa);
+  camadaCid = L.layerGroup().addTo(mapa);
+  const fit = () => { if (gesto) return; mapa.invalidateSize(); mapa.fitBounds(camadaUF.getBounds(), {padding: [8, 8]}); ajustado = true; };
+  new ResizeObserver(fit).observe($('#mapa-box'));
+  mapa.on('mousedown touchstart wheel', () => gesto = true);
+  fit();
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { camadaUF.setStyle(estiloUF); rMapa(filtrados()); });
+  new MutationObserver(() => { camadaUF.setStyle(estiloUF); rMapa(filtrados()); }).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+}
+function estiloUF() { return {color: cssv('--map-line'), weight: 1, fillColor: cssv('--map-land'), fillOpacity: 1}; }
+function rMapa(L0) {
+  if (!mapa) return;
+  camadaCid.clearLayers();
+  const cid = new Map();
+  for (const p of L0) { if (p.lat == null) continue; const k = `${p.cidade}|${p.uf}`; const c = cid.get(k) || {cidade: p.cidade, uf: p.uf, lat: p.lat, lon: p.lon, progs: []}; c.progs.push(p); cid.set(k, c); }
+  const arr = [...cid.values()].sort((a,b) => b.progs.length - a.progs.length);
+  for (const c of arr) {
+    const vag = c.progs.reduce((s, p) => s + (p.ciclo?.vagas || 0), 0);
+    const r = 6 + Math.sqrt(Math.max(vag, c.progs.length * 2)) * 2.2;
+    let k;
+    if (modoCor === 'situacao') k = ORD_SIT.find(s => c.progs.some(p => situacao(p).k === s)) || 'sem';
+    else k = ORD_CV.find(s => c.progs.some(p => faixa(cvDe(p, F.ano)).k === s)) || 'sem';
+    const cor = modoCor === 'situacao' ? corSit(k) : corCv(k);
+    const sel = cidadeSel === `${c.cidade}|${c.uf}`;
+    L.circleMarker([c.lat, c.lon], {radius: r, color: sel ? cssv('--ink') : cssv('--surface'), weight: sel ? 3 : 1.5, fillColor: cor, fillOpacity: .88})
+      .bindTooltip(`<b>${esc(c.cidade)}/${esc(c.uf)}</b><br>${c.progs.length} programa${c.progs.length > 1 ? 's' : ''}${vag ? ` · ${vag} vagas publicadas` : ''}`, {direction: 'top'})
+      .on('click', () => { cidadeSel = `${c.cidade}|${c.uf}`; rMapa(filtrados()); if (matchMedia('(max-width:900px)').matches) $('#cidade-lista').scrollIntoView({behavior: 'smooth', block: 'start'}); })
+      .addTo(camadaCid);
+  }
+  const semCoord = L0.filter(p => p.lat == null).length;
+  const leg = modoCor === 'situacao'
+    ? [['aberta','Inscrição aberta'],['breve','Abre em breve'],['prova','Prova a fazer'],['realizada','Prova feita'],['sem','Sem edital 2027']].map(([k,t]) => legBt('situacao', k, `<i style="background:${corSit(k)}"></i>${t}`))
+    : [['baixa','Baixa'],['media','Média'],['alta','Alta'],['muito','Muito alta'],['sem','Sem dado']].map(([k,t]) => legBt('cv', k, `<i style="background:${corCv(k)}"></i>${t}`));
+  $('#map-leg').innerHTML = leg.join('') + `<span>Toque numa legenda para filtrar. Tamanho = vagas publicadas. A cor mostra o caso mais urgente${modoCor === 'cv' ? ' (maior concorrência)' : ''} da cidade.</span>${semCoord ? `<span>${semCoord} sem cidade localizada</span>` : ''}${TOQUE ? '<span>Use dois dedos para mover e ampliar o mapa.</span>' : ''}`;
+  // lista lateral
+  const box = $('#cidade-lista');
+  const atual = cidadeSel && cid.get(cidadeSel);
+  if (atual) {
+    box.innerHTML = `<div class="eyebrow">Cidade selecionada</div><h3>${esc(atual.cidade)}/${esc(atual.uf)}</h3><p class="sub" style="margin:0 0 6px">${atual.progs.length} programa${atual.progs.length > 1 ? 's' : ''}</p>${miniLista(atual.progs)}<button type="button" class="btn" id="bt-todas" style="margin-top:12px">Ver todas as cidades</button>`;
+    $('#bt-todas').onclick = () => { cidadeSel = null; rMapa(filtrados()); };
+  } else {
+    box.innerHTML = `<div class="eyebrow">Toque num círculo para ver a cidade</div><h3>Cidades com mais programas</h3>${arr.length ? `<ul class="prazos">${arr.slice(0, 12).map(c => `<li style="grid-template-columns:1fr auto" data-cid="${esc(c.cidade + '|' + c.uf)}"><div class="t"><b><button type="button" class="lk" data-cid="${esc(c.cidade + '|' + c.uf)}" aria-label="${esc(c.cidade)}/${esc(c.uf)}: ${c.progs.length} programa${c.progs.length > 1 ? 's' : ''}">${esc(c.cidade)}/${esc(c.uf)}</button></b><span>${c.progs.map(p => esc(p.sigla || p.instituicao)).slice(0, 4).join(' · ')}${c.progs.length > 4 ? ' …' : ''}</span></div><span class="pill" style="background:var(--surface-2)" aria-label="${c.progs.length} programas">${c.progs.length} ›</span></li>`).join('')}</ul>` : '<div class="vazio">Nada no filtro atual.</div>'}`;
+    box.querySelectorAll('[data-cid]').forEach(b => b.onclick = ev => { ev.stopPropagation(); cidadeSel = b.dataset.cid; const c = cid.get(cidadeSel); gesto = true; mapa.setView([c.lat, c.lon], 7); rMapa(filtrados()); });
+  }
+}
+function miniLista(L0) {
+  return `<ul class="prazos">${L0.map(p => { const s = situacao(p); return `<li style="grid-template-columns:1fr" data-abre="${esc(p.id)}"><div class="t"><b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b><span>${esc(p.hospital || p.instituicao)}</span><div style="margin-top:5px;display:flex;gap:6px;flex-wrap:wrap"><span class="pill st-${s.k}">${esc(s.t)}</span>${p.ciclo?.vagas != null ? `<span class="pill" style="background:var(--surface-2)">${p.ciclo.vagas} vagas</span>` : ''}</div></div></li>`; }).join('')}</ul>`;
+}
+
+/* ---------- lista ---------- */
+let ordem = store.get('derma-ordem', {k: 'situacao', dir: 1});
+const COLS = [
+  ['', null], ['Programa', 'nome'], ['Local', 'local'], ['Processo', 'processo'], ['Vagas', 'vagas'], ['Situação hoje', 'situacao'], ['Candidatos por vaga', 'cv'], ['Fonte', null]
+];
+function chave(p, k) {
+  switch (k) {
+    case 'nome': return norm(p.sigla || p.instituicao);
+    case 'local': return norm(p.uf + p.cidade);
+    case 'processo': return norm(p.processo);
+    case 'vagas': return p.ciclo?.vagas ?? -1;
+    case 'situacao': return situacao(p).ord;
+    case 'cv': return cvDe(p, F.ano)?.candidatos_por_vaga ?? -1;
+  }
+}
+function rLista(L0) {
+  const arr = [...L0].sort((a, b) => { const x = chave(a, ordem.k), y = chave(b, ordem.k); return (x < y ? -1 : x > y ? 1 : 0) * ordem.dir; });
+  const cab = `<div class="lin cab">${COLS.map(([t, k]) => k ? `<span><button type="button" data-ord="${k}" ${ordem.k === k ? `aria-sort="${ordem.dir > 0 ? 'ascending' : 'descending'}"` : ''}>${t}</button></span>` : `<span>${t}</span>`).join('')}</div>`;
+  const ordM = `<div class="ord-m"><div class="campo"><label for="ord-sel">Ordenar por</label><select id="ord-sel">${COLS.filter(([, k]) => k).map(([t, k]) => `<option value="${k}" ${ordem.k === k ? 'selected' : ''}>${t}</option>`).join('')}</select></div><button type="button" class="btn" id="ord-dir" aria-label="Ordem ${ordem.dir > 0 ? 'crescente' : 'decrescente'}; inverter">${ordem.dir > 0 ? '↑ crescente' : '↓ decrescente'}</button></div>`;
+  const linhas = arr.slice(0, nLista).map(p => {
+    const s = situacao(p), h = cvDe(p, F.ano), fx = faixa(h), c = p.ciclo || {};
+    return `<div class="lin item" data-abre="${esc(p.id)}">
+      <button type="button" class="estrela" data-fav="${esc(p.id)}" aria-pressed="${fav.has(p.id)}" aria-label="Minha lista: ${esc(p.sigla || p.instituicao)}">★</button>
+      <div class="nome"><b>${lkA(p.id, esc(p.sigla || p.instituicao))} ${mudPill([p])}</b><span>${esc(p.hospital && p.hospital !== p.sigla ? p.hospital : p.instituicao)}${p.tipo === 'sbd' ? ' · SBD, ato MEC não confirmado' : ''}</span></div>
+      <div><span class="rot">Local</span>${esc(p.cidade)}/${esc(p.uf)}</div>
+      <div><span class="rot">Processo</span>${esc(p.grupo || '—')}<div class="sub">${esc(p.banca || '')}</div></div>
+      <div><span class="rot">Vagas 2027</span><span class="num">${c.vagas ?? '—'}</span>${c.vagas == null && p.vagas_cnrm != null ? `<div class="sub">${p.vagas_cnrm} autorizadas</div>` : ''}</div>
+      <div><span class="rot">Situação hoje</span><span class="pill st-${s.k}">${esc(s.t)}</span>${(s.k === 'aberta' || s.k === 'prova' || s.k === 'breve') ? `<div class="sub">${esc(dN(s.ord))}</div>` : ''}</div>
+      <div><span class="rot">Candidatos por vaga</span>${h ? `<span class="num">${fN(h.candidatos_por_vaga)}</span> <span class="pill cv-${fx.k}" style="padding:1px 7px;font-size:11.5px">${fx.t}</span><div class="sub">ingresso ${h.ano_ingresso}</div>` : '<span class="sub">não publicado</span>'}</div>
+      <div>${selo(c.selo && (c.vagas != null || c.prova_1a_fase) ? c.selo : 'nd', c.selo === 'oficial' ? 'oficial' : c.selo === 'secundaria' ? 'não oficial' : 'sem edital')}</div>
+    </div>`;
+  }).join('');
+  $('#lista').innerHTML = ordM + cab + (linhas || `<div class="vazio">Nenhum programa no filtro atual. Use “Limpar” para ver todos.</div>`) + maisHTML('lista', Math.min(nLista, arr.length), arr.length);
+  $('#ord-sel').onchange = e => { ordem = {k: e.target.value, dir: 1}; store.set('derma-ordem', ordem); nLista = PASSO; rLista(filtrados()); };
+  $('#ord-dir').onclick = () => { ordem = {k: ordem.k, dir: -ordem.dir}; store.set('derma-ordem', ordem); rLista(filtrados()); };
+  $('#lista').querySelectorAll('[data-ord]').forEach(b => b.onclick = e => { e.stopPropagation(); const k = b.dataset.ord; ordem = {k, dir: ordem.k === k ? -ordem.dir : 1}; store.set('derma-ordem', ordem); rLista(filtrados()); });
+}
+
+/* ---------- calendário ---------- */
+function rCal(L0) {
+  const grupos = new Map();
+  for (const p of L0) {
+    const c = p.ciclo || {};
+    if (!c.inscricao_fim && !c.prova_1a_fase && !c.inscricao_inicio) continue;
+    const k = [p.grupo, c.inscricao_inicio, c.inscricao_fim, c.prova_1a_fase].join('|');
+    const g = grupos.get(k) || {proc: p.grupo || p.instituicao, c, progs: []};
+    g.progs.push(p); grupos.set(k, g);
+  }
+  const arr = [...grupos.values()].sort((a, b) => (a.c.prova_1a_fase || a.c.inscricao_fim || '9').localeCompare(b.c.prova_1a_fase || b.c.inscricao_fim || '9'));
+  const todas = arr.flatMap(g => [g.c.inscricao_inicio, g.c.inscricao_fim, g.c.prova_1a_fase, g.c.resultado_previsto, ...(g.c.outras_etapas || []).map(e => e.data)]).filter(Boolean).sort();
+  if (!arr.length) { $('#tl').innerHTML = '<div class="vazio">Nenhum processo com datas publicadas no filtro atual.</div>'; $('#conflitos').innerHTML = ''; return; }
+  const ini = new Date(dt(todas[0]).getFullYear(), dt(todas[0]).getMonth(), 1);
+  const ultimo = dt(todas[todas.length - 1]);
+  const fim = new Date(ultimo.getFullYear(), ultimo.getMonth() + 1, 1);
+  const tot = fim - ini;
+  const pos = iso => ((dt(iso) - ini) / tot * 100).toFixed(2) + '%';
+  const meses = []; for (let d = new Date(ini); d < fim; d.setMonth(d.getMonth() + 1)) meses.push(new Date(d));
+  const larg = meses.map(m => { const n = new Date(m.getFullYear(), m.getMonth() + 1, 1); return ((n - m) / tot * 100).toFixed(3) + '%'; });
+  const grade = meses.map(m => `<div class="tl-grade" style="left:${((m - ini) / tot * 100).toFixed(2)}%"></div>`).join('');
+  const hojeP = hoje >= ini && hoje <= fim ? `<div class="tl-hoje" style="left:${((hoje - ini) / tot * 100).toFixed(2)}%"></div>` : '';
+  const linha = g => {
+    const c = g.c, vag = g.progs.reduce((s, p) => s + (p.ciclo?.vagas || 0), 0);
+    const um = g.progs.length === 1 ? g.progs[0] : null;
+    const ti = `${g.proc}`;
+    let marc = '';
+    if (c.inscricao_inicio && c.inscricao_fim) marc += `<div class="tl-insc" style="left:${pos(c.inscricao_inicio)};width:calc(${pos(c.inscricao_fim)} - ${pos(c.inscricao_inicio)} + 4px)" tabindex="-1" role="button" data-dica="${esc(g.proc)} · inscrições de ${fDA(c.inscricao_inicio)} a ${fDA(c.inscricao_fim)}"></div>`;
+    else if (c.inscricao_fim) marc += `<div class="tl-insc" style="left:calc(${pos(c.inscricao_fim)} - 6px);width:8px" tabindex="-1" role="button" data-dica="${esc(g.proc)} · fim das inscrições em ${fDA(c.inscricao_fim)}"></div>`;
+    (c.outras_etapas || []).filter(e => e.data).forEach(e => marc += `<div class="tl-etapa" style="left:${pos(e.data)}" tabindex="-1" role="button" data-dica="${esc(g.proc)} · ${esc(e.etapa)}: ${fDA(e.data)}"></div>`);
+    if (c.resultado_previsto) marc += `<div class="tl-res" style="left:${pos(c.resultado_previsto)}" tabindex="-1" role="button" data-dica="${esc(g.proc)} · resultado previsto em ${fDA(c.resultado_previsto)}"></div>`;
+    if (c.prova_1a_fase) marc += `<div class="tl-prova" style="left:${pos(c.prova_1a_fase)}" tabindex="-1" role="button" data-dica="${esc(g.proc)} · prova objetiva em ${fDA(c.prova_1a_fase)}"></div>`;
+    return `<div class="tl-linha"><div class="tl-rot" aria-describedby="tl-ajuda" ${um ? abreA(um.id) : g.progs[0].grupo ? irA({v:'programas', f:{banca: g.progs[0].grupo}}) : ''}><b title="${esc(ti)}">${esc(ti)}</b> <span>${um ? `${esc(um.cidade)}/${esc(um.uf)}` : `${g.progs.length} programas`}${vag ? ` · ${vag} vagas` : ''}${c.prova_1a_fase ? ` · prova ${fD(c.prova_1a_fase)}` : ''}</span></div><div class="tl-trilha">${grade}${hojeP}${marc}</div></div>`;
+  };
+  $('#tl').innerHTML = `<div class="tl-meses" style="grid-template-columns:${larg.join(' ')}">${meses.map(m => `<div>${MES[m.getMonth()]} ${String(m.getFullYear()).slice(2)}</div>`).join('')}</div>${arr.map(linha).join('')}`;
+  $('#tl').querySelectorAll('.tl-trilha [data-dica]').forEach(m => m.setAttribute('aria-label', m.dataset.dica));
+  const sc = $('.tl-scroll'), hj = $('#tl .tl-hoje');
+  if (!calPos && hj && sc.scrollWidth > sc.clientWidth + 4) { const rot = parseFloat(getComputedStyle($('#tl')).getPropertyValue('--rot')) || 260; sc.scrollLeft = Math.max(0, hj.getBoundingClientRect().left - $('#tl').getBoundingClientRect().left - rot - (sc.clientWidth - rot) * .3); calPos = true; }
+
+  // conflitos entre programas da minha lista
+  const meus = P.filter(p => fav.has(p.id) && p.ciclo?.prova_1a_fase);
+  const porDia = {};
+  meus.forEach(p => { const d = p.ciclo.prova_1a_fase; (porDia[d] ||= new Map()).set(p.grupo, p); });
+  const conf = Object.entries(porDia).filter(([, m]) => m.size > 1);
+  $('#conflitos').innerHTML = conf.length
+    ? `<div class="alerta"><b>Conflito de datas na sua lista.</b> ${conf.map(([d, m]) => `${fDA(d)}: ${[...m.values()].map(p => esc((p.sigla || p.instituicao) + ' (' + (p.grupo || '') + ')')).join(' × ')}`).join('; ')}. Confira se as provas não são no mesmo horário antes de pagar as duas inscrições. <a href="#radar">Ver todos os conflitos em Prazos e provas</a>, inclusive provas em datas próximas.</div>`
+    : (fav.size ? '' : `<div class="obs">Marque programas com ★ em Programas para o calendário avisar quando duas provas caírem no mesmo dia.</div>`);
+}
+
+/* ---------- ficha ---------- */
+function gcal(p, titulo, iso) {
+  if (!iso) return null;
+  const d = iso.replace(/-/g, ''); const n = new Date(dt(iso).getTime() + 864e5);
+  const d2 = `${n.getFullYear()}${String(n.getMonth()+1).padStart(2,'0')}${String(n.getDate()).padStart(2,'0')}`;
+  const det = [p.processo, url(p.ciclo?.link_edital) ? 'Edital: ' + p.ciclo.link_edital : ''].filter(Boolean).join('\n');
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(titulo)}&dates=${d}/${d2}&details=${encodeURIComponent(det)}`;
+}
+let ultimoFoco = null, chaveFoco = null, fichaEmpilhada = false;
+// a aba costuma ser redesenhada ao fechar a ficha; então o foco volta a um elemento equivalente, achado pela mesma chave
+function restauraFoco() {
+  if (ultimoFoco?.isConnected) { ultimoFoco.focus(); return; }
+  const k = chaveFoco || {}, q = (a, v) => `[${a}="${CSS.escape(v)}"]`;
+  const sel = k.dica ? q('data-dica', k.dica) : k.abre ? q('data-abre', k.abre) : k.ir ? q('data-ir', k.ir) : k.href ? 'a' + q('href', k.href) : k.id ? '#' + CSS.escape(k.id) : null;
+  if (sel) ($('#v-' + vista)?.querySelector(sel) || document.querySelector(sel))?.focus();
+}
+function abreFicha(id, semHash) {
+  const p = P.find(x => x.id === id); if (!p) return;
+  if (!$('#ficha').contains(document.activeElement)) { ultimoFoco = document.activeElement; const d = ultimoFoco?.dataset || {}; chaveFoco = {dica: d.dica, abre: d.abre, ir: d.ir, href: ultimoFoco?.getAttribute?.('href'), id: ultimoFoco?.id}; }
+  const c = p.ciclo || {}, s = situacao(p);
+  const linha = (t, v, sl) => `<div class="par"><dt>${t}</dt><dd>${v == null || v === '' ? '<span class="selo nd">não divulgado</span>' : `${v} ${sl ? selo(sl) : ''}`}</dd></div>`;
+  const lk = [['Edital', c.link_edital], ['Inscrição', c.link_inscricao], ['Página do processo', c.link_processo], ['Fonte usada', c.fonte]]
+    .filter(([, u]) => url(u)).filter(([, u], i, a) => a.findIndex(x => x[1] === u) === i)
+    .map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${t}<span aria-hidden="true"> ↗</span></a>`);
+  const cal = [['Fim das inscrições', c.inscricao_fim], ['Prova objetiva', c.prova_1a_fase]].filter(([, d]) => d && dias(d) >= 0)
+    .map(([t, d]) => `<a href="${esc(gcal(p, `${t} · ${p.sigla || p.instituicao} (Dermato)`, d))}" target="_blank" rel="noopener">＋ ${t} no Google Agenda</a>`);
+  const hist = (p.historico || []).slice().sort((a, b) => b.ano_ingresso - a.ano_ingresso);
+  $('#ficha').innerHTML = `
+    <button type="button" class="btn fecha" id="bt-fecha" aria-label="Fechar ficha">✕</button>
+    <div class="eyebrow">${esc(p.cidade)}/${esc(p.uf)} · ${esc(p.natureza || 'natureza não informada')}${p.tipo === 'sbd' ? ' · serviço SBD, ato MEC não confirmado' : ''}</div>
+    <h2 id="ficha-titulo">${esc(p.sigla || p.instituicao)}</h2>
+    <div class="sub">${esc(p.instituicao)}${p.hospital && p.hospital !== p.instituicao ? ` · ${esc(p.hospital)}` : ''}</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;align-items:center">
+      <span class="pill st-${s.k}">${esc(s.t)}</span>${mudPill([p])}
+      <button type="button" class="btn" data-fav="${esc(p.id)}" aria-pressed="${fav.has(p.id)}">${fav.has(p.id) ? '<span aria-hidden="true">★</span> Na minha lista' : '<span aria-hidden="true">☆</span> Pôr na minha lista'}</button>
+      ${p.tipo === 'mec' ? `<button type="button" class="btn" data-cmp="${esc(p.id)}" aria-pressed="${cmp.includes(p.id)}">${cmp.includes(p.id) ? '<span aria-hidden="true">⇄</span> Na comparação' : '<span aria-hidden="true">⇄</span> Comparar'}</button>` : ''}
+    </div>
+    ${p.aviso ? `<div class="alerta" style="margin-top:16px"><b>Atenção:</b> ${esc(p.aviso)}</div>` : ''}
+    ${lk.length ? `<div class="bloco"><h3>Links oficiais</h3><div class="links">${lk.join('')}</div></div>` : ''}
+    <div class="bloco"><h3>Ciclo de ingresso 2027</h3><dl style="margin:0">
+      ${linha('Processo', esc(p.processo) + (p.grupo && P.filter(x => x.grupo === p.grupo).length > 1 ? ` <button type="button" class="chip" data-ir="${esc(JSON.stringify({v:'programas', f:{banca: p.grupo}}))}">ver os programas deste processo <span aria-hidden="true">→</span></button>` : ''))}
+      ${linha('Banca', esc(p.banca))}
+      ${linha('Vagas no edital', c.vagas != null ? `<span class="num">${c.vagas}</span>` : null, c.selo)}
+      ${p.vagas_cnrm != null ? linha('Vagas de R1 autorizadas (CNRM)', `<span class="num">${p.vagas_cnrm}</span>${url(p.vagas_cnrm_fonte) ? ` <a href="${esc(p.vagas_cnrm_fonte)}" target="_blank" rel="noopener">ato<span aria-hidden="true"> ↗</span></a>` : ''}`, 'oficial') : ''}
+      ${linha('Inscrições', c.inscricao_inicio || c.inscricao_fim ? `${fDA(c.inscricao_inicio)} a ${fDA(c.inscricao_fim)}` : null, c.selo)}
+      ${linha('Prova objetiva', c.prova_1a_fase ? `${fDA(c.prova_1a_fase)} <span class="dn">${dN(dias(c.prova_1a_fase))}</span>` : null, c.selo)}
+      ${(c.outras_etapas || []).map(e => linha(esc(e.etapa || 'Etapa'), e.data ? fDA(e.data) : 'data a definir', c.selo)).join('')}
+      ${linha('Resultado previsto', c.resultado_previsto ? fDA(c.resultado_previsto) : null, c.selo)}
+      ${linha('Taxa de inscrição', c.taxa_reais != null ? `R$ ${fN(c.taxa_reais)}` : null, c.selo)}
+      ${linha('Etapas e pesos', esc(c.etapas_descricao))}
+    </dl></div>
+    ${cal.length ? `<div class="bloco"><h3>Lembretes</h3><div class="links">${cal.join('')}</div></div>` : ''}
+    <div class="bloco"><h3>Concorrência e notas de corte anteriores</h3>
+      ${hist.length ? `<div class="rola-x"><table class="hist"><thead><tr><th>Ingresso</th><th>Vagas</th><th>Inscritos</th><th>Candidatos por vaga</th><th>Nota de corte</th><th>Fonte</th></tr></thead><tbody>
+        ${hist.map(h => `<tr><td class="num">${h.ano_ingresso}</td><td class="num">${fN(h.vagas)}</td><td class="num">${fN(h.inscritos)}</td><td class="num">${fN(h.candidatos_por_vaga)}</td><td>${h.nota_corte != null ? `<span class="num">${fN(h.nota_corte)}</span>${h.nota_corte_escala ? ` <span class="sub">(${esc(h.nota_corte_escala)}${h.nota_corte_etapa ? ', ' + esc(h.nota_corte_etapa) : ''})</span>` : ''}` : '<span class="sub">não divulgada</span>'}${h.obs ? `<div class="sub" style="max-width:36ch">${esc(h.obs)}</div>` : ''}</td><td>${url(h.fonte) ? `<a href="${esc(h.fonte)}" target="_blank" rel="noopener">${h.selo === 'oficial' ? 'oficial' : 'não oficial'}<span aria-hidden="true"> ↗</span></a>` : selo(h.selo)}</td></tr>`).join('')}
+      </tbody></table></div>` : `<div class="obs">Nenhum dado oficial de concorrência ou nota de corte localizado para este programa até agora.</div>`}
+    </div>
+    ${fichaIndicadores(p)}
+    ${fichaGeral(p)}
+    ${fichaPerfil(p)}
+    ${p.observacoes ? `<div class="bloco"><h3>Observações</h3><div class="obs">${esc(p.observacoes)}</div></div>` : ''}
+    <div class="bloco"><div class="sub" style="font-size:13px">Conferido em ${fDA(DADOS.gerado_em)}. Datas de edital mudam por retificação; confirme no link oficial.</div></div>`;
+  $('#ficha').hidden = false; $('#ficha-fundo').hidden = false;
+  if (innerWidth <= 760) document.documentElement.style.overflow = 'hidden';
+  escondeDica();
+  $('#ficha').scrollTop = 0;
+  $('#bt-fecha').focus();
+  if (!semHash && location.hash !== '#p-' + id) {
+    // ficha aberta por clique: empilha uma entrada, para o "voltar" do navegador fechar a ficha em vez de sair da aba
+    if (location.hash.startsWith('#p-')) history.replaceState(null, '', '#p-' + id);
+    else { try { history.pushState(null, '', '#p-' + id); fichaEmpilhada = true; } catch { history.replaceState(null, '', '#p-' + id); } }
+  }
+}
+function fechaFicha(semVoltar) {
+  if ($('#ficha').hidden) return;
+  $('#ficha').hidden = true; $('#ficha-fundo').hidden = true;
+  document.documentElement.style.overflow = '';
+  // fechar por ✕, Esc ou fundo desfaz a entrada empilhada; se o próprio "voltar" fechou, o histórico já andou
+  const empilhada = fichaEmpilhada; fichaEmpilhada = false;
+  if (location.hash.startsWith('#p-')) { if (empilhada && !semVoltar) history.back(); else history.replaceState(null, '', '#' + (vista || 'programas')); }
+  if (!semVoltar) restauraFoco();
+}
+
+/* ---------- índice (ranking) ---------- */
+const DIMS = [
+  {k:'capes', nome:'Pós-graduação médica', curto:'CAPES', fonte:'CAPES', desc:'Melhor conceito CAPES (3 a 7) entre os mestrados e doutorados de Medicina I, II e III da instituição de ensino ligada ao programa, na mesma cidade. Meio ponto a mais se houver pós-graduação em Dermatologia.', pad:30},
+  {k:'pub', nome:'Produção em Dermatologia', curto:'Produção', fonte:'OpenAlex', desc:'Artigos com tema principal em Dermatologia publicados de 2021 a 2025 pela instituição (escala logarítmica).', pad:30},
+  {k:'vagas', nome:'Tamanho do serviço', curto:'Vagas', fonte:'edital ou CNRM', desc:'Vagas de R1 no edital 2027 (ou autorizadas pela CNRM), contadas até 12.', pad:20},
+  {k:'sbd', nome:'Credenciado pela SBD', curto:'SBD', fonte:'SBD', desc:'Consta na lista de serviços credenciados da Sociedade Brasileira de Dermatologia.', pad:20},
+  {k:'cv', nome:'Procura', curto:'Procura', fonte:'bancas', desc:'Candidatos por vaga no último ano publicado (posição relativa). Começa desligado: ser disputado não é o mesmo que ser bom.', pad:0},
+];
+const pesos = Object.assign(Object.fromEntries(DIMS.map(d => [d.k, d.pad])), store.get('derma-pesos', {}));
+const ELEG = P.filter(p => p.tipo === 'mec');
+const maxPub = Math.max(1, ...ELEG.map(p => p.ind?.openalex?.artigos || 0));
+const cvOrd = ELEG.map(p => cvDe(p, '')?.candidatos_por_vaga).filter(v => v != null).sort((a, b) => a - b);
+function dimVal(p, k) {
+  const I = p.ind || {};
+  if (k === 'capes') return I.capes ? Math.max(0, Math.min(1, (I.capes.melhor + (I.capes.derm?.length ? .5 : 0) - 3) / 4)) : 0;
+  if (k === 'pub') return I.openalex_pendente ? null : I.openalex ? Math.log1p(I.openalex.artigos) / Math.log1p(maxPub) : 0;
+  if (k === 'vagas') { const v = p.ciclo?.vagas ?? p.vagas_cnrm; return v == null ? null : Math.min(v, 12) / 12; }
+  if (k === 'sbd') return I.sbd ? 1 : 0;
+  if (k === 'cv') { const h = cvDe(p, ''); if (!h || cvOrd.length < 2) return null; const i = cvOrd.findIndex(v => v >= h.candidatos_por_vaga); return i / (cvOrd.length - 1); }
+  return null;
+}
+function indice(p) {
+  if (p.tipo !== 'mec') return null;
+  let sw = 0, s = 0; const partes = {};
+  for (const d of DIMS) { const w = +pesos[d.k] || 0; if (!w) continue; const v = dimVal(p, d.k); if (v == null) continue; sw += w; s += w * v; partes[d.k] = w * v; }
+  if (!sw) return null;
+  for (const k in partes) partes[k] = partes[k] / sw * 100;
+  return {v: s / sw * 100, partes};
+}
+function rPesos() {
+  const tot = DIMS.reduce((s, d) => s + (+pesos[d.k] || 0), 0) || 1;
+  $('#pesos').innerHTML = DIMS.map(d => `<div class="peso"><label for="w-${d.k}"><b><i class="sw dim-${d.k}"></i>${d.nome}</b><span>${Math.round((+pesos[d.k] || 0) / tot * 100)}%</span></label>
+    <input type="range" id="w-${d.k}" min="0" max="50" step="5" value="${pesos[d.k]}" data-peso="${d.k}"><small>${d.desc} Fonte: ${d.fonte}.</small></div>`).join('')
+    + `<div class="peso" style="align-content:end"><button type="button" class="btn" id="bt-pesos">Voltar aos pesos padrão</button></div>`;
+  $('#pesos').querySelectorAll('[data-peso]').forEach(r => r.oninput = () => { pesos[r.dataset.peso] = +r.value; store.set('derma-pesos', pesos); rPesosRotulos(); rRanking(filtrados()); });
+  $('#bt-pesos').onclick = () => { DIMS.forEach(d => pesos[d.k] = d.pad); store.set('derma-pesos', pesos); rPesos(); rRanking(filtrados()); };
+}
+function rPesosRotulos() { const tot = DIMS.reduce((s, d) => s + (+pesos[d.k] || 0), 0) || 1; DIMS.forEach(d => { const l = document.querySelector(`label[for="w-${d.k}"] span`); if (l) l.textContent = Math.round((+pesos[d.k] || 0) / tot * 100) + '%'; }); }
+function rRanking(L0) {
+  if (!$('#pesos').children.length) rPesos();
+  const arr = L0.filter(p => p.tipo === 'mec').map(p => ({p, i: indice(p)})).filter(x => x.i).sort((a, b) => b.i.v - a.i.v);
+  const cab = `<div class="lin rk cab"><span>#</span><span>Programa</span><span>Local</span><span>Do que é feita a pontuação</span><span style="text-align:right">Pontuação</span><span>Comparar</span></div>`;
+  $('#rank-lista').innerHTML = cab + (arr.slice(0, nRank).map(({p, i}, n) => {
+    const I = p.ind || {}; const vg = p.ciclo?.vagas ?? p.vagas_cnrm;
+    const det = [I.capes ? `CAPES ${I.capes.melhor}${I.capes.derm?.length ? ' + pós em Dermato' : ''}` : 'sem pós CAPES ligada', I.openalex ? `${I.openalex.artigos} artigos` : I.openalex_pendente ? 'produção: consulta pendente' : 'produção não localizada', vg != null ? `${vg} vagas` : 'vagas sem dado', I.sbd ? 'SBD ✓' : 'fora da lista SBD'].join(' · ');
+    return `<div class="lin item rk" data-abre="${esc(p.id)}">
+      <span class="pos">${n + 1}</span>
+      <div class="nome"><b>${lkA(p.id, esc(p.sigla || p.instituicao), `${n + 1}º, ${p.sigla || p.instituicao}, índice ${i.v.toFixed(0)}`)}</b><span>${esc(det)}</span></div>
+      <div>${esc(p.cidade)}/${esc(p.uf)}</div>
+      <div><div class="pilha" role="img" aria-label="Composição do índice: ${DIMS.filter(d => i.partes[d.k] != null).map(d => `${d.nome} ${i.partes[d.k].toFixed(0)} pontos`).join(', ')}" data-dica="${DIMS.filter(d => i.partes[d.k] != null).map(d => `${d.nome}: ${i.partes[d.k].toFixed(1)}`).join(' · ')}">${DIMS.filter(d => i.partes[d.k]).map(d => `<span class="dim-${d.k}" style="width:${i.partes[d.k]}%"></span>`).join('')}</div></div>
+      <span class="idx num">${i.v.toFixed(0)}</span>
+      <span class="cmpchk"><button type="button" class="estrela" data-cmp="${esc(p.id)}" aria-pressed="${cmp.includes(p.id)}" aria-label="Comparar ${esc(p.sigla || p.instituicao)}" style="font-size:17px">⇄</button></span>
+    </div>`; }).join('') || '<div class="vazio">Nenhum programa no filtro atual.</div>') + maisHTML('rank', Math.min(nRank, arr.length), arr.length);
+}
+
+/* ---------- concorrência ---------- */
+const COR_REG = {Norte:'--teal', Nordeste:'--warn', 'Centro-Oeste':'--ok', Sudeste:'--accent', Sul:'--crit'};
+function mediana(v) { const a = [...v].sort((x, y) => x - y); const m = Math.floor(a.length / 2); return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2; }
+const escCurta = s => String(s || '').split(' (')[0];
+function corteNorm(h) {
+  if (!h || h.nota_corte == null) return null;
+  const e = norm(h.nota_corte_escala || '');
+  if (/1000/.test(e)) return h.nota_corte / 10;
+  const m = e.match(/0\s*(?:-|a|ate)\s*(\d+(?:[.,]\d+)?)/) || e.match(/(?:sobre|de|em)\s*(\d+(?:[.,]\d+)?)\s*(?:pontos|questoes)?$/);
+  if (m) { const x = parseFloat(m[1].replace(',', '.')); if (x >= 10) return h.nota_corte / x * 100; }
+  if (/%|percent/.test(e)) return h.nota_corte;
+  return null;
+}
+function rConcorrencia(L0) {
+  const pts = L0.filter(p => p.tipo === 'mec').map(p => ({p, h: cvDe(p, F.ano), i: indice(p)})).filter(x => x.h && x.i);
+  const svg = $('#dispersao'); const W = 860, H = 420, m = {l: 52, r: 16, t: 16, b: 44};
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  if (pts.length < 2) { svg.innerHTML = `<text x="${W / 2}" y="${H / 2}" text-anchor="middle">Poucos programas com concorrência publicada no filtro atual.</text>`; $('#disp-leg').innerHTML = ''; }
+  else {
+    const xmax = Math.ceil(Math.max(...pts.map(x => x.h.candidatos_por_vaga)) / 20) * 20;
+    const X = v => m.l + v / xmax * (W - m.l - m.r), Y = v => H - m.b - v / 100 * (H - m.t - m.b);
+    const mx = mediana(pts.map(x => x.h.candidatos_por_vaga)), my = mediana(pts.map(x => x.i.v));
+    let s = `<rect class="joia" x="${m.l}" y="${m.t}" width="${(X(mx) - m.l).toFixed(1)}" height="${(Y(my) - m.t).toFixed(1)}"></rect>`;
+    s += `<text x="${m.l + 8}" y="${m.t + 16}" style="fill:var(--ok);font-weight:600">Boa estrutura, menos disputa</text>`;
+    for (let v = 0; v <= xmax; v += 20) s += `<line class="eixo" x1="${X(v)}" x2="${X(v)}" y1="${m.t}" y2="${H - m.b}" opacity=".5"></line><text x="${X(v)}" y="${H - m.b + 18}" text-anchor="middle">${v}</text>`;
+    for (let v = 0; v <= 100; v += 25) s += `<line class="eixo" x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" opacity=".5"></line><text x="${m.l - 8}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`;
+    s += `<line class="med" x1="${X(mx)}" x2="${X(mx)}" y1="${m.t}" y2="${H - m.b}"></line><line class="med" x1="${m.l}" x2="${W - m.r}" y1="${Y(my)}" y2="${Y(my)}"></line>`;
+    s += `<text x="${(m.l + W - m.r) / 2}" y="${H - 6}" text-anchor="middle">Candidatos por vaga (último ano publicado)</text><text x="14" y="${(m.t + H - m.b) / 2}" text-anchor="middle" transform="rotate(-90 14 ${(m.t + H - m.b) / 2})">Pontuação (pesos atuais)</text>`;
+    let hits = '', pp = '';
+    for (const {p, h, i} of pts) {
+      const cx = X(h.candidatos_por_vaga), cy = Y(i.v);
+      hits += `<circle class="hit" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="16" data-abre="${esc(p.id)}"></circle>`;
+      pp += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="7" fill="var(${COR_REG[p.regiao] || '--none'})" data-abre="${esc(p.id)}"><title>${esc(p.sigla || p.instituicao)} (${esc(p.cidade)}/${esc(p.uf)}): ${fN(h.candidatos_por_vaga)} candidatos por vaga em ${h.ano_ingresso}, índice ${i.v.toFixed(0)}</title></circle>`;
+      if (pts.length <= 45) pp += `<text class="rot-ponto" x="${(cx + 9).toFixed(1)}" y="${(cy + 4).toFixed(1)}">${esc((p.sigla || p.instituicao).split(/[ /]/)[0])}</text>`;
+    }
+    svg.innerHTML = s + hits + pp;
+    $('#disp-leg').innerHTML = Object.entries(COR_REG).map(([r, c]) => legBt('regiao', r, `<i class="sw" style="background:var(${c})"></i>${r}`)).join('') + `<span>Toque numa região para filtrar e num ponto para abrir a ficha. Linhas tracejadas: medianas. O ENARE não publica candidatos por vaga por programa, por isso os programas dele não aparecem aqui.</span>`;
+  }
+  const cortes = L0.map(p => ({p, h: (p.historico || []).filter(x => x.nota_corte != null).sort((a, b) => b.ano_ingresso - a.ano_ingresso)[0]})).filter(x => x.h)
+    .map(x => ({...x, n: corteNorm(x.h)})).sort((a, b) => (b.n ?? -1) - (a.n ?? -1));
+  $('#cortes').innerHTML = cortes.length ? `<thead><tr><th>Programa</th><th>Ingresso</th><th>Nota de corte</th><th>Em %</th><th>Fonte</th></tr></thead><tbody>${cortes.slice(0, nCorte).map(({p, h, n}) => `<tr data-abre="${esc(p.id)}" style="cursor:pointer"><td class="prog"><b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b><div class="sub">${esc(p.cidade)}/${esc(p.uf)} · ${esc(p.grupo || '')}</div></td><td class="num" data-l="Ingresso">${h.ano_ingresso}</td><td class="num corte" data-l="Nota de corte">${fN(h.nota_corte)} <span class="sub">${esc(escCurta(h.nota_corte_escala))}</span></td><td class="num" data-l="Em %">${n != null ? fN(n) : '—'}</td><td class="orig" data-l="Fonte">${selo(h.selo)}</td></tr>`).join('')}</tbody>` : '<tbody><tr><td class="vazio">Nenhuma nota de corte publicada no filtro atual.</td></tr></tbody>';
+  $('#cortes-mais').innerHTML = maisHTML('cortes', Math.min(nCorte, cortes.length), cortes.length);
+  const G = DADOS.processos_gerais || [];
+  $('#gerais').innerHTML = G.length ? `<thead><tr><th>Processo</th><th>Ingresso</th><th>Vagas</th><th>Inscritos</th><th>Candidatos por vaga</th><th>Fonte</th></tr></thead><tbody>${G.slice().sort((a, b) => String(a.processo).localeCompare(b.processo) || b.ano_ingresso - a.ano_ingresso).map(g => `<tr><td class="prog"><b>${esc(g.processo)}</b>${g.obs ? `<div class="sub">${esc(g.obs)}</div>` : ''}</td><td class="num" data-l="Ingresso">${g.ano_ingresso}</td><td class="num" data-l="Vagas">${fN(g.vagas)}</td><td class="num" data-l="Inscritos">${fN(g.inscritos)}</td><td class="num" data-l="Candidatos por vaga">${fN(g.candidatos_por_vaga)}</td><td class="orig" data-l="Fonte">${url(g.fonte) ? `<a href="${esc(g.fonte)}" target="_blank" rel="noopener">${g.selo === 'oficial' ? 'oficial' : 'não oficial'}<span aria-hidden="true"> ↗</span></a>` : selo(g.selo)}</td></tr>`).join('')}</tbody>` : '<tbody><tr><td class="vazio">Sem dados.</td></tr></tbody>';
+}
+
+/* ---------- comparar ---------- */
+let cmp = store.get('derma-cmp', []).filter(id => P.some(p => p.id === id));
+const CORES_CMP = ['--accent', '--teal', '--warn', '--ok'];
+function alternaCmp(id) {
+  if (cmp.includes(id)) cmp = cmp.filter(x => x !== id);
+  else { if (cmp.length >= 4) cmp.shift(); cmp.push(id); }
+  store.set('derma-cmp', cmp);
+}
+function rComparar() {
+  const ps = cmp.map(id => P.find(p => p.id === id)).filter(Boolean);
+  $('#cmp-vazio').hidden = ps.length > 0; $('#cmp-conteudo').hidden = ps.length === 0;
+  if (!ps.length) return;
+  const R = 112, C = 170, n = DIMS.length; const ang = i => -Math.PI / 2 + i * 2 * Math.PI / n;
+  const pt = (i, r) => [(C + Math.cos(ang(i)) * r).toFixed(1), (C + Math.sin(ang(i)) * r).toFixed(1)];
+  let s = '';
+  for (const f of [.25, .5, .75, 1]) s += `<polygon class="grade" points="${DIMS.map((_, i) => pt(i, R * f).join(',')).join(' ')}"></polygon>`;
+  DIMS.forEach((d, i) => { const [x, y] = pt(i, R + 24); s += `<line class="grade" x1="${C}" y1="${C}" x2="${pt(i, R)[0]}" y2="${pt(i, R)[1]}"></line><text x="${x}" y="${+y + 4}" text-anchor="middle">${d.curto}</text>`; });
+  ps.forEach((p, j) => { const cor = `var(${CORES_CMP[j]})`; s += `<polygon points="${DIMS.map((d, i) => pt(i, R * (dimVal(p, d.k) ?? 0)).join(',')).join(' ')}" fill="${cor}" fill-opacity=".18" stroke="${cor}" stroke-width="2"></polygon>`; });
+  $('#radar').setAttribute('viewBox', '0 0 340 340'); $('#radar').innerHTML = s;
+  $('#radar-leg').innerHTML = ps.map((p, j) => `<span><i class="sw" style="background:var(${CORES_CMP[j]})"></i>${esc(p.sigla || p.instituicao)}</span>`).join('') + '<span>Dimensão sem dado fica no centro. A procura entra no radar mesmo com peso zero.</span>';
+  const linhas = [
+    ['Local', p => `${esc(p.cidade)}/${esc(p.uf)}`],
+    ['Processo', p => esc(p.grupo || '—')],
+    ['Situação hoje', p => { const s = situacao(p); return `<span class="pill st-${s.k}">${esc(s.t)}</span>`; }],
+    ['Vagas 2027', p => p.ciclo?.vagas != null ? `<span class="num">${p.ciclo.vagas}</span>` : (p.vagas_cnrm != null ? `<span class="sub">${p.vagas_cnrm} autorizadas</span>` : '—')],
+    ['Prova objetiva', p => p.ciclo?.prova_1a_fase ? fDA(p.ciclo.prova_1a_fase) : '—'],
+    ['Taxa', p => p.ciclo?.taxa_reais != null ? `R$ ${fN(p.ciclo.taxa_reais)}` : '—'],
+    ['Candidatos por vaga', p => { const h = cvDe(p, ''); return h ? `<span class="num">${fN(h.candidatos_por_vaga)}</span> <span class="sub">(${h.ano_ingresso})</span>` : '<span class="sub">não publicado</span>'; }],
+    ['Nota de corte', p => { const h = (p.historico || []).filter(x => x.nota_corte != null).sort((a, b) => b.ano_ingresso - a.ano_ingresso)[0]; return h ? `<span class="num">${fN(h.nota_corte)}</span> <span class="sub">${esc(escCurta(h.nota_corte_escala))} (${h.ano_ingresso})</span>` : '<span class="sub">não publicada</span>'; }],
+    ['Pós-graduação (CAPES)', p => p.ind?.capes ? `conceito ${p.ind.capes.melhor}${p.ind.capes.derm?.length ? ' + pós em Dermato' : ''}` : '—'],
+    ['Artigos de Dermatologia 2021–2025', p => p.ind?.openalex ? `<span class="num">${p.ind.openalex.artigos}</span>` : '—'],
+    ['Lista da SBD', p => p.ind?.sbd ? 'credenciado' : 'não consta'],
+    ['Pontuação', p => { const i = indice(p); return i ? `<b class="num">${i.v.toFixed(0)}</b>` : '—'; }],
+  ];
+  $('#cmp-tab').innerHTML = `<thead><tr><th></th>${ps.map((p, j) => `<th><i class="sw" style="background:var(${CORES_CMP[j]})"></i><a href="#p-${esc(p.id)}">${esc(p.sigla || p.instituicao)}</a> <button type="button" class="btn tira" data-cmp="${esc(p.id)}" aria-label="Tirar ${esc(p.sigla || p.instituicao)} da comparação">✕</button></th>`).join('')}</tr></thead><tbody>${linhas.map(([t, f]) => `<tr><td>${t}</td>${ps.map(p => `<td>${f(p)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+}
+
+/* ---------- minhas chances ---------- */
+const CH = Object.assign({nota: '', escala: '100'}, store.get('derma-chances', {}));
+function rChances(L0) {
+  if (document.activeElement?.id !== 'ch-nota') $('#ch-nota').value = CH.nota;
+  $('#ch-escala').value = CH.escala;
+  const minha = CH.nota === '' || isNaN(+CH.nota) ? null : (+CH.nota) / (+CH.escala) * 100;
+  const arr = L0.map(p => { const h = (p.historico || []).filter(x => x.nota_corte != null).sort((a, b) => b.ano_ingresso - a.ano_ingresso)[0]; return {p, h, n: corteNorm(h)}; }).filter(x => x.h && x.n != null);
+  $('#ch-mais').innerHTML = '';
+  if (!arr.length) { $('#ch-resumo').innerHTML = ''; $('#ch-tab').innerHTML = '<tbody><tr><td class="vazio">Nenhum programa do filtro atual tem nota de corte publicada.</td></tr></tbody>'; return; }
+  const FX = {acima: ['acima do último corte', '--ok'], faixa: ['perto do corte', '--warn'], abaixo: ['abaixo do último corte', '--crit']};
+  arr.forEach(x => { x.dif = minha == null ? null : minha - x.n; x.k = x.dif == null ? '' : x.dif >= 3 ? 'acima' : x.dif >= -3 ? 'faixa' : 'abaixo'; });
+  arr.sort((a, b) => minha == null ? b.n - a.n : b.dif - a.dif);
+  const com = minha != null;
+  if (!com) CH.faixa = '';
+  const cont = {acima: 0, faixa: 0, abaixo: 0}; arr.forEach(x => x.k && cont[x.k]++);
+  $('#ch-resumo').innerHTML = com
+    ? `<p class="sub" style="margin:0 0 8px">Sua nota equivale a <b class="num">${fN(minha)}%</b>. Escolha uma faixa para ver só ela; abra um programa para ver a ficha.</p><div class="ch-faixas" role="group" aria-label="Mostrar só uma faixa">${[['', `Todos · ${arr.length}`, null], ...Object.entries(FX).map(([k, [t, c]]) => [k, `${cont[k]} ${t}`, c])].map(([k, t, c]) => `<button type="button" class="leg-bt" data-chfx="${k}" aria-pressed="${(CH.faixa || '') === k}">${c ? `<i class="sw" style="background:var(${c})"></i>` : ''}${t}</button>`).join('')}</div>`
+    : `<p class="sub" style="margin:0 0 8px">${arr.length} programas com nota de corte publicada, do maior corte para o menor. Digite sua nota acima para ver onde ela fica em cada um.</p>`;
+  const vis = arr.filter(x => !CH.faixa || x.k === CH.faixa);
+  $('#ch-tab').innerHTML = `<thead><tr><th>Programa</th><th>Corte (ingresso)</th><th>Corte em %</th>${com ? '<th>Sua nota em %</th><th>Diferença</th><th></th>' : ''}</tr></thead><tbody>${vis.slice(0, nCh).map(({p, h, n, dif, k}) => `<tr data-abre="${esc(p.id)}" style="cursor:pointer"><td class="prog"><b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b><div class="sub">${esc(p.cidade)}/${esc(p.uf)} · ${esc(p.grupo || '')}</div></td><td class="num corte" data-l="Último corte">${fN(h.nota_corte)} <span class="sub">${esc(escCurta(h.nota_corte_escala))} (${h.ano_ingresso})</span></td><td class="num" data-l="Corte em %">${fN(n)}</td>${com ? `<td class="num minha">${fN(minha)}</td><td class="num" data-l="Diferença">${(dif > 0 ? '+' : '') + fN(dif)} p.p.</td><td class="fx"><span class="pill fx-${k}">${FX[k][0]}</span></td>` : ''}</tr>`).join('') || '<tr><td class="vazio">Nenhum programa nesta faixa.</td></tr>'}</tbody>`;
+  $('#ch-mais').innerHTML = maisHTML('chances', Math.min(nCh, vis.length), vis.length);
+}
+
+/* ---------- ficha: indicadores ---------- */
+function fichaIndicadores(p) {
+  if (p.tipo !== 'mec') return '';
+  const I = p.ind || {}, i = indice(p);
+  const capes = I.capes ? `${esc(I.capes.ies)}: melhor conceito <b>${I.capes.melhor}</b> em ${I.capes.n} programa${I.capes.n > 1 ? 's' : ''} de Medicina.${I.capes.derm?.length ? ` Tem pós-graduação em Dermatologia: ${I.capes.derm.map(d => `${esc(d.nome)} (${esc(d.grau)}, conceito ${d.conceito})`).join('; ')}.` : ''}<div class="sub">${I.capes.programas.slice(0, 3).map(x => `${esc(x.nome)} · ${x.conceito ?? '—'}`).join(' | ')}</div>` : null;
+  const oa = I.openalex ? `<b class="num">${I.openalex.artigos}</b> artigos de Dermatologia em 2021–2025 · ${esc(I.openalex.nome)}` : null;
+  return `<div class="bloco"><h3>Itens da pontuação ${i ? `<span class="pill st-prova" style="margin-left:6px">${i.v.toFixed(0)} de 100</span>` : ''}</h3><dl style="margin:0">
+    <div class="par"><dt>Pós-graduação (CAPES)</dt><dd>${capes ?? '<span class="sub">nenhuma pós-graduação de Medicina ligada localizada na mesma cidade</span>'}</dd></div>
+    <div class="par"><dt>Produção (OpenAlex)</dt><dd>${oa ?? (I.openalex_pendente ? '<span class="sub">consulta ao OpenAlex pendente (limite diário da API); fica fora da conta até lá</span>' : '<span class="sub">instituição não localizada no OpenAlex</span>')}</dd></div>
+    <div class="par"><dt>Lista da SBD</dt><dd>${I.sbd ? 'consta como serviço credenciado' : 'não consta na lista de 2024'}</dd></div>
+  </dl></div>`;
+}
+function fichaGeral(p) {
+  const alvo = norm((p.processo || '') + ' ' + (p.grupo || ''));
+  const G = (DADOS.processos_gerais || []).filter(g => { const a = norm(g.processo).split(/[^a-z0-9]+/).filter(t => t.length > 2); return a.length && a.every(t => alvo.includes(t)); });
+  if (!G.length) return '';
+  return `<div class="bloco"><h3>Concorrência do processo inteiro</h3><div class="obs">${G.sort((a, b) => b.ano_ingresso - a.ano_ingresso).map(g => `${esc(g.processo)} ${g.ano_ingresso}: ${fN(g.candidatos_por_vaga)} candidatos por vaga${g.vagas ? ` (${fN(g.vagas)} vagas)` : ''} ${selo(g.selo)}`).join('<br>')}<div style="margin-top:4px">A banca só publica o total da especialidade; não é o número deste programa.</div></div></div>`;
+}
+
+/* ---------- Fase 3: meu plano, provas, plano de estudo, novidades, nuvem ---------- */
+const AREAS = [['clinica_medica', 'Clínica médica', '--ar1'], ['cirurgia', 'Cirurgia', '--ar2'], ['ginecologia_obstetricia', 'Ginecologia e obstetrícia', '--ar3'], ['pediatria', 'Pediatria', '--ar4'], ['preventiva_social', 'Preventiva e social', '--ar5'], ['outras', 'Outras', '--ar6']];
+const ETAPAS_PL = [['interesse', 'Interesse'], ['inscrita', 'Inscrita'], ['paga', 'Taxa paga'], ['prova', 'Prova feita'], ['resultado', 'Resultado saiu']];
+const PL = Object.assign({st: {}, nota: {}, docs: {}, gasto: {}}, store.get('derma-plano', {}));
+const ES = Object.assign({alvo: '', horas: 25, rev: '', data: '', perfil: ''}, store.get('derma-estudo', {}));
+const PERF = DADOS.perfis || {};
+const chaveProc = p => p.grupo || p.id;
+const salvaPL = () => store.set('derma-plano', PL);
+const fR = n => 'R$ ' + Number(n).toLocaleString('pt-BR', {minimumFractionDigits: Number.isInteger(+n) ? 0 : 2, maximumFractionDigits: 2});
+const MUD = new Map();
+(DADOS.mudancas || []).filter(m => dias(m.data) >= -14).sort((a, b) => a.data.localeCompare(b.data)).forEach(m => MUD.set(m.id, m));
+function mudPill(progs) {
+  const m = progs.map(p => MUD.get(p.id)).filter(Boolean).sort((a, b) => b.data.localeCompare(a.data))[0];
+  return m ? `<span class="novo-pill" data-dica="Mudou: ${esc(m.campos.join(', ') || 'programa novo')}">${m.tipo === 'novo' ? 'novo' : 'alterado'} ${esc(fD(m.data))}</span>` : '';
+}
+function favProcs() { return new Set([...fav].map(id => P.find(p => p.id === id)).filter(Boolean).map(chaveProc)); }
+function procsDaLista() {
+  const M = new Map();
+  for (const id of fav) {
+    const p = P.find(x => x.id === id); if (!p) continue;
+    const k = chaveProc(p);
+    const e = M.get(k) || {k, nome: p.grupo || (p.sigla || p.instituicao), progs: []};
+    e.progs.push(p); M.set(k, e);
+  }
+  const arr = [...M.values()];
+  arr.forEach(e => { e.p0 = e.progs[0]; e.c = e.p0.ciclo || {}; e.ord = Math.min(...e.progs.map(p => situacao(p).ord)); });
+  return arr.sort((a, b) => a.ord - b.ord);
+}
+const etapaIdx = k => ETAPAS_PL.findIndex(x => x[0] === (PL.st[k] || 'interesse'));
+function proxDatas(e, n) {
+  return [['Fim das inscrições', e.c.inscricao_fim], ['Prova', e.c.prova_1a_fase], ...(e.c.outras_etapas || []).map(x => [x.etapa || 'Etapa', x.data]), ['Resultado previsto', e.c.resultado_previsto]]
+    .filter(([, d]) => d && dias(d) >= 0).sort((a, b) => a[1].localeCompare(b[1])).slice(0, n);
+}
+
+/* meu plano */
+function rPlano() {
+  const L = procsDaLista();
+  $('#pl-vazio').hidden = !!L.length;
+  $('#pl-lista').innerHTML = L.map(e => {
+    const st = PL.st[e.k] || 'interesse', i = etapaIdx(e.k), s = situacao(e.p0), evs = proxDatas(e, 3);
+    return `<div class="pl-proc"><div><h3>${esc(e.nome)} ${mudPill(e.progs)}</h3><span class="pill st-${s.k}">${esc(s.t)}</span>
+      <div class="progs">${e.progs.map(p => `<button type="button" data-abre="${esc(p.id)}">${esc(p.sigla || p.instituicao)} · ${esc(p.cidade)}/${esc(p.uf)}</button>`).join('')}</div></div>
+      <div class="etapas-pl" role="group" aria-label="Andamento em ${esc(e.nome)}">${ETAPAS_PL.map(([v, t], j) => `<button type="button" data-st="${esc(e.k)}" data-v="${v}" aria-pressed="${v === st}" class="${j < i ? 'feito' : ''}">${t}</button>`).join('')}</div>
+      <div class="datas">${evs.length ? evs.map(([t, d]) => `<span><b>${esc(fD(d))}</b> ${esc(t)} · <a href="${esc(gcal(e.p0, `${t} · ${e.nome} (Dermato)`, d))}" target="_blank" rel="noopener">pôr na agenda</a></span>`).join('') : '<span>Nenhuma data futura no edital.</span>'}</div>
+      <div class="nota-pl"><input type="text" data-nota="${esc(e.k)}" value="${esc(PL.nota[e.k] || '')}" placeholder="Anotações: nº de inscrição, local de prova, hotel…" aria-label="Anotações sobre ${esc(e.nome)}"></div></div>`;
+  }).join('');
+  rOrc(L); rDocs(L);
+}
+function contaOrc(L) {
+  let tt = 0, tg = 0, sem = 0;
+  L.forEach(e => { const tx = e.progs.map(p => p.ciclo?.taxa_reais).find(v => v != null); if (tx != null) tt += tx; else sem++; tg += +PL.gasto[e.k] || 0; });
+  return {tt, tg, sem};
+}
+function rOrc(L) {
+  if (!L.length) { $('#pl-orc').innerHTML = '<div class="obs">Monte a lista ★ para ver o orçamento.</div>'; return; }
+  const rows = L.map(e => {
+    const tx = e.progs.map(p => p.ciclo?.taxa_reais).find(v => v != null);
+    return `<tr><td>${esc(e.nome)}${etapaIdx(e.k) >= 2 ? ' <span class="pill fx-acima">paga</span>' : ''}</td><td class="num">${tx != null ? fR(tx) : '<span class="selo nd">não divulgada</span>'}</td><td class="num"><input type="number" min="0" step="10" inputmode="decimal" data-gasto="${esc(e.k)}" value="${PL.gasto[e.k] ?? ''}" aria-label="Gasto previsto com viagem em ${esc(e.nome)}" placeholder="0"></td></tr>`;
+  }).join('');
+  $('#pl-orc').innerHTML = `<div class="rola-x"><table class="orc"><thead><tr><th>Processo</th><th class="num">Taxa do edital</th><th class="num">Viagem e hospedagem (R$)</th></tr></thead><tbody>${rows}</tbody><tfoot id="orc-tot"></tfoot></table></div><p class="sub" style="margin-top:8px">A taxa vem do edital; a viagem é o que você digitar. Isenção ou redução de taxa, quando existir, está no edital.</p>`;
+  totOrc(L);
+}
+function totOrc(L) {
+  const {tt, tg, sem} = contaOrc(L);
+  $('#orc-tot').innerHTML = `<tr><td>Total</td><td class="num">${fR(tt)}</td><td class="num">${fR(tg)}</td></tr><tr><td colspan="3">Total geral: <span class="num">${fR(tt + tg)}</span>${sem ? ` <span class="sub">(fora ${sem} taxa${sem > 1 ? 's' : ''} não divulgada${sem > 1 ? 's' : ''})</span>` : ''}</td></tr>`;
+}
+const SECS_DOC = [['inscricao', 'Inscrição'], ['analise_curricular', 'Análise curricular'], ['matricula', 'Matrícula']];
+function rDocs(L) {
+  if (!L.length) { $('#pl-docs').innerHTML = '<div class="obs">Monte a lista ★ para ver os documentos de cada edital.</div>'; return; }
+  $('#pl-docs').innerHTML = L.map(e => {
+    const D0 = PERF[e.k]?.documentos;
+    if (!D0 || !SECS_DOC.some(([s]) => (D0[s] || []).length)) return `<div class="docs-proc"><h3>${esc(e.nome)}</h3><div class="obs">Lista de documentos ainda não levantada para este processo.${url(e.c.link_edital) ? ` <a href="${esc(e.c.link_edital)}" target="_blank" rel="noopener">Ver o edital<span aria-hidden="true"> ↗</span></a>` : ''}</div></div>`;
+    const marc = PL.docs[e.k] || {}; let n = 0, ok = 0;
+    const html = SECS_DOC.filter(([s]) => (D0[s] || []).length).map(([s, t]) => `<h4>${t}</h4>${D0[s].map(item => {
+      const key = s + ':' + item, v = !!marc[key]; n++; if (v) ok++;
+      return `<label class="${v ? 'ok' : ''}"><input type="checkbox" data-doc="${esc(e.k)}" data-item="${esc(key)}" ${v ? 'checked' : ''}><span>${esc(item)}</span></label>`;
+    }).join('')}`).join('');
+    return `<div class="docs-proc"><h3>${esc(e.nome)} <span class="sub">${ok} de ${n}</span> ${selo(D0.selo)}${url(D0.fonte) ? ` <a class="sub" href="${esc(D0.fonte)}" target="_blank" rel="noopener">fonte<span aria-hidden="true"> ↗</span></a>` : ''}</h3>${html}</div>`;
+  }).join('');
+}
+function planoHTML() {
+  const L = procsDaLista(), {tt, tg} = contaOrc(L);
+  const li = L.map(e => {
+    const D0 = PERF[e.k]?.documentos, marc = PL.docs[e.k] || {};
+    const docs = D0 ? SECS_DOC.filter(([s]) => (D0[s] || []).length).map(([s, t]) => `<p><b>${t}:</b></p><ul>${D0[s].map(i => `<li>${marc[s + ':' + i] ? '[x]' : '[ ]'} ${esc(i)}</li>`).join('')}</ul>`).join('') : '';
+    const tx = e.progs.map(p => p.ciclo?.taxa_reais).find(v => v != null);
+    return `<h2>${esc(e.nome)}</h2><p>Andamento: <b>${esc(ETAPAS_PL[etapaIdx(e.k)][1])}</b> · Programas: ${e.progs.map(p => esc((p.sigla || p.instituicao) + ' (' + p.cidade + '/' + p.uf + ')')).join(', ')}</p>
+      <p>${proxDatas(e, 6).map(([t, d]) => `${esc(fDA(d))}: ${esc(t)}`).join(' · ') || 'Nenhuma data futura no edital.'}</p>
+      <p>Taxa: ${tx != null ? fR(tx) : 'não divulgada'}${PL.gasto[e.k] ? ` · viagem prevista: ${fR(PL.gasto[e.k])}` : ''}${PL.nota[e.k] ? ` · ${esc(PL.nota[e.k])}` : ''}</p>
+      ${url(e.c.link_edital) ? `<p>Edital: <a href="${esc(e.c.link_edital)}">${esc(e.c.link_edital)}</a></p>` : ''}${docs}`;
+  }).join('');
+  return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Minhas inscrições · Residência em Dermatologia</title><style>body{font:15px/1.5 system-ui,sans-serif;max-width:760px;margin:24px auto;padding:0 16px;color:#17212b}h1{font-size:24px}h2{font-size:18px;margin-top:28px;border-top:1px solid #d9dee4;padding-top:14px}ul{margin:4px 0 8px}a{color:#8c2f5c;overflow-wrap:anywhere}</style></head><body><h1>Minhas inscrições · Residência em Dermatologia</h1><p>Gerado em ${esc(fDA(hoje.toISOString().slice(0, 10)))} a partir do painel (dados conferidos em ${esc(fDA(DADOS.gerado_em))}). Confirme datas no edital.</p><p>Orçamento: taxas ${fR(tt)} + viagens ${fR(tg)} = <b>${fR(tt + tg)}</b></p>${li || '<p>Lista vazia.</p>'}</body></html>`;
+}
+
+/* provas: perfil por processo */
+function distBar(d) {
+  const ar = AREAS.filter(([k]) => +d[k] > 0);
+  if (!ar.length) return '';
+  return `<div class="dist" role="img" aria-label="Questões por área: ${esc(ar.map(([k, n]) => `${n} ${d[k]}`).join(', '))}">${ar.map(([k, n, c]) => `<span style="flex:${+d[k]};background:var(${c})" data-dica="${esc(n)}: ${d[k]} questões">${d[k]}</span>`).join('')}</div>`;
+}
+function provasAnt(pf) {
+  return (pf?.provas_anteriores || []).flatMap(a => [url(a.link_prova) && `<a href="${esc(a.link_prova)}" target="_blank" rel="noopener">Prova ${esc(a.ano)}<span aria-hidden="true"> ↗</span></a>`, url(a.link_gabarito) && `<a href="${esc(a.link_gabarito)}" target="_blank" rel="noopener">Gabarito ${esc(a.ano)}<span aria-hidden="true"> ↗</span></a>`]).filter(Boolean);
+}
+const corpoPerfil = (k, p0) => perfilTopo(k, p0) + perfilResto(k, p0);
+function perfilTopo(k, p0) {
+  const pf = PERF[k], pr = pf?.prova, c = p0.ciclo || {};
+  const meta = [c.prova_1a_fase ? `prova em ${fDA(c.prova_1a_fase)}` : null, pr?.questoes_total ? `${pr.questoes_total} questões` : null, pr?.duracao_horas ? `${fN(pr.duracao_horas)} h de prova` : null, pr?.formato].filter(Boolean).map(esc).join(' · ');
+  const ant = provasAnt(pf);
+  return `<div class="meta">${meta || 'Perfil da prova ainda não levantado.'}</div>
+   ${pr?.distribuicao ? distBar(pr.distribuicao) : pr ? '<div class="obs">O edital não fixa o número de questões por área.</div>' : ''}
+   ${pr?.distribuicao_obs ? `<div class="sub">${esc(pr.distribuicao_obs)}</div>` : ''}`;
+}
+function perfilResto(k, p0) {
+  const pf = PERF[k], pr = pf?.prova, c = p0.ciclo || {};
+  const ant = provasAnt(pf);
+  return `${pr?.etapas?.length ? `<ul>${pr.etapas.map(e => `<li>${esc(e.etapa)}${e.peso ? ` · peso ${esc(e.peso)}` : ''}${e.carater ? ` <span class="sub">(${esc(e.carater)})</span>` : ''}</li>`).join('')}</ul>` : ''}
+   ${pr?.bonificacao ? `<div class="sub" style="margin-top:6px">Bonificação: ${esc(pr.bonificacao)}</div>` : ''}
+   ${pf?.obs ? `<div class="sub" style="margin-top:4px">${esc(pf.obs)}</div>` : ''}
+   <div class="links">${ant.join('')}${url(pr?.fonte) ? `<a href="${esc(pr.fonte)}" target="_blank" rel="noopener">Edital (fonte)<span aria-hidden="true"> ↗</span></a>` : url(c.link_edital) ? `<a href="${esc(c.link_edital)}" target="_blank" rel="noopener">Edital<span aria-hidden="true"> ↗</span></a>` : ''}</div>
+   ${pf && !ant.length ? '<div class="sub" style="margin-top:6px">Provas anteriores: a banca não publica ou não foram localizadas.</div>' : ''}`;
+}
+function rProvas(L0) {
+  const fk = favProcs();
+  const arr = [...new Set(L0.map(p => p.grupo).filter(Boolean))].map(k => { const p0 = P.find(p => p.grupo === k); return {k, p0, f: fk.has(k), d: p0.ciclo?.prova_1a_fase || '9999'}; })
+    .sort((a, b) => (b.f - a.f) || ((dias(a.d) < 0) - (dias(b.d) < 0)) || a.d.localeCompare(b.d));
+  const n = arr.filter(x => PERF[x.k]?.prova?.distribuicao).length;
+  $('#pv-sub').textContent = `${arr.length} processos · ${n} com questões por área no edital`;
+  $('#pv-leg').innerHTML = AREAS.map(([, nm, c]) => `<span class="leg-ar"><i style="background:var(${c})"></i>${esc(nm)}</span>`).join('');
+  $('#pv-lista').innerHTML = arr.map(x => { const n = L0.filter(p => p.grupo === x.k).length; return `<details class="pv ${x.f ? 'fav' : ''}" data-pv="${esc(x.k)}" ${(estadoPv[x.k] ?? x.f) ? 'open' : ''}><summary><h3>${x.f ? '<span aria-hidden="true">★ </span><span class="sr">Na sua lista: </span>' : ''}${esc(x.k)} ${PERF[x.k]?.prova ? selo(PERF[x.k].prova.selo) : ''}<span class="ver">ver etapas, bônus e provas anteriores</span></h3>${perfilTopo(x.k, x.p0)}</summary>${perfilResto(x.k, x.p0)}<div class="links"><button type="button" class="btn" data-ir="${esc(JSON.stringify({v:'programas', f:{banca: x.k}}))}">Ver ${n} programa${n > 1 ? 's' : ''} deste processo <span aria-hidden="true">→</span></button></div></details>`; }).join('') || '<div class="obs">Nenhum processo no filtro atual.</div>';
+}
+function fichaPerfil(p) {
+  if (!p.grupo || !PERF[p.grupo]) return '';
+  const D0 = PERF[p.grupo].documentos, nd = D0 ? SECS_DOC.reduce((s, [k]) => s + (D0[k] || []).length, 0) : 0;
+  return `<div class="bloco"><h3>Como é a prova ${PERF[p.grupo].prova ? selo(PERF[p.grupo].prova.selo) : ''}</h3>${corpoPerfil(p.grupo, p)}${nd ? `<div class="sub" style="margin-top:8px">${nd} documentos listados no edital: marque o que já tem em <a href="#plano">Minhas inscrições</a>${fav.has(p.id) ? '' : ' (ponha o programa na lista ★ primeiro)'}.</div>` : ''}</div>`;
+}
+
+/* plano de estudo de trás para frente */
+function rEstudo() {
+  const fk = favProcs();
+  const fut = [...new Set(P.filter(p => p.grupo && p.ciclo?.prova_1a_fase && dias(p.ciclo.prova_1a_fase) > 0).map(p => p.grupo))]
+    .map(k => ({k, d: P.find(p => p.grupo === k).ciclo.prova_1a_fase})).sort((a, b) => (fk.has(b.k) - fk.has(a.k)) || a.d.localeCompare(b.d));
+  const OUTRA = '__data';
+  if (ES.alvo !== OUTRA && !fut.some(f => f.k === ES.alvo)) ES.alvo = fut[0]?.k || OUTRA;
+  $('#es-alvo').innerHTML = fut.map(f => `<option value="${esc(f.k)}" ${f.k === ES.alvo ? 'selected' : ''}>${fk.has(f.k) ? '★ ' : ''}${esc(f.k)} · ${esc(fDA(f.d))}</option>`).join('') + `<option value="${OUTRA}" ${ES.alvo === OUTRA ? 'selected' : ''}>Outra data (ex.: ciclo 2028)</option>`;
+  $('#es-data-c').hidden = $('#es-perfil-c').hidden = ES.alvo !== OUTRA;
+  $('#es-perfil').innerHTML = '<option value="">Igual entre as cinco áreas</option>' + Object.keys(PERF).filter(k => PERF[k]?.prova?.distribuicao).sort().map(k => `<option value="${esc(k)}" ${k === ES.perfil ? 'selected' : ''}>${esc(k)}</option>`).join('');
+  if (document.activeElement?.id !== 'es-data') $('#es-data').value = ES.data || '';
+  if (document.activeElement?.id !== 'es-horas') $('#es-horas').value = ES.horas;
+  if (document.activeElement?.id !== 'es-rev') $('#es-rev').value = ES.rev;
+  let alvo = fut.find(f => f.k === ES.alvo);
+  if (ES.alvo === OUTRA) {
+    if (!ES.data || !dt(ES.data) || dias(ES.data) <= 0) { $('#es-out').innerHTML = '<div class="obs">Escolha uma data futura para a prova.</div>'; return; }
+    alvo = {k: ES.perfil, d: ES.data, nome: 'sua prova-alvo'};
+  }
+  if (!alvo) { $('#es-out').innerHTML = '<div class="obs">Nenhuma prova futura nos editais levantados.</div>'; return; }
+  const nomeA = alvo.nome || alvo.k;
+  const sem = Math.floor(dias(alvo.d) / 7);
+  const dist = PERF[alvo.k]?.prova?.distribuicao, tot = dist ? AREAS.reduce((s, [k]) => s + (+dist[k] || 0), 0) : 0;
+  const base = tot ? AREAS.map(([k, n, c]) => ({k, n, c, q: +dist[k] || 0})).filter(a => a.q > 0) : AREAS.slice(0, 5).map(([k, n, c]) => ({k, n, c, q: null}));
+  const somaQ = tot || base.length;
+  const H = Math.max(1, +ES.horas || 25);
+  const rev = Math.max(0, Math.min(sem, ES.rev === '' ? (sem > 2 ? Math.min(4, Math.max(1, Math.round(sem * 0.2))) : 0) : +ES.rev || 0));
+  const semEst = sem - rev;
+  base.forEach(a => { a.pct = (a.q ?? 1) / somaQ; a.hs = a.pct * H; a.h = a.hs * semEst; });
+  const ini = i => { const d = new Date(hoje); d.setDate(d.getDate() + i * 7); return d.toISOString().slice(0, 10); };
+  const pf = PERF[alvo.k], ant = provasAnt(pf);
+  const origem = tot ? `Divisão proporcional às ${tot} questões por área do edital de ${esc(alvo.k)}.` : alvo.k ? `<b>O edital de ${esc(alvo.k)} não fixa questões por área</b> (ou ainda não foi levantado), então a tabela divide o tempo igualmente entre as cinco grandes áreas. Ajuste ao que você sabe da banca.` : 'Divisão igual entre as cinco grandes áreas. Para seguir o peso de uma banca, escolha o processo em “Questões por área como em”.';
+  // ênfase semanal: rodízio ponderado (a área com mais crédito acumulado leva a semana)
+  const cred = base.map(a => ({a, acc: 0})), semanas = [];
+  for (let i = 0; i < semEst; i++) { cred.forEach(x => x.acc += x.a.pct); const m = cred.reduce((b, x) => x.acc > b.acc ? x : b); m.acc -= 1; semanas.push({i, a: m.a}); }
+  $('#es-out').innerHTML = `
+    <div class="es-kpis">
+      <div class="kpi"><span class="v">${sem}</span> <span class="l">semanas até a prova</span> <span class="s">${esc(nomeA)} em ${esc(fDA(alvo.d))} (${dN(dias(alvo.d))})</span></div>
+      <div class="kpi"><span class="v">${fN(H * sem)}</span> <span class="l">horas no total</span> <span class="s">${fN(H)} h por semana</span></div>
+      <div class="kpi"><span class="v">${rev}</span> <span class="l">semanas de revisão no fim</span> <span class="s">${rev ? `de ${esc(fD(ini(semEst)))} até a prova` : 'sem bloco de revisão'}</span></div>
+    </div>
+    <p class="intro">${origem} Não é recomendação pedagógica: é só a conta do tempo que você tem.</p>
+    ${sem < 1 ? '<div class="obs">A prova é em menos de uma semana: o melhor uso do tempo costuma ser revisão e provas anteriores da banca.</div>' : `
+    <div class="rola-x"><table class="orc"><thead><tr><th>Área</th><th class="num">Questões</th><th class="num">% da prova</th><th class="num">Horas por semana</th><th class="num">Horas até a revisão</th></tr></thead><tbody>
+    ${base.map(a => `<tr><td><span class="leg-ar"><i style="background:var(${a.c})"></i>${esc(a.n)}</span></td><td class="num">${a.q ?? '—'}</td><td class="num">${fN(a.pct * 100)}%</td><td class="num">${fN(Math.round(a.hs * 10) / 10)}</td><td class="num">${fN(Math.round(a.h))}</td></tr>`).join('')}
+    </tbody></table></div>
+    ${semanas.length ? `<h3 style="font-size:15px;margin:16px 0 0">Ênfase de cada semana <span class="sub" style="font-weight:400">rodízio proporcional ao peso das áreas; estude todas, com mais tempo na área da semana</span></h3>
+    <div class="es-sem">${semanas.map(s => `<div style="--c:var(${s.a.c})"><b>Semana ${s.i + 1} · ${esc(fD(ini(s.i)))}</b>${esc(s.a.n)}</div>`).join('')}${Array.from({length: rev}, (_, j) => `<div style="--c:var(--accent)"><b>Semana ${semEst + j + 1} · ${esc(fD(ini(semEst + j)))}</b>Revisão geral e provas anteriores</div>`).join('')}</div>` : ''}
+    ${ant.length ? `<div class="links" style="margin-top:12px">${ant.join('')}</div>` : ''}`}`;
+}
+
+/* ---------- radar de editais: situação de cada processo, conflitos entre provas, mudanças e comunicados ---------- */
+const RD = Object.assign({sit: '', lista: false, cfEsc: 'lista', cfDias: 3, per: 30}, store.get('derma-radar', {}));
+let cfTodos = false;
+const salvaRD = () => store.set('derma-radar', RD);
+const COMUN = DADOS.comunicados || [], PREV = DADOS.previstos || [], MON = DADOS.monitor;
+const ROT_CAMPO = {vagas: 'Vagas', inscricao_inicio: 'Início das inscrições', inscricao_fim: 'Fim das inscrições', prova_1a_fase: 'Data da prova', resultado_previsto: 'Resultado previsto', taxa_reais: 'Taxa', link_edital: 'Edital', outras_etapas: 'Outras etapas'};
+// valor legível de um campo alterado
+function valCampo(k, v) {
+  if (v == null || v === '' || (Array.isArray(v) && !v.length)) return 'sem dado';
+  if (Array.isArray(v)) return v.join('; ');
+  if (/inicio|fim|prova|resultado/.test(k) && /^\d{4}-\d{2}-\d{2}$/.test(v)) return fDA(v);
+  if (k === 'taxa_reais') return fR(v);
+  if (k === 'link_edital') return 'novo documento';
+  return String(v);
+}
+const detTxt = d => d.campo === 'outras_etapas'
+  ? [d.depois?.length ? `entrou: ${d.depois.join('; ')}` : '', d.antes?.length ? `saiu: ${d.antes.join('; ')}` : ''].filter(Boolean).join(' · ')
+  : d.campo === 'link_edital' ? 'publicado outro documento do edital' : `${valCampo(d.campo, d.antes)} → ${valCampo(d.campo, d.depois)}`;
+// mudanças agrupadas por processo (o mesmo edital muda vários programas de uma vez)
+function mudancasAgrupadas(dias) {
+  const lim = new Date(hoje); lim.setDate(lim.getDate() - dias);
+  const G = new Map();
+  for (const m of DADOS.mudancas || []) {
+    if (dt(m.data) < lim) continue;
+    const p = P.find(x => x.id === m.id); if (!p) continue;
+    const proc = m.grupo || p.grupo || (p.sigla || p.instituicao);
+    const k = [proc, m.data, m.tipo, JSON.stringify(m.det || m.campos)].join('|');
+    const g = G.get(k) || {tipo: 'mud', data: m.data, proc, m, progs: []};
+    g.progs.push(p); G.set(k, g);
+  }
+  return [...G.values()];
+}
+function comunicadosRecentes(dias) {
+  const lim = new Date(hoje); lim.setDate(lim.getDate() - dias);
+  return COMUN.filter(c => dt(c.data) >= lim).map(c => ({tipo: 'doc', data: c.data, proc: c.processo, c, progs: (c.programas || []).map(id => P.find(p => p.id === id)).filter(Boolean)}));
+}
+// processos (um por edital) a partir dos programas filtrados
+function procsRadar(L0) {
+  const M = new Map();
+  for (const p of L0) {
+    const c = p.ciclo || {};
+    if (!c.inscricao_fim && !c.prova_1a_fase && !c.inscricao_inicio) continue;
+    const k = p.grupo || p.id;
+    const e = M.get(k) || {k, nome: p.grupo || (p.sigla || p.instituicao), progs: [], c};
+    e.progs.push(p); M.set(k, e);
+  }
+  const fk = favProcs();
+  return [...M.values()].map(e => {
+    const s = situacao(e.progs[0]);
+    const ult = (DADOS.mudancas || []).filter(m => e.progs.some(p => p.id === m.id) && m.tipo === 'alterado' && dias(m.data) >= -30).sort((a, b) => b.data.localeCompare(a.data))[0];
+    const doc = COMUN.filter(c => c.processo === e.k && dias(c.data) >= -30).sort((a, b) => b.data.localeCompare(a.data))[0];
+    return {...e, s, fav: fk.has(e.k), ult, doc, cidades: [...new Set(e.progs.map(p => `${p.cidade}/${p.uf}`))]};
+  });
+}
+// provas e etapas presenciais futuras de um processo (resultado, recurso, matrícula etc. não contam)
+const ETAPA_PROVA = /(prova|entrevista|argui|habilidade|pr[aá]tic|osce)/i, ETAPA_NAO = /(resultado|gabarito|recurso|divulga|matr[ií]cula|convoca|envio|t[ií]tulos|inscri|homologa|interpos|vista|isen)/i;
+function eventosProva(e) {
+  const ev = [];
+  if (e.c.prova_1a_fase && dias(e.c.prova_1a_fase) >= 0) ev.push({d: e.c.prova_1a_fase, t: 'prova objetiva'});
+  (e.c.outras_etapas || []).forEach(x => { if (x.data && dias(x.data) >= 0 && ETAPA_PROVA.test(x.etapa || '') && !ETAPA_NAO.test(x.etapa || '')) ev.push({d: x.data, t: (x.etapa || 'etapa').split(/[(:;,]/)[0].trim().toLowerCase()}); });
+  return ev;
+}
+function conflitos(procs, maxDias) {
+  const ev = procs.flatMap(e => eventosProva(e).map(x => ({...x, e})));
+  const pares = new Map();
+  for (let i = 0; i < ev.length; i++) for (let j = i + 1; j < ev.length; j++) {
+    const a = ev[i], b = ev[j]; if (a.e.k === b.e.k) continue;
+    const dd = Math.abs(Math.round((dt(a.d) - dt(b.d)) / 864e5)); if (dd > maxDias) continue;
+    const [x, y] = a.d <= b.d ? [a, b] : [b, a];
+    const k = [x.e.k, y.e.k].sort().join('|');
+    const at = pares.get(k); if (!at || dd < at.dd || (dd === at.dd && x.d < at.x.d)) pares.set(k, {x, y, dd});
+  }
+  return [...pares.values()].sort((a, b) => a.dd - b.dd || a.x.d.localeCompare(b.x.d));
+}
+const ORD_RD = {aberta: 0, breve: 1, prova: 2, realizada: 4, sem: 5};
+const SIT_RD = [['', 'Todos'], ['aberta', 'Inscrição aberta'], ['breve', 'Abre em breve ou previsto'], ['prova', 'Prova a fazer'], ['realizada', 'Prova já feita'], ['sem', 'Sem edital 2027']];
+function linhaData(rot, txt, sub) { return `<div class="rd-d"><span class="rd-r">${rot}</span><b>${txt}</b>${sub ? `<span class="sub">${sub}</span>` : ''}</div>`; }
+function cartaoRadar(e, emConf) {
+  const c = e.c, s = e.s, p0 = e.progs[0];
+  const insc = c.inscricao_inicio || c.inscricao_fim ? `${fDA(c.inscricao_inicio)} a ${fDA(c.inscricao_fim)}` : 'não divulgado';
+  const inscSub = s.k === 'aberta' ? `encerra ${dN(dias(c.inscricao_fim))}` : s.k === 'breve' ? `abre ${dN(dias(c.inscricao_inicio))}` : c.inscricao_fim && dias(c.inscricao_fim) < 0 ? 'encerradas' : '';
+  const prova = c.prova_1a_fase ? fDA(c.prova_1a_fase) : 'não divulgada';
+  const provaSub = c.prova_1a_fase ? (dias(c.prova_1a_fase) >= 0 ? dN(dias(c.prova_1a_fase)) : 'já aconteceu') : '';
+  // próxima etapa depois da prova (2ª fase, resultado...), sem repetir inscrição e prova
+  const prox = [...(c.outras_etapas || []).map(x => [x.etapa || 'Etapa', x.data]), ['Resultado previsto', c.resultado_previsto]].filter(([, d]) => d && dias(d) >= 0 && d !== c.prova_1a_fase).sort((a, b) => a[1].localeCompare(b[1]))[0];
+  const lk = [['Edital', c.link_edital], [s.k === 'aberta' ? 'Fazer a inscrição' : 'Página de inscrição', c.link_inscricao], ['Página do processo', c.link_processo]]
+    .filter(([, u]) => url(u)).filter(([, u], i, a) => a.findIndex(x => x[1] === u) === i)
+    .map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${t}<span aria-hidden="true"> ↗</span></a>`);
+  const ag = [[`Fim das inscrições · ${e.nome}`, s.k === 'aberta' ? c.inscricao_fim : null], [`Prova · ${e.nome}`, c.prova_1a_fase && dias(c.prova_1a_fase) >= 0 ? c.prova_1a_fase : null]]
+    .filter(([, d]) => d).map(([t, d]) => `<a href="${esc(gcal(p0, t + ' (Dermato)', d))}" target="_blank" rel="noopener">＋ ${t.split(' · ')[0]} na agenda</a>`);
+  const mud = e.ult ? `<div class="rd-mud-l"><b>Alterado em ${esc(fDA(e.ult.data))}:</b> ${(e.ult.det || []).length ? e.ult.det.map(d => `${esc(ROT_CAMPO[d.campo] || d.campo)} ${esc(detTxt(d))}`).join('; ') : esc(e.ult.campos.join(', '))}${url(e.ult.fonte) ? ` · <a href="${esc(e.ult.fonte)}" target="_blank" rel="noopener">fonte oficial<span aria-hidden="true"> ↗</span></a>` : ''}</div>` : '';
+  const doc = e.doc ? `<div class="rd-mud-l"><b>Documento novo em ${esc(fDA(e.doc.data))}:</b> <a href="${esc(e.doc.url)}" target="_blank" rel="noopener">${esc(e.doc.titulo || 'ver documento')}<span aria-hidden="true"> ↗</span></a></div>` : '';
+  const cf = emConf.get(e.k);
+  return `<article class="rd-card st-b-${s.k} ${e.fav ? 'fav' : ''}">
+    <div class="rd-top"><h3>${e.fav ? '<span aria-hidden="true">★ </span><span class="sr">Na sua lista: </span>' : ''}${esc(e.nome)}</h3><span class="pill st-${s.k}">${esc(s.t)}</span>${mudPill(e.progs)}${s.k === 'aberta' && dias(c.inscricao_fim) <= +AL.dias ? `<span class="pill fx-prazo">inscrição ${dias(c.inscricao_fim) === 0 ? 'encerra hoje' : dias(c.inscricao_fim) === 1 ? 'encerra amanhã' : `encerra em ${dias(c.inscricao_fim)} dias`}</span>` : ''}${cf ? `<span class="pill fx-abaixo">${cf.dd === 0 ? 'prova no mesmo dia de outra' : `prova a ${cf.dd} dia${cf.dd > 1 ? 's' : ''} de outra`}</span>` : ''}</div>
+    <div class="sub">${e.progs.length > 1 ? `${e.progs.length} programas · ` : ''}${esc(e.cidades.slice(0, 3).join(', '))}${e.cidades.length > 3 ? ' e outras' : ''}${p0.banca ? ` · ${esc(escCurta(p0.banca))}` : ''}</div>
+    <div class="rd-grade">${linhaData('Inscrições', insc, inscSub)}${linhaData('Taxa', c.taxa_reais != null ? fR(c.taxa_reais) : 'não divulgada', '')}${linhaData('Prova objetiva', prova, provaSub)}${prox ? linhaData('Próxima etapa', fDA(prox[1]), esc(prox[0].length > 70 ? prox[0].slice(0, 68) + '…' : prox[0])) : linhaData('Resultado', c.resultado_previsto ? fDA(c.resultado_previsto) : 'não divulgado', c.resultado_previsto && dias(c.resultado_previsto) < 0 ? 'já saiu' : '')}</div>
+    ${mud}${doc}
+    <div class="links">${lk.join('')}${ag.join('')}<button type="button" class="btn" ${e.progs.length > 1 && p0.grupo ? `data-ir="${esc(JSON.stringify({v: 'programas', f: {banca: p0.grupo}}))}"` : `data-abre="${esc(p0.id)}"`}>${e.progs.length > 1 ? `Ver os ${e.progs.length} programas` : 'Abrir a ficha'}</button></div>
+    <div class="sub rd-fonte">Fonte: ${selo(c.selo)}${url(c.fonte) ? ` <a href="${esc(c.fonte)}" target="_blank" rel="noopener">fonte usada<span aria-hidden="true"> ↗</span></a>` : ''}</div>
+  </article>`;
+}
+function cartaoPrevisto(x) {
+  return `<article class="rd-card st-b-breve">
+    <div class="rd-top"><h3>${esc(x.processo)}</h3><span class="pill st-breve">Edital previsto</span>${selo(x.selo)}</div>
+    <div class="sub">${esc([x.cidade, x.uf].filter(Boolean).join('/'))}${x.dermatologia ? ` · <b>Dermatologia ${esc(x.dermatologia)}</b>` : ''}</div>
+    <div class="rd-grade">${linhaData('Inscrições previstas', `${fDA(x.inscricao_inicio)} a ${fDA(x.inscricao_fim)}`, x.inscricao_inicio && dias(x.inscricao_inicio) > 0 ? `abrem ${dN(dias(x.inscricao_inicio))}` : '')}${linhaData('Taxa', x.taxa_reais != null ? fR(x.taxa_reais) : 'não divulgada', '')}${linhaData('Prova prevista', x.prova ? fDA(x.prova) : 'não divulgada', x.prova ? dN(dias(x.prova)) : '')}</div>
+    ${x.obs ? `<div class="sub" style="margin-top:6px">${esc(x.obs)}</div>` : ''}
+    <div class="links">${url(x.fonte) ? `<a href="${esc(x.fonte)}" target="_blank" rel="noopener">Fonte da previsão<span aria-hidden="true"> ↗</span></a>` : ''}</div>
+    <div class="sub rd-fonte">Conferido em ${esc(fDA(x.conferido_em))}. Previsão: só vale o que sair no edital completo.</div>
+  </article>`;
+}
+function rRadar(L0) {
+  const procs = procsRadar(L0);
+  const prevs = PREV.filter(x => !x.inscricao_fim || dias(x.inscricao_fim) >= 0);
+  const semEd = L0.filter(p => p.tipo !== 'sbd' && situacao(p).k === 'sem');
+  // conflitos
+  const escopo = RD.cfEsc === 'lista' ? procs.filter(e => e.fav) : procs;
+  const cfs = conflitos(escopo, +RD.cfDias);
+  const emConf = new Map(); conflitos(procs.filter(e => e.fav), +RD.cfDias).forEach(c => [c.x.e.k, c.y.e.k].forEach(k => { if (!emConf.has(k) || emConf.get(k).dd > c.dd) emConf.set(k, c); }));
+  // KPIs
+  const abertas = procs.filter(e => e.s.k === 'aberta').sort((a, b) => a.c.inscricao_fim.localeCompare(b.c.inscricao_fim));
+  const breve = procs.filter(e => e.s.k === 'breve');
+  const prov30 = procs.filter(e => e.c.prova_1a_fase && dias(e.c.prova_1a_fase) >= 0 && dias(e.c.prova_1a_fase) <= 30);
+  const mud14 = mudancasAgrupadas(14).length + comunicadosRecentes(14).length;
+  $('#rd-kpis').innerHTML = `
+    <div class="kpi ${abertas.length ? 'destaque' : ''}" ${irA({rd: 'aberta'})}><span class="v">${abertas.length}</span> <span class="l">Inscrições abertas agora</span> <span class="s">${abertas[0] ? `a primeira a fechar: ${esc(abertas[0].nome)}, ${dN(dias(abertas[0].c.inscricao_fim))}` : 'nenhuma no filtro atual'}</span></div>
+    <div class="kpi" ${irA({rd: 'breve'})}><span class="v">${breve.length + prevs.length}</span> <span class="l">Abrem em breve ou previstas</span> <span class="s">${breve.length + prevs.length ? [...breve.map(e => `${e.nome} (${fD(e.c.inscricao_inicio)})`), ...prevs.map(x => `${x.processo} (${fD(x.inscricao_inicio)}, previsão)`)].map(esc).join(' · ') : 'nenhum edital novo anunciado'}</span></div>
+    <div class="kpi" ${irA({rd: 'prova'})}><span class="v">${prov30.length}</span> <span class="l">Provas nos próximos 30 dias</span> <span class="s">${prov30.length ? 'veja os conflitos logo abaixo' : 'nenhuma no filtro atual'}</span></div>
+    <div class="kpi" ${irA({rd: 'mud'})}><span class="v">${mud14}</span> <span class="l">Mudanças e comunicados em 14 dias</span> <span class="s">${MON ? `páginas oficiais conferidas em ${esc(fDA(MON.data))}` : 'monitoramento ainda não rodou'}</span></div>`;
+  // conflitos
+  $('#rd-cf-esc').value = RD.cfEsc; $('#rd-cf-dias').value = String(RD.cfDias);
+  setTimeout(() => { const b = $('#bt-cf-todos'); if (b) b.onclick = () => { cfTodos = !cfTodos; rRadar(filtrados()); }; });
+  $('#rd-cf-sub').textContent = RD.cfEsc === 'lista' ? `${escopo.length} processos da sua lista com prova futura` : `${escopo.length} processos no filtro atual`;
+  $('#rd-cf').innerHTML = RD.cfEsc === 'lista' && !escopo.length
+    ? '<div class="obs">Sua lista ★ está vazia. Marque programas em Programas ou escolha “Todos os processos do filtro”.</div>'
+    : cfs.length ? `<ul class="rd-cf">${(cfTodos ? cfs : cfs.slice(0, 20)).map(({x, y, dd}) => {
+        const cid = e => e.cidades.length === 1 ? e.cidades[0] : null, cx = cid(x.e), cy = cid(y.e);
+        const viagem = cx && cy && cx !== cy ? ` <span class="sub">· ${esc(cx)} e ${esc(cy)}: confira o deslocamento</span>` : '';
+        return `<li class="${dd === 0 ? 'mesmo' : 'perto'}"><span class="pill ${dd === 0 ? 'fx-abaixo' : 'fx-faixa'}">${dd === 0 ? 'Mesmo dia' : dd === 1 ? 'Dia seguinte' : `${dd} dias de intervalo`}</span>
+          <div><b>${esc(x.e.nome)}</b> · ${esc(x.t)} em ${esc(fDA(x.d))}<br><b>${esc(y.e.nome)}</b> · ${esc(y.t)} em ${esc(fDA(y.d))}${viagem}</div></li>`; }).join('')}</ul>${cfs.length > 20 ? `<div class="mais"><span class="sub">${cfTodos ? cfs.length : 20} de ${cfs.length} pares (${cfs.filter(c => c.dd === 0).length} no mesmo dia)</span><button type="button" class="btn" id="bt-cf-todos">${cfTodos ? 'Mostrar só os 20 primeiros' : 'Mostrar todos'}</button></div>` : ''}
+        <p class="sub" style="margin-top:8px">${cfs.some(c => c.dd === 0) ? 'No mesmo dia, as provas podem ser em turnos diferentes: confira o horário e o local no edital antes de pagar as duas inscrições. ' : ''}Datas de edital mudam por retificação; o monitoramento avisa aqui.</p>`
+    : `<div class="obs">Nenhuma prova a ${+RD.cfDias === 0 ? 'menos de um dia' : `${RD.cfDias} dia${+RD.cfDias > 1 ? 's' : ''} ou menos`} de outra ${RD.cfEsc === 'lista' ? 'na sua lista' : 'no filtro atual'}.</div>`;
+  // lista do radar
+  const cont = k => procs.filter(e => e.s.k === k).length + (k === 'breve' ? prevs.length : 0) + (k === 'sem' ? semEd.length : 0);
+  $('#rd-sit').innerHTML = SIT_RD.map(([k, t]) => `<button type="button" class="leg-bt" data-rdsit="${k}" aria-pressed="${RD.sit === k}">${t}${k ? ` · ${cont(k)}` : ''}</button>`).join('') + `<button type="button" class="leg-bt" data-rdlista="1" aria-pressed="${RD.lista}"><span aria-hidden="true">★ </span>Só minha lista</button>`;
+  let vis = procs.filter(e => (!RD.sit || e.s.k === RD.sit) && (!RD.lista || e.fav));
+  vis.sort((a, b) => (ORD_RD[a.s.k] - ORD_RD[b.s.k]) || (a.s.k === 'realizada' ? (b.c.prova_1a_fase || '').localeCompare(a.c.prova_1a_fase || '') : a.s.ord - b.s.ord));
+  const prevVis = !RD.lista && (!RD.sit || RD.sit === 'breve') ? prevs : [];
+  const semVis = !RD.lista && (!RD.sit || RD.sit === 'sem') && semEd.length;
+  $('#rd-lista').innerHTML = (prevVis.map(cartaoPrevisto).join('') + vis.map(e => cartaoRadar(e, emConf)).join('')
+    + (semVis ? `<article class="rd-card st-b-sem"><div class="rd-top"><h3>Sem edital 2027 localizado</h3><span class="pill st-sem">${semEd.length} programa${semEd.length > 1 ? 's' : ''}</span></div>
+        <p class="sub" style="margin:4px 0 8px">Nenhum edital do ciclo 2027 foi achado nas fontes oficiais. A rotina de atualização procura de novo a cada passada.</p>
+        <ul class="rd-sem">${semEd.map(p => `<li>${lkA(p.id, esc(p.sigla || p.instituicao))} <span class="sub">${esc(p.cidade)}/${esc(p.uf)}</span></li>`).join('')}</ul></article>` : ''))
+    || '<div class="obs">Nenhum processo nesta situação no filtro atual.</div>';
+  // mudanças e comunicados
+  $('#rd-per').innerHTML = [[14, '14 dias'], [30, '30 dias'], [90, '90 dias']].map(([d, t]) => `<button type="button" class="leg-bt" data-rdper="${d}" aria-pressed="${+RD.per === d}">${t}</button>`).join('');
+  const ids = new Set(L0.map(p => p.id));
+  const itens = [...mudancasAgrupadas(+RD.per), ...comunicadosRecentes(+RD.per)].filter(i => !i.progs.length || i.progs.some(p => ids.has(p.id))).sort((a, b) => b.data.localeCompare(a.data));
+  $('#rd-mud').innerHTML = itens.length ? itens.map(i => {
+    const recente = dias(i.data) >= -3;
+    if (i.tipo === 'doc') return `<li class="${recente ? 'recente' : ''}"><span class="rd-quando">${esc(fDA(i.data))}</span><div><b>${esc(i.proc)}</b>: documento novo na página oficial · <a href="${esc(i.c.url)}" target="_blank" rel="noopener">${esc(i.c.titulo || 'abrir o documento')}<span aria-hidden="true"> ↗</span></a>${url(i.c.pagina) ? ` · <a href="${esc(i.c.pagina)}" target="_blank" rel="noopener">página do processo<span aria-hidden="true"> ↗</span></a>` : ''}<div class="sub">Os dados do painel são revistos a partir deste documento na próxima atualização.</div></div></li>`;
+    const m = i.m, n = i.progs.length;
+    const oque = m.tipo === 'novo' ? 'programa incluído no painel' : (m.det || []).length ? m.det.map(d => `<span class="rd-campo">${esc(ROT_CAMPO[d.campo] || d.campo)}</span> ${esc(detTxt(d))}`).join('<br>') : esc(m.campos.join(', ')) + ' <span class="sub">(valores anteriores não registrados)</span>';
+    return `<li class="${recente ? 'recente' : ''}"><span class="rd-quando">${esc(fDA(i.data))}</span><div><b>${esc(i.proc)}</b>${n > 1 ? ` <span class="sub">(${n} programas)</span>` : ''}<div>${oque}</div><div class="sub">${url(m.fonte) ? `<a href="${esc(m.fonte)}" target="_blank" rel="noopener">fonte oficial<span aria-hidden="true"> ↗</span></a> · ` : ''}${n === 1 ? lkA(i.progs[0].id, 'abrir a ficha') : `<button type="button" class="lk" data-ir="${esc(JSON.stringify({v: 'programas', f: {banca: i.proc}}))}">ver os programas</button>`}</div></div></li>`;
+  }).join('') : `<li class="vazio-l">Nenhuma mudança nem documento novo nos últimos ${RD.per} dias${MON ? `. Última verificação das páginas oficiais: ${esc(fDA(MON.data))}` : ''}.</li>`;
+  $('#rd-mon').innerHTML = MON ? `Monitoramento: ${MON.visitados} páginas oficiais conferidas em ${esc(fDA(MON.data))}.${MON.erros?.length ? ` Não abriram nessa passada: ${MON.erros.map(esc).join(', ')}; esses processos são conferidos à mão.` : ''} De agosto a fevereiro a conferência é diária; o painel é atualizado e republicado quando algo muda.` : '';
+}
+
+/* aviso de prazo de inscrição terminando (aparece em todas as abas) */
+const AL = Object.assign({dias: 7, vistos: {}}, store.get('derma-alerta', {}));
+const salvaAL = () => store.set('derma-alerta', AL);
+// processos com inscrição aberta que fecham dentro do prazo escolhido; com lista ★, só os da lista
+function prazosTerminando() {
+  const fk = favProcs(), usaLista = fk.size > 0, M = new Map();
+  for (const p of P) {
+    if (p.tipo === 'sbd') continue;
+    const c = p.ciclo || {};
+    if (!c.inscricao_fim || (c.inscricao_inicio && dias(c.inscricao_inicio) > 0)) continue;
+    const d = dias(c.inscricao_fim);
+    if (d < 0 || d > +AL.dias) continue;
+    const k = chaveProc(p);
+    if (usaLista && !fk.has(k)) continue;
+    const e = M.get(k) || {k, nome: p.grupo || (p.sigla || p.instituicao), p0: p, c, d, progs: []};
+    e.progs.push(p); M.set(k, e);
+  }
+  // quem já marcou "taxa paga" (ou depois) no Meu plano não precisa do aviso
+  return {usaLista, itens: [...M.values()].filter(e => etapaIdx(e.k) < 2).sort((a, b) => a.d - b.d || a.nome.localeCompare(b.nome))};
+}
+// "Já vi" adia o aviso até a véspera; se o prazo mudar (prorrogação), o aviso volta
+function avisoVisivel(e) {
+  const v = AL.vistos[e.k];
+  if (!v || v.fim !== e.c.inscricao_fim) return true;
+  return e.d <= 1 && v.d > 1;
+}
+function prorrogacao(e) {
+  const m = (DADOS.mudancas || []).filter(x => e.progs.some(p => p.id === x.id) && dias(x.data) >= -14)
+    .flatMap(x => (x.det || []).filter(d => d.campo === 'inscricao_fim' && d.antes && d.depois && d.depois > d.antes).map(d => ({...d, data: x.data, fonte: x.fonte})))[0];
+  return m ? ` <span class="ap-prorr">Prazo prorrogado em ${esc(fDA(m.data))}: era ${esc(fDA(m.antes))}${url(m.fonte) ? ` (<a href="${esc(m.fonte)}" target="_blank" rel="noopener">fonte oficial<span aria-hidden="true"> ↗</span></a>)` : ''}.</span>` : '';
+}
+function rAlerta() {
+  const {usaLista, itens} = prazosTerminando();
+  const vis = itens.filter(avisoVisivel);
+  const box = $('#alerta-prazo');
+  box.hidden = !vis.length;
+  if (!vis.length) { $('#ap-lista').innerHTML = ''; return; }
+  $('#ap-tit').textContent = vis.length === 1 ? 'Inscrição terminando' : `${vis.length} inscrições terminando`;
+  $('#ap-escopo').textContent = usaLista ? 'Processos da sua lista ★ que ainda não estão com a taxa paga em Minhas inscrições.' : 'Todos os processos. Marque programas com ★ para ver só os seus.';
+  $('#ap-dias').value = String(AL.dias);
+  $('#ap-lista').innerHTML = vis.map(e => {
+    const quando = e.d === 0 ? 'encerram hoje' : e.d === 1 ? 'encerram amanhã' : `encerram em ${e.d} dias`;
+    const st = PL.st[e.k], insc = st === 'inscrita';
+    const agenda = gcal(e.p0, `Último dia de inscrição · ${e.nome} (Dermato)`, e.c.inscricao_fim);
+    const det = e.progs.length > 1 && e.p0.grupo ? `data-ir="${esc(JSON.stringify({v: 'programas', f: {banca: e.p0.grupo}}))}"` : `data-abre="${esc(e.p0.id)}"`;
+    return `<li class="${e.d <= 2 ? 'urgente' : ''}">
+      <div class="ap-txt"><b>${esc(e.nome)}</b>: inscrições <b>${quando}</b> (${esc(fDA(e.c.inscricao_fim))})${e.c.taxa_reais != null ? ` · taxa ${esc(fR(e.c.taxa_reais))}` : ''}${e.progs.length > 1 ? ` · ${e.progs.length} programas` : ''}.${insc ? ' <span class="ap-prorr">Você marcou como inscrita: confira se a taxa foi paga dentro do prazo do boleto.</span>' : ''}${prorrogacao(e)}</div>
+      <div class="ap-acoes">${url(e.c.link_inscricao) ? `<a class="btn prim" href="${esc(e.c.link_inscricao)}" target="_blank" rel="noopener">${insc ? 'Página da inscrição' : 'Fazer a inscrição'}<span aria-hidden="true"> ↗</span></a>` : ''}
+        <a class="btn" href="${esc(agenda)}" target="_blank" rel="noopener">Pôr na agenda</a>
+        <button type="button" class="btn" ${det}>Detalhes</button>
+        <button type="button" class="btn" data-ap-ok="${esc(e.k)}" aria-label="Já vi o aviso de ${esc(e.nome)}; avisar de novo na véspera">Já vi</button></div>
+    </li>`;
+  }).join('');
+}
+
+/* novidades (visão geral) */
+function rNovidades(L) {
+  const ids = new Set(L.map(p => p.id));
+  const arr = [...MUD.values()].filter(m => ids.has(m.id)).sort((a, b) => b.data.localeCompare(a.data));
+  $('#novidades-card').hidden = !arr.length;
+  $('#novidades').innerHTML = arr.slice(0, 12).map(m => { const p = P.find(x => x.id === m.id); return `<li data-abre="${esc(p.id)}" style="cursor:pointer"><span class="novo-pill">${m.tipo === 'novo' ? 'novo' : 'alterado'} ${esc(fD(m.data))}</span> <b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b> · ${esc(p.cidade)}/${esc(p.uf)}${(m.det || []).length ? ` <span class="sub">${m.det.map(d => `${esc(ROT_CAMPO[d.campo] || d.campo)}: ${esc(detTxt(d))}`).join('; ')}</span>` : m.campos.length ? ` <span class="sub">${esc(m.campos.join(', '))}</span>` : ''}</li>`; }).join('') + `<li style="border-bottom:0"><a href="#radar">Ver todas as mudanças e comunicados em Prazos e provas</a></li>`;
+}
+
+/* salvar na conta do Claude (db, área privada de cada pessoa); sem conta, fica no aparelho */
+const SYNC = ['fav', 'cmp', 'pesos', 'chances', 'plano', 'estudo', 'alerta'];
+let nuvem = null, nuvemT = null;
+function marcaSalvo(e) {
+  $('#pl-salvo').textContent = e === 'conta' ? 'Salvo na sua conta do Claude: a lista ★, o andamento, os documentos e o plano aparecem em qualquer aparelho em que você abrir este painel.'
+    : e === 'erro' ? 'Não consegui salvar na sua conta agora; ficou salvo neste aparelho.' : 'Salvo só neste aparelho e navegador.';
+}
+marcaSalvo('local');
+const _set = store.set;
+store.set = (k, v) => { _set(k, v); if (nuvem && SYNC.includes(k.replace('derma-', ''))) { clearTimeout(nuvemT); nuvemT = setTimeout(sobe, 1200); } };
+async function sobe() {
+  try { const o = {atualizado: new Date().toISOString()}; SYNC.forEach(k => { const v = store.get('derma-' + k, null); if (v != null) o[k] = v; }); await nuvem.set(o); marcaSalvo('conta'); }
+  catch { marcaSalvo('erro'); }
+}
+function aplica(o) {
+  SYNC.forEach(k => { if (o[k] != null) _set('derma-' + k, o[k]); });
+  if (Array.isArray(o.fav)) { fav.clear(); o.fav.forEach(x => fav.add(x)); }
+  if (Array.isArray(o.cmp)) cmp = o.cmp.filter(id => P.some(p => p.id === id));
+  if (o.pesos) Object.assign(pesos, o.pesos);
+  if (o.chances) Object.assign(CH, o.chances);
+  if (o.plano) { Object.keys(PL).forEach(k => delete PL[k]); Object.assign(PL, {st: {}, nota: {}, docs: {}, gasto: {}}, o.plano); }
+  if (o.estudo) Object.assign(ES, o.estudo);
+  if (o.alerta) Object.assign(AL, o.alerta);
+  if (vista === 'ranking') rPesos?.();
+  render();
+}
+(async () => {
+  try {
+    if (!window.claude?.use) return;
+    const [db, user] = await Promise.all([claude.use('db'), claude.use('user')]);
+    if (!db || !user) return;
+    const id = await user.id(); if (!id) return;
+    const ref = db.doc('data/users/' + id + '/estado');
+    const s = await Promise.race([ref.get(), new Promise((_, r) => setTimeout(() => r(new Error('tempo')), 10000))]);
+    nuvem = ref;
+    if (s.exists) { aplica(s.data() || {}); marcaSalvo('conta'); } else await sobe();
+  } catch { nuvem = null; marcaSalvo('local'); }
+})();
+let DL = null;
+(async () => { try { DL = window.claude?.use ? await claude.use('downloads') : null; } catch { DL = null; } if (DL) $('#pl-baixar').hidden = false; })();
+
+/* ---------- fontes ---------- */
+function rFontes() {
+  const lac = DADOS.lacunas || [];
+  $('#lac-n').textContent = `${lac.length} itens`;
+  $('#lacunas').innerHTML = (lacTodas ? lac : lac.slice(0, 30)).map(l => `<li>${esc(l)}</li>`).join('') || '<li>Nenhuma lacuna registrada.</li>';
+  $('#lac-mais').innerHTML = lac.length > 30 ? `<button type="button" class="btn" id="bt-lac">${lacTodas ? 'Mostrar só as 30 primeiras' : `Mostrar todas as ${lac.length}`}</button>` : '';
+  if ($('#bt-lac')) $('#bt-lac').onclick = () => { lacTodas = !lacTodas; rFontes(); };
+  const fs = new Set();
+  P.forEach(p => { [p.ciclo?.fonte, p.ciclo?.link_edital, p.fonte_universo, ...(p.historico || []).map(h => h.fonte)].forEach(u => url(u) && fs.add(u)); });
+  (DADOS.fontes_extra || []).forEach(u => url(u) && fs.add(u));
+  const FI = DADOS.fontes_indicadores || {}; [FI.capes, 'https://openalex.org', 'https://www.sbd.org.br/centros-de-servicos-credenciados/'].forEach(u => url(u) && fs.add(u));
+  const arr = [...fs].sort();
+  $('#fontes-n').textContent = `${arr.length} endereços`;
+  $('#fontes-l').innerHTML = arr.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join('');
+}
+
+/* ---------- roteamento e render ---------- */
+const VISTAS = ['visao', 'mapa', 'programas', 'calendario', 'radar', 'ranking', 'concorrencia', 'comparar', 'chances', 'plano', 'provas', 'fontes'];
+let vista = 'visao';
+function rota(ev) {
+  const h = location.hash.slice(1);
+  if (h.startsWith('p-')) { if (!VISTAS.includes(vista) || !document.querySelector(`#v-${vista}:not([hidden])`)) mostra('programas'); abreFicha(h.slice(2), true); if (ev) fichaEmpilhada = true; return; }
+  const tinha = !$('#ficha').hidden;
+  fechaFicha();
+  mostra(VISTAS.includes(h) ? h : 'visao');
+  if (tinha || (ev && ultimoFoco && !ultimoFoco.isConnected && document.activeElement === document.body)) { restauraFoco(); ultimoFoco = chaveFoco = null; }
+}
+const SUB = {
+  visao: {g: 'visao', t: 'Início', a: 'O que está acontecendo agora e o caminho para usar o painel, passo a passo.'},
+  programas: {g: 'programas', t: 'Lista', a: 'Todos os programas de residência em Dermatologia. Toque no nome para ver tudo sobre o programa e na ★ para guardar na sua lista.'},
+  mapa: {g: 'programas', t: 'Mapa', a: 'Onde ficam os programas. Toque numa cidade para ver os programas dela.'},
+  radar: {g: 'radar', t: 'Prazos e alertas', a: 'Inscrições abertas e as que vão abrir, provas marcadas, provas no mesmo dia e o que mudou nos editais.'},
+  calendario: {g: 'radar', t: 'Calendário', a: 'Todos os processos seletivos num calendário: inscrições, provas e resultados, mês a mês.'},
+  chances: {g: 'comparar', t: 'Com a minha nota', a: 'Digite a nota de um simulado e veja se ela ficaria acima, perto ou abaixo da última nota de corte de cada programa.'},
+  concorrencia: {g: 'comparar', t: 'Notas de corte', a: 'As notas de corte já publicadas e quantos candidatos disputaram cada vaga.'},
+  ranking: {g: 'comparar', t: 'Pontuação', a: 'Uma nota de 0 a 100 para a estrutura de cada programa (pós-graduação, pesquisa, tamanho). Você escolhe o peso de cada item.'},
+  comparar: {g: 'comparar', t: 'Lado a lado', a: 'Até 4 programas em colunas, para comparar tudo de uma vez.'},
+  plano: {g: 'plano', t: 'Minhas inscrições', a: 'Os programas que você guardou com ★: em que etapa está cada inscrição, as próximas datas, os gastos e os documentos.'},
+  provas: {g: 'provas', t: 'Estudar', a: 'Quantas questões de cada área caem em cada prova e um plano de estudo até o dia da prova.'},
+  fontes: {g: 'fontes', t: 'De onde vêm os dados', a: 'As fontes oficiais usadas e o que ainda não foi encontrado.'},
+};
+function rSubnav(v) {
+  const g = SUB[v]?.g, irmas = Object.keys(SUB).filter(k => SUB[k].g === g);
+  $('#subnav').hidden = irmas.length < 2;
+  $('#subnav').innerHTML = irmas.map(k => `<a href="#${k}" ${k === v ? 'aria-current="page"' : ''}>${SUB[k].t}</a>`).join('');
+  $('#ajuda-pag').textContent = SUB[v]?.a || '';
+}
+function mostra(v) {
+  if (vista !== v) window.scrollTo(0, 0);
+  vista = v;
+  VISTAS.forEach(x => $('#v-' + x).hidden = x !== v);
+  document.querySelectorAll('nav.tabs a').forEach(a => (a.dataset.grupo || '').split(' ').includes(v) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  rSubnav(v);
+  $('#filtros-box').hidden = ['plano', 'comparar', 'fontes'].includes(v);
+  const at = document.querySelector('nav.tabs a[aria-current]');
+  if (at) rolAbas.scrollTo({left: rolAbas.scrollLeft + at.getBoundingClientRect().left - rolAbas.getBoundingClientRect().left - (rolAbas.clientWidth - at.offsetWidth) / 2});
+  setasAbas(); escondeDica();
+  if (v === 'mapa' && !mapa && window.L) iniciaMapa();
+  render();
+}
+function render() {
+  const L0 = filtrados();
+  const ativos = ['busca','regiao','uf','situacao','cv','banca'].filter(k => F[k]).length + (F.fav ? 1 : 0);
+  const cont = `${L0.length} de ${P.filter(p => F.sbd || p.tipo !== 'sbd').length} programas`;
+  if ($('#contagem').textContent !== cont) $('#contagem').textContent = cont;
+  $('#bt-filtros').textContent = ativos ? `Filtros (${ativos})` : 'Filtros';
+  rChips();
+  rAlerta();
+  if (vista === 'visao') { rVisao(L0); rNovidades(L0); }
+  if (vista === 'plano') rPlano();
+  if (vista === 'provas') { rEstudo(); rProvas(L0); }
+  if (vista === 'mapa') rMapa(L0);
+  if (vista === 'programas') rLista(L0);
+  if (vista === 'calendario') rCal(L0);
+  if (vista === 'radar') rRadar(L0);
+  if (vista === 'fontes') rFontes();
+  if (vista === 'ranking') rRanking(L0);
+  if (vista === 'concorrencia') rConcorrencia(L0);
+  if (vista === 'comparar') rComparar();
+  if (vista === 'chances') rChances(L0);
+}
+
+/* ---------- eventos ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('[data-cmp]');
+  if (k) { e.stopPropagation(); alternaCmp(k.dataset.cmp); render(); if (!$('#ficha').hidden) abreFicha(k.dataset.cmp, true); return; }
+  const f = e.target.closest('[data-fav]');
+  if (f) { e.stopPropagation(); const id = f.dataset.fav; fav.has(id) ? fav.delete(id) : fav.add(id); store.set('derma-fav', [...fav]); render(); if (!$('#ficha').hidden) abreFicha(id, true); return; }
+  const a = e.target.closest('[data-abre]');
+  if (a && !e.target.closest('a[href]')) abreFicha(a.dataset.abre);
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') fechaFicha();
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.matches?.('[data-abre],[data-ir],[data-cid]') && !e.target.matches('button,a,input,select,summary')) { e.preventDefault(); e.target.click(); }
+  if (e.key === 'Tab' && !$('#ficha').hidden) { const f = [...$('#ficha').querySelectorAll('a[href],button,input,select,[tabindex="0"]')].filter(x => x.offsetParent); if (f.length) { const a = f[0], z = f[f.length - 1]; if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); } else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); } } }
+});
+$('#ficha-fundo').onclick = () => fechaFicha();
+document.addEventListener('click', e => { if (e.target.id === 'bt-fecha') fechaFicha(); });
+$('#filtros').addEventListener('input', lerFiltros);
+$('#filtros').addEventListener('submit', e => e.preventDefault());
+$('#bt-limpar').onclick = () => { Object.assign(F, {busca:'', regiao:'', uf:'', situacao:'', cv:'', ano:'', banca:'', fav:false}); for (const k of ['busca','regiao','uf','situacao','cv','ano','banca']) $('#f-' + k).value = ''; $('#f-fav').checked = false; lerFiltros(); };
+$('#bt-filtros').onclick = () => { const f = $('#filtros'); f.classList.toggle('aberto'); $('#bt-filtros').setAttribute('aria-expanded', f.classList.contains('aberto')); };
+document.querySelectorAll('[data-modo]').forEach(b => b.onclick = () => { modoCor = b.dataset.modo; document.querySelectorAll('[data-modo]').forEach(x => x.setAttribute('aria-pressed', x === b)); rMapa(filtrados()); });
+window.addEventListener('hashchange', rota);
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-st]');
+  if (b) { PL.st[b.dataset.st] = b.dataset.v; salvaPL(); rPlano(); }
+});
+document.addEventListener('input', e => {
+  const t = e.target;
+  if (t.dataset.nota != null) { PL.nota[t.dataset.nota] = t.value; salvaPL(); }
+  if (t.dataset.gasto != null) { if (t.value === '') delete PL.gasto[t.dataset.gasto]; else PL.gasto[t.dataset.gasto] = +t.value; salvaPL(); totOrc(procsDaLista()); }
+  if (t.dataset.doc != null) { const m = PL.docs[t.dataset.doc] || (PL.docs[t.dataset.doc] = {}); if (t.checked) m[t.dataset.item] = true; else delete m[t.dataset.item]; salvaPL(); rDocs(procsDaLista()); }
+});
+$('#es-alvo').addEventListener('change', e => { ES.alvo = e.target.value; store.set('derma-estudo', ES); rEstudo(); });
+['es-horas', 'es-rev', 'es-data', 'es-perfil'].forEach(id => $('#' + id).addEventListener('input', e => { ES[id.slice(3)] = e.target.value; store.set('derma-estudo', ES); rEstudo(); }));
+$('#pl-imprimir').onclick = () => { try { window.print(); } catch { $('#pl-msg').textContent = 'A impressão não abriu aqui; use “Baixar uma cópia”.'; } };
+$('#pl-baixar').onclick = async () => { try { await DL.save({filename: 'minhas-inscricoes-dermatologia.html', data: planoHTML()}); $('#pl-msg').textContent = 'Arquivo salvo.'; } catch (e) { $('#pl-msg').textContent = e?.code === 'declined' ? '' : 'Não foi possível baixar aqui.'; } };
+['ch-nota', 'ch-escala'].forEach(id => $('#' + id).addEventListener('input', () => { nCh = PASSO; CH.nota = $('#ch-nota').value; CH.escala = $('#ch-escala').value; store.set('derma-chances', CH); rChances(filtrados()); }));
+
+/* ---------- eventos da revisão: atalhos, balão, abas, topo ---------- */
+document.addEventListener('click', e => {
+  const d = e.target.closest('[data-dica]');
+  if (d && !d.closest('[data-abre]')) { if (d.closest('summary')) e.preventDefault(); mostraDica(d, true); } else escondeDica();
+  const m = e.target.closest('[data-mais]');
+  if (m) {
+    if (m.dataset.mais === 'lista') { nLista = m.dataset.todos ? 1e9 : nLista + PASSO; rLista(filtrados()); }
+    else if (m.dataset.mais === 'chances') { nCh = m.dataset.todos ? 1e9 : nCh + PASSO; rChances(filtrados()); }
+    else if (m.dataset.mais === 'cortes') { nCorte = m.dataset.todos ? 1e9 : nCorte + PASSO; rConcorrencia(filtrados()); }
+    else { nRank = m.dataset.todos ? 1e9 : nRank + PASSO; rRanking(filtrados()); }
+    return;
+  }
+  const cf = e.target.closest('[data-chfx]');
+  if (cf) { CH.faixa = cf.dataset.chfx; nCh = PASSO; store.set('derma-chances', CH); rChances(filtrados()); return; }
+  const l = e.target.closest('[data-limpa]');
+  if (l) { const k = l.dataset.limpa; F[k] = k === 'fav' ? false : ''; sincF(); render(); return; }
+  const i = e.target.closest('[data-ir]');
+  if (i) ir(JSON.parse(i.dataset.ir));
+});
+document.addEventListener('mouseover', e => {
+  const d = e.target.closest?.('[data-dica]');
+  if (d) { if (d !== dicaEl) mostraDica(d, false); } else if (dicaEl && !dicaFixa) escondeDica();
+});
+window.addEventListener('scroll', () => { if (dicaEl && document.activeElement === dicaEl) mostraDica(dicaEl, true); else escondeDica(); }, {passive: true, capture: true});
+document.addEventListener('focusin', e => { if (e.target.matches?.('.tl-trilha [data-dica]')) mostraDica(e.target, true); });
+document.addEventListener('focusout', e => { if (e.target === dicaEl) escondeDica(); });
+
+/* calendário no teclado: Tab vai de nome em nome; setas percorrem as datas da linha e trocam de linha; Enter abre; Esc e Home voltam ao nome */
+const marcasDe = linha => [...linha.querySelectorAll('.tl-trilha [data-dica]')].sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
+document.addEventListener('keydown', e => {
+  const t = e.target, linha = t.closest?.('#tl .tl-linha');
+  if (!linha || e.altKey || e.ctrlKey || e.metaKey) return;
+  const rot = linha.querySelector('.tl-rot'), ms = marcasDe(linha), i = ms.indexOf(t);
+  const linhas = [...document.querySelectorAll('#tl .tl-linha')], li = linhas.indexOf(linha);
+  const vai = el => { if (!el) return; e.preventDefault(); el.focus(); };
+  switch (e.key) {
+    case 'ArrowRight': vai(i < 0 ? ms[0] : ms[i + 1]); break;
+    case 'ArrowLeft': if (i >= 0) vai(i ? ms[i - 1] : rot); break;
+    case 'ArrowDown': case 'ArrowUp': {
+      const outra = linhas[li + (e.key === 'ArrowDown' ? 1 : -1)]; if (!outra) { e.preventDefault(); break; }
+      if (i < 0) { vai(outra.querySelector('.tl-rot')); break; }
+      const x = t.getBoundingClientRect().left, om = marcasDe(outra);
+      vai(om.length ? om.reduce((b, m) => Math.abs(m.getBoundingClientRect().left - x) < Math.abs(b.getBoundingClientRect().left - x) ? m : b) : outra.querySelector('.tl-rot'));
+      break;
+    }
+    case 'Home': if (i >= 0) vai(rot); break;
+    case 'End': vai(ms[ms.length - 1]); break;
+    case 'Escape': if (i >= 0) vai(rot); break;
+    case 'Enter': case ' ': if (i >= 0) { e.preventDefault(); rot.click(); } break;
+  }
+});
+document.addEventListener('toggle', e => { const k = e.target.dataset?.pv; if (k) estadoPv[k] = e.target.open; }, true);
+
+const rolAbas = $('#tabs-rol');
+function setasAbas() {
+  const max = rolAbas.scrollWidth - rolAbas.clientWidth;
+  $('#tab-esq').hidden = max < 8 || rolAbas.scrollLeft < 8;
+  $('#tab-dir').hidden = max < 8 || rolAbas.scrollLeft > max - 8;
+}
+rolAbas.addEventListener('scroll', setasAbas, {passive: true});
+window.addEventListener('resize', setasAbas);
+$('#tab-esq').onclick = () => rolAbas.scrollBy({left: -rolAbas.clientWidth * .7, behavior: 'smooth'});
+$('#tab-dir').onclick = () => rolAbas.scrollBy({left: rolAbas.clientWidth * .7, behavior: 'smooth'});
+rolAbas.addEventListener('wheel', e => {
+  if (rolAbas.scrollWidth > rolAbas.clientWidth + 8 && Math.abs(e.deltaY) > Math.abs(e.deltaX)) { rolAbas.scrollLeft += e.deltaY; e.preventDefault(); }
+}, {passive: false});
+
+const btTopo = $('#bt-topo');
+window.addEventListener('scroll', () => { btTopo.hidden = scrollY < 900; }, {passive: true});
+btTopo.onclick = () => scrollTo({top: 0, behavior: 'smooth'});
+
+document.addEventListener('click', e => {
+  const s = e.target.closest('[data-rdsit]'), l = e.target.closest('[data-rdlista]'), p = e.target.closest('[data-rdper]');
+  if (s) { RD.sit = s.dataset.rdsit; salvaRD(); rRadar(filtrados()); }
+  if (l) { RD.lista = !RD.lista; salvaRD(); rRadar(filtrados()); }
+  if (p) { RD.per = +p.dataset.rdper; salvaRD(); rRadar(filtrados()); }
+});
+$('#rd-cf-esc').addEventListener('change', e => { RD.cfEsc = e.target.value; salvaRD(); rRadar(filtrados()); });
+$('#rd-cf-dias').addEventListener('change', e => { RD.cfDias = +e.target.value; salvaRD(); rRadar(filtrados()); });
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-ap-ok]'); if (!b) return;
+  const it = prazosTerminando().itens.find(x => x.k === b.dataset.apOk);
+  if (it) { AL.vistos[it.k] = {fim: it.c.inscricao_fim, d: it.d}; salvaAL(); rAlerta(); }
+});
+$('#ap-dias').addEventListener('change', e => { AL.dias = +e.target.value; salvaAL(); rAlerta(); if (vista === 'radar') rRadar(filtrados()); });
+$('#guia').addEventListener('toggle', e => { try { localStorage.setItem('derma-guia', e.target.open ? 'aberto' : 'fechado'); } catch {} });
+$('#bt-mais').onclick = () => { const f = $('#filtros'); f.classList.toggle('mais'); const a = f.classList.contains('mais'); $('#bt-mais').setAttribute('aria-expanded', a); $('#bt-mais').textContent = a ? 'Menos filtros' : 'Mais filtros'; };
+$('#bt-pular').onclick = () => { const m = $('#conteudo'); m.focus({preventScroll: true}); m.scrollIntoView(); };
+const marcaTema = () => document.querySelectorAll('[data-tema]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tema === TEMA_UI.pref));
+document.querySelectorAll('[data-tema]').forEach(b => b.onclick = () => { TEMA_UI.escolhe(b.dataset.tema); marcaTema(); });
+marcaTema();
+$('#gerado').textContent = fDA(DADOS.gerado_em);
+$('#hoje-txt').textContent = `Situação calculada para hoje, ${fDA(hoje.toISOString().slice(0,10))}`;
+$('#rodape').innerHTML = `<p class="autor">Painel feito por <b>Geraldo Brito Neto</b> · <a href="https://github.com/GeraldoNeto" target="_blank" rel="noopener">GitHub: GeraldoNeto<span aria-hidden="true"> ↗</span></a></p><p class="rodape-links"><a href="#visao">Como usar o painel</a> · <a href="#fontes">De onde vêm os dados</a></p>Montado a partir de fontes públicas (MEC/CNRM, SBD, editais e bancas). Fora do ar ou retificado? O link oficial de cada programa vale mais que este painel. Atualizado em ${fDA(DADOS.gerado_em)}.`;
+opcoes(); calcQuartis(F.ano); rota();
+</script>

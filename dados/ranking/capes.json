@@ -1,0 +1,1143 @@
+{
+ "fonte": "https://dadosabertos.capes.gov.br/dataset/2021-a-2024-programas-da-pos-graduacao-stricto-sensu-no-brasil",
+ "base": "CAPES, Programas da Pós-Graduação Stricto Sensu (coleta 2024, dados de 01/12/2025), áreas de avaliação Medicina I, II e III, em funcionamento, no município do programa",
+ "dados": {
+  "enare-ufal": {
+   "ies": "UFAL",
+   "nome": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+   "melhor_conceito": 5,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFAL",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UFAL",
+     "grau": "MESTRADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufam": {
+   "ies": "UFAM",
+   "nome": "UNIVERSIDADE FEDERAL DO AMAZONAS",
+   "melhor_conceito": 3,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIRURGIA",
+     "ies": "UFAM",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufba": {
+   "ies": "UFBA",
+   "nome": "UNIVERSIDADE FEDERAL DA BAHIA",
+   "melhor_conceito": 6,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "PATOLOGIA HUMANA",
+     "ies": "UFBA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "MEDICINA E SAÚDE",
+     "ies": "UFBA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFBA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufc": {
+   "ies": "UFC",
+   "nome": "UNIVERSIDADE FEDERAL DO CEARÁ",
+   "melhor_conceito": 6,
+   "n_programas": 6,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UFC",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICO-CIRÚRGICAS",
+     "ies": "UFC",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "MEDICINA TRANSLACIONAL",
+     "ies": "UFC",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "PATOLOGIA",
+     "ies": "UFC",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "SAÚDE DA MULHER E DA CRIANÇA",
+     "ies": "UFC",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-unb": {
+   "ies": "UNB",
+   "nome": "UNIVERSIDADE DE BRASÍLIA",
+   "melhor_conceito": 5,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UNB",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIENCIAS MEDICAS",
+     "ies": "UNB",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "MEDICINA TROPICAL",
+     "ies": "UNB",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufes": {
+   "ies": "UFES",
+   "nome": "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO",
+   "melhor_conceito": 5,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "DOENÇAS INFECCIOSAS",
+     "ies": "UFES",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hc-ufg-psu-go-2027": {
+   "ies": "UFG",
+   "nome": "UNIVERSIDADE FEDERAL DE GOIÁS",
+   "melhor_conceito": 6,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "MEDICINA TROPICAL E SAÚDE PÚBLICA",
+     "ies": "UFG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "scmbh-mg": {
+   "ies": "SANTA CASA BH",
+   "nome": "FACULDADE DE SAÚDE SANTA CASA BH",
+   "melhor_conceito": 4,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "MEDICINA - BIOMEDICINA",
+     "ies": "SANTA CASA BH",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufmg": {
+   "ies": "UFMG",
+   "nome": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+   "melhor_conceito": 6,
+   "n_programas": 7,
+   "programas": [
+    {
+     "nome": "MEDICINA MOLECULAR",
+     "ies": "UFMG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "INFECTOLOGIA E MEDICINA TROPICAL",
+     "ies": "UFMG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "PATOLOGIA",
+     "ies": "UFMG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS APLICADAS À CIRURGIA E À OFTALMOLOGIA",
+     "ies": "UFMG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS APLICADAS À SAÚDE DO ADULTO",
+     "ies": "UFMG",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufjf": {
+   "ies": "UFJF",
+   "nome": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
+   "melhor_conceito": 6,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "SAÚDE",
+     "ies": "UFJF",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-uftm": {
+   "ies": "UFTM",
+   "nome": "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
+   "melhor_conceito": 4,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFTM",
+     "grau": "MESTRADO",
+     "conceito": 4
+    },
+    {
+     "nome": "MEDICINA TROPICAL E INFECTOLOGIA",
+     "ies": "UFTM",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufu": {
+   "ies": "UFU",
+   "nome": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+   "melhor_conceito": 6,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFU",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufms": {
+   "ies": "UFMS",
+   "nome": "UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+   "melhor_conceito": 6,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "DOENÇAS INFECCIOSAS E PARASITÁRIAS",
+     "ies": "UFMS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufmt": {
+   "ies": "UFMT",
+   "nome": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
+   "melhor_conceito": 5,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFMT",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "uepa-pa-psu": {
+   "ies": "UEPA",
+   "nome": "UNIVERSIDADE DO ESTADO DO PARÁ",
+   "melhor_conceito": 4,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIRURGIA E PESQUISA EXPERIMENTAL",
+     "ies": "UEPA",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufpa": {
+   "ies": "UFPA",
+   "nome": "UNIVERSIDADE FEDERAL DO PARÁ",
+   "melhor_conceito": 5,
+   "n_programas": 4,
+   "programas": [
+    {
+     "nome": "DOENÇAS TROPICAIS",
+     "ies": "UFPA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "ONCOLOGIA E CIÊNCIAS MÉDICAS",
+     "ies": "UFPA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "ATENÇÃO E ESTUDO CLÍNICO NO DIABETES",
+     "ies": "UFPA",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    },
+    {
+     "nome": "SAÚDE NA AMAZÔNIA",
+     "ies": "UFPA",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "upe-huoc-sus-pe": {
+   "ies": "UPE",
+   "nome": "UNIVERSIDADE DE PERNAMBUCO",
+   "melhor_conceito": 5,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIENCIAS DA SAUDE",
+     "ies": "UPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "imip-sus-pe": {
+   "ies": "IMIP",
+   "nome": "INSTITUTO DE MEDICINA INTEGRAL PROFESSOR FERNANDO FIGUEIRA",
+   "melhor_conceito": 6,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "SAÚDE INTEGRAL",
+     "ies": "IMIP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CUIDADOS PALIATIVOS",
+     "ies": "IMIP",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 4
+    },
+    {
+     "nome": "CUIDADOS INTENSIVOS",
+     "ies": "IMIP",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufpe": {
+   "ies": "UFPE",
+   "nome": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+   "melhor_conceito": 5,
+   "n_programas": 5,
+   "programas": [
+    {
+     "nome": "MEDICINA TROPICAL",
+     "ies": "UFPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "NEUROPSIQUIATRIA E CIÊNCIAS DO COMPORTAMENTO",
+     "ies": "UFPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "SAÚDE TRANSLACIONAL",
+     "ies": "UFPE",
+     "grau": "MESTRADO",
+     "conceito": 3
+    },
+    {
+     "nome": "CIRURGIA",
+     "ies": "UFPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    },
+    {
+     "nome": "SAÚDE DA CRIANÇA E DO ADOLESCENTE",
+     "ies": "UFPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-hu-ufpi": {
+   "ies": "UFPI",
+   "nome": "UNIVERSIDADE FEDERAL DO PIAUÍ",
+   "melhor_conceito": 3,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "SAÚDE DA MULHER",
+     "ies": "UFPI",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "huem-mackenzie-curitiba": {
+   "ies": "FEMPAR",
+   "nome": "FACULDADE EVANGÉLICA MACKENZIE DO PARANÁ",
+   "melhor_conceito": 4,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "PRINCÍPIOS DA CIRURGIA",
+     "ies": "FEMPAR",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufpr": {
+   "ies": "UFPR",
+   "nome": "UNIVERSIDADE FEDERAL DO PARANÁ",
+   "melhor_conceito": 5,
+   "n_programas": 4,
+   "programas": [
+    {
+     "nome": "MEDICINA INTERNA E CIÊNCIAS DA SAÚDE",
+     "ies": "UFPR",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "MEDICINA (CLÍNICA CIRÚRGICA)",
+     "ies": "UFPR",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "TOCOGINECOLOGIA E SAÚDE DA MULHER",
+     "ies": "UFPR",
+     "grau": "MESTRADO",
+     "conceito": 3
+    },
+    {
+     "nome": "SAÚDE DA CRIANÇA E DO ADOLESCENTE",
+     "ies": "UFPR",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hu-uel-londrina": {
+   "ies": "UEL",
+   "nome": "UNIVERSIDADE ESTADUAL DE LONDRINA",
+   "melhor_conceito": 7,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "PATOLOGIA EXPERIMENTAL",
+     "ies": "UEL",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UEL",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "FISIOPATOLOGIA CLÍNICA E LABORATORIAL",
+     "ies": "UEL",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-uff": {
+   "ies": "UFF",
+   "nome": "UNIVERSIDADE FEDERAL FLUMINENSE",
+   "melhor_conceito": 5,
+   "n_programas": 5,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS CARDIOVASCULARES",
+     "ies": "UFF",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UFF",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "SAÚDE MATERNO-INFANTIL",
+     "ies": "UFF",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 4
+    },
+    {
+     "nome": "PATOLOGIA",
+     "ies": "UFF",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "MEDICINA (NEUROLOGIA)",
+     "ies": "UFF",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-huse": {
+   "ies": "UNIRIO",
+   "nome": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
+   "melhor_conceito": 4,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "NEUROLOGIA",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "MEDICINA",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    },
+    {
+     "nome": "INFECÇÃO HIV/AIDS E HEPATITES VIRAIS",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "uerj-hupe-rj": {
+   "ies": "UERJ",
+   "nome": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
+   "melhor_conceito": 5,
+   "n_programas": 6,
+   "programas": [
+    {
+     "nome": "FISIOPATOLOGIA CLÍNICA E EXPERIMENTAL",
+     "ies": "UERJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UERJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "FISIOPATOLOGIA E CIÊNCIAS CIRÚRGICAS",
+     "ies": "UERJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "TELESSAÚDE E SAÚDE DIGITAL",
+     "ies": "UERJ",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 4
+    },
+    {
+     "nome": "FÍSICA MÉDICA",
+     "ies": "UERJ",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufrj": {
+   "ies": "UFRJ",
+   "nome": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+   "melhor_conceito": 7,
+   "n_programas": 9,
+   "programas": [
+    {
+     "nome": "CLÍNICA MÉDICA",
+     "ies": "UFRJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "MEDICINA (RADIOLOGIA)",
+     "ies": "UFRJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "PSIQUIATRIA E SAÚDE MENTAL",
+     "ies": "UFRJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "MEDICINA (ENDOCRINOLOGIA)",
+     "ies": "UFRJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "MEDICINA (DOENÇAS INFECCIOSAS E PARASITÁRIAS)",
+     "ies": "UFRJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-unirio": {
+   "ies": "UNIRIO",
+   "nome": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
+   "melhor_conceito": 4,
+   "n_programas": 3,
+   "programas": [
+    {
+     "nome": "NEUROLOGIA",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "MEDICINA",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    },
+    {
+     "nome": "INFECÇÃO HIV/AIDS E HEPATITES VIRAIS",
+     "ies": "UNIRIO",
+     "grau": "MESTRADO PROFISSIONAL",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufrn": {
+   "ies": "UFRN",
+   "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+   "melhor_conceito": 6,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFRN",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS APLICADAS À SAÚDE DA MULHER",
+     "ies": "UFRN",
+     "grau": "MESTRADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hcpa-portoalegre": {
+   "ies": "HCPA + UFRGS",
+   "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL + HOSPITAL DE CLÍNICAS DE PORTO ALEGRE",
+   "melhor_conceito": 7,
+   "n_programas": 11,
+   "programas": [
+    {
+     "nome": "PSIQUIATRIA E CIÊNCIAS DO COMPORTAMENTO",
+     "ies": "UFRGS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICAS: ENDOCRINOLOGIA",
+     "ies": "UFRGS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS DA SAÚDE: CARDIOLOGIA E CIÊNCIAS CARDIOVASCULARES",
+     "ies": "UFRGS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "MEDICINA: CIÊNCIAS MÉDICAS",
+     "ies": "UFRGS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS PNEUMOLÓGICAS",
+     "ies": "UFRGS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hsl-pucrs-amrigs": {
+   "ies": "PUCRS",
+   "nome": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL",
+   "melhor_conceito": 7,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "MEDICINA PEDIATRIA E SAUDE DA CRIANÇA",
+     "ies": "PUCRS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "MEDICINA E CIÊNCIAS DA SAÚDE.",
+     "ies": "PUCRS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "ufcspa-santacasa-poa": {
+   "ies": "UFCSPA",
+   "nome": "UNIVERSIDADE FEDERAL DE CIÊNCIAS DA SAÚDE DE PORTO ALEGRE",
+   "melhor_conceito": 5,
+   "n_programas": 4,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UFCSPA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "PATOLOGIA",
+     "ies": "UFCSPA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "PEDIATRIA: ATENÇÃO A SAÚDE DA CRIANÇA E DO ADOLESCENTE",
+     "ies": "UFCSPA",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    },
+    {
+     "nome": "MEDICINA (HEPATOLOGIA)",
+     "ies": "UFCSPA",
+     "grau": "MESTRADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hu-ufsc-florianopolis-amrigs": {
+   "ies": "UFSC",
+   "nome": "UNIVERSIDADE FEDERAL DE SANTA CATARINA",
+   "melhor_conceito": 4,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UFSC",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "enare-ufs": {
+   "ies": "UFS",
+   "nome": "UNIVERSIDADE FEDERAL DE SERGIPE",
+   "melhor_conceito": 6,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAUDE",
+     "ies": "UFS",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "unesp-botucatu": {
+   "ies": "UNESP-BOTUCATU",
+   "nome": "UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO - CAMPUS BOTUCATU",
+   "melhor_conceito": 6,
+   "n_programas": 8,
+   "programas": [
+    {
+     "nome": "TOCOGINECOLOGIA",
+     "ies": "UNESP-BOTUCATU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "FISIOPATOLOGIA EM CLÍNICA MÉDICA",
+     "ies": "UNESP-BOTUCATU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "PATOLOGIA",
+     "ies": "UNESP-BOTUCATU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "ANESTESIOLOGIA",
+     "ies": "UNESP-BOTUCATU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "DOENÇAS TROPICAIS",
+     "ies": "UNESP-BOTUCATU",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "unicamp-campinas": {
+   "ies": "UNICAMP",
+   "nome": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+   "melhor_conceito": 7,
+   "n_programas": 10,
+   "programas": [
+    {
+     "nome": "FISIOPATOLOGIA MÉDICA",
+     "ies": "UNICAMP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "TOCOGINECOLOGIA",
+     "ies": "UNICAMP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "SAÚDE DA CRIANÇA E DO ADOLESCENTE",
+     "ies": "UNICAMP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CIÊNCIAS MÉDICAS",
+     "ies": "UNICAMP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    },
+    {
+     "nome": "CLÍNICA MÉDICA",
+     "ies": "UNICAMP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "sussp-fmj-jundiai": {
+   "ies": "FMJ",
+   "nome": "FACULDADE DE MEDICINA DE JUNDIAÍ",
+   "melhor_conceito": 3,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "FMJ",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hcfmrp-usp-ribeirao": {
+   "ies": "USP-RIBEIRÃO PRETO",
+   "nome": "UNIVERSIDADE DE SÃO PAULO - CAMPUS RIBEIRÃO PRETO",
+   "melhor_conceito": 7,
+   "n_programas": 13,
+   "programas": [
+    {
+     "nome": "MEDICINA (NEUROLOGIA)",
+     "ies": "USP-RIBEIRÃO PRETO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "SAÚDE MENTAL E CIÊNCIAS DO COMPORTAMENTO",
+     "ies": "USP-RIBEIRÃO PRETO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "GINECOLOGIA E OBSTETRÍCIA",
+     "ies": "USP-RIBEIRÃO PRETO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "MEDICINA (CLÍNICA MÉDICA)",
+     "ies": "USP-RIBEIRÃO PRETO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "ONCOLOGIA CLÍNICA, CÉLULAS-TRONCO E TERAPIA CELULAR",
+     "ies": "USP-RIBEIRÃO PRETO",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "famerp-rio-preto": {
+   "ies": "FAMERP",
+   "nome": "FACULDADE DE MEDICINA DE SÃO JOSÉ DO RIO PRETO",
+   "melhor_conceito": 5,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "FAMERP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "hcfmusp-sp": {
+   "ies": "USP",
+   "nome": "UNIVERSIDADE DE SÃO PAULO",
+   "melhor_conceito": 7,
+   "n_programas": 28,
+   "programas": [
+    {
+     "nome": "PSIQUIATRIA",
+     "ies": "USP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "CARDIOLOGIA",
+     "ies": "USP",
+     "grau": "DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "NEUROLOGIA",
+     "ies": "USP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "CIÊNCIAS EM GASTROENTEROLOGIA",
+     "ies": "USP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "OFTALMOLOGIA",
+     "ies": "USP",
+     "grau": "DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": [
+    {
+     "nome": "MEDICINA (DERMATOLOGIA)",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ]
+  },
+  "sirio-libanes-sp": {
+   "ies": "IEP-HSL",
+   "nome": "INSTITUTO DE ENSINO E PESQUISA DO HOSPITAL SÍRIO-LIBANÊS",
+   "melhor_conceito": 5,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "IEP-HSL",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 5
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "iamspe-hspe-sp": {
+   "ies": "IAMSPE",
+   "nome": "INSTITUTO DE ASSISTÊNCIA MÉDICA AO SERVIDOR PÚBLICO ESTADUAL",
+   "melhor_conceito": 4,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "IAMSPE",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "scmsp-sp": {
+   "ies": "FCMSCSP",
+   "nome": "FACULDADE DE CIÊNCIAS MÉDICAS DA SANTA CASA DE SÃO PAULO",
+   "melhor_conceito": 4,
+   "n_programas": 2,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "FCMSCSP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 4
+    },
+    {
+     "nome": "PESQUISA EM CIRURGIA",
+     "ies": "FCMSCSP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "sussp-unisa-sp": {
+   "ies": "UNISA",
+   "nome": "UNIVERSIDADE SANTO AMARO",
+   "melhor_conceito": 3,
+   "n_programas": 1,
+   "programas": [
+    {
+     "nome": "CIÊNCIAS DA SAÚDE",
+     "ies": "UNISA",
+     "grau": "MESTRADO",
+     "conceito": 3
+    }
+   ],
+   "ppg_dermatologia": []
+  },
+  "unifesp-epm-sp": {
+   "ies": "UNIFESP",
+   "nome": "UNIVERSIDADE FEDERAL DE SÃO PAULO",
+   "melhor_conceito": 7,
+   "n_programas": 26,
+   "programas": [
+    {
+     "nome": "PSIQUIATRIA E PSICOLOGIA MÉDICA",
+     "ies": "UNIFESP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "OFTALMOLOGIA E CIÊNCIAS VISUAIS",
+     "ies": "UNIFESP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "PSICOBIOLOGIA",
+     "ies": "UNIFESP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 7
+    },
+    {
+     "nome": "CIRURGIA TRANSLACIONAL",
+     "ies": "UNIFESP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    },
+    {
+     "nome": "MEDICINA TRANSLACIONAL",
+     "ies": "UNIFESP",
+     "grau": "MESTRADO/DOUTORADO",
+     "conceito": 6
+    }
+   ],
+   "ppg_dermatologia": []
+  }
+ }
+}

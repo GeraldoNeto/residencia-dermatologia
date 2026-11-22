@@ -1,0 +1,634 @@
+{
+ "frente": "sp",
+ "coletado_em": "2026-11-21",
+ "historico": {
+  "sussp-santa-casa-barretos": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 77.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 28 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral)."
+   }
+  ],
+  "sussp-ilsl-bauru": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 78.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 21 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral)."
+   }
+  ],
+  "unesp-botucatu": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 6,
+    "inscritos": 350,
+    "candidatos_por_vaga": 58.33,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzQ2MjIwNg%3d%3d",
+    "selo": "oficial",
+    "obs": "Estatística de inscritos oficial da Vunesp (FMHO2501). 6 vagas pelo Edital 052/2025 (https://documento.vunesp.com.br/documento/stream/NzM4Nzg2NA%3d%3d), 1 delas reservada a PPI. c/v calculado = 350/6. O resultado final só pode ser consultado individualmente (SARM/FMB); não há lista pública com notas."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 6,
+    "inscritos": 269,
+    "candidatos_por_vaga": 44.83,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NjU4NzMwNA%3d%3d",
+    "selo": "oficial",
+    "obs": "FMHO2401. 6 vagas pelo Edital 042/2024 (https://documento.vunesp.com.br/documento/stream/NjUzNDMyMA%3d%3d). c/v calculado = 269/6. Sem lista pública com notas."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 6,
+    "inscritos": 264,
+    "candidatos_por_vaga": 44.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NTI0Njg2Mw%3d%3d",
+    "selo": "oficial",
+    "obs": "FMHO2301. Inscritos somados das duas cidades de prova: Botucatu 75 + São Paulo 189 = 264. 6 vagas pelo Edital 041/2023 (https://documento.vunesp.com.br/documento/stream/NTAyNjExOA%3d%3d). c/v calculado = 264/6. Sem lista pública com notas."
+   }
+  ],
+  "unicamp-campinas": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 5,
+    "inscritos": 244,
+    "candidatos_por_vaga": 48.8,
+    "nota_corte": 7.6,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = 0,9 × prova objetiva (NF1) + 0,1 × currículo (NF2), na ordem de classificação da COREME (lista 'sujeito a recursos')",
+    "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/12/AprovaAcessoDireto2026.pdf",
+    "selo": "oficial",
+    "obs": "5º colocado ([nome omitido], 7,60; o 6º também tem 7,60). c/v oficial: https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/11/Relacao-CV_2026-Retificacao.pdf. A lista é preliminar (sujeita a recursos)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 5,
+    "inscritos": 271,
+    "candidatos_por_vaga": 54.2,
+    "nota_corte": 7.01,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = 0,9 × prova objetiva (NF1) + 0,1 × currículo (NF2), na ordem de classificação da COREME (lista 'sujeito a recursos')",
+    "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/07/AprovaAcessoDireto2025.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial: https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/07/Relacao-CV_2025.pdf (o layout do PDF desloca as linhas; conferido pela posição das palavras: Dermatologia 271 / 5 / 54,20). Edital de vagas remanescentes 2025, Dermatologia–Compromisso Social: 47 inscritos para 1 vaga (https://portal.fcm.unicamp.br/arquivo/uploads/relacao-cv-2025-vagas-remanescentes). A lista é preliminar."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 4,
+    "inscritos": 224,
+    "candidatos_por_vaga": 56.0,
+    "nota_corte": 7.85,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = 0,9 × prova objetiva (NF1) + 0,1 × currículo (NF2), na ordem de classificação da COREME (lista 'sujeito a recursos')",
+    "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/07/AprovaAcessoDireto2024.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial: https://hc.unicamp.br/arquivo/uploads/relacao-cv-2024. 4º colocado = 7,85. A lista é preliminar (sujeita a recursos)."
+   }
+  ],
+  "sussp-padre-bento-guarulhos": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 5,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 77.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 24 (Eduardo Uyeda). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral). O edital lista 6 vagas credenciadas e 5 ofertadas."
+   }
+  ],
+  "sussp-fmj-jundiai": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 78.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 20 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral). Uma das 2 vagas foi para PCD (classif. PCD 1, AC 92). O edital lista 3 vagas credenciadas e 2 ofertadas."
+   }
+  ],
+  "famema-marilia": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 92.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final = prova objetiva + pontuação adicional (PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYwOTIyNQ%3d%3d",
+    "selo": "oficial",
+    "obs": "FMMA2503. Classificação definitiva: o 1º colocado é sub judice (100,00); o 2º tem 92,00. 2 vagas pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MjQ4NQ%3d%3d). A Vunesp não publicou estatística de inscritos para 2026."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 147,
+    "candidatos_por_vaga": 73.5,
+    "nota_corte": 84.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final = prova objetiva + pontuação adicional (PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NjY4NDg2NQ%3d%3d",
+    "selo": "oficial",
+    "obs": "FMMA2403. Inscritos: https://documento.vunesp.com.br/documento/stream/NjU5NTE4Ng%3d%3d. c/v calculado = 147/2. Edital: https://documento.vunesp.com.br/documento/stream/NjU1Nzk0Ng%3d%3d."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 93,
+    "candidatos_por_vaga": 46.5,
+    "nota_corte": 79.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final = prova objetiva + pontuação adicional (PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NTY4NTU4Mg%3d%3d",
+    "selo": "oficial",
+    "obs": "FMMA2303. Inscritos: https://documento.vunesp.com.br/documento/stream/NTYxNDYxOQ%3d%3d. c/v calculado = 93/2. Edital: https://documento.vunesp.com.br/documento/stream/NTE4OTU5Mg%3d%3d. O 1º colocado (82,50) teve pontuação adicional."
+   }
+  ],
+  "hospital-regional-de-presidente-prudente": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 78.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final da prova objetiva (N Final) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzU5Mzc3Mw%3d%3d",
+    "selo": "oficial",
+    "obs": "Vunesp HRPP2501. Edital nº 01/2025 (https://documento.vunesp.com.br/documento/stream/NzE5NzA1Mw%3d%3d): 2 vagas. Do 2º ao 6º, todos têm 78,000. A Vunesp não publicou estatística de inscritos."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 100,
+    "candidatos_por_vaga": 50.0,
+    "nota_corte": 82.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final da prova objetiva (N Final) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NjY1NjUyNw%3d%3d",
+    "selo": "oficial",
+    "obs": "Vunesp HRPP2401. Inscritos: https://documento.vunesp.com.br/documento/stream/NjU1MTIyNw%3d%3d. c/v calculado = 100/2. Edital: https://documento.vunesp.com.br/documento/stream/NjM5NDMwMQ%3d%3d."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 88,
+    "candidatos_por_vaga": 44.0,
+    "nota_corte": 73.0,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final da prova objetiva (N Final) — 2º classificado (2 vagas)",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NTY4MzAzMQ%3d%3d",
+    "selo": "oficial",
+    "obs": "Vunesp HRPP2301 (PS nº 01/2023). Inscritos: https://documento.vunesp.com.br/documento/stream/NTI3NDMzNw%3d%3d. c/v calculado = 88/2. Edital: https://documento.vunesp.com.br/documento/stream/NDk3MzI4OQ%3d%3d."
+   }
+  ],
+  "hcfmrp-usp-ribeirao": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 6,
+    "inscritos": 208,
+    "candidatos_por_vaga": 34.67,
+    "nota_corte": 7.79,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = teórica×0,5 + prática×0,4 + currículo×0,1 (bônus PRMGFC de 10% quando aplicável) — 6º classificado",
+    "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/3234/E323422202615039.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial: https://extranet.hcrp.usp.br/novorh/arquivos/3234/E323413112025155646.pdf. Nota de corte da 1ª fase (prova teórica) = 7,5 (https://extranet.hcrp.usp.br/novorh/arquivos/3234/E323427112025122740.pdf). 17 aprovados."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 6,
+    "inscritos": 205,
+    "candidatos_por_vaga": 34.17,
+    "nota_corte": 7.76,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = teórica×0,5 + prática×0,4 + currículo×0,1 (bônus PRMGFC de 10% quando aplicável) — 6º classificado",
+    "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/2869/E286917122024155150.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial: https://extranet.hcrp.usp.br/novorh/arquivos/2869/E286912112024131449.pdf. Nota de corte da 1ª fase retificada = 7,9 (https://extranet.hcrp.usp.br/novorh/arquivos/2869/E28692911202416253.pdf). 28 aprovados."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 6,
+    "inscritos": 192,
+    "candidatos_por_vaga": 32.0,
+    "nota_corte": 7.05,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = teórica×0,5 + prática×0,4 + currículo×0,1 (bônus PRMGFC de 10% quando aplicável) — 6º classificado",
+    "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/2560/E256012122023153654.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial: https://extranet.hcrp.usp.br/novorh/arquivos/2560/E25608112023162617.pdf. Nota de corte da 1ª fase = 7,1 (https://extranet.hcrp.usp.br/novorh/arquivos/2560/E25602211202316473.pdf). 19 aprovados. Nota exata do 6º: 7,050."
+   }
+  ],
+  "famerp-rio-preto": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": 244,
+    "candidatos_por_vaga": 61.0,
+    "nota_corte": 8.25,
+    "nota_corte_escala": "0-10",
+    "nota_corte_etapa": "nota final = objetiva×0,9 + avaliação curricular×0,1 (com pontuação MFC) — 4º classificado",
+    "fonte": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=27585",
+    "selo": "oficial",
+    "obs": "Os PDFs oficiais (resultado final id=27585 e c/v id=26745) não estão mais no site da FAMERP; foram conferidos em cópias do web.archive.org de 10/04/2026. As retificações posteriores (ids 27650, 27679, 27941) tratam de Ginecologia/Pediatria, não de Dermatologia."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": 259,
+    "candidatos_por_vaga": 64.75,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2024/11/Estatistica-de-Inscritos-por-Especialidade.pdf",
+    "selo": "secundaria",
+    "obs": "O documento oficial (FAMERP id=20667) não está mais no ar nem arquivado; usamos a cópia da Estratégia MED. Resultado final 2025 (id=21410) não foi achado."
+   }
+  ],
+  "hcfmusp-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 10,
+    "inscritos": 486,
+    "candidatos_por_vaga": 48.6,
+    "nota_corte": 84,
+    "nota_corte_escala": "0-100 (nota normalizada da prova objetiva)",
+    "nota_corte_etapa": "1ª fase objetiva — menor nota entre os habilitados para a 2ª fase (análise curricular)",
+    "fonte": "https://www.fuvest.br/wp-content/uploads/rm2026-fase1_pontuacao.pdf",
+    "selo": "oficial",
+    "obs": "c/v da relação oficial https://www.fuvest.br/wp-content/uploads/rm2026-relacao-candidatos-vaga.pdf. Corte = menor nota de 1ª fase entre os 22 participantes da 2ª fase (https://www.fuvest.br/wp-content/uploads/rm2026-fase2-relacao-participantes-notas.pdf). Nota final (prova peso 9 + currículo peso 1) não é publicada; entre os 10 convocados na 1ª chamada a menor nota de 1ª fase foi 85."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 10,
+    "inscritos": 452,
+    "candidatos_por_vaga": 45.2,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2024/11/FMUSP25_Relacao_Candidato_Vagas.pdf",
+    "selo": "secundaria",
+    "obs": "Concorrência só achada em cópia hospedada pela Estratégia MED; o PDF original da FUVEST de 2025 não está mais no ar. 10 vagas conferem com os 10 convocados da 1ª chamada (https://www.fuvest.br/wp-content/uploads/rm2025_relacao_nominal_classificacao_convocados_1a_cham_2025-02-10.pdf)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 10,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 85,
+    "nota_corte_escala": "0-100 (nota normalizada da prova objetiva)",
+    "nota_corte_etapa": "1ª fase objetiva — menor nota entre os habilitados para a 2ª fase (análise curricular)",
+    "fonte": "https://www.fuvest.br/wp-content/uploads/rm2025_relacao_nominal_classificacao_2024-12-18.pdf",
+    "selo": "oficial",
+    "obs": "Registro complementar só da nota (fonte oficial FUVEST, arquivada no web.archive.org). Nota final não publicada; notas do currículo em https://www.fuvest.br/wp-content/uploads/rm2025_relacao_nominal_classificacao_2025-01-28.pdf."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 10,
+    "inscritos": 441,
+    "candidatos_por_vaga": 44.1,
+    "nota_corte": 93,
+    "nota_corte_escala": "pontuação da 1ª fase como publicada (o edital fala em normalização 0-100, mas a lista traz valores até 103)",
+    "nota_corte_etapa": "1ª fase objetiva — menor nota entre os habilitados para a 2ª fase (análise curricular)",
+    "fonte": "https://www.fuvest.br/wp-content/uploads/rm2024_candidatos_habilitados_2fase.pdf",
+    "selo": "oficial",
+    "obs": "c/v oficial em https://www.fuvest.br/wp-content/uploads/rm2024_relacao_candidato-vaga.pdf (441/10 = 44,10). Os dois PDFs saíram do site da FUVEST; foram conferidos em cópias do web.archive.org. Nota final não publicada."
+   }
+  ],
+  "hfasp-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 99.0,
+    "nota_corte_escala": "0-100 (+10% de bônus)",
+    "nota_corte_etapa": "nota final da 1ª opção = prova objetiva + bônus PROVAB/PRMGFC (10%) — 2º classificado (2 vagas)",
+    "fonte": "https://anexos.cdn.selecao.net.br/uploads/325/concursos/29/anexos/ea4bc2a7-7c4f-49c5-a1e9-2a6306da659f.pdf",
+    "selo": "oficial",
+    "obs": "FAUSCS (seleção unificada USCS/HFASP/Barueri). 2º = [nome omitido] (objetiva 90 + bônus 9); o 1º também tem 99,00. Houve retificações judiciais da 1ª opção em 02/03 e 18/03/2026, não conferidas. Vagas no edital USCS 2026 (https://anexos.cdn.selecao.net.br/uploads/325/concursos/29/anexos/bdb42b19-e4cb-476f-a44a-322723232bd8.pdf). Inscritos por opção não são publicados (só a lista nominal)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 95.0,
+    "nota_corte_escala": "0-100 (+10% de bônus)",
+    "nota_corte_etapa": "nota final = prova objetiva + bônus PROVAB/PRMGFC — 2º classificado (2 vagas)",
+    "fonte": "https://anexos.cdn.selecao.net.br/uploads/325/concursos/28/anexos/c2804892-ed96-44f2-9318-c5a36b4a21b4.pdf",
+    "selo": "oficial",
+    "obs": "Cód. 07 Dermatologia–HFASP: o 2º ([nome omitido]) tem 95,00. Vagas no edital USCS 2025 retificado (https://anexos.cdn.selecao.net.br/uploads/325/concursos/28/anexos/jrUQVruiyhakS1P9O3Sh6grOsm0tbdQs1icrT7Zh.pdf)."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 80.0,
+    "nota_corte_escala": "0-100 (+bônus)",
+    "nota_corte_etapa": "nota final da 1ª opção = prova objetiva (+bônus PROVAB/PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://anexos.cdn.selecao.net.br/uploads/325/concursos/26/anexos/sztPkdMZrULKuqdQIz3DsHaqluMGYsQmpbPyUUVF.pdf",
+    "selo": "oficial",
+    "obs": "Cód. 008 Dermatologia–HFASP, 1ª opção: 1º 82,00, 2º 80,00. O layout do PDF mistura opções; conferido pela posição das palavras (p. 2). Vagas no Edital 023/2023 (https://anexos.cdn.selecao.net.br/uploads/325/concursos/26/anexos/sJ2AwV7AhyxaOqV02Pyk8mXhnJqEroJr4uhBxFX0.pdf)."
+   }
+  ],
+  "sirio-libanes-sp": [
+   {
+    "ano_ingresso": 2027,
+    "vagas": 3,
+    "inscritos": 415,
+    "candidatos_por_vaga": 138.33,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/noticias/concorrencia-hospital-sirio-libanes-residencia-medica-2027/",
+    "selo": "secundaria",
+    "obs": "Estratégia MED contou os convocados para a prova objetiva da Vunesp HSLI2601 (Nzg4NTc1MA%3d%3d). Não há estatística oficial de inscritos."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 387,
+    "candidatos_por_vaga": 129.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/noticias/hospital-sirio-libanes-concorrencia-residencia-medica-2026/",
+    "selo": "secundaria",
+    "obs": "3 vagas conferidas no edital oficial (https://documento.vunesp.com.br/documento/stream/NzIzNjMyMQ%3d%3d). Inscritos contados pela Estratégia MED a partir da convocação para a prova. Notas e classificação ficam só na Área do Candidato da Vunesp."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": 444,
+    "candidatos_por_vaga": 148.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/residencia-medica/10-programas-de-dermatologia-mais-concorridos/",
+    "selo": "secundaria",
+    "obs": "Ranking da Estratégia MED para ingresso em 2024."
+   }
+  ],
+  "iamspe-hspe-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 385,
+    "candidatos_por_vaga": 128.33,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2025/12/concorrencia-iamspe.pdf",
+    "selo": "secundaria",
+    "obs": "Cópia hospedada pela Estratégia MED (https://med.estrategia.com/portal/noticias/iamspe-2026-veja-a-concorrencia-para-a-selecao-de-residencia-medica/). Não foi achada no site da banca."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": 340,
+    "candidatos_por_vaga": 113.33,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2024/12/TOTAL-DE-INSCRITOS-IAMSPE.pdf",
+    "selo": "secundaria",
+    "obs": "Cópia hospedada pela Estratégia MED."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": 419,
+    "candidatos_por_vaga": 139.6,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/residencia-medica/10-programas-de-dermatologia-mais-concorridos/",
+    "selo": "secundaria",
+    "obs": "Ranking da Estratégia MED para ingresso em 2024."
+   }
+  ],
+  "scmsp-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 418,
+    "candidatos_por_vaga": 209.0,
+    "nota_corte": 84.1,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final = objetiva×0,9 + análise curricular×0,1 (+10% PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://www.concursosfcc.com.br/concursos/scmsp125/edital_de_resultado_final_2_def_comissao_hetero.pdf",
+    "selo": "oficial",
+    "obs": "FCC scmsp125. Inscritos: https://www.concursosfcc.com.br/concursos/scmsp125/estatistica_geral.pdf. c/v calculado = 418/2. Vagas: https://www.concursosfcc.com.br/concursos/scmsp125/edital_de_abertura_16_09_25.pdf."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 215,
+    "candidatos_por_vaga": 107.5,
+    "nota_corte": 84.8,
+    "nota_corte_escala": "0-100",
+    "nota_corte_etapa": "nota final = objetiva×0,9 + análise curricular×0,1 (+10% PRMGFC) — 2º classificado (2 vagas)",
+    "fonte": "https://www.concursosfcc.com.br/concursos/scmsp124/edital_de_resultado_final_3_20250210094840229.pdf",
+    "selo": "oficial",
+    "obs": "FCC scmsp124. Inscritos: https://www.concursosfcc.com.br/concursos/scmsp124/estatistica_geral_de_inscritos.pdf. c/v calculado = 215/2. Vagas: https://www.concursosfcc.com.br/concursos/scmsp124/edital_de_abertura_26_09_24.pdf. O 3º colocado empatou com 84,80."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 173,
+    "candidatos_por_vaga": 86.5,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/residencia-medica/10-programas-de-dermatologia-mais-concorridos/",
+    "selo": "secundaria",
+    "obs": "Ranking da Estratégia MED para ingresso em 2024; a página da FCC desse ano não foi achada."
+   }
+  ],
+  "sussp-heliopolis-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 77.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 30 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral)."
+   }
+  ],
+  "sussp-ipiranga-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 78.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 19 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral)."
+   }
+  ],
+  "sussp-unisa-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 5,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 77.0,
+    "nota_corte_escala": "0-100 (pode passar de 100 com o bônus de 10% do PRMGFC)",
+    "nota_corte_etapa": "nota final da prova objetiva (com bônus PRMGFC) do último candidato de ampla concorrência que escolheu esta instituição na 1ª chamada de escolha de vagas",
+    "fonte": "https://documento.vunesp.com.br/documento/stream/NzYyMjE2MA%3d%3d",
+    "selo": "oficial",
+    "obs": "SUS-SP 2026 (Vunesp SESA2504). Vagas ofertadas na instituição pelo edital (https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d). Último AC selecionado na 1ª chamada: classif. 31 ([nome omitido]). Notas na classificação final (https://documento.vunesp.com.br/documento/stream/NzYxMDM0Ng%3d%3d). Não há inscritos nem c/v por instituição (ver processo_geral). Uma das 5 vagas foi para PCD (classif. PCD 2)."
+   }
+  ],
+  "unifesp-epm-sp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 8,
+    "inscritos": 370,
+    "candidatos_por_vaga": 46.3,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2025/10/Candidato-por-vaga-2025_2026.pdf",
+    "selo": "secundaria",
+    "obs": "Relação c/v PSRM 2025/2026 em cópia da Estratégia MED (Ampla 345, PCD 13, PPIQ 12). A classificação final, inclusive a retificação de Dermatologia, não traz notas."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 8,
+    "inscritos": 315,
+    "candidatos_por_vaga": 39.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2023/11/Relacao_candidato_vaga_2023_2024.pdf",
+    "selo": "secundaria",
+    "obs": "PSRM 2023/2024. O documento traz c/v arredondado (39); 315/8 = 39,38."
+   }
+  ],
+  "pucsp-sorocaba": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 1,
+    "inscritos": null,
+    "candidatos_por_vaga": 71.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2026/abad/relacao_candidato_vaga_Residencia2026_ABAD.pdf",
+    "selo": "oficial",
+    "obs": "NUCVEST publica só vagas e c/v; com 1 vaga, isso equivale a 71 inscritos. O pdftotext desalinhou a tabela; conferido pela posição das palavras."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 1,
+    "inscritos": null,
+    "candidatos_por_vaga": 62.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2025/abad/Candidato-vaga-Acesso-Direto.pdf",
+    "selo": "oficial",
+    "obs": "Só vagas e c/v; com 1 vaga, equivale a 62 inscritos."
+   },
+   {
+    "ano_ingresso": 2024,
+    "vagas": 1,
+    "inscritos": 30,
+    "candidatos_por_vaga": 30.0,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2024/abad/relacaocandidatovagaresidencia2024ab16112023.pdf",
+    "selo": "oficial",
+    "obs": "Conferido pela posição das palavras: 1 vaga, 30 inscritos, 30,00. Sem lista pública com notas."
+   }
+  ]
+ },
+ "processo_geral": [
+  {
+   "processo": "SUS-SP",
+   "ano_ingresso": 2026,
+   "vagas": 24,
+   "inscritos": 1407,
+   "candidatos_por_vaga": 58.63,
+   "fonte": "https://documento.vunesp.com.br/documento/stream/NzQ4Mzg1Mg%3d%3d",
+   "selo": "oficial",
+   "obs": "Estatística de inscritos da Vunesp SESA2504 (014 Dermatologia–Acesso Direto: 1.407). 24 vagas (2 para PCD) pelo edital https://documento.vunesp.com.br/documento/stream/NzM5MTAyMA%3d%3d. c/v calculado = 1407/24. Último AC selecionado na 1ª chamada: classif. 31, nota 77,00 (0-100 com bônus)."
+  },
+  {
+   "processo": "SUS-SP",
+   "ano_ingresso": 2025,
+   "vagas": 29,
+   "inscritos": 1304,
+   "candidatos_por_vaga": 44.97,
+   "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2024/11/1_SES-SP_RM-2025-demanda_vaga.pdf",
+   "selo": "secundaria",
+   "obs": "Banca Instituto Quadrix; demanda por vaga em cópia da Estratégia MED. Ampla: 27 vagas / 1.287; PcD: 2 / 17. Não há dados por instituição."
+  },
+  {
+   "processo": "SUS-SP",
+   "ano_ingresso": 2024,
+   "vagas": 25,
+   "inscritos": 1046,
+   "candidatos_por_vaga": 41.84,
+   "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2023/12/2_SES-SP_RM-2024-demanda_vaga.pdf",
+   "selo": "secundaria",
+   "obs": "Banca Instituto Quadrix; cópia da Estratégia MED. Ampla: 24 / 1.045; PcD: 1 / 1."
+  }
+ ],
+ "lacunas": [
+  "unesp-botucatu: resultado final só por consulta individual (SARM/FMB); nenhuma nota de corte em 2024, 2025 ou 2026",
+  "unifesp-epm-sp: 2025 (PSRM 2024/2025) sem c/v achado; a classificação final de 2026 não traz notas; 2024 e 2026 só por cópia de agregador",
+  "sussp-*: SUS-SP 2024 e 2025 (Quadrix) sem vagas ou notas por instituição; só o total da especialidade (secundária). Notas por instituição só em 2026",
+  "puc-campinas: processos 2024-2026 não estão mais na Tekyou e não foram achados em outro lugar; sem c/v nem nota",
+  "iamspe-hspe-sp e sirio-libanes-sp: só concorrência via Estratégia MED; notas do Sírio só na Área do Candidato da Vunesp; resultado do IAMSPE com notas não achado",
+  "famerp-rio-preto: 2025 sem resultado final (anexos removidos e não arquivados); 2024 sem nenhum dado",
+  "hcfmusp-sp: nota final (prova 90% + currículo 10%) nunca é publicada; gravamos só a nota de corte da 1ª fase (habilitação à 2ª fase)",
+  "unicamp-campinas: notas tiradas das listas 'sujeito a recursos' (preliminares); a lista definitiva não foi achada",
+  "famema-marilia, hospital-regional-de-presidente-prudente: estatística de inscritos de 2026 não publicada pela Vunesp",
+  "hfasp-sp: inscritos por opção não publicados; 2026 tem retificações judiciais da 1ª opção não conferidas",
+  "scmsp-sp: página FCC de 2024 não achada (só agregador)",
+  "pucsp-sorocaba: sem lista pública com notas (só chamadas)",
+  "unifai-sp: nenhum processo ou dado publicado achado",
+  "associacao-hospitalar-filhas-de-nossa-se (Hospital Santa Virgínia): nenhum processo ou dado publicado achado"
+ ]
+}

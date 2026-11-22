@@ -1,0 +1,1028 @@
+{
+  "frente": "sp",
+  "coletado_em": "2026-11-21",
+  "programas": [
+    {
+      "id": "hcfmusp-sp",
+      "instituicao": "Faculdade de Medicina da Universidade de São Paulo / Hospital das Clínicas da FMUSP",
+      "sigla": "HC-FMUSP",
+      "hospital": "Hospital das Clínicas da FMUSP",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo Residência Médica FMUSP 2027 (Edital COREME/FM nº 02/2026)",
+      "banca": "FUVEST",
+      "ciclo_2027": {
+        "vagas": 12,
+        "inscricao_inicio": "2026-10-06",
+        "inscricao_fim": "2026-10-28",
+        "prova_1a_fase": "2026-12-06",
+        "outras_etapas": [
+          {
+            "etapa": "Resultado da 1ª fase / habilitados para a 2ª fase",
+            "data": "2027-01-04"
+          },
+          {
+            "etapa": "2ª fase: envio do currículo (avaliação curricular)",
+            "data": "2027-01-04 a 2027-01-12"
+          },
+          {
+            "etapa": "Vistas/recursos da 2ª fase",
+            "data": "2027-01-28 a 2027-02-01"
+          },
+          {
+            "etapa": "Matrícula 1ª chamada",
+            "data": "2027-02-11 a 2027-02-15"
+          }
+        ],
+        "resultado_previsto": "2027-02-11",
+        "taxa_reais": 620,
+        "etapas_descricao": "1ª fase: prova objetiva com 100 questões (peso 9), com mínimo de 50% de acertos e, em Dermatologia, classificação até a 21ª posição; 2ª fase: avaliação curricular (peso 1).",
+        "link_edital": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+        "link_inscricao": "https://app.fuvest.br",
+        "link_processo": "https://www.fuvest.br/residencia-medica/",
+        "fonte": "https://www.fuvest.br/wp-content/uploads/rm2027-edital-02-2026.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 12,
+          "inscritos": 555,
+          "candidatos_por_vaga": 46.25,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.fuvest.br/wp-content/uploads/rm2027-relacao-candidato-vaga.pdf",
+          "selo": "oficial"
+        },
+        {
+          "ano_ingresso": 2026,
+          "vagas": 10,
+          "inscritos": 486,
+          "candidatos_por_vaga": 48.6,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.fuvest.br/wp-content/uploads/rm2026-relacao-candidatos-vaga.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Programa código 088, com 16 vagas credenciadas na CNRM e 12 previstas (bolsa SES). As inscrições, previstas de 06/10 a 26/10/2026, foram prorrogadas até 28/10/2026 (https://www.fuvest.br/residencia-medica-fmusp-inscricoes-prorrogadas-ate-28-10/). As retificações de 07/10, 12/11 e 18/11/2026 não alteram a linha de Dermatologia. O HC-FMUSP tem também o PCPME 2027 (médicos estrangeiros), com 2 vagas de Dermatologia segundo agregador, que não entrou como registro. O histórico 2027 é a relação candidato/vaga do ciclo atual (03/11/2026)."
+    },
+    {
+      "id": "hcfmrp-usp-ribeirao",
+      "instituicao": "Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da USP",
+      "sigla": "HCFMRP-USP",
+      "hospital": "Hospital das Clínicas da FMRP-USP",
+      "cidade": "Ribeirão Preto",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Seleção de Médicos Residentes de 1º ano 2027 – Acesso Direto (HCFMRP-USP)",
+      "banca": "COREME HCFMRP-USP (processo próprio)",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-10-06",
+        "inscricao_fim": "2026-10-26",
+        "prova_1a_fase": "2026-11-20",
+        "outras_etapas": [
+          {
+            "etapa": "Relação dos classificados para as fases seguintes",
+            "data": "2026-11-27"
+          },
+          {
+            "etapa": "Avaliação curricular (conforme item 5 do edital)",
+            "data": null
+          },
+          {
+            "etapa": "Prova prática",
+            "data": "2026-12-05"
+          },
+          {
+            "etapa": "Notas da avaliação curricular e da prova prática",
+            "data": "2026-12-07"
+          },
+          {
+            "etapa": "Matrícula online 1ª chamada",
+            "data": "2027-02-11 a 2027-02-12"
+          }
+        ],
+        "resultado_previsto": "2026-12-17",
+        "taxa_reais": 800,
+        "etapas_descricao": "3 fases: exame escrito eliminatório com 100 questões (peso 0,5), prova prática classificatória (peso 0,4) e avaliação curricular classificatória (peso 0,1). Exige mínimo de 50% de acertos no escrito.",
+        "link_edital": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+        "link_inscricao": "https://www.hcribeirao.sp.gov.br/hcfmrp/institucional/ensino",
+        "link_processo": "https://extranet.hcrp.usp.br/novorh/ListaArquivos.aspx?edital=3650&s=3",
+        "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 199,
+          "candidatos_por_vaga": 33.17,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E36501311202616739.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Quadro 1 do edital: Dermatologia, 3 anos, 6 vagas abertas, 6 credenciadas, sem reserva para Forças Armadas. A prova escrita já ocorreu (20/11/2026). O histórico 2027 é a relação candidato/vaga do ciclo atual."
+    },
+    {
+      "id": "unifesp-epm-sp",
+      "instituicao": "Universidade Federal de São Paulo – Escola Paulista de Medicina",
+      "sigla": "UNIFESP/EPM",
+      "hospital": "Hospital São Paulo (EPM-UNIFESP)",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Processo Seletivo Público para Residência Médica da EPM 2026/2027 (Edital nº 690/2026)",
+      "banca": "Fundação Vunesp (1ª fase)",
+      "ciclo_2027": {
+        "vagas": 8,
+        "inscricao_inicio": "2026-10-07",
+        "inscricao_fim": "2026-11-03",
+        "prova_1a_fase": "2026-11-29",
+        "outras_etapas": [
+          {
+            "etapa": "Divulgação da 1ª fase / convocação para a 2ª fase",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Análise curricular (3ª fase)",
+            "data": "2027-01-04 a 2027-01-21"
+          },
+          {
+            "etapa": "Prova prática (2ª fase, acesso direto)",
+            "data": "2027-01-08"
+          },
+          {
+            "etapa": "Matrícula 1ª chamada",
+            "data": "2027-02-10 a 2027-02-11"
+          }
+        ],
+        "resultado_previsto": "2027-02-04",
+        "taxa_reais": 726,
+        "etapas_descricao": "1ª fase: prova teórica com 100 questões (peso 5) e nota de corte 7 em Dermatologia; 2ª fase: prova prática (peso 4), com mínimo de 6,00 em Dermatologia; 3ª fase: análise curricular (peso 1).",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4NzcyOA%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/UFSP2602",
+        "link_processo": "https://www.vunesp.com.br/UFSP2602",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg4NzcyOA%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Programa código 762, 3 anos: 8 vagas no total (4 de ampla concorrência, 2 PPIQQ e 2 PcD). São convocados para a 2ª fase 12 na ampla, 6 nos PPIQQ e 6 nos PcD. As inscrições, previstas de 07/10 a 30/10/2026, foram prorrogadas até 03/11/2026 (comunicado Vunesp de 30/10/2026: https://documento.vunesp.com.br/documento/stream/Nzk2OTI1MQ%3d%3d). As emendas 1 a 3 não alteram Dermatologia. A classificação sai com a convocação para matrícula, a partir de 04/02/2027."
+    },
+    {
+      "id": "unicamp-campinas",
+      "instituicao": "Universidade Estadual de Campinas – Faculdade de Ciências Médicas",
+      "sigla": "UNICAMP",
+      "hospital": "Hospital de Clínicas da Unicamp",
+      "cidade": "Campinas",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo 2027 – Programas de Residência Médica de Acesso Direto (FCM-Unicamp)",
+      "banca": "COREME FCM-Unicamp com apoio da COMVEST",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-10-01",
+        "inscricao_fim": "2026-10-15",
+        "prova_1a_fase": "2026-11-15",
+        "outras_etapas": [
+          {
+            "etapa": "Lista de classificados para a 2ª fase",
+            "data": "2026-12-02"
+          },
+          {
+            "etapa": "2ª fase: envio de documentos para avaliação curricular",
+            "data": "2026-12-04 a 2026-12-08"
+          },
+          {
+            "etapa": "Resultado final (sujeito a recurso)",
+            "data": "2026-12-16"
+          },
+          {
+            "etapa": "Matrícula 1ª chamada",
+            "data": "2027-02-10 a 2027-02-11"
+          }
+        ],
+        "resultado_previsto": "2027-01-25",
+        "taxa_reais": 770,
+        "etapas_descricao": "1ª fase (peso 90): prova objetiva de respostas curtas em dois períodos, com 50 questões de manhã e 50 à tarde; 2ª fase (peso 10): avaliação curricular documental.",
+        "link_edital": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+        "link_inscricao": "https://www.comvest.unicamp.br/residenciamedica/inscricao.html",
+        "link_processo": "https://portal.fcm.unicamp.br/residencias-em-saude/residencia-medica/processo-seletivo-2027/",
+        "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/001-Edital-Acesso-Direto-2027.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 274,
+          "candidatos_por_vaga": 45.67,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://intranet.fcm.unicamp.br/editais/storage/editais/db4c699a3cc8ff3fd08660f79813689c.pdf",
+          "selo": "oficial"
+        },
+        {
+          "ano_ingresso": 2026,
+          "vagas": 5,
+          "inscritos": 244,
+          "candidatos_por_vaga": 48.8,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2025/11/Relacao-CV_2026-Retificacao.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Parecer CNRM 944/2023, 3 anos, 6 vagas, sem reserva militar. Pagamento da taxa até 16/10/2026. O resultado_previsto é a lista final com a convocação inicial (25/01/2027); o resultado final preliminar sai em 16/12/2026. A pista de 45,67 c/v foi confirmada: é a relação candidato x vaga do ciclo 2027 (29/10/2026). Em 2026 houve ainda 1 vaga 'Dermatologia – Compromisso Social' (8 inscritos, 8,00 c/v), que não está somada acima."
+    },
+    {
+      "id": "unesp-botucatu",
+      "instituicao": "Faculdade de Medicina de Botucatu – UNESP",
+      "sigla": "FMB-UNESP",
+      "hospital": "Hospital das Clínicas da Faculdade de Medicina de Botucatu",
+      "cidade": "Botucatu",
+      "uf": "SP",
+      "endereco": "Av. Prof. Mário Rubens Guimarães Montenegro, s/nº – Câmpus de Botucatu, CEP 18618-687 (endereço da FMB/COREME no edital)",
+      "natureza": "estadual",
+      "processo": "Residência Médica Básica e Especializada de Acesso Direto 2027 (Edital nº 072/2026-FM/DTA)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-06",
+        "prova_1a_fase": "2026-12-12",
+        "outras_etapas": [
+          {
+            "etapa": "Avaliação curricular (2ª etapa)",
+            "data": "2027-01-14 a 2027-01-20"
+          },
+          {
+            "etapa": "Classificação PPI",
+            "data": "2027-01-28"
+          }
+        ],
+        "resultado_previsto": "2027-02-02",
+        "taxa_reais": 648,
+        "etapas_descricao": "1ª etapa: prova escrita objetiva com 100 questões (peso 90%); 2ª etapa: avaliação curricular (peso 10%), com 3 convocados por vaga em Dermatologia.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/FMHO2602",
+        "link_processo": "https://www.vunesp.com.br/FMHO2602",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/NzkxMzU0NA%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Parecer CNRM 514/2021, 8 vagas credenciadas, 6 previstas, 1 reservada a PPI. Edital publicado no DOE de 06/10/2026. A Retificação I (16/10/2026) mantém 3 convocados por vaga em Dermatologia; a Retificação II (29/10/2026) trata de questões anuladas. Prova em Botucatu, São Paulo ou Brasília."
+    },
+    {
+      "id": "sussp-padre-bento-guarulhos",
+      "instituicao": "Complexo Hospitalar Padre Bento de Guarulhos",
+      "sigla": "SUS-SP",
+      "hospital": "Complexo Hospitalar Padre Bento de Guarulhos",
+      "cidade": "Guarulhos",
+      "uf": "SP",
+      "endereco": "Avenida Emílio Ribas, nº 1819 – Gopoúva, Guarulhos-SP",
+      "natureza": "estadual",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 6 vagas credenciadas na CNRM e oferta 5 em 2027."
+    },
+    {
+      "id": "sussp-fmj-jundiai",
+      "instituicao": "Faculdade de Medicina de Jundiaí",
+      "sigla": "SUS-SP",
+      "hospital": "Faculdade de Medicina de Jundiaí (hospital não especificado no quadro de vagas)",
+      "cidade": "Jundiaí",
+      "uf": "SP",
+      "endereco": "Rua Francisco Telles, 250 – Vila Arens, Jundiaí-SP, CEP 13202-550 (endereço da COREME no edital)",
+      "natureza": "municipal",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 3 vagas credenciadas e oferta 2. A natureza municipal (autarquia de Jundiaí) não foi confirmada no edital. Não foi encontrado processo próprio da FMJ para Dermatologia 2027."
+    },
+    {
+      "id": "sussp-heliopolis-sp",
+      "instituicao": "Hospital Heliópolis (UGA-I)",
+      "sigla": "SUS-SP",
+      "hospital": "Hospital Heliópolis",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 2 vagas credenciadas e oferta 2."
+    },
+    {
+      "id": "sussp-ipiranga-sp",
+      "instituicao": "Hospital Ipiranga",
+      "sigla": "SUS-SP",
+      "hospital": "Hospital Ipiranga",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": "Av. Nazaré, 28 – Ipiranga, São Paulo-SP",
+      "natureza": "estadual",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 4 vagas credenciadas e oferta 4. Não foi encontrado processo próprio do Hospital Ipiranga."
+    },
+    {
+      "id": "sussp-ilsl-bauru",
+      "instituicao": "Instituto Lauro de Souza Lima",
+      "sigla": "SUS-SP",
+      "hospital": "Instituto Lauro de Souza Lima",
+      "cidade": "Bauru",
+      "uf": "SP",
+      "endereco": "Bauru-SP (endereço completo não consta no Anexo V)",
+      "natureza": "estadual",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 4 vagas credenciadas e oferta 4. Contato da COREME no edital: dermatologia@ilsl.br."
+    },
+    {
+      "id": "sussp-unisa-sp",
+      "instituicao": "Universidade Santo Amaro – UNISA",
+      "sigla": "SUS-SP",
+      "hospital": "Serviço da UNISA (hospital não especificado no edital)",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": "CEP 04829-300 (endereço completo não extraído do Anexo V)",
+      "natureza": "privada",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade oferta 5 vagas. A coluna de vagas credenciadas saiu desalinhada na extração do PDF; as 5 vagas ofertadas batem com a soma das 24."
+    },
+    {
+      "id": "sussp-santa-casa-barretos",
+      "instituicao": "Santa Casa de Misericórdia de Barretos",
+      "sigla": "SUS-SP",
+      "hospital": "Santa Casa de Misericórdia de Barretos",
+      "cidade": "Barretos",
+      "uf": "SP",
+      "endereco": "Avenida 23, nº 1208, Centro, Barretos-SP, CEP 14780-320",
+      "natureza": "filantropica",
+      "processo": "Seleção Pública para Residência Médica SUS-SP 2027 (SES-SP)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-12-13",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-15"
+          },
+          {
+            "etapa": "Nota da prova objetiva e classificação prévia",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Convocação 1ª chamada",
+            "data": "2027-02-16"
+          },
+          {
+            "etapa": "Seleção de vagas online (1ª chamada)",
+            "data": "2027-02-17 a 2027-02-19"
+          },
+          {
+            "etapa": "Matrículas 1ª chamada",
+            "data": "2027-02-24 a 2027-02-26"
+          }
+        ],
+        "resultado_previsto": "2027-02-12",
+        "taxa_reais": 120,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões de 5 alternativas, em 5 horas (20 de cada área: Clínica Médica, Cirurgia Geral, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva e Social/MFC/Saúde Coletiva). A instituição é escolhida depois, pela ordem de classificação, no sistema de escolha de vagas.",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/SESA2601",
+        "link_processo": "https://www.vunesp.com.br/SESA2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg5Mjg0Ng%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No SUS-SP 2027, Dermatologia tem 24 vagas no total, 2 delas reservadas a PcD, distribuídas entre 7 instituições (item 1.8.1.5 do edital publicado no DOE de 01/10/2026). A unidade tem 2 vagas credenciadas e oferta 2."
+    },
+    {
+      "id": "scmsp-sp",
+      "instituicao": "Irmandade da Santa Casa de Misericórdia de São Paulo",
+      "sigla": "ISCMSP",
+      "hospital": "Santa Casa de São Paulo",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Processo Seletivo para Médicos Residentes 2027 – ISCMSP",
+      "banca": "Fundação Carlos Chagas (FCC)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-05",
+        "inscricao_fim": "2026-11-04",
+        "prova_1a_fase": "2026-12-05",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito preliminar",
+            "data": "2026-12-07"
+          },
+          {
+            "etapa": "2ª fase: envio da documentação para análise curricular",
+            "data": "2027-01-13 a 2027-01-14"
+          }
+        ],
+        "resultado_previsto": "2027-02-17",
+        "taxa_reais": 680,
+        "etapas_descricao": "1ª fase: prova objetiva com 100 questões de 5 alternativas (peso 9); 2ª fase: análise curricular (peso 1).",
+        "link_edital": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+        "link_inscricao": "https://www.concursosfcc.com.br/concursos/scmsp126/index.html",
+        "link_processo": "https://www.concursosfcc.com.br/concursos/scmsp126/index.html",
+        "fonte": "https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Código 05, parecer 451/2021, 3 anos: 2 vagas oferecidas, ambas de ampla concorrência, nenhuma reservada a negros e indígenas. A Retificação 01 não altera Dermatologia. Pagamento até 05/11/2026."
+    },
+    {
+      "id": "iamspe-hspe-sp",
+      "instituicao": "Instituto de Assistência Médica ao Servidor Público Estadual",
+      "sigla": "IAMSPE",
+      "hospital": "Hospital do Servidor Público Estadual (HSPE)",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo Residência Médica 2027 – IAMSPE (Edital CEDEP nº 02/2026)",
+      "banca": "Instituto Avança São Paulo",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-10-20",
+        "inscricao_fim": "2026-11-03",
+        "prova_1a_fase": "2026-11-28",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito preliminar",
+            "data": "2026-11-30"
+          },
+          {
+            "etapa": "Gabarito definitivo",
+            "data": "2026-12-15"
+          }
+        ],
+        "resultado_previsto": "2027-01-20",
+        "taxa_reais": 550,
+        "etapas_descricao": "Fase única: prova objetiva eliminatória e classificatória com 100 questões de 5 alternativas.",
+        "link_edital": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+        "link_inscricao": "https://www.avancasp.org.br/informacoes/283/",
+        "link_processo": "https://www.avancasp.org.br/informacoes/283/",
+        "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Código 103: 3 vagas ofertadas (3 de ampla concorrência e 0 PcD), 3 anos, parecer 1053/2021, 4 vagas autorizadas. As retificações nº 1 e nº 2 não mencionam Dermatologia."
+    },
+    {
+      "id": "famerp-rio-preto",
+      "instituicao": "Faculdade de Medicina de São José do Rio Preto",
+      "sigla": "FAMERP",
+      "hospital": "Hospital de Base de São José do Rio Preto (complexo FAMERP/FUNFARME)",
+      "cidade": "São José do Rio Preto",
+      "uf": "SP",
+      "endereco": "Av. Brigadeiro Faria Lima, 5416, CEP 15090-000 (endereço da FAMERP/COREME no edital)",
+      "natureza": "estadual",
+      "processo": "Residência Médica FAMERP 2027 – Acesso Direto (Edital G.D.G. nº 032/2026)",
+      "banca": "Comissão Organizadora FAMERP (processo próprio)",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-09-21",
+        "inscricao_fim": "2026-10-21",
+        "prova_1a_fase": "2026-11-24",
+        "outras_etapas": [
+          {
+            "etapa": "Upload do currículo (2ª fase)",
+            "data": "2026-12-11 a 2026-12-14"
+          },
+          {
+            "etapa": "Notas da avaliação curricular",
+            "data": "2027-01-20"
+          }
+        ],
+        "resultado_previsto": "2027-01-29",
+        "taxa_reais": 950,
+        "etapas_descricao": "1ª fase: prova objetiva com 80 testes (peso 9, 90% da nota); 2ª fase: avaliação curricular (peso 1). Em Dermatologia, vão para a 2ª fase do 1º ao 30º classificado.",
+        "link_edital": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+        "link_inscricao": "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/area-do-candidato-coreme-acesso-direto-2027/",
+        "link_processo": "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/processo-seletivo-coreme-2027-acesso-direto-e-especialidades/",
+        "fonte": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=31453",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 254,
+          "candidatos_por_vaga": 42.33,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.famerp.br/wp-content/plugins/download-attachments/includes/download.php?id=32049",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Edital também publicado no DOE: https://www.doe.sp.gov.br/executivo/secretaria-de-ciencia-tecnologia-e-inovacao/edital-gdg-n-032-de-26-de-agosto-de-2026-2026083113141662089835 . Parecer 1674/2021, 6 vagas. A retificação do edital de acesso direto corrige um erro na planilha de avaliação curricular. O hospital não aparece no trecho lido do edital."
+    },
+    {
+      "id": "pucsp-sorocaba",
+      "instituicao": "Pontifícia Universidade Católica de São Paulo – Faculdade de Ciências Médicas e da Saúde (Campus Sorocaba)",
+      "sigla": "PUC-SP",
+      "hospital": "Hospital Santa Lucinda / Conjunto Hospitalar de Sorocaba",
+      "cidade": "Sorocaba",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "privada",
+      "processo": "Processo Seletivo Residência Médica Área Básica e Acesso Direto PUC-SP 2027 (Edital nº 01/2026)",
+      "banca": "NUCVEST",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-09-21",
+        "inscricao_fim": "2026-10-20",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-11-03"
+          },
+          {
+            "etapa": "Resultado da 1ª fase e convocados para a 2ª fase",
+            "data": "2026-11-18"
+          },
+          {
+            "etapa": "Envio de documentos curriculares",
+            "data": "2026-11-19 a 2026-11-26"
+          },
+          {
+            "etapa": "2ª fase: avaliação curricular",
+            "data": "2026-12-04 a 2026-12-11"
+          }
+        ],
+        "resultado_previsto": "2027-01-11",
+        "taxa_reais": 800,
+        "etapas_descricao": "1ª fase: prova escrita objetiva com 100 questões (peso 0,9); 2ª fase: avaliação curricular documental (até 10 pontos).",
+        "link_edital": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Edital-RM-2027-ABAD.pdf",
+        "link_inscricao": "https://www.nucvest.com.br/pucsp/residencia-medica/2027/abad/index.html",
+        "link_processo": "https://www.nucvest.com.br/pucsp/residencia-medica/2027/abad/index.html",
+        "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/Manual-RM-2027-ABAD.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": null,
+          "candidatos_por_vaga": 81.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2027/abad/relacao_candidato_vaga_ResidenciaABAD2027.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Código 208: 2 vagas oferecidas, 2 credenciadas, 3 anos, parecer 974/2021. Os dados foram lidos do Manual do Candidato (NUCVEST); o edital está no mesmo diretório. Segundo o manual, a residência é feita com o Hospital Santa Lucinda, o Conjunto Hospitalar de Sorocaba e a Prefeitura de Sorocaba. Os convocados para a 2ª fase já foram divulgados. Mantenedora: Fundação São Paulo (privada sem fins lucrativos)."
+    },
+    {
+      "id": "puc-campinas",
+      "instituicao": "Hospital PUC-Campinas \"Celso Pierro\" / Pontifícia Universidade Católica de Campinas",
+      "sigla": "PUC-Campinas",
+      "hospital": "Hospital PUC-Campinas Celso Pierro",
+      "cidade": "Campinas",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "privada",
+      "processo": "Processo Seletivo Residência Médica 2027 – Hospital PUC-Campinas",
+      "banca": "COREME Hospital PUC-Campinas (inscrição pela plataforma Tekyou)",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-10-01",
+        "inscricao_fim": "2026-11-10",
+        "prova_1a_fase": "2026-12-08",
+        "outras_etapas": [
+          {
+            "etapa": "Lista de classificados para a 2ª fase",
+            "data": "2026-12-14"
+          },
+          {
+            "etapa": "2ª fase: envio de documentos para avaliação curricular",
+            "data": "2026-12-17 a 2026-12-23"
+          },
+          {
+            "etapa": "Matrícula 1ª chamada",
+            "data": "2027-02-10 a 2027-02-11"
+          }
+        ],
+        "resultado_previsto": "2027-02-02",
+        "taxa_reais": 870,
+        "etapas_descricao": "1ª fase: prova objetiva com 100 questões de múltipla escolha e prova dissertativa, no mesmo dia; 2ª fase: avaliação curricular. Em Dermatologia, a classificação para a 2ª fase vai até a 25ª posição.",
+        "link_edital": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+        "link_inscricao": "https://www.tekyou.com.br/puccampinas/selecao2027/",
+        "link_processo": "https://www.tekyou.com.br/puccampinas/selecao2027/",
+        "fonte": "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Código 004: 3 anos, 5 vagas, 0 na coluna seguinte (reserva). Taxa de treineiro: R$ 370. Os pesos (objetiva 70% + dissertativa 20% = 90%; currículo 10%) vêm do resumo do agregador Estratégia MED e não foram conferidos no edital. A Errata 1 (PUCCampinas27_Errata1.pdf) não teve texto extraível e não foi conferida."
+    },
+    {
+      "id": "famema-marilia",
+      "instituicao": "Faculdade de Medicina de Marília",
+      "sigla": "FAMEMA",
+      "hospital": "Hospital das Clínicas de Marília",
+      "cidade": "Marília",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Residência Médica FAMEMA 2027 (Edital FAMEMA 45/2026)",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-09",
+        "inscricao_fim": "2026-10-27",
+        "prova_1a_fase": "2026-12-08",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito",
+            "data": "2026-12-09"
+          },
+          {
+            "etapa": "Nota da prova e classificação prévia",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "Declaração de interesse de vaga",
+            "data": "2027-01-28 a 2027-01-29"
+          }
+        ],
+        "resultado_previsto": "2027-01-27",
+        "taxa_reais": 600,
+        "etapas_descricao": "Fase única: prova objetiva com 100 questões e peso 1 (80 das áreas básicas, 16 de cada, mais 10 de Saúde Mental e 10 de Medicina de Emergência).",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/Nzg4ODE2OQ%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/FMMA2602",
+        "link_processo": "https://www.vunesp.com.br/FMMA2602",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/Nzg4ODE2OQ%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Dermatologia: parecer 714/2023, situação 'Autorizado', 2 vagas, 3 anos. Pagamento até 28/10/2026. A prova é aplicada em Marília, São Paulo, Campinas, Ribeirão Preto e São José do Rio Preto. A rerratificação do edital não menciona Dermatologia. O hospital não foi conferido no edital."
+    },
+    {
+      "id": "hfasp-sp",
+      "instituicao": "Hospital de Força Aérea de São Paulo (seleção unificada FAUSCS/USCS)",
+      "sigla": "HFASP",
+      "hospital": "Hospital de Força Aérea de São Paulo",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Seleção Pública para Residência Médica 2027 – FAUSCS (USCS, HFASP e Município de Barueri)",
+      "banca": "FAUSCS – Fundação de Apoio à Universidade Municipal de São Caetano do Sul",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-19",
+        "inscricao_fim": "2026-12-06",
+        "prova_1a_fase": "2027-01-10",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito preliminar",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "1ª chamada para matrícula no HFASP",
+            "data": "2027-01-27"
+          }
+        ],
+        "resultado_previsto": "2027-01-20",
+        "taxa_reais": 490,
+        "etapas_descricao": "Etapa única: prova objetiva com 100 questões de 4 alternativas (20 de cada grande área).",
+        "link_edital": "https://fauscs.selecao.net.br/informacoes/30/",
+        "link_inscricao": "https://fauscs.selecao.net.br/informacoes/30/",
+        "link_processo": "https://www.fauscs.org.br/post/sele%C3%A7%C3%A3o-p%C3%BAblica-para-resid%C3%AAncia-m%C3%A9dica-2027",
+        "fonte": "https://fauscs.selecao.net.br/informacoes/30/",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Código 07 (HFASP – Dermatologia): 2 vagas, 3 anos. O edital de abertura (05/10/2026) está na página https://fauscs.selecao.net.br/informacoes/30/ (arquivo 7038f002-c4a1-42ca-bf9b-80756ed72bd3.pdf). As inscrições estavam abertas na data da coleta; pagamento até 07/12/2026. A USCS não oferece Dermatologia neste processo."
+    },
+    {
+      "id": "sirio-libanes-sp",
+      "instituicao": "Hospital Sírio-Libanês",
+      "sigla": "HSL",
+      "hospital": "Hospital Sírio-Libanês",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "Residência Médica Sírio-Libanês – Processo Seletivo 2027",
+      "banca": "Fundação Vunesp",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-06-01",
+        "inscricao_fim": "2026-08-14",
+        "prova_1a_fase": "2026-09-27",
+        "outras_etapas": [
+          {
+            "etapa": "Convocação para a prova prática",
+            "data": "2026-12-11"
+          },
+          {
+            "etapa": "Prova prática",
+            "data": "2026-12-21"
+          }
+        ],
+        "resultado_previsto": "2027-01-29",
+        "taxa_reais": 680,
+        "etapas_descricao": "Acesso direto: prova objetiva (peso 50%) e prova prática presencial na Faculdade Sírio-Libanês (peso 50%).",
+        "link_edital": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+        "link_inscricao": "https://www.vunesp.com.br/HSLI2601",
+        "link_processo": "https://www.vunesp.com.br/HSLI2601",
+        "fonte": "https://documento.vunesp.com.br/documento/stream/NzY2OTA1MQ%3d%3d",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Dermatologia com lotação em São Paulo, 3 anos, 3 vagas, nenhuma reservada às Forças Armadas. O quadro de reservas mostra '3 2 1 0 0 0 0', mas as colunas de cotas não foram conferidas. A classificação definitiva sai a partir de 29/01/2027. O agregador Medway cita 129 c/v em 2026 e nota de corte 84 em 2025, sem conferência oficial."
+    },
+    {
+      "id": "hspm-sp",
+      "instituicao": "Hospital do Servidor Público Municipal de São Paulo",
+      "sigla": "HSPM",
+      "hospital": "Hospital do Servidor Público Municipal",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "endereco": null,
+      "natureza": "municipal",
+      "processo": null,
+      "banca": null,
+      "ciclo_2027": {
+        "vagas": null,
+        "inscricao_inicio": null,
+        "inscricao_fim": null,
+        "prova_1a_fase": null,
+        "outras_etapas": [],
+        "resultado_previsto": null,
+        "taxa_reais": null,
+        "etapas_descricao": null,
+        "link_edital": null,
+        "link_inscricao": null,
+        "link_processo": null,
+        "fonte": null,
+        "selo": null
+      },
+      "historico": [],
+      "observacoes": "A página da COREME/HSPM (https://prefeitura.sp.gov.br/web/saude/w/ems/356669, datada de 26/10/2023) lista 'Dermatologia – 4 vagas', mas não traz edital 2027."
+    }
+  ],
+  "lacunas": [
+    "HSPM (Hospital do Servidor Público Municipal): edital 2027 não localizado, nem no site da Prefeitura nem em agregadores; ciclo_2027 todo null.",
+    "Concorrência 2027 oficial não localizada para UNIFESP, Unesp-Botucatu, SUS-SP (que não publica por instituição), Santa Casa SP, IAMSPE, PUC-Campinas, FAMEMA, HFASP e Sírio-Libanês.",
+    "Notas de corte oficiais (último aprovado) não coletadas para nenhum programa; histórico 2025 não coletado.",
+    "UNIFESP: a Vunesp não publicou relação candidato/vaga na página do processo até 21/11/2026. As vagas por modalidade (4 AC + 2 PPIQQ + 2 PcD) foram conferidas no edital 690/2026.",
+    "FMABC: Dermatologia não consta no quadro de vagas 2027, segundo o agregador Estratégia MED; não conferido no edital oficial (Instituto Avalia, https://www.avalia.org.br/concursos/640).",
+    "USCS, Einstein (Vunesp FEAE2603), UNIP (UNIP2602) e Unifipa/Fameca (FMCA2604): sem Dermatologia nos editais oficiais 2027. Santa Marcelina: sem Dermatologia, segundo agregador.",
+    "PUC-Campinas: os pesos das fases vêm do agregador; a Errata 1 não teve texto extraível e não foi conferida.",
+    "HCFMRP-USP: o período da avaliação curricular não consta no cronograma (remete ao item 5 do edital, que não foi lido por inteiro).",
+    "SUS-SP: as retificações I a V não mencionam Dermatologia; a página da Vunesp agora mostra 1.405 vagas no total. A coluna de vagas credenciadas da UNISA não foi conferida. Endereços de Heliópolis, UNISA e ILSL estão incompletos.",
+    "Hospital de lotação não conferido no edital para FAMEMA, FAMERP e UNIFESP (foram usados os nomes usuais dos hospitais-escola).",
+    "Faculdade de Medicina de Jundiaí, Hospital Ipiranga, ILSL e Padre Bento só entram pelo SUS-SP; nenhum processo próprio foi encontrado.",
+    "Instituto IMS (Dermatologia, 5 vagas) fica no Rio de Janeiro e foi excluído. Outras privadas (UNOESTE, UNAERP, São Leopoldo Mandic, BP, Santa Casa de Santos) não foram verificadas uma a uma.",
+    "HC-FMUSP PCPME 2027 (médicos estrangeiros, 2 vagas de Dermatologia segundo agregador) não entrou como registro."
+  ]
+}

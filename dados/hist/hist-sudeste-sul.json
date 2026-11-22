@@ -1,0 +1,475 @@
+{
+ "frente": "sudeste-sul",
+ "coletado_em": "2026-11-21",
+ "historico": {
+  "hst-saopedrodealcantara-amrigs": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": 207,
+    "candidatos_por_vaga": 69.0,
+    "nota_corte": 80.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/783/publico/Densidade_654d495c39388.pdf | https://fundatec.org.br/portal/concursos/783/classificacao_instituicao_895aee7b65sfvv1ew9gbh5894cb9fc3268b.php?concurso=783&idpub=494802",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 180 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": 267,
+    "candidatos_por_vaga": 89.0,
+    "nota_corte": 86.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/924/publico/Densidade_924_672d00070fbce.pdf | https://fundatec.org.br/portal/concursos/924/classificacao_instituicao_895aee7b65sfvv1ewddasggr9fcb.php?concurso=924&idpub=500819",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 251 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 277,
+    "candidatos_por_vaga": 92.33,
+    "nota_corte": 81.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 253 listados com situação Convocado."
+   }
+  ],
+  "hsvp-passofundo-uffs-amrigs": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 170,
+    "candidatos_por_vaga": 85.0,
+    "nota_corte": 84.7,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/783/publico/Densidade_654d495c39388.pdf | https://fundatec.org.br/portal/concursos/783/classificacao_instituicao_895aee7b65sfvv1ew9gbh5894cb9fc3268b.php?concurso=783&idpub=494802",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 167 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 186,
+    "candidatos_por_vaga": 93.0,
+    "nota_corte": 89.1,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/924/publico/Densidade_924_672d00070fbce.pdf | https://fundatec.org.br/portal/concursos/924/classificacao_instituicao_895aee7b65sfvv1ewddasggr9fcb.php?concurso=924&idpub=500819",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 181 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 1,
+    "inscritos": 169,
+    "candidatos_por_vaga": 169.0,
+    "nota_corte": 81.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 149 listados com situação Convocado."
+   }
+  ],
+  "hu-ufsc-florianopolis-amrigs": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 218,
+    "candidatos_por_vaga": 109.0,
+    "nota_corte": 81.4,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/783/publico/Densidade_654d495c39388.pdf | https://fundatec.org.br/portal/concursos/783/classificacao_instituicao_895aee7b65sfvv1ew9gbh5894cb9fc3268b.php?concurso=783&idpub=494802",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 134 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 256,
+    "candidatos_por_vaga": 128.0,
+    "nota_corte": 89.1,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/924/publico/Densidade_924_672d00070fbce.pdf | https://fundatec.org.br/portal/concursos/924/classificacao_instituicao_895aee7b65sfvv1ewddasggr9fcb.php?concurso=924&idpub=500819",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 239 listados com situação Convocado."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 228,
+    "candidatos_por_vaga": 114.0,
+    "nota_corte": 81.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Todos os 208 listados com situação Convocado."
+   }
+  ],
+  "husm-ufsm-amrigs": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 2,
+    "inscritos": 155,
+    "candidatos_por_vaga": 77.5,
+    "nota_corte": 81.4,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/783/publico/Densidade_654d495c39388.pdf | https://fundatec.org.br/portal/concursos/783/classificacao_instituicao_895aee7b65sfvv1ew9gbh5894cb9fc3268b.php?concurso=783&idpub=494802",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Convocados para a 2ª etapa: 40 (menor nota convocada 69,00)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 186,
+    "candidatos_por_vaga": 93.0,
+    "nota_corte": 89.1,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/924/publico/Densidade_924_672d00070fbce.pdf | https://fundatec.org.br/portal/concursos/924/classificacao_instituicao_895aee7b65sfvv1ewddasggr9fcb.php?concurso=924&idpub=500819",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Convocados para a 2ª etapa: 40 (menor nota convocada 76,00)."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 202,
+    "candidatos_por_vaga": 101.0,
+    "nota_corte": 81.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Convocados para a 2ª etapa: 52 (menor nota convocada 71,00)."
+   }
+  ],
+  "hsl-pucrs-amrigs": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 2,
+    "inscritos": 225,
+    "candidatos_por_vaga": 112.5,
+    "nota_corte": 89.1,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/924/publico/Densidade_924_672d00070fbce.pdf | https://fundatec.org.br/portal/concursos/924/classificacao_instituicao_895aee7b65sfvv1ewddasggr9fcb.php?concurso=924&idpub=500819",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Convocados para a 2ª etapa (análise curricular): 16 (menor nota convocada 82,00)."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 254,
+    "candidatos_por_vaga": 127.0,
+    "nota_corte": 84.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Convocados para a 2ª etapa (análise curricular): 22 (menor nota convocada 78,00)."
+   }
+  ],
+  "ghc-conceicao-amrigs": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 228,
+    "candidatos_por_vaga": 114.0,
+    "nota_corte": 84.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª etapa – prova objetiva AMRIGS (nota final com bônus PRMGFC/PROVAB), nota do candidato na posição = nº de vagas na classificação por instituição",
+    "fonte": "https://concursos-publicacoes.s3.amazonaws.com/1010/publico/Densidade_Inscritos_1010_6917aa6b71b03.pdf | https://fundatec.org.br/portal/concursos/1010/classificacao_instituicao_d26df25921573b6041218dbf72c4b3b5c0091efe.php?concurso=1010&idpub=500819&idpub=505172",
+    "selo": "oficial",
+    "obs": "Corte de 1ª etapa, não é o último matriculado: no AMRIGS o candidato se inscreve em vários programas e os mesmos nomes encabeçam várias listas; a seleção final depende da 2ª etapa da COREME. Fonte da nota: página \"Divulgação da classificação por Instituição\" da Fundatec (consulta Acesso Direto > programa). c/v oficial = densidade de inscritos por vaga da Fundatec. Programa aparece como \"Hospital Conceição (GHC) - Dermatologia\". Convocados para a 2ª etapa: 20 (menor nota convocada 77,00)."
+   }
+  ],
+  "hcpa-portoalegre": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 6,
+    "inscritos": 212,
+    "candidatos_por_vaga": 35.33,
+    "nota_corte": 80.08,
+    "nota_corte_escala": "0-100 (prova objetiva peso 9 + análise curricular peso 1, + bônus)",
+    "nota_corte_etapa": "nota final (classificação final; 6º aprovado, antes da lista de suplentes)",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2023/12/HCPA-AD-Classificacao-Final-2.pdf | https://med.estrategia.com/portal/noticias/hcpa-2024-veja-a-relacao-candidato-vaga-da-selecao-de-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "PDF da COREME HCPA/FUNDMED, cópia hospedada no Estratégia MED (original da FUNDMED inacessível). c/v só no agregador (Estratégia, a partir da homologação)."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 6,
+    "inscritos": 238,
+    "candidatos_por_vaga": 39.67,
+    "nota_corte": 78.4,
+    "nota_corte_escala": "0-100 (prova objetiva peso 9 + análise curricular peso 1, + bônus)",
+    "nota_corte_etapa": "nota final, último convocado para pré-matrícula na ampla concorrência (5º); a vaga de cota (autodeclarado negro) foi convocada com 60,75",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2025/01/COREME-HCPA-Resultado-definitivo-da-avaliacao-PcD-e-da-heteroidentificacao-classificacao-e-homologacao-final.pdf | https://med.estrategia.com/portal/noticias/hcpa-2025-confira-a-concorrencia-para-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "PDF da COREME HCPA/FUNDMED hospedado no Estratégia MED. c/v: o Estratégia informa 39,66 (238/6 = 39,67, calculado)."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 6,
+    "inscritos": 286,
+    "candidatos_por_vaga": 47.67,
+    "nota_corte": 85.7,
+    "nota_corte_escala": "0-100 (prova objetiva peso 9 + análise curricular peso 1, + bônus)",
+    "nota_corte_etapa": "nota final, último convocado para pré-matrícula na ampla concorrência (5º); a vaga AN foi convocada com 80,35",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/01/HCPA-MEDICA-Resultado-definitivo-PcDs-e-AN-classificacao-homologacao-final-e-convocacao-para-pre-matricula.pdf | https://med.estrategia.com/portal/noticias/hcpa-2026-concorrencia-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "PDF da FUNDMED (resultado definitivo, classificação e convocação) hospedado no Estratégia MED; c/v do agregador (Estratégia e Medway batem: 286/6)."
+   }
+  ],
+  "ufcspa-santacasa-poa": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 3,
+    "inscritos": 205,
+    "candidatos_por_vaga": 68.33,
+    "nota_corte": 82.75,
+    "nota_corte_escala": "0-100 (prova objetiva + análise curricular + bônus)",
+    "nota_corte_etapa": "nota final (3º aprovado, antes da lista de suplentes)",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2023/12/UFCSPA-MEDICA-Classificacao-Final-e-Convocacao-para-Matricula.pdf | https://med.estrategia.com/portal/noticias/ufcspa-2024-confira-a-concorrencia-da-selecao-de-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "PDF da COREME UFCSPA/ISCMPA (FUNDMED) hospedado no Estratégia MED; c/v do agregador."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": 4,
+    "inscritos": 211,
+    "candidatos_por_vaga": 52.75,
+    "nota_corte": 82.34,
+    "nota_corte_escala": "0-100 (prova objetiva + análise curricular + bônus)",
+    "nota_corte_etapa": "nota final, último convocado na ampla concorrência (3 AC convocados); a vaga PcD foi convocada com 71,35",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2024/12/COREME-UFCSPA-Resultado-definitivo-do-exame-medico-dos-PcDs-e-da-avaliacao-dos-autodeclarados-PAPPs-classificacao-e-homologacao-final.pdf | https://med.estrategia.com/portal/noticias/ufcspa-2025-veja-a-relacao-candidato-vaga-para-a-selecao-de-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "PDF da COREME UFCSPA (FUNDMED) hospedado no Estratégia MED; c/v do agregador."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": 252,
+    "candidatos_por_vaga": 63.0,
+    "nota_corte": 85.67,
+    "nota_corte_escala": "0-100 (prova objetiva + análise curricular + bônus)",
+    "nota_corte_etapa": "nota final, último convocado na ampla concorrência (3 AC); a vaga PAPP foi convocada com 75,33",
+    "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/01/UFCSPA-MEDICA-Resultado-definitivo-PcDs-PAPPs-e-PAIQs-classificacao-homologacao-final-e-convocacao-para-pre-matricula.pdf | https://www.medway.com.br/conteudos/concorrencia-residencia-medica-ufcspa/",
+    "selo": "secundaria",
+    "obs": "PDF da FUNDMED hospedado no Estratégia MED; c/v só na Medway (rótulo 2025/2026)."
+   }
+  ],
+  "uerj-hupe-rj": [
+   {
+    "ano_ingresso": 2024,
+    "vagas": 6,
+    "inscritos": 229,
+    "candidatos_por_vaga": 38.17,
+    "nota_corte": 85.0,
+    "nota_corte_escala": "0-100 (5 áreas x 20 pontos, + bônus 10%)",
+    "nota_corte_etapa": "prova objetiva (etapa única); 4º da ampla concorrência no resultado final = último com interesse confirmado nas 4 vagas AC",
+    "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/170603960825021054d0b8391f5e5029ba80cbee78e7ee39a/517300174.pdf | https://www.cepuerj.uerj.br/uploads/concursos/170741119467170104d0b8391f5e5029ba80cbee78e7ee39a/841028610.pdf | https://www.cepuerj.uerj.br/uploads/concursos/169809154070729674d0b8391f5e5029ba80cbee78e7ee39a/610899986.pdf",
+    "selo": "oficial",
+    "obs": "Vagas 6 = 4 ampla + 1 negros/índios + 1 rede pública/privada (listagem de aptos à matrícula). c/v calculado = 229/6."
+   },
+   {
+    "ano_ingresso": 2025,
+    "vagas": null,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 86.0,
+    "nota_corte_escala": "0-100 (5 áreas x 20 pontos, + bônus 10%)",
+    "nota_corte_etapa": "prova objetiva (etapa única); último dos 4 convocados da ampla concorrência após confirmação de interesse (5º no resultado final)",
+    "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/173774965827286984d0b8391f5e5029ba80cbee78e7ee39a/365002174.pdf | https://www.cepuerj.uerj.br/uploads/concursos/173886937268883974d0b8391f5e5029ba80cbee78e7ee39a/800098522.pdf",
+    "selo": "oficial",
+    "obs": "Ampla concorrência com 4 vagas; total de vagas e inscritos de 2025 não localizados no site do Cepuerj."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 6,
+    "inscritos": null,
+    "candidatos_por_vaga": null,
+    "nota_corte": 88.0,
+    "nota_corte_escala": "0-100 (5 áreas x 20 pontos, + bônus 10%)",
+    "nota_corte_etapa": "prova objetiva (etapa única); 4º convocado da ampla concorrência após confirmação de interesse (5º no resultado final). A vaga remanescente de negros/indígenas foi para o 6º, também com 88,00",
+    "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2026/1a1a635d3e90149cddbd3d0735045fa24e58262552b3f3231071c70e3870627b.pdf | https://www.cepuerj.uerj.br/uploads/concursos/S04597_2026/5d11a9a346ef1037cc72a001d2738952b8eeb1a991418f190e387d4b5e8fb5e6.pdf",
+    "selo": "oficial",
+    "obs": "Vagas 6 = 4 AC + 1 negros/indígenas + 1 rede pública/privada. O c/v de 2026 já estava no histórico; aqui só a nota."
+   }
+  ],
+  "psumg-hmtj-jf": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 1,
+    "inscritos": 139,
+    "candidatos_por_vaga": 139.0,
+    "nota_corte": 86.7,
+    "nota_corte_escala": "0-100 (prova objetiva + avaliação curricular de 0 a 10, + bônus)",
+    "nota_corte_etapa": "nota final (prova + currículo) do candidato convocado na 1ª convocação",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/RelacaoCandidatovagaPSUMG2026-20251112150920.pdf | https://www.galaxcms.com.br/up_crud_comum/601/convocacao1psumg2026public-20260131081401.pdf",
+    "selo": "oficial",
+    "obs": "Programa ausente do PSU-MG 2024 e 2025 (relações candidato/vaga oficiais). Convocações posteriores podem ter descido a nota."
+   }
+  ],
+  "psumg-hsvp-jf": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 2,
+    "inscritos": 166,
+    "candidatos_por_vaga": 83.0,
+    "nota_corte": 83.8,
+    "nota_corte_escala": "0-100 (prova objetiva + avaliação curricular de 0 a 10, + bônus)",
+    "nota_corte_etapa": "nota final (prova + currículo), último dos 2 convocados na 1ª convocação",
+    "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/RelacaoCandidatovagaPSUMG2026-20251112150920.pdf | https://www.galaxcms.com.br/up_crud_comum/601/convocacao1psumg2026public-20260131081401.pdf",
+    "selo": "oficial",
+    "obs": "Programa ausente do PSU-MG 2024 e 2025. Convocações posteriores podem ter descido a nota."
+   }
+  ],
+  "santacasa-curitiba-amp": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 3,
+    "inscritos": 194,
+    "candidatos_por_vaga": 64.67,
+    "nota_corte": 82.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://med.estrategia.com/portal/noticias/amp-divulga-concorrencia-para-seletivo-unificado-de-residencia-medica-2025/ | https://med.estrategia.com/portal/wp-content/uploads/2024/11/resultadogeral_2024.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v do agregador (Estratégia). "
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 250,
+    "candidatos_por_vaga": 83.33,
+    "nota_corte": 84.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga-exame-amp-2025_1760617292.pdf | https://med.estrategia.com/portal/wp-content/uploads/2025/12/RESULTADO_GERAL_AMP_2025_RESIDENCIA_2026_.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v oficial (PDF da AMP em cms.amp.org.br). "
+   }
+  ],
+  "huop-unioeste-cascavel-amp": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 1,
+    "inscritos": 89,
+    "candidatos_por_vaga": 89.0,
+    "nota_corte": 82.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://med.estrategia.com/portal/noticias/amp-divulga-concorrencia-para-seletivo-unificado-de-residencia-medica-2025/ | https://med.estrategia.com/portal/wp-content/uploads/2024/11/resultadogeral_2024.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v do agregador (Estratégia). "
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 1,
+    "inscritos": 110,
+    "candidatos_por_vaga": 110.0,
+    "nota_corte": 86.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga-exame-amp-2025_1760617292.pdf | https://med.estrategia.com/portal/wp-content/uploads/2025/12/RESULTADO_GERAL_AMP_2025_RESIDENCIA_2026_.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v oficial (PDF da AMP em cms.amp.org.br). "
+   }
+  ],
+  "hdspr-piraquara-amp": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 6,
+    "inscritos": 418,
+    "candidatos_por_vaga": 69.67,
+    "nota_corte": 84.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://cms.amp.org.br/arquivos/bibliotecaarquivos/candidato-vaga-exame-amp-2025_1760617292.pdf | https://med.estrategia.com/portal/wp-content/uploads/2025/12/RESULTADO_GERAL_AMP_2025_RESIDENCIA_2026_.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v oficial (PDF da AMP em cms.amp.org.br). Programa ausente do Exame AMP 2024 (ingresso 2025)."
+   }
+  ],
+  "huem-mackenzie-curitiba": [
+   {
+    "ano_ingresso": 2025,
+    "vagas": 1,
+    "inscritos": 118,
+    "candidatos_por_vaga": 118.0,
+    "nota_corte": 82.0,
+    "nota_corte_escala": "0-100 (+bônus 10%)",
+    "nota_corte_etapa": "1ª fase – Exame AMP (pontuação da primeira fase, com bônus), nota do candidato na posição = nº de vagas na lista do programa",
+    "fonte": "https://med.estrategia.com/portal/noticias/amp-divulga-concorrencia-para-seletivo-unificado-de-residencia-medica-2025/ | https://med.estrategia.com/portal/wp-content/uploads/2024/11/resultadogeral_2024.pdf",
+    "selo": "secundaria",
+    "obs": "Corte de 1ª fase; a classificação final depende da 2ª fase da COREME. O resultado geral da AMP está hospedado no Estratégia MED (original não localizado no site da AMP), por isso selo secundária. c/v do agregador (Estratégia). Em 2025 o HUEM selecionou pelo Exame AMP."
+   },
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": 148,
+    "candidatos_por_vaga": 37.0,
+    "nota_corte": 91.0,
+    "nota_corte_escala": "0-100 (prova objetiva, + bônus PROVAB 10%)",
+    "nota_corte_etapa": "nota final (prova objetiva) do 3º colocado da ampla concorrência no resultado final de aprovados",
+    "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/343-mackenzie-huem_demanda_vaga.pdf | https://conhecimento.fgv.br/sites/default/files/concursos/343_huem-resultado-final-de-aprovados-2026-01-28.pdf | https://conhecimento.fgv.br/sites/default/files/concursos/edital-coreme-huem-ret6docx.pdf",
+    "selo": "oficial",
+    "obs": "Banca FGV (Edital COREME HUEM 04/2025). A demanda oficial dá 4 vagas e 148 candidatos; o edital retificado em 16/01/2026 lista 5 vagas (3 ampla + 1 PcD + 1 negros). Corte = 3ª vaga da ampla (91); com 4 vagas de ampla seria 90. Na lista de negros os primeiros têm 71."
+   }
+  ],
+  "hu-uel-londrina": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 3,
+    "inscritos": 133,
+    "candidatos_por_vaga": 44.33,
+    "nota_corte": 7.785,
+    "nota_corte_escala": "0-10 (prova objetiva peso 9 + currículo peso 1)",
+    "nota_corte_etapa": "nota final provisória (objetiva + currículo), 3ª maior nota; a 1ª convocação chamou 3 candidatos",
+    "fonte": "https://sites.uel.br/proppg/wp-content/uploads/2025/12/PONTUACAO-FINAL-PROVISORIA-2025-RESIDENCIA-MEDICA-CURRICULOS-PUBLICACAO-16.12.25.pdf | https://sites.uel.br/proppg/wp-content/uploads/2025/12/EDITAL-RM017-2025-RESIDENCIA-MEDICA-primeira-convocacao.pdf | https://sites.uel.br/proppg/wp-content/uploads/2025/07/Edital-COREME-RM001-2025_RESIDENCIA-MEDICA.pdf | https://med.estrategia.com/portal/noticias/uel-2026-descubra-a-concorrencia-do-processo-seletivo-para-residencia-medica/",
+    "selo": "oficial",
+    "obs": "Nota e vagas são oficiais (UEL); a lista de pontuação é a 'final provisória', com CPF mascarado. Inscritos e c/v só no Estratégia (secundária)."
+   }
+  ],
+  "scmbh-mg": [
+   {
+    "ano_ingresso": 2026,
+    "vagas": 4,
+    "inscritos": 342,
+    "candidatos_por_vaga": 85.5,
+    "nota_corte": null,
+    "nota_corte_escala": null,
+    "nota_corte_etapa": null,
+    "fonte": "https://med.estrategia.com/portal/noticias/scmbh-2026-veja-a-relacao-candidato-vaga-do-processo-seletivo-para-residencia-medica/",
+    "selo": "secundaria",
+    "obs": "A Medway dá 101,75 c/v para 2025/2026, divergente. A classificação final da ampla existe (https://med.estrategia.com/portal/wp-content/uploads/2026/01/CLASSIFICACAO-FINAL-5-ampla.pdf; 1º 88,44, 4º 81,60), mas sem a divisão ampla × ação afirmativa e sem a convocação não dá para fixar o corte."
+   }
+  ]
+ },
+ "processo_geral": [],
+ "lacunas": [
+  "AMRIGS (hst, hsvp-passofundo, hu-ufsc, husm, hsl-pucrs, ghc): só há corte de 1ª etapa (nota do candidato na posição = vagas). As listas finais da 2ª etapa de cada COREME (UFSC, UFSM, HSL-PUCRS, GHC, HST, HSVP) não foram coletadas.",
+  "scmbh-mg: nota de corte 2026 sem divisão ampla × ação afirmativa (o PDF da 1ª chamada deu acesso negado); 2024/2025 sem vagas e inscritos oficiais (a Medway só dá c/v: 55,50 e 101,75).",
+  "AMP (santacasa-curitiba, huop-unioeste, huem 2025, hdspr): as notas da 1ª fase vêm do resultado geral da AMP hospedado no Estratégia, não no site da AMP; o ingresso 2024 (Exame AMP 2023) não foi coletado; as listas da 2ª fase das COREMEs não foram coletadas.",
+  "hcpa-portoalegre e ufcspa-santacasa-poa: os PDFs da FUNDMED só foram acessíveis por cópia no Estratégia (o fundmed.org.br redireciona); c/v por programa só nos agregadores.",
+  "uerj-hupe-rj 2025: total de vagas e inscritos não publicados entre os documentos do Cepuerj (só a ampla concorrência, com 4 vagas).",
+  "hsl-pucrs-amrigs 2024 e ghc-conceicao-amrigs 2024/2025: Dermatologia não consta nas densidades AMRIGS desses anos (programa fora do AMRIGS ou inexistente); nada coletado.",
+  "psumg-hmtj-jf e psumg-hsvp-jf: Dermatologia ausente do PSU-MG 2024 e 2025; só existe 2026.",
+  "hu-uel-londrina 2024/2025: não coletados; o corte de 2026 é da pontuação final provisória.",
+  "huem-mackenzie-curitiba 2024: não coletado; 2026 com divergência de vagas (4 na demanda × 5 no edital retificado).",
+  "hdspr-piraquara-amp 2024/2025 e hnsg-curitiba-amp: HDSPR ausente do Exame AMP 2024; HNSG sem Dermatologia nas relações AMP de 2025 e 2026 (só aparece em 2027).",
+  "univali-itajai-amrigs: Dermatologia não consta nas densidades AMRIGS de 2024, 2025 e 2026.",
+  "hnmd-rj, hcap-cbmerj-rj, hospital-municipal-ronaldo-gazolla-rj, heaa-rj, ims-rj, instituto-de-pos-graduacao-em-ciencias-d, hscmv-emescam-es, hospital-das-clinicas-doutor-mario-ribei: nenhuma relação candidato/vaga ou lista com notas de Dermatologia localizada para 2024–2026."
+ ]
+}

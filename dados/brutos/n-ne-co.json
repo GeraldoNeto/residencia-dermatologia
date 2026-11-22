@@ -1,0 +1,694 @@
+{
+  "frente": "n-ne-co",
+  "coletado_em": "2026-11-21",
+  "programas": [
+    {
+      "id": "hof-sus-pe",
+      "instituicao": "Hospital Otávio de Freitas (SES-PE)",
+      "sigla": "HOF",
+      "hospital": "Hospital Otávio de Freitas",
+      "cidade": "Recife",
+      "uf": "PE",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "SUS-PE 2027 (Residência Médica)",
+      "banca": "IAUPE / UPENET",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-21",
+        "inscricao_fim": "2026-11-16",
+        "prova_1a_fase": "2026-12-20",
+        "outras_etapas": [
+          {
+            "etapa": "Análise curricular (documentos enviados na inscrição): resultado preliminar",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "Gabarito definitivo",
+            "data": "2027-01-20"
+          },
+          {
+            "etapa": "Resultado da análise curricular",
+            "data": "2027-01-21"
+          }
+        ],
+        "resultado_previsto": "2027-01-21",
+        "taxa_reais": 600,
+        "etapas_descricao": "1ª fase: prova escrita objetiva, peso 90%, eliminatória e classificatória. No acesso direto são 100 questões de 5 alternativas (Clínica Médica, Cirurgia Geral, GO, Pediatria e Medicina Preventiva e Social), em até 4 h, com escala de 0 a 100; é eliminado quem tiver menos de 50% de acertos. 2ª fase: análise curricular, peso 10%, classificatória. O candidato indica a ordem de preferência entre as instituições da especialidade, e a lotação segue a classificação geral. Início da residência em 2027-03-01.",
+        "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+        "link_inscricao": "https://concursos11.upenet.com.br/residencia27/candidatoNovoInicio.jsf",
+        "link_processo": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+        "fonte": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/ANEXO%20IV%20-%20QUADRO%20DE%20VAGAS%20IAUPE.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": null,
+          "inscritos": null,
+          "candidatos_por_vaga": 30.42,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/ses-pe-2026-confira-a-relacao-candidato-vaga-dos-programas-de-residencia-medica-da-selecao/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Vagas de 2027 no Anexo IV: 1 para pessoa negra e 1 de ampla concorrência, total 2. Processo unificado SUS-PE 2027 (SES-PE, executado pelo IAUPE/UPENET). A Dermatologia tem 7 vagas em 2027 no total da especialidade (HOF 2, IMIP 2, FCM/UPE 3), segundo o Anexo IV oficial; as erratas 2 e 4 do quadro não mexem em Dermatologia. A Errata nº 3 (cronograma: https://www.upenet.com.br/concursos/2027/27_RED_MED/Errata/ERRATA%20n%C2%BA3%20-%20Cronograma%20de%20atividades%20.pdf) prorrogou as inscrições de 11/11 para 16/11/2026, com pagamento até 17/11/2026. Bolsa de R$ 4.106,09. Histórico 2026: no SUS-PE 2026 a Dermatologia teve 7 vagas e 213 candidatos válidos (30,42 por vaga). Esses números valem para a especialidade inteira, não por hospital. Vêm do Estratégia MED, a partir da listagem de candidatos válidos da SES-PE, e não foram conferidos no site oficial."
+    },
+    {
+      "id": "imip-sus-pe",
+      "instituicao": "Instituto de Medicina Integral Prof. Fernando Figueira",
+      "sigla": "IMIP",
+      "hospital": "IMIP",
+      "cidade": "Recife",
+      "uf": "PE",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "SUS-PE 2027 (Residência Médica)",
+      "banca": "IAUPE / UPENET",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-21",
+        "inscricao_fim": "2026-11-16",
+        "prova_1a_fase": "2026-12-20",
+        "outras_etapas": [
+          {
+            "etapa": "Análise curricular (documentos enviados na inscrição): resultado preliminar",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "Gabarito definitivo",
+            "data": "2027-01-20"
+          },
+          {
+            "etapa": "Resultado da análise curricular",
+            "data": "2027-01-21"
+          }
+        ],
+        "resultado_previsto": "2027-01-21",
+        "taxa_reais": 600,
+        "etapas_descricao": "1ª fase: prova escrita objetiva, peso 90%, eliminatória e classificatória. No acesso direto são 100 questões de 5 alternativas (Clínica Médica, Cirurgia Geral, GO, Pediatria e Medicina Preventiva e Social), em até 4 h, com escala de 0 a 100; é eliminado quem tiver menos de 50% de acertos. 2ª fase: análise curricular, peso 10%, classificatória. O candidato indica a ordem de preferência entre as instituições da especialidade, e a lotação segue a classificação geral. Início da residência em 2027-03-01.",
+        "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+        "link_inscricao": "https://concursos11.upenet.com.br/residencia27/candidatoNovoInicio.jsf",
+        "link_processo": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+        "fonte": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/ANEXO%20IV%20-%20QUADRO%20DE%20VAGAS%20IAUPE.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": null,
+          "inscritos": null,
+          "candidatos_por_vaga": 30.42,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/ses-pe-2026-confira-a-relacao-candidato-vaga-dos-programas-de-residencia-medica-da-selecao/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Vagas de 2027 no Anexo IV: 2 de ampla concorrência. Não encontrei processo próprio do IMIP para residência em Dermatologia em 2027. O IMIP publica editais próprios de 'Complementação Especializada' e estágios, que não são residência médica credenciada pela CNRM. Processo unificado SUS-PE 2027 (SES-PE, executado pelo IAUPE/UPENET). A Dermatologia tem 7 vagas em 2027 no total da especialidade (HOF 2, IMIP 2, FCM/UPE 3), segundo o Anexo IV oficial; as erratas 2 e 4 do quadro não mexem em Dermatologia. A Errata nº 3 prorrogou as inscrições de 11/11 para 16/11/2026, com pagamento até 17/11/2026. Bolsa de R$ 4.106,09. Histórico 2026: 7 vagas e 213 candidatos válidos (30,42 por vaga) para a especialidade inteira, não por hospital. Fonte: Estratégia MED, não conferido no site oficial."
+    },
+    {
+      "id": "upe-huoc-sus-pe",
+      "instituicao": "Universidade de Pernambuco, Faculdade de Ciências Médicas (FCM/UPE), Campus Recife",
+      "sigla": "FCM/UPE",
+      "hospital": "FCM/UPE Campus Recife (provavelmente o HUOC, Hospital Universitário Oswaldo Cruz; o quadro não informa o hospital)",
+      "cidade": "Recife",
+      "uf": "PE",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "SUS-PE 2027 (Residência Médica)",
+      "banca": "IAUPE / UPENET",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-10-21",
+        "inscricao_fim": "2026-11-16",
+        "prova_1a_fase": "2026-12-20",
+        "outras_etapas": [
+          {
+            "etapa": "Análise curricular (documentos enviados na inscrição): resultado preliminar",
+            "data": "2027-01-11"
+          },
+          {
+            "etapa": "Gabarito definitivo",
+            "data": "2027-01-20"
+          },
+          {
+            "etapa": "Resultado da análise curricular",
+            "data": "2027-01-21"
+          }
+        ],
+        "resultado_previsto": "2027-01-21",
+        "taxa_reais": 600,
+        "etapas_descricao": "1ª fase: prova escrita objetiva, peso 90%, eliminatória e classificatória. No acesso direto são 100 questões de 5 alternativas (Clínica Médica, Cirurgia Geral, GO, Pediatria e Medicina Preventiva e Social), em até 4 h, com escala de 0 a 100; é eliminado quem tiver menos de 50% de acertos. 2ª fase: análise curricular, peso 10%, classificatória. O candidato indica a ordem de preferência entre as instituições da especialidade, e a lotação segue a classificação geral. Início da residência em 2027-03-01.",
+        "link_edital": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf",
+        "link_inscricao": "https://concursos11.upenet.com.br/residencia27/candidatoNovoInicio.jsf",
+        "link_processo": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+        "fonte": "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/ANEXO%20IV%20-%20QUADRO%20DE%20VAGAS%20IAUPE.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": null,
+          "inscritos": null,
+          "candidatos_por_vaga": 30.42,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/ses-pe-2026-confira-a-relacao-candidato-vaga-dos-programas-de-residencia-medica-da-selecao/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Vagas de 2027 no Anexo IV: 1 PcD, 1 para pessoa negra e 1 de ampla concorrência, total 3. Processo unificado SUS-PE 2027 (SES-PE, executado pelo IAUPE/UPENET). A Dermatologia tem 7 vagas em 2027 no total da especialidade (HOF 2, IMIP 2, FCM/UPE 3), segundo o Anexo IV oficial; as erratas 2 e 4 do quadro não mexem em Dermatologia. A Errata nº 3 prorrogou as inscrições de 11/11 para 16/11/2026, com pagamento até 17/11/2026. Bolsa de R$ 4.106,09. Histórico 2026: 7 vagas e 213 candidatos válidos (30,42 por vaga) para a especialidade inteira, não por hospital. Fonte: Estratégia MED, não conferido no site oficial."
+    },
+    {
+      "id": "santa-izabel-psu-ba",
+      "instituicao": "Santa Casa de Misericórdia da Bahia, Hospital Santa Izabel",
+      "sigla": "HSI / SCMBA",
+      "hospital": "Hospital Santa Izabel",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "endereco": null,
+      "natureza": "filantropica",
+      "processo": "PSU Residência Médica/Bahia 2027 (SUS-BA, ABAEM)",
+      "banca": "Strix Educação, Avaliação e Projetos (para a ABAEM)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-09-30",
+        "inscricao_fim": "2026-11-05",
+        "prova_1a_fase": "2026-11-29",
+        "outras_etapas": [
+          {
+            "etapa": "Gabaritos e padrões de resposta preliminares",
+            "data": "2026-12-02"
+          },
+          {
+            "etapa": "Divulgação das notas e gabaritos definitivos",
+            "data": "2027-01-28"
+          },
+          {
+            "etapa": "Classificação final e 1ª convocação para matrícula",
+            "data": "2027-02-15"
+          },
+          {
+            "etapa": "Matrícula em 1ª convocação (até 21/02)",
+            "data": "2027-02-19"
+          }
+        ],
+        "resultado_previsto": "2027-02-15",
+        "taxa_reais": 755.6,
+        "etapas_descricao": "Fase única: prova geral, eliminatória e classificatória, com 25 situações-problema e 75 questões: 45 de múltipla escolha (15 situações-problema) e 30 de resposta curta (10 situações-problema). São 15 questões por área: Clínica Médica; Cirurgia Geral; GO; Pediatria; Medicina Preventiva e Social/MFC/Saúde Coletiva. É eliminado quem não atingir 50% da nota máxima possível. Há pontuação adicional para quem fez PRMFC, conforme o edital.",
+        "link_edital": "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
+        "link_inscricao": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+        "link_processo": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+        "fonte": "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_20271-ANEXO_II_20261118_1024.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": null,
+          "inscritos": null,
+          "candidatos_por_vaga": 59.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://strixeducacao.com.br/wp-content/uploads/2025/11/ABAEM_2026-CONCORRENCIA_AD_20251124_1310.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "É a única instituição com Dermatologia no PSU-BA 2027. O Anexo II (18/11/2026) lista o Hospital Santa Izabel com 3 vagas: 2 de ampla concorrência, 1 para pessoa negra, 0 PcD e 0 reservadas ao serviço militar; situação no SisCNRM 'aprovado'. Inscrições: o edital previa 30/09 a 26/10/2026, e a retificação de 29/10/2026 (https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Retificacao_Prazo_Inscricao.pdf) prorrogou até 05/11/2026. Concorrência 2027: a relação definitiva de inscrições homologadas no acesso direto (17/11/2026, https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_INSCRICOES_HOMOLOGADAS_AD_20261117_1657.pdf) traz 97 inscrições em Dermatologia: 71 com prova em Salvador, 12 em Juazeiro, 11 em Vitória da Conquista e 3 em Barreiras. Isso dá 32,33 candidatos por vaga, calculado (97 ÷ 3) com os dois números oficiais. Histórico 2026: concorrência oficial da ABAEM em Dermatologia de 59,50; as vagas de 2026 não foram conferidas."
+    },
+    {
+      "id": "famene-jp-pb",
+      "instituicao": "Faculdade de Medicina Nova Esperança (em parceria com a Fundação José Leite de Souza)",
+      "sigla": "FAMENE",
+      "hospital": null,
+      "cidade": "João Pessoa",
+      "uf": "PB",
+      "endereco": "Av. Frei Galvão, 12, Gramame, João Pessoa - PB (sede da FAMENE e local da prova; hospital de execução da Dermatologia não informado no edital)",
+      "natureza": "privada",
+      "processo": "Processo Seletivo de Residência Médica 2027 COREME/FAMENE (Edital nº 89/2026/FAMENE)",
+      "banca": "COREME/FAMENE (própria instituição)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": null,
+        "inscricao_fim": "2026-10-13",
+        "prova_1a_fase": "2026-10-31",
+        "outras_etapas": [],
+        "resultado_previsto": "2026-11-13",
+        "taxa_reais": 470,
+        "etapas_descricao": "Etapa única: prova escrita objetiva de 100 questões (20 Clínica Médica, 20 Cirurgia Geral, 20 GO, 20 Pediatria, 20 Medicina Preventiva e Social), 100% da nota, 4 h, em João Pessoa; bonificação de 10% para egressos de PRMFC (Portaria MEC nº 446/2026); desempate pela idade (mais velho). Taxa de expediente de R$ 650 na efetivação do vínculo.",
+        "link_edital": "https://www.facene.com.br/wp-content/uploads/2026/09/Edital-Residencia-Medica-2027.pdf",
+        "link_inscricao": "https://www.sistemasfacene.com.br/processo-seletivo/pb/inscricao/medicina/",
+        "link_processo": "https://www.facene.com.br/processo-seletivo/residencia-medica/",
+        "fonte": "https://www.facene.com.br/wp-content/uploads/2026/10/2a-Retificacao-Edital-da-Residencia-Medica.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": 1,
+          "inscritos": null,
+          "candidatos_por_vaga": null,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/wp-content/uploads/2025/09/famene-2026-edital-rm.pdf",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Edital nº 89/2026/FAMENE (10/09/2026) previa 1 vaga de Dermatologia; a 2ª retificação (site oficial facene.com.br) ampliou para 2 vagas R1, 3 anos, credenciado CNRM. Processo JÁ ENCERRADO: prova em 31/10/2026 (item 8.1 e cronograma da 3ª retificação, de 27/10/2026) e resultado final em 13/11/2026 (item 14.1; Estratégia MED noticiou a publicação nessa data). Início das inscrições conflitante no edital: cronograma diz 17/08/2026, item 5.1 diz 14/09/2026 (por isso inscricao_inicio = null); término 13/10/2026 às 22h. Início do programa: 02/03/2027 (item 18.3; o item 16.2 traz 02/03/2026, aparente erro). Sem isenção de taxa. Nota de corte não publicada oficialmente: o Estratégia MED calculou 1.000 (escala 0-1.000, prova objetiva com bonificação) a partir da lista de resultado final (https://med.estrategia.com/portal/?p=117981; PDF do resultado hospedado no agregador, não conferido no site da FAMENE) — dado secundário. Candidatos inscritos por programa não localizados em fonte oficial. Página oficial lista também 'Orientações e Recursos' (https://www.facene.com.br/wp-content/uploads/2026/11/Orientacoes-e-Recursos-Residencia-2027.pdf)."
+    },
+    {
+      "id": "fuham-am-psurm",
+      "instituicao": "Fundação de Dermatologia Tropical e Venerologia Alfredo da Matta",
+      "sigla": "FUHAM",
+      "hospital": "Fundação Hospitalar Alfredo da Matta",
+      "cidade": "Manaus",
+      "uf": "AM",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)",
+      "banca": "AREMAM / CEREM-AM (execução própria)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-11-10",
+        "inscricao_fim": "2026-11-30",
+        "prova_1a_fase": "2027-01-10",
+        "outras_etapas": [
+          {
+            "etapa": "Envio da documentação para a Prova de Títulos (análise curricular, 10%), de 22 a 29/01/2027",
+            "data": "2027-01-22"
+          },
+          {
+            "etapa": "Resultado da Prova de Títulos",
+            "data": "2027-02-10"
+          },
+          {
+            "etapa": "Resultado definitivo da Prova de Títulos",
+            "data": "2027-02-11"
+          },
+          {
+            "etapa": "Resultado final/classificação definitiva",
+            "data": "2027-02-18"
+          },
+          {
+            "etapa": "1ª matrícula (22 a 24/02/2027)",
+            "data": "2027-02-22"
+          }
+        ],
+        "resultado_previsto": "2027-02-18",
+        "taxa_reais": 450,
+        "etapas_descricao": "1ª etapa: prova objetiva de 100 questões (20 por área: Clínica Médica, Cirurgia Geral, Pediatria, GO, Medicina Preventiva e Social), 4 alternativas, 4 h, peso 90%, eliminatória (mínimo de 50% de acertos). 2ª etapa: análise de currículo/prova de títulos, peso 10%. Vagas (Retificação 001/2027): 2 regulares = 1 ampla concorrência + 1 PNP (pretos e pardos); parecer CNRM 47/2026.",
+        "link_edital": "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
+        "link_inscricao": "https://inscricao.cermam.com.br/",
+        "link_processo": "https://cermam.com.br/acompanhamento-editais/",
+        "fonte": "https://cermam.com.br/wp-content/uploads/2026/11/RETIFICACAO_001_2027_DISTRIBUICAO_CORRIGIDA_VAGAS_DEFINITIVA.docx.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No quadro original do Anexo II (antes da retificação) constavam 2 vagas de ampla concorrência. Não foi localizado processo próprio da FUHAM além do PSURM. Processo Seletivo Unificado do Amazonas (Edital 001/2027 PSURM/AREMAM, publicado em 25/10/2026; cronograma no Anexo I: https://cermam.com.br/wp-content/uploads/2026/11/Anexos-Edital-001-2027-PSURM-AREMAM-versao-final.pdf). A Retificação 001/2027 (03/11/2026) substituiu o quadro de vagas e as datas da Prova de Títulos. A Errata 001 (16/11/2026) só suspendeu programas da FCECON; o Adendo 01 (09/11/2026) incluiu Psiquiatria (Nilton Lins); o Adendo 002 (16/11/2026) trata do prazo de documentação da matrícula. Início dos programas em 01/03/2027. Executado pela AREMAM, que pode contratar instituição executora (não identificada no edital). O site cermam.com.br exibe propaganda de apostas injetada (aparente invasão), mas é o canal oficial indicado no edital."
+    },
+    {
+      "id": "fmt-hvd-am-psurm",
+      "instituicao": "Fundação de Medicina Tropical Doutor Heitor Vieira Dourado",
+      "sigla": "FMT-HVD",
+      "hospital": "Fundação de Medicina Tropical Doutor Heitor Vieira Dourado",
+      "cidade": "Manaus",
+      "uf": "AM",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "PSURM/AREMAM 2027 (Processo Seletivo Unificado de Residência Médica do Amazonas, Edital 001/2027)",
+      "banca": "AREMAM / CEREM-AM (execução própria)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-11-10",
+        "inscricao_fim": "2026-11-30",
+        "prova_1a_fase": "2027-01-10",
+        "outras_etapas": [
+          {
+            "etapa": "Envio da documentação para a Prova de Títulos (análise curricular, 10%), de 22 a 29/01/2027",
+            "data": "2027-01-22"
+          },
+          {
+            "etapa": "Resultado da Prova de Títulos",
+            "data": "2027-02-10"
+          },
+          {
+            "etapa": "Resultado definitivo da Prova de Títulos",
+            "data": "2027-02-11"
+          },
+          {
+            "etapa": "Resultado final/classificação definitiva",
+            "data": "2027-02-18"
+          },
+          {
+            "etapa": "1ª matrícula (22 a 24/02/2027)",
+            "data": "2027-02-22"
+          }
+        ],
+        "resultado_previsto": "2027-02-18",
+        "taxa_reais": 450,
+        "etapas_descricao": "1ª etapa: prova objetiva de 100 questões (20 por área: Clínica Médica, Cirurgia Geral, Pediatria, GO, Medicina Preventiva e Social), 4 alternativas, 4 h, peso 90%, eliminatória (mínimo de 50% de acertos). 2ª etapa: análise de currículo/prova de títulos, peso 10%. Vagas (Retificação 001/2027): 2 regulares = 1 ampla concorrência + 1 PNP; parecer CNRM 420/25.",
+        "link_edital": "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
+        "link_inscricao": "https://inscricao.cermam.com.br/",
+        "link_processo": "https://cermam.com.br/acompanhamento-editais/",
+        "fonte": "https://cermam.com.br/wp-content/uploads/2026/11/RETIFICACAO_001_2027_DISTRIBUICAO_CORRIGIDA_VAGAS_DEFINITIVA.docx.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "No quadro original do Anexo II constavam 0 ampla + 1 PNP + 1 PcD; a Retificação 001/2027 corrigiu para 1 ampla + 1 PNP. Mesmo processo unificado da FUHAM (Edital 001/2027 PSURM/AREMAM, publicado em 25/10/2026; Anexo I/cronograma: https://cermam.com.br/wp-content/uploads/2026/11/Anexos-Edital-001-2027-PSURM-AREMAM-versao-final.pdf). Início dos programas em 01/03/2027. Programa não aparece no ENARE 2026/2027."
+    },
+    {
+      "id": "uepa-pa-psu",
+      "instituicao": "Universidade do Estado do Pará",
+      "sigla": "UEPA",
+      "hospital": null,
+      "cidade": "Belém",
+      "uf": "PA",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "PSU/2027: Processo Seletivo Unificado para os Programas de Residência Médica do Estado do Pará (Edital 148/2026 - UEPA)",
+      "banca": "UEPA (PROGRAD/DAA e CCBS)",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-11-13",
+        "inscricao_fim": "2026-11-26",
+        "prova_1a_fase": "2027-01-17",
+        "outras_etapas": [
+          {
+            "etapa": "Gabarito definitivo da prova objetiva",
+            "data": "2027-02-05"
+          },
+          {
+            "etapa": "Resultado provisório da prova objetiva",
+            "data": "2027-02-15"
+          },
+          {
+            "etapa": "Matrícula inicial na Região Metropolitana de Belém (chamada nominal por especialidade)",
+            "data": "2027-02-22"
+          }
+        ],
+        "resultado_previsto": "2027-02-19",
+        "taxa_reais": 500,
+        "etapas_descricao": "Etapa única, eliminatória e classificatória: prova objetiva (grupo A, acesso direto) com 100 questões de 1 ponto nas 5 áreas básicas (Clínica Médica, Cirurgia Geral, GO, Pediatria, Saúde Coletiva), às 14h; mínimo de 50 pontos. Bonificação de 10% para egressos de PRM em MFC (Portaria MEC 446/2026).",
+        "link_edital": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+        "link_inscricao": "https://sistemas.uepa.br/sps/form_login_inscricao?id_concurso=109",
+        "link_processo": "https://prosel.uepa.br/rm2027/",
+        "fonte": "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": 3,
+          "inscritos": 93,
+          "candidatos_por_vaga": 31.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/uepa-2026-concorrencia-residencia-medica/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Quadro 1 do Edital 148/2026 (Região Metropolitana de Belém): Dermatologia tem 5 vagas, todas na coluna UEPA/BEL (D=5, R=0 para Forças Armadas), contempladas pelo QualificaSaúde. FHCGV, FSCMPA (Santa Casa), HOL, HMUE e SESMA não ofertam Dermatologia, e não há Dermatologia em Santarém ou Marabá. O edital não informa o hospital/serviço do PRM. Edital publicado em 29/10/2026; pagamento da taxa até 27/11/2026; início em 01/03/2027. Histórico 2026: as 3 vagas da UEPA Belém foram conferidas no Edital 116/2025 (https://prosel.uepa.br/wp-content/uploads/edital1162025.pdf, oficial). Inscritos e candidatos/vaga (ampla concorrência) vêm de matéria do Estratégia MED que reproduz um PDF de demanda, por isso o selo é secundária."
+    },
+    {
+      "id": "cesupa-pa",
+      "instituicao": "Centro Universitário do Estado do Pará",
+      "sigla": "CESUPA",
+      "hospital": null,
+      "cidade": "Belém",
+      "uf": "PA",
+      "endereco": null,
+      "natureza": "privada",
+      "processo": "Processo Seletivo de Residência Médica do CESUPA 2027 (Edital 42/2026, retificado pelo Edital 45/2026)",
+      "banca": "COREME/CESUPA (própria)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-07-10",
+        "inscricao_fim": "2026-09-30",
+        "prova_1a_fase": null,
+        "outras_etapas": [
+          {
+            "etapa": "Envio da nota do ENAMED 2026 (1ª etapa, acesso direto), de 04 a 08/12/2026",
+            "data": "2026-12-04"
+          },
+          {
+            "etapa": "Envio de currículos e comprovantes (10 e 11/12/2026)",
+            "data": "2026-12-10"
+          },
+          {
+            "etapa": "Resultado da análise de currículo",
+            "data": "2027-01-13"
+          },
+          {
+            "etapa": "Lista de aptos para a 3ª etapa",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Prova de habilidades (10 estações), campus da Av. Almirante Barroso, 3775",
+            "data": "2027-01-24"
+          },
+          {
+            "etapa": "Resultado final da prova de habilidades",
+            "data": "2027-02-03"
+          },
+          {
+            "etapa": "Matrícula",
+            "data": "2027-02-19"
+          }
+        ],
+        "resultado_previsto": "2027-02-15",
+        "taxa_reais": 500,
+        "etapas_descricao": "1ª etapa: nota do ENAMED 2026 (escala de proficiência TRI), eliminatória com mínimo de 50%, peso 6. 2ª etapa: análise de currículo (Anexo II), peso 1. 3ª etapa: prova de habilidades com 10 estações clínicas simuladas nas 5 áreas básicas, peso 3.",
+        "link_edital": "https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/Docs/EDITAL_42-_RESIDENCIA_MEDICA_20260706_081453.pdf",
+        "link_inscricao": "https://www.cesupa.br",
+        "link_processo": "https://www.cesupa.br/pos-graduacao/residencia/clinica-medica",
+        "fonte": "https://sistonline.cesupa.br/saibamais/docs/2026/Edital_n._45._Retifica%C3%A7%C3%A3o_Edital_Residencia_Medica_2027_20260814_213329.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Inscrições encerradas em 30/09/2026. Bolsa por 36 meses para Dermatologia. A 1ª etapa usa a nota do ENAMED 2026; o edital não traz a data da prova do ENAMED (agregadores citam 13/09/2026), por isso prova_1a_fase = null. O cronograma do Anexo I lista a prova de habilidades 'para PRM com pré-requisito', mas os itens 5.1.1.4 e 5.6.5 do edital dizem que ela é aplicada a todos os programas em 24/01/2027. Resultado final 'até 15/02/2027'. A lista oficial de inscrições homologadas (https://sistonline.cesupa.br/PosGraduacao/Residencia/Medica/2027/docs/Inscricoes_Homologadas_2027%20publicacao.pdf) tem 37 registros de Dermatologia pela nossa contagem automática do PDF, cerca de 18,5 candidatos por vaga (calculado, não publicado pela instituição)."
+    },
+    {
+      "id": "ses-df-rm1-2027",
+      "instituicao": "Secretaria de Estado de Saúde do Distrito Federal / FEPECS",
+      "sigla": "SES-DF",
+      "hospital": "Rede SES-DF (cenário de ensino/COREME escolhido na 2ª fase pelo SisRESID; o edital não vincula a Dermatologia a um hospital específico)",
+      "cidade": "Brasília",
+      "uf": "DF",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo RM-1/SES/DF/2027 (Edital Normativo nº 1, de 15/09/2026)",
+      "banca": "IADES",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-10-01",
+        "inscricao_fim": "2026-11-29",
+        "prova_1a_fase": "2026-12-12",
+        "outras_etapas": [
+          {
+            "etapa": "Resultado final da 1ª fase",
+            "data": "2027-01-13"
+          },
+          {
+            "etapa": "2ª fase: escolha/confirmação do cenário de ensino (Hospitais/COREME) no SisRESID (19 a 20/01/2027)",
+            "data": "2027-01-19"
+          },
+          {
+            "etapa": "Matrícula",
+            "data": "2027-01-28"
+          }
+        ],
+        "resultado_previsto": "2027-01-26",
+        "taxa_reais": 120,
+        "etapas_descricao": "1ª fase: prova objetiva de 100 questões (1 ponto cada, 4 alternativas, 4 h). 2ª fase: escolha do cenário de ensino (COREME) no SisRESID, sem pontuação. Bônus de 10% para quem concluiu PRM em Medicina de Família e Comunidade. Vagas de Dermatologia (Anexo I, código 405, 3 anos): 2 ampla concorrência + 1 PcD + 1 negros = 4.",
+        "link_edital": "https://www.iades.com.br/inscricao/upload/1375/20260918151934900.pdf",
+        "link_inscricao": "https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=9f948e958f",
+        "link_processo": "https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=9f948e958f",
+        "fonte": "https://www.iades.com.br/inscricao/upload/1375/20261103119546.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2026,
+          "vagas": 4,
+          "inscritos": 230,
+          "candidatos_por_vaga": 57.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/ses-df-inscricoes-residencia-medica-2027/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Inscrições prorrogadas. O edital previa inscrições de 01/10 a 18/11/2026, com pagamento até 19/11. O cronograma retificado em 18/11/2026 (https://www.iades.com.br/inscricao/upload/1375/20261118164148502.pdf) e o comunicado de prorrogação (https://www.iades.com.br/inscricao/upload/1375/20261118163834628.pdf) estendem as inscrições até 29/11/2026 e o pagamento até 30/11/2026. Gabarito preliminar em 12/12/2026; resultado final da prova objetiva em 21/12/2026. Taxa de R$ 120,00, conforme a página do processo no IADES e o item 7.3 do edital. COREMEs participantes (item 2.3): HMIB, HRAN, HRT, HRS, HRG, HRC, HRL, HRSM, HSVP, HCB, HBDF e ESPDF. Bolsa de R$ 4.106,09."
+    },
+    {
+      "id": "hdt-ses-go-2027",
+      "instituicao": "Secretaria de Estado da Saúde de Goiás",
+      "sigla": "SES-GO / HDT",
+      "hospital": "Hospital Estadual de Doenças Tropicais Dr. Anuar Auad (HDT)",
+      "cidade": "Goiânia",
+      "uf": "GO",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo Unificado COREME/SES-GO 2027 (Edital de Abertura nº 24/2026 SESG/SES-GO)",
+      "banca": "Instituto Verbena/UFG",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-05",
+        "inscricao_fim": "2026-11-03",
+        "prova_1a_fase": "2026-12-06",
+        "outras_etapas": [
+          {
+            "etapa": "Upload do currículo para a análise curricular (2ª fase), de 30/12/2026 a 05/01/2027",
+            "data": "2026-12-30"
+          },
+          {
+            "etapa": "Resultado final da análise do currículo",
+            "data": "2027-01-22"
+          },
+          {
+            "etapa": "Resultado preliminar do processo seletivo",
+            "data": "2027-02-11"
+          },
+          {
+            "etapa": "Matrícula da 1ª chamada regular",
+            "data": "2027-02-24"
+          }
+        ],
+        "resultado_previsto": "2027-02-17",
+        "taxa_reais": 500,
+        "etapas_descricao": "1ª fase: prova objetiva de 100 questões (acesso direto), 4 alternativas, 100 pontos, eliminatória abaixo de 50 pontos. 2ª fase: análise do currículo, classificatória. Pontuação final PF = (PO × 0,9) + (AC × 0,1). Bônus de 10% para PRMFC. Vagas de Dermatologia no HDT (Anexo II): 1 ampla concorrência + 1 negros = 2.",
+        "link_edital": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+        "link_inscricao": "https://www.institutoverbena.ufg.br",
+        "link_processo": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/",
+        "fonte": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/editais/EDITAL_DE_ABERTURA_COREME_SES_2027_CONSOLIDADO_PELO_EDITAL_COMPLEMENTAR_01_26.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 144,
+          "candidatos_por_vaga": 72.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/anexos/2026_11_13_COREME_SES_Resultado_Inscricoes_Homologadas_Final.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Na SES-GO 2027, a Dermatologia só é oferecida no HDT; o Hospital Estadual Geral de Goiânia (HGG) não tem vaga de Dermatologia no Anexo II. Taxa: R$ 500 para uma inscrição; R$ 400 cada para duas; R$ 300 cada para três ou mais, só entre programas com a mesma prova. Concorrência do ciclo 2027 (registro com ano_ingresso 2027 no histórico): 144 inscrições homologadas na lista final de 13/11/2026 ('D001 - DERMATOLOGIA - HDT'), divididas por 2 vagas, dão 72,0 por vaga. Esse valor foi calculado por esta coleta; a banca não o publicou. Início dos programas em 01/03/2027. Bolsa de R$ 4.106,09. Processo separado do PSU-GO (AGRM/AREMG)."
+    },
+    {
+      "id": "hc-ufg-psu-go-2027",
+      "instituicao": "Universidade Federal de Goiás / Hospital das Clínicas (EBSERH)",
+      "sigla": "HC-UFG",
+      "hospital": "Hospital das Clínicas da Universidade Federal de Goiás",
+      "cidade": "Goiânia",
+      "uf": "GO",
+      "endereco": "1ª Avenida, s/n, Setor Leste Universitário, Goiânia-GO, CEP 74605-020",
+      "natureza": "federal",
+      "processo": "PSU-GO 2027 (Processo Seletivo Unificado de Residência Médica de Goiás; edital próprio do HC-UFG, retificado)",
+      "banca": "AGRM (Associação Goiana de Residência Médica) com apoio operacional da AREMG",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-10-07",
+        "inscricao_fim": "2026-10-22",
+        "prova_1a_fase": "2026-11-29",
+        "outras_etapas": [
+          {
+            "etapa": "Resultado da prova escrita (previsão)",
+            "data": "2026-12-16"
+          },
+          {
+            "etapa": "Resultado provisório da avaliação curricular (previsão)",
+            "data": "2027-01-25"
+          },
+          {
+            "etapa": "Nota final com ordem de preferência (previsão)",
+            "data": "2027-01-28"
+          }
+        ],
+        "resultado_previsto": "2027-02-01",
+        "taxa_reais": 525,
+        "etapas_descricao": "1ª etapa: prova geral de conhecimentos médicos com até 100 questões (até 20 por área: Cirurgia Geral, Clínica Médica, GO, Medicina Preventiva e Social, Pediatria), valendo 90 pontos; classificam-se até 20 candidatos por vaga, com nota mínima de 45. 2ª etapa: análise curricular padronizada, valendo 10 pontos, com o currículo enviado na inscrição. Bônus de 10% para PRMFC (Portaria 446/2026). Dermatologia: 4 vagas, todas de ampla concorrência (programa reconhecido, parecer 428/2025).",
+        "link_edital": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+        "link_inscricao": "https://www.aremg.org.br/processos-atuais",
+        "link_processo": "https://www.aremg.org.br/processos-atuais",
+        "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/HospitaldasClinicasdaUFG-EditalPSUGO2027Retificado-20261006170930.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 4,
+          "inscritos": 175,
+          "candidatos_por_vaga": 43.8,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/RelacaoCanddidato-Vaga-PSUGO2027-20261113160717.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Datas de inscrição conforme a Retificação nº 1, de 22/10/2026 (https://www.galaxcms.com.br/up_crud_comum/601/Retificacaon1-Prorrogacaodoperiododeinscircoes-PSUGO2027-20261022094149.pdf): inscrições de 07 a 22/10/2026; envio do currículo e pagamento do boleto até 23/10/2026. O edital original previa 07 a 20/10. A relação candidato/vaga do ciclo 2027 (AREMG, 13/11/2026; registro com ano_ingresso 2027 no histórico) traz 175 inscrições e 43,8 por vaga. Ela é preliminar, porque saiu antes da banca de heteroidentificação. No PSU-GO 2027, o HC-UFG é a única instituição com Dermatologia, e ele não tem Dermatologia no mapa do ENARE 2026/2027. A página do processo traz um 'Informe sobre Decisão Judicial' (Processo nº 1080366-09.2026.4.01.3500, de 11/11/2026), que não foi analisado."
+    }
+  ],
+  "lacunas": [
+    "HC-UFPE (Hospital das Clínicas Prof. Romero Marques, Recife-PE): Dermatologia só pelo ENARE 2026/2027, com 3 vagas no mapa oficial FGV/ENARE (https://enare2026.conhecimento.fgv.br/data/vagas/all.json); sem processo próprio. Fora desta frente.",
+    "UFC/HUWC (Complexo Hospitalar da UFC, Fortaleza-CE): Dermatologia só pelo ENARE 2026/2027, com 2 vagas no mapa oficial FGV/ENARE. Fora desta frente.",
+    "Centro de Dermatologia Dona Libânia (CDERM, SESA-CE, estadual, Fortaleza-CE): Dermatologia pelo ENARE 2026/2027, sob 'Secretaria da Saúde do Estado do Ceará', com 4 vagas no mapa oficial FGV/ENARE. Não encontrei processo próprio nem SURCE para 2027. Fora desta frente.",
+    "SURCE: as unidades da SESA/ESP-CE aderiram ao ENARE a partir de 2024/2025, segundo Estratégia MED e Medway (fontes secundárias). Não encontrei SURCE 2027 com Dermatologia, e o Ceará fica sem programa nesta frente.",
+    "Hospital Geral de Fortaleza (HGF): não aparece com Dermatologia no mapa ENARE 2026/2027 e não encontrei processo próprio de Dermatologia. Não sei se existe programa credenciado.",
+    "UFBA/HUPES (Salvador-BA): Dermatologia só pelo ENARE 2026/2027, com 4 vagas no mapa oficial FGV/ENARE; não está no PSU-BA 2027. Fora desta frente.",
+    "Bahia fora de Salvador: HGRS, Feira de Santana, UNIVASF/Juazeiro, Vitória da Conquista e Escola Bahiana não aparecem com Dermatologia no Anexo II do PSU-BA 2027 nem no mapa ENARE, e não encontrei processo próprio.",
+    "FCM/UPE: o quadro do SUS-PE 2027 informa só 'FCM/UPE, Campus Recife'. Que o hospital seja o HUOC (Oswaldo Cruz) não foi confirmado em fonte oficial.",
+    "SUS-PE 2027: a relação de candidatos por vaga por especialidade ainda não foi publicada (em 2026 saiu no fim de dezembro). Notas de corte de Dermatologia de 2026 e 2025 não encontradas em fonte oficial.",
+    "SUS-PE 2026: o histórico (7 vagas, 213 candidatos, 30,42 por vaga) vem só do Estratégia MED; não foi conferido no site do IAUPE/SES-PE, e falta a divisão por hospital em 2026.",
+    "PSU-BA 2026: número de vagas de Dermatologia não conferido; só a concorrência oficial (59,50). Nota de corte não encontrada.",
+    "Pernambuco: o CEDER (Recife) é curso de especialização credenciado pela SBD, não residência médica CNRM, e ficou fora. Não encontrei outro processo próprio de Dermatologia 2027 em PE.",
+    "Endereços dos hospitais não preenchidos (não conferidos em fonte nesta coleta).",
+    "UFAL/HUPAA (Maceió-AL), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "UNCISAL/Hospital Escola Dr. Hélvio Auto (Maceió-AL), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "UFS/Hospital Universitário de Sergipe (Aracaju/São Cristóvão-SE), Dermatologia 3 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "UFPB/HULW (João Pessoa-PB), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "UFCG/HU Alcides Carneiro (Campina Grande-PB), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "Fundação Pedro Américo/HELP (Campina Grande-PB), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "UFRN/HUOL (Natal-RN), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente; nenhum processo próprio COMPERVE/UFRN 2027 localizado (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "HU-UFPI (Teresina-PI), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "Hospital Dr. Carlos Macieira/SES-MA (São Luís-MA), Dermatologia 2 vagas: só ENARE 2026/2027, fora desta frente; nenhum processo estadual próprio SES-MA/EMSERH 2027 localizado (fonte: https://enare2026.conhecimento.fgv.br/data/vagas/all.json (mapa de vagas oficial FGV/HU Brasil, atualizado em 2026-11-19))",
+    "HU-UFMA/HUUFMA (São Luís-MA): participa do ENARE 2026/2027 mas sem vaga de Dermatologia no mapa de vagas; nenhum processo próprio de Dermatologia localizado — confirmar se o programa existe/está ativo",
+    "PSU-AL 2027 (ALAEM/Strix): só o edital resumido saiu (11/11/2026; inscrições 26/11/2026-06/01/2027, prova 24/01/2027, taxa R$ 650); edital completo com quadro de vagas previsto para 26/11/2026 — conferir se haverá Dermatologia (a edição 2026 não teve, segundo Estratégia MED: https://med.estrategia.com/portal/noticias/psu-al-2026-confira-a-concorrencia-do-seletivo-de-residencia-medica/)",
+    "Piauí: edital SESAPI/ESP-PI nº 12/2026 (2027.1, 26 vagas) sem Dermatologia (PDF lido: https://www.grupomedcof.com.br/blog/wp-content/uploads/2026/10/Edital-SESAPI-2027.pdf); UESPI/NUCEPE (HGV/HILP) 2025/2026 sem Dermatologia e edital 2026/2027 não localizado; Grupo Med Imagem 2027 (Teresina) sem detalhamento de programas conferido",
+    "Sem Dermatologia nos editais 2027 conferidos via agregador (Estratégia MED): Santa Casa de Maceió (Consesp), FBHC Aracaju (Selecting), HUSE Aracaju, Hospital Primavera Aracaju, SMS-JP, UNIPÊ, UERN (Mossoró/Pau dos Ferros), Hospital São Domingos (São Luís)",
+    "Editais 2027 não localizados: SES-PB/ESP-PB (COREME estadual), SESAP-RN, FHS/FUNESA-SE, CEUMA e UNDB (MA) — nenhum indício de programa de Dermatologia próprio",
+    "FAMENE: hospital de execução do programa de Dermatologia, inscritos/candidatos por vaga e nota de corte oficial não publicados; histórico 2025 não coletado",
+    "UFAM/HUGV (Fundação Universidade do Amazonas): Dermatologia com 2 vagas (1 ampla + 1 PNP) só no ENARE 2026/2027 e sem vaga no PSURM/AREMAM 2027 (fonte: JSON oficial do mapa de vagas, https://enare2026.conhecimento.fgv.br/data/tabelas/vagas-medica-acesso-direto.json). Fora desta frente.",
+    "UFPA (HUJBB/HUBFS): Dermatologia com 3 vagas (2 ampla + 1 PNP) no ENARE 2026/2027; o CEPS/UFPA não publicou PSRM 2027 (a página lista só até o PSRM 2026). Tratada como só ENARE em 2027, fora desta frente. Dado oficial de 2026 (PSRM 2026, processo próprio): 3 vagas, 70 inscritos, 23,33 candidatos/vaga (https://ceps.ufpa.br/images/conteudo/residencia/medica%202026/demanda/PSRM2026DemandaCandidatos.pdf).",
+    "PSURM/AREMAM 2027: banca/instituição executora não identificada; histórico de concorrência e notas de corte de Dermatologia (FUHAM e FMT-HVD) em 2026/2025 não localizados.",
+    "FUHAM: só 2 vagas no PSURM 2027; não foi localizado edital próprio da FUHAM nem outro processo de Dermatologia para 2027 (o site fuham.am.gov.br não apareceu nas buscas).",
+    "UEPA: o edital não informa o hospital/serviço onde ocorre o PRM de Dermatologia; a concorrência de 2026/2025 não foi conferida em fonte primária (só a do Estratégia MED).",
+    "CESUPA: histórico 2026/2025 (vagas, concorrência, nota de corte) não coletado; data da prova do ENAMED 2026 não consta no edital.",
+    "Santa Casa do Pará (FSCMPA), FHCGV e HOL: sem vaga de Dermatologia no PSU/2027 (Quadro 1 do Edital 148/2026).",
+    "Rondônia: o Edital 19/2026/HB-COREME (SESAU-RO, HB Ary Pinheiro + CEMETRON, ingresso em 2027; https://rondonia.ro.gov.br/wp-content/uploads/2026/08/Edital_75959607_Edital_2026.pdf) não oferta Dermatologia; nenhum programa de Dermatologia em RO no ENARE 2026/2027.",
+    "Acre: a FUNDHACRE 2027 (53 vagas) não tem Dermatologia segundo o Estratégia MED (https://med.estrategia.com/portal/noticias/fundhacre-edital-residencia-medica-2027/); edital oficial não conferido.",
+    "Tocantins (UFT, UFNT, SES-TO), Roraima (UFRR, UERR) e Amapá (UNIFAP): nenhum programa de Dermatologia no ENARE 2026/2027 e nenhum edital próprio de Dermatologia para 2027 localizado.",
+    "UEA: no PSURM 2027 a UEA oferta só Cardiologia, Cardiointensivismo, Cirurgia Cardiovascular, GO, Medicina Intensiva e Pediatria, sem Dermatologia.",
+    "HUB-UnB (Universidade de Brasília): Dermatologia só pelo ENARE 2026/2027, com 4 vagas no mapa oficial (https://enare2026.conhecimento.fgv.br/data/vagas/all.json). Fora desta frente.",
+    "UFMS/HUMAP (Campo Grande-MS): Dermatologia só pelo ENARE 2026/2027, com 3 vagas no mapa oficial FGV/ENARE. Não achei processo próprio. Fora desta frente.",
+    "UFMT/HUJM (Cuiabá-MT): Dermatologia só pelo ENARE 2026/2027, com 2 vagas no mapa oficial FGV/ENARE. Fora desta frente. 'Hospital Universitário de Cuiabá' foi interpretado como o HUJM. Conferi nos PDFs que o HG Cuiabá/UNIC 2027 (ECONRIO) e o PRMMT 2027 (Hospital de Câncer de MT e outros) não têm Dermatologia no quadro de vagas.",
+    "SES-DF: o edital não diz em qual hospital/COREME fica a Dermatologia (a escolha é feita na 2ª fase). A concorrência de 2027 não foi publicada. O histórico de 2026 (230 inscritos, 57,5 por vaga) só foi achado no Estratégia MED.",
+    "Santa Casa de Campo Grande (MS): não localizei edital 2027. Os editais 2026 e 2026.2, vistos via agregador, não tinham Dermatologia.",
+    "Hospital Geral de Goiânia (HGG/SES-GO): não tem vaga de Dermatologia no Edital 24/2026 da SES-GO 2027; a única vaga de Dermatologia da SES-GO é a do HDT.",
+    "Hospital das Forças Armadas (HFA, Brasília) e outros serviços privados ou militares do DF: não localizei processo de Dermatologia para 2027 (busca limitada).",
+    "Centro-Oeste: não localizei nenhuma nota de corte oficial de Dermatologia (SES-DF, SES-GO, PSU-GO). O histórico de 2025 não foi coletado."
+  ]
+}

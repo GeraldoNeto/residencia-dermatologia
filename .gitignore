@@ -1,0 +1,12 @@
+# rascunhos, backups e testes locais
+patch/
+patch3/
+patch4/
+teste/
+patch_fase*.py
+*.bak
+*.bak.*
+node_modules/
+
+# lista de nomes a esconder: ela mesma tem nomes de candidatos
+dados/privado/

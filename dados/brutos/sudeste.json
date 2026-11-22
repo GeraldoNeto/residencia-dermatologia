@@ -1,0 +1,306 @@
+{
+  "frente": "sudeste-sem-sp",
+  "coletado_em": "2026-11-21",
+  "programas": [
+    {
+      "id": "uerj-hupe-rj",
+      "instituicao": "Universidade do Estado do Rio de Janeiro - Faculdade de Ciências Médicas",
+      "sigla": "UERJ",
+      "hospital": "Hospital Universitário Pedro Ernesto (HUPE)",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "endereco": null,
+      "natureza": "estadual",
+      "processo": "Processo Seletivo Residência Médica UERJ 2027 - Acesso Direto (Edital nº 15/2026 - Cepuerj)",
+      "banca": "Cepuerj (Centro de Produção da UERJ)",
+      "ciclo_2027": {
+        "vagas": 6,
+        "inscricao_inicio": "2026-09-02",
+        "inscricao_fim": "2026-10-01",
+        "prova_1a_fase": "2026-11-01",
+        "outras_etapas": [],
+        "resultado_previsto": "2027-01-22",
+        "taxa_reais": 380,
+        "etapas_descricao": "Etapa única: prova objetiva de 100 questões (20 de cada: Clínica Médica, Cirurgia Geral, Ginecologia/Obstetrícia, Pediatria, Medicina de Família e Comunidade), 4 alternativas, 1 ponto cada; aprovação com mínimo de 50 pontos sem zerar nenhum conteúdo. Bonificação de 10% para PRMFC concluído. Matrícula 16 a 18/02/2027; início 01/03/2027.",
+        "link_edital": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+        "link_inscricao": "https://www7.cepuerj.uerj.br/concurso.inscricao/login.do?method=login&projeto=S04597&ano=2027",
+        "link_processo": "https://www.cepuerj.uerj.br/concursos2.php?concurso=S04597&ano=2027",
+        "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/b91b91c0c908ad777783669c5964cd6d9e493631fc00188bd453cb606d38673d.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 6,
+          "inscritos": 337,
+          "candidatos_por_vaga": 56.17,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.cepuerj.uerj.br/uploads/concursos/S04597_2027/f7f0eb423a0bd131b3d320f73ce46f22c3ab76ca1d454144eb11c32559998ad6.pdf",
+          "selo": "oficial"
+        },
+        {
+          "ano_ingresso": 2026,
+          "vagas": 6,
+          "inscritos": 378,
+          "candidatos_por_vaga": 63.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/uerj-2026-confira-a-concorrencia-para-a-selecao-de-residencia-medica/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Programa 105 - Dermatologia, parecer CNRM 401/2019: 4 vagas de ampla concorrência + 2 de cotas = 6. Candidatos por vaga 2027 CALCULADO (337 inscritos no relatório oficial 'Relação Candidato x Vaga' do Cepuerj ÷ 6 vagas do edital). Prova já aplicada em 01/11/2026; recursos ao gabarito prorrogados até 04/11/2026 por aviso do Cepuerj. Uma matéria do Estratégia MED cita nota de corte 88,00 em Dermatologia sem dizer a edição; não usada por falta de fonte oficial. Cuidado: na extração com layout do PDF o relatório de inscritos desalinha as colunas (aparece 227); a extração em ordem de texto confirma 337. Histórico 2026: o relatório 'Total de Inscritos por Cargo/Programa - UERJ 2026' (cópia hospedada no Estratégia MED: https://med.estrategia.com/portal/wp-content/uploads/2025/10/35e36f35b845448a32ee2a13cf1e6eb1c1da160857ad8567fe2cadd3e7915b9f.pdf) traz 378 inscritos em Dermatologia; as 6 vagas e o índice de 63 vêm da matéria do Estratégia MED, sem conferência no edital de 2026."
+    },
+    {
+      "id": "hnmd-rj",
+      "instituicao": "Hospital Naval Marcílio Dias - Marinha do Brasil",
+      "sigla": "HNMD",
+      "hospital": "Hospital Naval Marcílio Dias",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "endereco": null,
+      "natureza": "federal",
+      "processo": "Processo Seletivo de Admissão aos Programas de Residência Médica do HNMD com início em 2027 (Edital de 28/07/2026, DOU)",
+      "banca": "Serviço de Seleção do Pessoal da Marinha (SSPM)",
+      "ciclo_2027": {
+        "vagas": 3,
+        "inscricao_inicio": "2026-07-31",
+        "inscricao_fim": "2026-08-31",
+        "prova_1a_fase": "2026-11-08",
+        "outras_etapas": [
+          {"etapa": "Resultado final da prova objetiva e convocação para procedimentos complementares (PCAd, só para vagas reservadas; Dermatologia não tem vaga reservada)", "data": "2026-12-17"},
+          {"etapa": "Matrícula 1ª chamada (Dermatologia)", "data": "2027-02-16"}
+        ],
+        "resultado_previsto": "2027-01-29",
+        "taxa_reais": 320,
+        "etapas_descricao": "Prova objetiva (PO) em 08/11/2026 no Rio de Janeiro; gabarito em 10/11/2026. Procedimentos complementares (PCAd) apenas para candidatos às vagas reservadas. Resultado final do PS em 29/01/2027; início do curso em 01/03/2027.",
+        "link_edital": "https://www.in.gov.br/web/dou/-/edital-de-28-de-julho-de-2026-722090596",
+        "link_inscricao": "https://www.marinha.mil.br/sspm/",
+        "link_processo": "https://www.marinha.mil.br/sspm/",
+        "fonte": "https://www.in.gov.br/web/dou/-/edital-de-28-de-julho-de-2026-722090596",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Quadro de acesso direto do edital no DOU: DERMATOLOGIA, 3 anos, 3 vagas (todas na coluna I, sem reservadas). A matéria do O Tempo (10/10/2026) cita bônus de 10% (PRMFC), sem conferência no edital. Composição da prova (número de questões, pesos) não extraída do DOU. Inscritos/concorrência 2027 não localizados."
+    },
+    {
+      "id": "ims-rj",
+      "instituicao": "Instituto de Pós-Graduação em Ciências da Saúde Izamar Milidiu da Silva",
+      "sigla": "Instituto IMS",
+      "hospital": null,
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "endereco": null,
+      "natureza": null,
+      "processo": "Processo Seletivo para Residência Médica - Ingresso em 2027 (Edital nº 01/2026)",
+      "banca": "Instituto ACCESS",
+      "ciclo_2027": {
+        "vagas": 5,
+        "inscricao_inicio": "2026-09-16",
+        "inscricao_fim": "2026-11-12",
+        "prova_1a_fase": "2026-12-06",
+        "outras_etapas": [
+          {"etapa": "Resultado final da prova objetiva", "data": "2026-12-29"},
+          {"etapa": "Resultado preliminar da avaliação curricular", "data": "2027-01-05"},
+          {"etapa": "Resultado final da avaliação curricular", "data": "2027-01-19"},
+          {"etapa": "Confirmação de interesse e matrícula", "data": "2027-02-02"}
+        ],
+        "resultado_previsto": "2027-01-26",
+        "taxa_reais": 850,
+        "etapas_descricao": "Prova objetiva (eliminatória e classificatória): 100 questões, 20 de cada área (Clínica Médica, Cirurgia Geral, GO, Pediatria, Medicina Preventiva e Social), 0,9 ponto cada, máximo 90 pontos, aprovação com 50%; 4 horas, turno da tarde. Avaliação curricular classificatória até 10 pontos (documentos enviados no período de inscrição). Nota final = soma. Bonificação de 10% para PRMFC.",
+        "link_edital": "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/b9df3440-c13f-405e-97b5-eb9cdcfe790b.pdf",
+        "link_inscricao": "https://concursos.access.org.br/informacoes/181/",
+        "link_processo": "https://concursos.access.org.br/informacoes/181/",
+        "fonte": "https://concursos.access.org.br/informacoes/181/",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "PISTA CONFIRMADA: o edital declara Programa de Residência Médica em Dermatologia credenciado pela CNRM (Processo nº 2024-1474, aprovado em 23/01/2025), acesso direto, 3 anos, 5 vagas com bolsa da Lei 6.932/1981 (R$ 4.106,09). Dessas, 1 vaga é para PcD e 1 para pretos/pardos. Inscrições originais de 16/09 a 05/11/2026, prorrogadas até 12/11/2026 pela Retificação I (05/11/2026); pagamento até 13/11/2026. As datas de resultado e matrícula vêm do Anexo III, que no PDF tem tabela desalinhada; 26/01/2027 para o resultado final coincide com o Estratégia MED. Hospital ou serviço onde o programa ocorre e endereço não aparecem no edital. Provável programa novo (aprovado em 2025), sem histórico localizado."
+    },
+    {
+      "id": "psumg-hmtj-jf",
+      "instituicao": "Hospital e Maternidade Therezinha de Jesus",
+      "sigla": "HMTJ",
+      "hospital": "Hospital e Maternidade Therezinha de Jesus",
+      "cidade": "Juiz de Fora",
+      "uf": "MG",
+      "endereco": null,
+      "natureza": null,
+      "processo": "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)",
+      "banca": "AREMG (Associação de Apoio à Residência Médica de Minas Gerais)",
+      "ciclo_2027": {
+        "vagas": 1,
+        "inscricao_inicio": "2026-10-06",
+        "inscricao_fim": "2026-10-19",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {"etapa": "Resultado da prova (previsão)", "data": "2026-12-10"},
+          {"etapa": "Resultado provisório da avaliação curricular padronizada (previsão)", "data": "2027-01-21"},
+          {"etapa": "Nota final com ordem de preferência (previsão)", "data": "2027-01-26"},
+          {"etapa": "Confirmação de interesse / matrícula 1ª convocação", "data": "2027-01-28"}
+        ],
+        "resultado_previsto": "2027-01-28",
+        "taxa_reais": 300,
+        "etapas_descricao": "Duas etapas: prova escrita em 22/11/2026 e avaliação curricular padronizada (enviada na inscrição) para até 20 candidatos por vaga com nota mínima de 50% na prova; seleção final de até 15 por vaga. Pesos de 90 pontos (prova) + 10 (currículo) informados pela Medway, sem conferência no edital da instituição. Bônus PRMFC.",
+        "link_edital": null,
+        "link_inscricao": "https://aremg.starlinetecnologia.com.br/smartflex/",
+        "link_processo": "https://www.aremg.org.br/processos-atuais",
+        "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/ApresentacaoPSUMG2027-20261001170953.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 1,
+          "inscritos": 142,
+          "candidatos_por_vaga": 142.0,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/RelatorioCandidatoVaga-PSUMG2027-20261113154302.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Vagas e cronograma conferidos na Apresentação oficial do PSU-MG 2027 (AREMG). Inscrições originalmente de 06/10 a 15/10/2026, prorrogadas até 19/10/2026 às 17h pela Retificação nº 4 (https://www.aremg.org.br/detalhes-do-processo/retificacao-n-4-aos-editais-prorrogacao-das-inscricoes--psu-mg-2027/2391); pagamento até 20/10/2026. A taxa de R$ 300 por programa vem da Medway (secundária), não conferida em documento da AREMG. O relatório candidato/vaga de 13/11/2026 é anterior à heteroidentificação e pode mudar. Edital próprio do HMTJ para o PSU 2027 não localizado (a página da AREMG lista os editais por JavaScript). Em 2025 o HMTJ fez processo próprio de Dermatologia (https://hmtj.org.br/wp-content/uploads/2025/01/EDITAL-PARA-O-PROCESSO-SELETIVO-DE-RESIDENCIA-MEDICA-2025-DERMATOLOGIA-E-NEONATOLOGIA.pdf), sem dados extraídos. Na extração com layout do PDF o relatório atribui as linhas de Dermatologia a 'Hospital Felício Rocho' e 'Hospital Vila da Serra'; a extração em ordem de texto e a Apresentação oficial confirmam HMTJ e Instituto de Saúde HSVP."
+    },
+    {
+      "id": "psumg-hsvp-jf",
+      "instituicao": "Instituto de Saúde HSVP",
+      "sigla": "HSVP",
+      "hospital": "Hospital São Vicente de Paulo (Grupo HSVP)",
+      "cidade": "Juiz de Fora",
+      "uf": "MG",
+      "endereco": null,
+      "natureza": "privada",
+      "processo": "PSU-MG 2027 (Processo Seletivo Unificado de Residência Médica de Minas Gerais)",
+      "banca": "AREMG (Associação de Apoio à Residência Médica de Minas Gerais)",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-06",
+        "inscricao_fim": "2026-10-19",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {"etapa": "Resultado da prova (previsão)", "data": "2026-12-10"},
+          {"etapa": "Resultado provisório da avaliação curricular padronizada (previsão)", "data": "2027-01-21"},
+          {"etapa": "Nota final com ordem de preferência (previsão)", "data": "2027-01-26"},
+          {"etapa": "Confirmação de interesse / matrícula 1ª convocação", "data": "2027-01-28"}
+        ],
+        "resultado_previsto": "2027-01-28",
+        "taxa_reais": 300,
+        "etapas_descricao": "Duas etapas: prova escrita em 22/11/2026 e avaliação curricular padronizada para até 20 candidatos por vaga com nota mínima de 50% na prova; seleção final de até 15 por vaga. Pesos de 90 (prova) + 10 (currículo) informados pela Medway, sem conferência no edital da instituição.",
+        "link_edital": null,
+        "link_inscricao": "https://aremg.starlinetecnologia.com.br/smartflex/",
+        "link_processo": "https://www.aremg.org.br/processos-atuais",
+        "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/ApresentacaoPSUMG2027-20261001170953.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 2,
+          "inscritos": 197,
+          "candidatos_por_vaga": 98.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://www.galaxcms.com.br/up_crud_comum/601/RelatorioCandidatoVaga-PSUMG2027-20261113154302.pdf",
+          "selo": "oficial"
+        }
+      ],
+      "observacoes": "Nome na AREMG: 'Instituto de Saúde HSVP', distinto de 'Hospital São Vicente de Paulo (HSVP) - RJ', que também está no PSU. A cidade (Juiz de Fora) e a natureza privada vêm de fontes secundárias (Tribuna de Minas, 04/05/2026, e um documento da SES-MG): o grupo tem unidades em Juiz de Fora, Mercês e Barão de Cocais (MG) e em Angra dos Reis (RJ). Confirmar no edital da instituição em qual unidade ocorre o programa. Taxa: Medway (secundária). Pela Medway, o PSU-MG 2027 teria só 3 vagas de Dermatologia (339 inscrições), o que bate com HMTJ 1 + HSVP 2."
+    },
+    {
+      "id": "scmbh-mg",
+      "instituicao": "Santa Casa de Misericórdia de Belo Horizonte",
+      "sigla": "SCMBH",
+      "hospital": "Santa Casa BH",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "endereco": "Av. dos Andradas, 2.688 - Santa Efigênia - Belo Horizonte/MG - CEP 30260-070",
+      "natureza": "filantropica",
+      "processo": "Processo Seletivo da Residência Médica 2026 - Entrada em 2027 (Edital nº 005/2026, consolidado até a Retificação nº 01)",
+      "banca": "IBGP (Instituto Brasileiro de Gestão e Pesquisa)",
+      "ciclo_2027": {
+        "vagas": 4,
+        "inscricao_inicio": "2026-09-21",
+        "inscricao_fim": "2026-11-04",
+        "prova_1a_fase": "2026-11-21",
+        "outras_etapas": [
+          {"etapa": "Gabarito preliminar", "data": "2026-11-22"},
+          {"etapa": "Resultado definitivo da totalização da prova objetiva", "data": "2026-12-15"},
+          {"etapa": "Classificação preliminar (prova + bonificação PRMFC)", "data": "2027-01-08"}
+        ],
+        "resultado_previsto": "2027-01-12",
+        "taxa_reais": 824,
+        "etapas_descricao": "Fase única: prova objetiva eliminatória e classificatória (acesso direto com 75 questões em até 4 h e 90 pontos, segundo o Estratégia MED; mínimo de 50%), mais bonificação PRMFC. Sem análise curricular nem prova prática.",
+        "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+        "link_inscricao": "https://www.ibgpconcursos.com.br",
+        "link_processo": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777",
+        "fonte": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/09/Edital-05-2026-Residencia-Medica_Retific-1.pdf",
+        "selo": "oficial"
+      },
+      "historico": [
+        {
+          "ano_ingresso": 2027,
+          "vagas": 4,
+          "inscritos": 330,
+          "candidatos_por_vaga": 82.5,
+          "nota_corte": null,
+          "nota_corte_escala": null,
+          "nota_corte_etapa": null,
+          "fonte": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "selo": "secundaria"
+        }
+      ],
+      "observacoes": "Edital oficial (PDF do edital consolidado do IBGP/SCMBH) obtido em cópia no CDN do Estratégia MED; a página do IBGP carrega por JavaScript e não foi lida. Quadro do edital: 104 Dermatologia, parecer 861/2022, 3 anos, 4 vagas (0 de ação afirmativa; 3 bolsas MS + 1 bolsa Santa Casa BH). Taxa reduzida de R$ 412 para cotistas PROUNI/SISU. Uma matéria do Estratégia MED cita fim das inscrições em 06/11; o edital consolidado diz 04/11/2026 às 17h. Número de questões e pontos (75 questões/90 pontos) vem do Estratégia MED. Prova aplicada hoje (21/11/2026). Processo próprio, fora do PSU-MG."
+    },
+    {
+      "id": "hscmv-emescam-es",
+      "instituicao": "Irmandade da Santa Casa de Misericórdia de Vitória / EMESCAM",
+      "sigla": "HSCMV",
+      "hospital": "Hospital Santa Casa de Misericórdia de Vitória",
+      "cidade": "Vitória",
+      "uf": "ES",
+      "endereco": "Rua Dr. João dos Santos Neves, 143 - Vila Rubim - Vitória/ES - CEP 29018-180",
+      "natureza": "filantropica",
+      "processo": "Processo de Seleção Pública - Programas de Residência Médica do HSCMV com Acesso Direto (Edital nº 01/2027)",
+      "banca": "COREME HSCMV / EMESCAM",
+      "ciclo_2027": {
+        "vagas": 2,
+        "inscricao_inicio": "2026-10-19",
+        "inscricao_fim": "2026-11-18",
+        "prova_1a_fase": "2026-11-22",
+        "outras_etapas": [
+          {"etapa": "Resultado da 1ª etapa", "data": "2026-11-26"},
+          {"etapa": "2ª etapa: prova prática (40 pontos) + análise de currículo (10 pontos), para 4 candidatos por vaga", "data": "2026-12-10"}
+        ],
+        "resultado_previsto": "2026-12-22",
+        "taxa_reais": 650,
+        "etapas_descricao": "1ª etapa: prova teórica de 100 questões (20 de cada: Cirurgia Geral, Clínica Médica, Medicina Social, Pediatria, GO), 0,5 ponto cada = 50 pontos, eliminatória e classificatória. 2ª etapa (4 por vaga): prova prática de 40 pontos + análise de currículo (ficha do Anexo I) de 10 pontos. Total de 100 pontos. Bonificação de 10% para PRMFC (Comunicado Oficial nº 01/2026).",
+        "link_edital": "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/10/EDITAL-01-2027-ACESSO-DIRETO.pdf",
+        "link_inscricao": "https://emescam.br/candidato/residencia-medica",
+        "link_processo": "https://emescam.br/candidato/residencia-medica/residencia-medica-editais/",
+        "fonte": "https://emescam.br/wp-content/uploads/2026/10/ERRATA-EDITAL-01.2027-ACESSO-DIRETO-2027-2.pdf",
+        "selo": "oficial"
+      },
+      "historico": [],
+      "observacoes": "Quadro do edital: Dermatologia, 3 anos, credenciado 1341/2019, 2 vagas, HSCMV. A Errata de 21/10/2026 mudou as datas do edital original (inscrições até 23/11, prova em 29/11, resultados em 03/12 e 23/12) para inscrições até 18/11/2026 (pagamento até 19/11), prova em 22/11/2026, resultado da 1ª etapa em 26/11/2026 e resultado da 2ª etapa em 22/12/2026. A matéria do ES Hoje com 23/11 e 29/11 está desatualizada. O edital original foi lido em cópia no CDN do Estratégia MED; a errata está no site oficial da EMESCAM. Inscritos e concorrência não localizados."
+    }
+  ],
+  "lacunas": [
+    "Hospitais Federais no RJ: o antigo HFSE aparece no ENARE 2026/2027 como 'HUSE-Unirio - Hospital Universitário dos Servidores do Estado', e uma fonte secundária coloca o HF da Lagoa na tabela do ENARE. Para HFB, Andaraí, Ipanema e Cardoso Fontes não há processo próprio 2027 localizado. Não confirmei quais desses têm Dermatologia; vale checar no anexo de vagas do ENARE (outra frente).",
+    "PSU-MG 2027: editais por instituição (HMTJ e Instituto de Saúde HSVP) não localizados, porque a página de editais da AREMG carrega por JavaScript. A taxa de R$ 300 e os pesos 90/10 vêm só da Medway. A unidade e o endereço do programa do Instituto de Saúde HSVP não foram confirmados.",
+    "Histórico 2025/2026 (vagas, concorrência, nota de corte) não coletado para nenhum programa da frente; só há a concorrência de 2027 (oficial na UERJ e no PSU-MG, secundária na SCMBH).",
+    "HNMD: composição da prova (questões e pesos) e inscritos 2027 não extraídos do edital no DOU. Instituto IMS: hospital ou serviço de execução e endereço não constam no edital.",
+    "Felício Rocho (BH): não oferece Dermatologia no PSU-MG 2027 (não aparece no relatório candidato/vaga nem no quadro da Apresentação). Não verifiquei se tem programa de Dermatologia com outro processo.",
+    "Fora do escopo por entrarem pelo ENARE (fica para a frente ENARE): UFRJ/HUCFF (100% ENARE segundo a MedCof, secundária), SMS-Rio (Dermatologia R1 no ENARE 2025/2026, documento oficial da SMS-Rio), FHEMIG (a página oficial só lista ENARE e seleções complementares), UFES/HUCAM (a página da COREME aponta o ENARE). Para HUAP-UFF, HUGG-UNIRIO, HC-UFMG, HC-UFU, HU-UFJF e HC-UFTM (Ebserh) presume-se ENARE, sem conferência individual.",
+    "Não são residência médica CNRM (pós lato sensu credenciada pela SBD), por isso ficaram fora de 'programas': Instituto de Dermatologia Prof. Rubem David Azulay / Santa Casa RJ (PUC-Rio, 15 vagas, edital 2026.1); Policlínica Geral do Rio de Janeiro (edital 2027 em https://sbdrj.org.br/wp-content/uploads/2026/10/EDITAL-PGRJ-2027.pdf, 6 vagas, inscrições de 20/10/2026 a 28/01/2027, prova em 29/01/2027, dados da MedCof não conferidos); Hospital Central do Exército / UNIFASE (5 vagas, inscrições de 16/11/2026 a 22/01/2027, prova em 02/02/2027, edital em https://irp.cdn-website.com/8a247924/files/uploaded/Edital+de+Dermatologia+2027+.pdf).",
+    "Sem Dermatologia no ciclo 2027 (conferido): SES-RJ/SMSDC/FMSN 2027 (edital Fundatec), FELUMA/Ciências Médicas MG, IPSEMG, Hospital Evangélico de Vila Velha (os três últimos pelo Estratégia MED), SESA-ES (secundária). INI/Fiocruz: o edital 2026 só tem Infectologia; o de 2027 não foi localizado.",
+    "ES fora da Santa Casa de Vitória: sem Dermatologia no ciclo 2027 no HIFA/PSU-ES Sul (Estratégia MED, secundária) nem na UVV (edital 2026 oficial, sem Dermatologia; o de 2027 não foi localizado).",
+    "Unimontes/HUCF (Montes Claros): um documento da Unimontes de 12/2024 cita 1 vaga de 'Residência em Dermatologia', mas não ficou claro se é PRM de acesso direto. Fonte secundária diz que a Unimontes seleciona pelo ENARE. Edital 2027 não localizado.",
+    "Sem edital de Dermatologia 2027 localizado na busca geral para o interior do RJ (Vassouras, UNIFESO/Teresópolis, Campos, Petrópolis, Niterói) e para Uberaba e Alfenas. Não houve checagem nos sites de cada instituição."
+  ]
+}
