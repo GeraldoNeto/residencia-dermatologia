@@ -599,6 +599,15 @@ main:focus{outline:none}
 .conta .btn{font-size:13.5px;padding:7px 12px}
 #pl-salvo .btn{font-size:13.5px;padding:5px 10px;margin:0 4px}
 @media (max-width:760px){.conta{justify-content:flex-start}}
+/* janela do código pessoal */
+.dlg{border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);padding:20px;max-width:min(460px,calc(100vw - 32px));box-shadow:var(--shadow)}
+.dlg::backdrop{background:rgba(10,15,20,.5)}
+.dlg h2{font-size:19px;margin:0 0 10px}
+.dlg p{margin:0 0 10px;font-size:14.5px}
+.dlg label{display:block;font-weight:600;font-size:14px;margin:6px 0 4px}
+.dlg input{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.dlg .sub{font-size:13px;color:var(--muted);margin-top:8px}
+.cod-msg{min-height:1.2em;font-weight:600;color:var(--accent)}
 /* seletor de tema */
 .tema{display:inline-flex;border:1px solid var(--line);border-radius:99px;padding:2px;gap:2px;margin-bottom:8px;background:var(--surface-2)}
 .tema button{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:none;border:0;border-radius:99px;padding:4px 11px;cursor:pointer;min-height:28px;display:inline-flex;align-items:center;gap:5px}
@@ -846,6 +855,17 @@ const TEMA_UI = (() => {
 <footer><div class="wrap" id="rodape"></div></footer>
 
 <button type="button" class="btn" id="bt-topo" hidden aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+<dialog class="dlg" id="dlg-codigo" aria-labelledby="cod-tit">
+  <form id="form-cod" autocomplete="off">
+    <h2 id="cod-tit">A mesma lista em todos os aparelhos</h2>
+    <p>Invente um código só seu, com pelo menos 6 letras ou números (por exemplo, seu nome e um número: <b>ana2027</b>). Digite o mesmo código no celular e no computador: a lista ★, as inscrições, as anotações e o plano de estudo ficam iguais nos dois.</p>
+    <label for="cod-in">Seu código pessoal</label>
+    <input id="cod-in" type="text" autocapitalize="none" spellcheck="false" maxlength="100" required>
+    <p class="sub">Não use senha de banco nem de e-mail. Quem souber o código vê e altera a sua lista.</p>
+    <p id="cod-msg" class="cod-msg" role="status"></p>
+    <div class="ap-acoes"><button type="submit" class="btn prim">Usar este código</button><button type="button" class="btn" id="cod-cancela">Cancelar</button></div>
+  </form>
+</dialog>
 <div id="ficha-fundo" hidden></div>
 <aside id="ficha" hidden role="dialog" aria-modal="true" aria-labelledby="ficha-titulo"></aside>
 
@@ -1036,7 +1056,7 @@ function rGuia() {
   const term = typeof prazosTerminando === 'function' ? prazosTerminando().itens.length : 0;
   const passos = [
     ['Encontre os programas', 'Veja a lista com todos os programas, ou o mapa. A busca e os filtros ajudam a achar por cidade ou estado.', '#programas', 'Ver os programas', `${P.filter(p => p.tipo !== 'sbd').length} programas no painel`, nFav > 0],
-    ['Guarde os que interessam', 'Toque na ★ ao lado do nome do programa. Tudo o que é pessoal no painel parte dessa lista.' + (sb ? ' Entre com Google, no alto da página, para ver a lista no celular e no computador.' : ''), '#programas', 'Escolher programas', nFav ? `${nFav} guardado${nFav > 1 ? 's' : ''}` : 'nenhum guardado ainda', nFav > 0],
+    ['Guarde os que interessam', 'Toque na ★ ao lado do nome do programa. Tudo o que é pessoal no painel parte dessa lista.' + (sb ? ' Para ter a mesma lista no celular e no computador, toque em “Usar em outro aparelho”, no alto da página.' : ''), '#programas', 'Escolher programas', nFav ? `${nFav} guardado${nFav > 1 ? 's' : ''}` : 'nenhum guardado ainda', nFav > 0],
     ['Acompanhe prazos e provas', 'Inscrições abertas, provas no mesmo dia e mudanças nos editais aparecem lá, com a fonte oficial.', '#radar', 'Ver prazos e provas', term ? `${term} inscriç${term > 1 ? 'ões terminando' : 'ão terminando'}` : 'nenhum prazo urgente', !term],
     ['Organize suas inscrições', 'Marque em que etapa está cada inscrição, veja quanto vai gastar e os documentos de cada edital.', '#plano', 'Abrir minhas inscrições', procs.length ? `${marcados} de ${procs.length} com etapa marcada` : 'guarde programas primeiro', procs.length > 0 && marcados === procs.length],
     ['Prepare-se para a prova', 'Veja quantas questões de cada área caem e monte um plano de estudo até a data da prova.', '#provas', 'Ir para Estudar', '', false],
@@ -1933,74 +1953,76 @@ function rNovidades(L) {
   $('#novidades').innerHTML = arr.slice(0, 12).map(m => { const p = P.find(x => x.id === m.id); return `<li data-abre="${esc(p.id)}" style="cursor:pointer"><span class="novo-pill">${m.tipo === 'novo' ? 'novo' : 'alterado'} ${esc(fD(m.data))}</span> <b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b> · ${esc(p.cidade)}/${esc(p.uf)}${(m.det || []).length ? ` <span class="sub">${m.det.map(d => `${esc(ROT_CAMPO[d.campo] || d.campo)}: ${esc(detTxt(d))}`).join('; ')}</span>` : m.campos.length ? ` <span class="sub">${esc(m.campos.join(', '))}</span>` : ''}</li>`; }).join('') + `<li style="border-bottom:0"><a href="#radar">Ver todas as mudanças e comunicados em Prazos e provas</a></li>`;
 }
 
-/* salvar na conta: dentro do claude.ai usa a conta do Claude; no site próprio (Vercel) usa login Google pelo Supabase.
-   Sem login, tudo continua salvo no próprio aparelho. */
+/* salvar entre aparelhos: dentro do claude.ai usa a conta do Claude; no site próprio usa um código pessoal
+   (a mesma palavra-código no celular e no computador). Sem código, tudo continua salvo no próprio aparelho. */
 const SB_URL = 'https://gbpnpnxgadcsfyiktovl.supabase.co';
-const SB_KEY = 'sb_publishable_Avd9sSBXI2KZBQ5vl65fgQ_UAmORKv7'; // chave pública (feita para ficar na página); o acesso é limitado pelas regras do banco
-let sb = null, sbUser = null, origemConta = 'claude';
+const SB_KEY = 'sb_publishable_Avd9sSBXI2KZBQ5vl65fgQ_UAmORKv7'; // chave pública: o banco só aceita as duas funções abaixo, sempre com o código
+let sb = null, codigo = null, origemConta = 'claude', ultimoEnvio = '';
+const lerCodigoSalvo = () => { try { return localStorage.getItem('derma-codigo'); } catch { return null; } };
+async function rpc(nome, corpo) {
+  const r = await fetch(`${SB_URL}/rest/v1/rpc/${nome}`, {method: 'POST', headers: {apikey: SB_KEY, 'Content-Type': 'application/json'}, body: JSON.stringify(corpo)});
+  if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.message || 'erro ' + r.status); }
+  return r.json();
+}
+const codigoMascara = c => c.length <= 4 ? '••••' : '••••' + c.slice(-3);
 function rConta() {
   const box = $('#conta'); if (!box) return;
   if (!sb) { box.hidden = true; return; }
   box.hidden = false;
-  box.innerHTML = sbUser
-    ? `<span class="conta-txt">Conectada como <b>${esc(sbUser.email || 'sua conta Google')}</b></span><button type="button" class="btn" id="bt-sair">Sair</button>`
-    : `<button type="button" class="btn prim" data-entrar>Entrar com Google</button><span class="conta-txt">para ver sua lista no celular e no computador</span>`;
+  box.innerHTML = codigo
+    ? `<span class="conta-txt">Lista ligada ao código <b>${esc(codigoMascara(codigo))}</b></span><button type="button" class="btn" data-entrar>Trocar</button><button type="button" class="btn" id="bt-sair">Desligar</button>`
+    : `<button type="button" class="btn prim" data-entrar>Usar em outro aparelho</button>`;
 }
-async function entrarGoogle() {
-  if (!sb) return;
-  const {error} = await sb.auth.signInWithOAuth({provider: 'google', options: {redirectTo: location.origin + location.pathname}});
-  if (error) { $('#pl-salvo').textContent = 'Não foi possível abrir o login do Google agora. Tente de novo em instantes.'; }
+function abreCodigo() {
+  const d = $('#dlg-codigo'); if (!d) return;
+  $('#cod-in').value = ''; $('#cod-msg').textContent = '';
+  d.showModal(); $('#cod-in').focus();
 }
-async function carregaConta() {
-  const ref = {
-    get: async () => {
-      const {data, error} = await sb.from('estado').select('dados').eq('user_id', sbUser.id).maybeSingle();
-      if (error) throw error;
-      return {exists: !!data, data: () => data?.dados || {}};
-    },
-    set: async o => {
-      const {error} = await sb.from('estado').upsert({user_id: sbUser.id, dados: o, atualizado: new Date().toISOString()});
-      if (error) throw error;
-    },
-  };
+async function entrarCodigo(c) {
+  c = (c || '').trim().toLowerCase();
+  if (c.length < 6) { $('#cod-msg').textContent = 'Use pelo menos 6 letras ou números.'; return false; }
+  $('#cod-msg').textContent = 'Conectando…';
   try {
+    const r = await rpc('ler_estado', {codigo: c});
+    codigo = c; try { localStorage.setItem('derma-codigo', c); } catch {}
+    nuvem = {set: async o => { ultimoEnvio = await rpc('salvar_estado', {codigo, dados: o}); }};
     const locais = [...fav];
-    const s = await ref.get();
-    nuvem = ref;
-    if (s.exists) {
-      aplica(s.data());
-      // o que foi marcado neste aparelho antes de entrar não se perde: junta com a lista da conta
+    if (r && r.dados) {
+      aplica(r.dados); ultimoEnvio = r.atualizado;
+      // o que foi marcado neste aparelho antes não se perde: junta com a lista do código
       const novos = locais.filter(x => !fav.has(x));
       if (novos.length) { novos.forEach(x => fav.add(x)); _set('derma-fav', [...fav]); render(); await sobe(); }
-      marcaSalvo('conta');
     } else await sobe();
-  } catch { nuvem = null; marcaSalvo('erro'); }
+    marcaSalvo('conta'); rConta();
+    return true;
+  } catch { nuvem = null; $('#cod-msg').textContent = 'Não consegui conectar agora. Confira a internet e tente de novo.'; marcaSalvo('erro'); return false; }
 }
-async function iniciaSupabase() {
+function desligarCodigo() {
+  codigo = null; nuvem = null; try { localStorage.removeItem('derma-codigo'); } catch {}
+  rConta(); marcaSalvo('local');
+}
+// ao voltar para a aba, traz o que foi salvo em outro aparelho nesse meio-tempo
+async function puxaNovidades() {
+  if (!codigo || document.hidden) return;
+  try { const r = await rpc('ler_estado', {codigo}); if (r && r.atualizado && r.atualizado > ultimoEnvio) { ultimoEnvio = r.atualizado; aplica(r.dados); } } catch {}
+}
+function iniciaCodigo() {
   if (window.claude?.use) return; // dentro do claude.ai
-  origemConta = 'google';
-  try {
-    await new Promise((ok, falha) => { const s = document.createElement('script'); s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js'; s.onload = ok; s.onerror = falha; document.head.appendChild(s); });
-    sb = window.supabase.createClient(SB_URL, SB_KEY, {auth: {flowType: 'pkce', detectSessionInUrl: true, persistSession: true, autoRefreshToken: true}});
-    rConta(); marcaSalvo('local');
-    sb.auth.onAuthStateChange((ev, sess) => {
-      const u = sess?.user || null;
-      if (u && /[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
-      if ((u?.id || null) === (sbUser?.id || null)) return;
-      sbUser = u; rConta();
-      if (u) setTimeout(carregaConta, 0); else { nuvem = null; marcaSalvo('local'); }
-    });
-  } catch { sb = null; rConta(); }
+  sb = true; origemConta = 'codigo';
+  rConta(); marcaSalvo('local');
+  const c = lerCodigoSalvo();
+  if (c) entrarCodigo(c);
+  document.addEventListener('visibilitychange', puxaNovidades);
 }
 
 /* salvar na conta do Claude (db, área privada de cada pessoa); sem conta, fica no aparelho */
 const SYNC = ['fav', 'cmp', 'pesos', 'chances', 'plano', 'estudo', 'alerta'];
 let nuvem = null, nuvemT = null;
 function marcaSalvo(e) {
-  const qual = origemConta === 'google' ? 'na sua conta Google' : 'na sua conta do Claude';
-  $('#pl-salvo').innerHTML = e === 'conta' ? `Salvo ${qual}: a lista ★, o andamento, os documentos e o plano aparecem em qualquer aparelho em que você entrar.`
+  const qual = origemConta === 'codigo' ? 'com o seu código pessoal' : 'na sua conta do Claude';
+  $('#pl-salvo').innerHTML = e === 'conta' ? `Salvo ${qual}: a lista ★, o andamento, os documentos e o plano aparecem em qualquer aparelho em que você ${origemConta === 'codigo' ? 'usar o mesmo código' : 'entrar'}.`
     : e === 'erro' ? 'Não consegui salvar na sua conta agora; ficou salvo neste aparelho. Tente de novo mais tarde.'
-    : sb ? 'Salvo só neste aparelho. <button type="button" class="btn prim" data-entrar>Entrar com Google</button> para ver a lista no celular e no computador.'
+    : sb ? 'Salvo só neste aparelho. <button type="button" class="btn prim" data-entrar>Usar em outro aparelho</button> para ter a mesma lista no celular e no computador.'
     : 'Salvo só neste aparelho e navegador.';
 }
 marcaSalvo('local');
@@ -2034,7 +2056,7 @@ function aplica(o) {
     if (s.exists) { aplica(s.data() || {}); marcaSalvo('conta'); } else await sobe();
   } catch { nuvem = null; marcaSalvo('local'); }
 })();
-iniciaSupabase();
+iniciaCodigo();
 let DL = null;
 (async () => { try { DL = window.claude?.use ? await claude.use('downloads') : null; } catch { DL = null; } if (DL) $('#pl-baixar').hidden = false; })();
 
@@ -2246,9 +2268,11 @@ $('#ap-dias').addEventListener('change', e => { AL.dias = +e.target.value; salva
 $('#guia').addEventListener('toggle', e => { try { localStorage.setItem('derma-guia', e.target.open ? 'aberto' : 'fechado'); } catch {} });
 $('#bt-mais').onclick = () => { const f = $('#filtros'); f.classList.toggle('mais'); const a = f.classList.contains('mais'); $('#bt-mais').setAttribute('aria-expanded', a); $('#bt-mais').textContent = a ? 'Menos filtros' : 'Mais filtros'; };
 document.addEventListener('click', e => {
-  if (e.target.closest('[data-entrar]')) entrarGoogle();
-  if (e.target.closest('#bt-sair')) sb?.auth.signOut();
+  if (e.target.closest('[data-entrar]')) abreCodigo();
+  if (e.target.closest('#bt-sair')) desligarCodigo();
 });
+$('#form-cod').addEventListener('submit', async e => { e.preventDefault(); if (await entrarCodigo($('#cod-in').value)) $('#dlg-codigo').close(); });
+$('#cod-cancela').onclick = () => $('#dlg-codigo').close();
 $('#bt-pular').onclick = () => { const m = $('#conteudo'); m.focus({preventScroll: true}); m.scrollIntoView(); };
 const marcaTema = () => document.querySelectorAll('[data-tema]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tema === TEMA_UI.pref));
 document.querySelectorAll('[data-tema]').forEach(b => b.onclick = () => { TEMA_UI.escolhe(b.dataset.tema); marcaTema(); });

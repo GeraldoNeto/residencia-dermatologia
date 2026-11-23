@@ -19,6 +19,10 @@ Funciona no computador e no celular, tem tema claro e escuro e pode ser usado pe
 
 Abra o arquivo `painel.html` no navegador. É um arquivo só, sem servidor. O que a pessoa marca (lista ★, andamento, anotações) fica salvo no próprio navegador.
 
+**Mesma lista no celular e no computador:** no site publicado, o botão "Usar em outro aparelho" pede um código pessoal escolhido pela própria pessoa. Com o mesmo código nos dois aparelhos, a lista fica igual. A lista é guardada no Supabase pela impressão digital (SHA-256) do código; a tabela não pode ser lida diretamente, só pelas funções `ler_estado` e `salvar_estado`, sempre com o código. Não há login nem dado pessoal.
+
+**Publicação:** o site é publicado pela Vercel a cada envio para o GitHub (`vercel.json`). A rotina `.github/workflows/manter-supabase.yml` chama o banco a cada 3 dias para o plano gratuito do Supabase não pausar o projeto.
+
 ## Como atualizar os dados
 
 Precisa do [Node.js](https://nodejs.org) 18 ou mais novo.
