@@ -539,6 +539,22 @@ details.card[open]>summary h2::before{content:"▾ "}
 .ap-cab h2{font-size:17px;margin:0;color:var(--ink)}
 .ap-cab h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--warn);margin-right:8px;vertical-align:1px}
 .ap-cab .sub{margin:2px 0 0;font-size:13px}
+.ap-resumo{display:none;margin:2px 0 0;font-size:14px}
+.alerta-prazo.compacto{padding:10px 14px;margin-bottom:10px}
+.alerta-prazo.compacto .ap-cab{align-items:center;flex-wrap:nowrap}
+.alerta-prazo.compacto .ap-cab>div{min-width:0}
+.alerta-prazo.compacto .ap-cab h2{font-size:15.5px}
+.alerta-prazo.compacto .ap-resumo{display:block}
+.alerta-prazo.compacto #ap-escopo,.alerta-prazo.compacto .ap-cab .campo,.alerta-prazo.compacto #ap-lista{display:none}
+#ap-toggle{flex:none;font-size:13.5px}
+@media (max-width:480px){.alerta-prazo.compacto .ap-cab{flex-wrap:wrap}.alerta-prazo.compacto #ap-toggle{width:100%}}
+/* iPad em pé: os controles do cabeçalho numa linha só */
+@media (min-width:761px) and (max-width:1024px){
+  header.top .atual{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;width:100%;text-align:left}
+  header.top .atual .conta,header.top .atual .tema{margin:0}
+  header.top .atual br{display:none}
+  header.top .atual>div:last-child span::before{content:" · "}
+}
 .ap-cab .campo select{background:var(--surface)}
 .ap-lista{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
 .ap-lista li{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--warn);border-radius:10px;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
@@ -684,7 +700,7 @@ const TEMA_UI = (() => {
 </div>
 
 <div class="wrap"><section class="alerta-prazo" id="alerta-prazo" hidden aria-labelledby="ap-tit">
-  <div class="ap-cab"><div><h2 id="ap-tit">Inscrições terminando</h2><p class="sub" id="ap-escopo"></p></div>
+  <div class="ap-cab"><div><h2 id="ap-tit">Inscrições terminando</h2><p class="sub" id="ap-escopo"></p><p class="ap-resumo" id="ap-resumo"></p></div><button type="button" class="btn" id="ap-toggle" aria-controls="ap-lista" aria-expanded="false" hidden></button>
     <div class="campo"><label for="ap-dias">Avisar com antecedência de</label><select id="ap-dias"><option value="3">3 dias</option><option value="7">7 dias</option><option value="15">15 dias</option><option value="30">30 dias</option></select></div></div>
   <ul id="ap-lista" class="ap-lista"></ul>
 </section></div>
@@ -1921,6 +1937,8 @@ function prorrogacao(e) {
     .flatMap(x => (x.det || []).filter(d => d.campo === 'inscricao_fim' && d.antes && d.depois && d.depois > d.antes).map(d => ({...d, data: x.data, fonte: x.fonte})))[0];
   return m ? ` <span class="ap-prorr">Prazo prorrogado em ${esc(fDA(m.data))}: era ${esc(fDA(m.antes))}${url(m.fonte) ? ` (<a href="${esc(m.fonte)}" target="_blank" rel="noopener">fonte oficial<span aria-hidden="true"> ↗</span></a>)` : ''}.</span>` : '';
 }
+let alertaAberto = false;
+const alertaCompacto = () => innerWidth <= 760 || !['visao', 'radar'].includes(vista);
 function rAlerta() {
   const {usaLista, itens} = prazosTerminando();
   const vis = itens.filter(avisoVisivel);
@@ -1930,6 +1948,12 @@ function rAlerta() {
   $('#ap-tit').textContent = vis.length === 1 ? 'Inscrição terminando' : `${vis.length} inscrições terminando`;
   $('#ap-escopo').textContent = usaLista ? 'Processos da sua lista ★ que ainda não estão com a taxa paga em Minhas inscrições.' : 'Todos os processos. Marque programas com ★ para ver só os seus.';
   $('#ap-dias').value = String(AL.dias);
+  const pode = alertaCompacto(), compacto = pode && !alertaAberto, e0 = vis[0];
+  box.classList.toggle('compacto', compacto);
+  $('#ap-resumo').textContent = `${e0.nome}: ${e0.d === 0 ? 'encerram hoje' : e0.d === 1 ? 'encerram amanhã' : `encerram em ${e0.d} dias`}${vis.length > 1 ? ` · e mais ${vis.length - 1}` : ''}`;
+  $('#ap-toggle').hidden = !pode;
+  $('#ap-toggle').textContent = compacto ? 'Ver os avisos' : 'Recolher';
+  $('#ap-toggle').setAttribute('aria-expanded', String(!compacto));
   $('#ap-lista').innerHTML = vis.map(e => {
     const quando = e.d === 0 ? 'encerram hoje' : e.d === 1 ? 'encerram amanhã' : `encerram em ${e.d} dias`;
     const st = PL.st[e.k], insc = st === 'inscrita';
@@ -2108,6 +2132,7 @@ function rSubnav(v) {
   $('#ajuda-pag').textContent = SUB[v]?.a || '';
 }
 function mostra(v) {
+  if (vista !== v) alertaAberto = false;
   if (vista !== v) window.scrollTo(0, 0);
   vista = v;
   VISTAS.forEach(x => $('#v-' + x).hidden = x !== v);
@@ -2273,6 +2298,8 @@ document.addEventListener('click', e => {
 });
 $('#form-cod').addEventListener('submit', async e => { e.preventDefault(); if (await entrarCodigo($('#cod-in').value)) $('#dlg-codigo').close(); });
 $('#cod-cancela').onclick = () => $('#dlg-codigo').close();
+$('#ap-toggle').onclick = () => { alertaAberto = !alertaAberto; rAlerta(); };
+window.addEventListener('resize', () => { if (!$('#alerta-prazo').hidden) rAlerta(); });
 $('#bt-pular').onclick = () => { const m = $('#conteudo'); m.focus({preventScroll: true}); m.scrollIntoView(); };
 const marcaTema = () => document.querySelectorAll('[data-tema]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tema === TEMA_UI.pref));
 document.querySelectorAll('[data-tema]').forEach(b => b.onclick = () => { TEMA_UI.escolhe(b.dataset.tema); marcaTema(); });
