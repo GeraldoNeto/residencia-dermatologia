@@ -1,7 +1,80 @@
 {
- "data": "2026-11-21",
+ "data": "2026-11-23",
  "visitados": 35,
  "mudaram": [
+  {
+   "processo": "IAMSPE 2027",
+   "url": "https://www.avancasp.org.br/informacoes/283/",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "docs_novos": [
+    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/ddcb641c-b639-45ce-ad03-6298f489d7eb.pdf",
+    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf",
+    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/5df2f4a6-5fdf-404c-96f9-ab014ef84e8a.pdf",
+    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/cc850ceb-9d81-439d-a407-7a816580122e.pdf",
+    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/609ebe1c-e1b6-45dd-a67f-0c09220f7dfb.pdf"
+   ],
+   "so_texto": false,
+   "visto_antes": "2026-11-21"
+  },
+  {
+   "processo": "AMRIGS/ACM 2026",
+   "url": "https://www.amrigs.org.br/prova/",
+   "programas": [
+    "hsvp-passofundo-uffs-amrigs",
+    "ghc-conceicao-amrigs",
+    "hsl-pucrs-amrigs",
+    "husm-ufsm-amrigs",
+    "hu-ufsc-florianopolis-amrigs",
+    "univali-itajai-amrigs",
+    "hst-saopedrodealcantara-amrigs"
+   ],
+   "docs_novos": [
+    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_Edital_18-2026_Gabaritos_PreliminaresdasProvasTO_acessodiretoeautoavaliaAAo_6b0493b3d871f.pdf?idpub=511101",
+    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/__FundatecConcursos-AVISOCurrAculoOnline__6b045590aa9e7.pdf?idpub=511090",
+    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.11.2026_6b0440df3bfd0.pdf"
+   ],
+   "so_texto": false,
+   "visto_antes": "2026-11-21"
+  },
+  {
+   "processo": "PSU-PA 2027",
+   "url": "https://prosel.uepa.br/rm2027/",
+   "programas": [
+    "uepa-pa-psu"
+   ],
+   "docs_novos": [
+    "https://prosel.uepa.br/wp-content/uploads/I-ERRATA-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf",
+    "https://prosel.uepa.br/wp-content/uploads/I-TERMO-ADITIVO-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf"
+   ],
+   "so_texto": false,
+   "visto_antes": "2026-11-21"
+  },
+  {
+   "processo": "PSU-BA 2027",
+   "url": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+   "programas": [
+    "santa-izabel-psu-ba"
+   ],
+   "docs_novos": [
+    "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_APTOS_PRMFC_20261123_1706.pdf"
+   ],
+   "so_texto": false,
+   "visto_antes": "2026-11-21"
+  },
+  {
+   "processo": "UFCSPA/Santa Casa POA 2027",
+   "url": "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/",
+   "programas": [
+    "ufcspa-santacasa-poa"
+   ],
+   "docs_novos": [
+    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-pontuacao-adicional-4.pdf"
+   ],
+   "so_texto": false,
+   "visto_antes": "2026-11-21"
+  },
   {
    "processo": "PSU-GO 2027 (HC-UFG)",
    "url": "https://www.aremg.org.br/processos-atuais",
@@ -17,13 +90,13 @@
  ],
  "erros": [
   {
-   "processo": "SUS-PE 2027",
-   "url": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
-   "erro": "fetch failed"
-  },
-  {
    "processo": "HNMD (Marinha) 2027",
    "url": "https://www.marinha.mil.br/sspm/",
+   "erro": "HTTP 403"
+  },
+  {
+   "processo": "HU/UEL 2027",
+   "url": "https://sites.uel.br/proppg/residencias/",
    "erro": "HTTP 403"
   },
   {

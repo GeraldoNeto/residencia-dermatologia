@@ -1,0 +1,24 @@
+[
+ {
+  "id": "iamspe-hspe-sp",
+  "grupo": "IAMSPE 2027",
+  "data": "2026-11-23",
+  "tipo": "alterado",
+  "campos": [
+   "série histórica"
+  ],
+  "det": [
+   {
+    "campo": "inscritos (ingresso 2027)",
+    "antes": null,
+    "depois": 337
+   },
+   {
+    "campo": "candidatos por vaga (ingresso 2027)",
+    "antes": null,
+    "depois": 112.33
+   }
+  ],
+  "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf"
+ }
+]

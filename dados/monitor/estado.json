@@ -1,15 +1,15 @@
 {
  "https://www.aremg.org.br/processos-atuais": {
   "processo": "PSU-GO 2027 (HC-UFG)",
-  "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+  "hash": "381cfe915b495918eeefa48de98b9ea0ac192122",
   "docs": [],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://enare2026.conhecimento.fgv.br/": {
   "processo": "ENARE 2026/2027",
   "hash": "dbffeebf58b950489d2d732b955eb322cfb3ad14",
   "docs": [],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=9f948e958f": {
   "processo": "SES-DF 2027",
@@ -29,13 +29,13 @@
    "https://www.iades.com.br/inscricao/upload/1375/20261118164148502.pdf",
    "https://www.iades.com.br/inscricao/upload/1375/20260918151934900.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://emescam.br/candidato/residencia-medica/residencia-medica-editais/": {
   "processo": "Santa Casa de Vitória 2027",
   "hash": "7163f58f7c79d5ca160169a6f907555cdd1ded84",
   "docs": [],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://cermam.com.br/acompanhamento-editais/": {
   "processo": "PSURM Amazonas 2027",
@@ -50,11 +50,11 @@
    "https://cermam.com.br/wp-content/uploads/2026/10/EDITAL-001-2027-PSURM-AREMAM-versao-final.pdf",
    "https://cermam.com.br/wp-content/uploads/2026/11/Anexos-Edital-001-2027-PSURM-AREMAM-versao-final.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/": {
   "processo": "PSU-BA 2027",
-  "hash": "71233ebc793e1771a0ed6f1581bf9065bdf9d695",
+  "hash": "8650343dd55b7c7e58727e07a243f5e323caef28",
   "docs": [
    "https://strixeducacao.com.br/wp-content/uploads/2026/09/ABAEM_PSU_2027_Edital_Resumido_20260915.pdf",
    "https://strixeducacao.com.br/wp-content/uploads/2026/10/ABAEM_PSU_2027_Minuta_Edital_20260930_Final.pdf",
@@ -72,9 +72,10 @@
    "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_INSCRICOES_HOMOLOGADAS_AD_20261117_1657.pdf",
    "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_INSCRICOES_HOMOLOGADAS_EPR_AA_20261117_1657.pdf",
    "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_INSCRICOES_HOMOLOGADAS_ANOS_ADICIONAIS_20261117_1657.pdf",
-   "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_PRELIMINAR_APTOS_PRMFC_20261117_1803.pdf"
+   "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_PRELIMINAR_APTOS_PRMFC_20261117_1803.pdf",
+   "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_APTOS_PRMFC_20261123_1706.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/": {
   "processo": "SES-GO 2027",
@@ -96,7 +97,7 @@
    "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/anexos/COMUNICADO_01_2026_MODELOS_E_PRORROGACAO_ISENCAO_COREME_SES_2027.pdf",
    "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/sistema/arquivos/anexos/MODELOS_PARA_SOLICITACAO_DE_ISENCAO_COREME_SES_2027.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.facene.com.br/processo-seletivo/residencia-medica/": {
   "processo": "FAMENE 2027",
@@ -109,7 +110,7 @@
    "https://www.facene.com.br/wp-content/uploads/2026/10/3a-Retificacao-do-Edital-Cronograma.pdf",
    "https://www.facene.com.br/wp-content/uploads/2026/11/Orientacoes-e-Recursos-Residencia-2027.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.cesupa.br/pos-graduacao/residencia/clinica-medica": {
   "processo": "CESUPA 2027",
@@ -176,21 +177,23 @@
    "https://sistonline.cesupa.br//saibamais/Monitoria/Docs/2024ii/EDITAL%204.pdf",
    "https://sistonline.cesupa.br//saibamais/Monitoria/Docs/2024ii/EDITAL%2053.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777": {
   "processo": "Santa Casa BH 2027",
   "hash": "d7ac8e1f2a492d9ed1d44a7150aa33e85f31f00a",
   "docs": [],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://prosel.uepa.br/rm2027/": {
   "processo": "PSU-PA 2027",
-  "hash": "76f5abc18790800e278ffc510a8ac2333a541c29",
+  "hash": "dc7b040c814dc4d7bcba0dbe989dac9ca743df4f",
   "docs": [
-   "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf"
+   "https://prosel.uepa.br/wp-content/uploads/edital1482026.pdf",
+   "https://prosel.uepa.br/wp-content/uploads/I-ERRATA-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf",
+   "https://prosel.uepa.br/wp-content/uploads/I-TERMO-ADITIVO-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med": {
   "processo": "SUS-PE 2027",
@@ -207,7 +210,7 @@
    "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/ANEXO%20I%20-%20CRONOGRAMA%20DE%20EXECU%C3%87%C3%83O%20M%C3%89DICA.pdf",
    "https://www.upenet.com.br/concursos/2027/27_RED_MED/Edital-e-Anexos/EDITAL%20RESID%C3%8ANCIA%20M%C3%89DICA-SUS-PE%202027%20-%20PUBLICA%C3%87%C3%83O.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://ucamp.org.br/web/residencia-medica": {
   "processo": "AMP 2026 · UNIOESTE",
@@ -223,7 +226,7 @@
    "https://ucamp.org.br/web/pdf/editais/edital-2025.pdf",
    "https://ucamp.org.br/pdf/GABARITOS_OFICIAL_2026.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://sites.uel.br/proppg/residencias/": {
   "processo": "HU/UEL 2027",
@@ -791,7 +794,7 @@
    "https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/452ae6b5-7eb4-42f7-aaa3-a85391840ffc.pdf",
    "https://concursos.access.org.br/leitor-rybena?pdf=https://anexos-r2.selecao.net.br/uploads/422/concursos/181/anexos/452ae6b5-7eb4-42f7-aaa3-a85391840ffc.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://conhecimento.fgv.br/reshuem26": {
   "processo": "HUEM Mackenzie 2027",
@@ -801,12 +804,14 @@
    "https://conhecimento.fgv.br/sites/default/files/2026.06.24-aviso-de-privacidade-fgv-conhecimento.pdf",
    "https://conhecimento.fgv.br/sites/default/files/2026.01.27-aviso-de-cookies-fgv-conhecimento.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.amrigs.org.br/prova/": {
   "processo": "AMRIGS/ACM 2026",
-  "hash": "300f373bd82065e46675521a9b64ac1e6671ea09",
+  "hash": "b57193b96b58e8a53994a701aaa2537dc647a48b",
   "docs": [
+   "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_Edital_18-2026_Gabaritos_PreliminaresdasProvasTO_acessodiretoeautoavaliaAAo_6b0493b3d871f.pdf?idpub=511101",
+   "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/__FundatecConcursos-AVISOCurrAculoOnline__6b045590aa9e7.pdf?idpub=511090",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111-Edital17-2026_Retificativo_6afe2424e471c.pdf?idpub=511034",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/AVISOConsulteaDataHoraeLocaldaProvaTeArico-Objetiva._6afc8a0d8a1cd.pdf?idpub=511013",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111-Edital16-2026_DEBORADAGOSTINCASAGRANDE_6afb70e84b441.pdf?idpub=511003",
@@ -826,7 +831,7 @@
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111-Edital04-2026_Retificativo-Atualizado18h_6abc2477da9f8.pdf",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_Edital_03-2026_Resultado_Isencao_comanexos_6ab54db1e9b32.pdf?idpub=510119",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111-Edital02-2026_Retificativo_6ab53c118f5da.pdf?idpub=510116",
-   "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.10_6adbd415630d2.pdf",
+   "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.11.2026_6b0440df3bfd0.pdf",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/__FundatecConcursos-AVISONotadeesclarecimentosobreasAAAesAfirmativaseSolicitaAAodeAtendimentoEspecialparaodiadeprova__6a9ae1dfd89d4.pdf?idpub=509822",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_Formulario_Instrucoes_IsenAAo_6a9ac4778ed21.pdf?idpub=509809",
    "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_EditalAbertura_Rev4_6a99eedaa2720.pdf?idpub=509803",
@@ -837,7 +842,7 @@
    "https://www.amrigs.org.br/wp-content/uploads/2024/06/Prova-2023.pdf",
    "https://www.amrigs.org.br/wp-content/uploads/2024/06/Gabarito-2023.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.vunesp.com.br/SESA2601": {
   "processo": "SUS-SP 2027",
@@ -845,7 +850,7 @@
   "docs": [
    "https://www.vunesp.com.br/AreaCandidato/Posicionar/SESA2601/RequerimentoArquivo"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.vunesp.com.br/FMHO2602": {
   "processo": "Unesp Botucatu 2027",
@@ -853,7 +858,7 @@
   "docs": [
    "https://www.vunesp.com.br/AreaCandidato/Posicionar/FMHO2602/RequerimentoArquivo"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.tekyou.com.br/puccampinas/selecao2027/": {
   "processo": "PUC-Campinas 2027",
@@ -868,14 +873,15 @@
    "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCampinas27_ResidenciaMedica.pdf",
    "https://www.tekyou.com.br/puccampinas/selecao2027/edital/PUCCAMPINAS24-ResidenciaMedica-Errata02.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/": {
   "processo": "UFCSPA/Santa Casa POA 2027",
-  "hash": "09edd67c1d78d72a54e67b63e086c27e50ed036d",
+  "hash": "081943b49667190eda3a2ca7855b31c16d994596",
   "docs": [
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Edital-de-Abertura-das-Inscricoes-2.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/FAQ_Residencia_Medica-1-1.pdf",
+   "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-pontuacao-adicional-4.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-pontuacao-adicional-3.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-2.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-1-.pdf",
@@ -889,7 +895,7 @@
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Resultado-Preliminar-Solicitacao-de-Isencao.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-Medica-Atualizacao-do-edital.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://fundmed.org.br/residencias/": {
   "processo": "HCPA 2027",
@@ -967,7 +973,7 @@
    "https://fundmed.org.br/website/wp-content/uploads/2026/11/UFCSPA-Provas-Pre-Requisito.pdf",
    "https://fundmed.org.br/website/wp-content/uploads/2026/11/UFCSPA-MEDICA-Gabarito.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.vunesp.com.br/FMMA2602": {
   "processo": "FAMEMA 2027",
@@ -975,7 +981,7 @@
   "docs": [
    "https://www.vunesp.com.br/AreaCandidato/Posicionar/FMMA2602/RequerimentoArquivo"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://extranet.hcrp.usp.br/novorh/ListaArquivos.aspx?edital=3650&s=3": {
   "processo": "HCFMRP-USP 2027",
@@ -1011,7 +1017,7 @@
    "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650239202610417.pdf",
    "https://extranet.hcrp.usp.br/novorh/arquivos/3650/E3650229202617470.docx"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.fuvest.br/residencia-medica/": {
   "processo": "FMUSP 2027",
@@ -1030,7 +1036,7 @@
    "https://www.fuvest.br/wp-content/uploads/rm2027-retificacao-2026-11-18.pdf",
    "https://www.fuvest.br/wp-content/uploads/rm2027-relacao-candidato-vaga.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://portal.fcm.unicamp.br/residencias-em-saude/residencia-medica/processo-seletivo-2027/": {
   "processo": "UNICAMP 2027",
@@ -1048,13 +1054,13 @@
    "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/006-Edital-Especialidades-2027.pdf",
    "https://portal.fcm.unicamp.br/wp-content/uploads/sites/58/2026/09/002-Edital-Areas-de-Atuacao-2027.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.fauscs.org.br/post/sele%C3%A7%C3%A3o-p%C3%BAblica-para-resid%C3%AAncia-m%C3%A9dica-2027": {
   "processo": "FAUSCS 2027",
   "hash": "40df1dfaca247d7b8cd0f30fe37b61aeb460b979",
   "docs": [],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.famerp.br/index.php/diretoria-de-pos-graduacao/coreme/processo-seletivo-coreme-2027-acesso-direto-e-especialidades/": {
   "processo": "FAMERP 2027",
@@ -1087,7 +1093,7 @@
    "https://www.famerp.br/index.php/diretoria-de-administracao/c-a-d-a-comissao-de-avaliacao-de-documentos-e-acesso/1-1-arquivo-nacional/",
    "https://www.famerp.br/index.php/diretoria-de-administracao/c-a-d-a-comissao-de-avaliacao-de-documentos-e-acesso/7-4-composicao-da-comissao-de-avaliacao-de-arquivos-famerp/"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.vunesp.com.br/HSLI2601": {
   "processo": "Sírio-Libanês 2027",
@@ -1095,7 +1101,7 @@
   "docs": [
    "https://www.vunesp.com.br/AreaCandidato/Posicionar/HSLI2601/RequerimentoArquivo"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.vunesp.com.br/UFSP2602": {
   "processo": "UNIFESP 2027",
@@ -1103,7 +1109,7 @@
   "docs": [
    "https://www.vunesp.com.br/AreaCandidato/Posicionar/UFSP2602/RequerimentoArquivo"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.nucvest.com.br/pucsp/residencia-medica/2027/abad/index.html": {
   "processo": "PUC-SP 2027",
@@ -1141,11 +1147,11 @@
    "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2022/provas-e-gabaritos/AREAS-BASICAS-ACESSO-DIRETO-75Q-ResidenciaPuc-2022-A4-r1.pdf",
    "https://www.nucvest.com.br/downloads/pucsp/residencia-medica/2022/provas-e-gabaritos/Gabarito-Area-Basica-e-Acesso-DiretoV4.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.avancasp.org.br/informacoes/283/": {
   "processo": "IAMSPE 2027",
-  "hash": "4c2bc8c3e266eed65a1e9f93088a83890289ce00",
+  "hash": "5f9a9d8fe1a46469ee26601c18e3f74805b34a7d",
   "docs": [
    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c4a1c9b-cdc7-41e1-bc9d-8beb8599d121.pdf",
    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/ed1d38d4-0945-4fce-9f64-ade76b369249.pdf",
@@ -1166,9 +1172,14 @@
    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/605aafc0-632a-400b-9453-1aa6ed7826e3.pdf",
    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/4b080091-eedf-4cc5-8bc6-c6ad9c54330e.PDF",
    "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3c8b02fb-89ab-4642-bdca-ad4d93a98fdc.pdf",
-   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3bdbda7c-5eae-41fe-aaef-5900f4567a8f.pdf"
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/3bdbda7c-5eae-41fe-aaef-5900f4567a8f.pdf",
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/ddcb641c-b639-45ce-ad03-6298f489d7eb.pdf",
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf",
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/5df2f4a6-5fdf-404c-96f9-ab014ef84e8a.pdf",
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/cc850ceb-9d81-439d-a407-7a816580122e.pdf",
+   "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/609ebe1c-e1b6-45dd-a67f-0c09220f7dfb.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  },
  "https://www.concursosfcc.com.br/concursos/scmsp126/index.html": {
   "processo": "Santa Casa SP 2027",
@@ -1183,6 +1194,6 @@
    "https://www.concursosfcc.com.br/rybena/web/index.html?file=https://www.concursosfcc.com.br/concursos/scmsp126/retificacao_01.pdf",
    "https://www.concursosfcc.com.br/rybena/web/index.html?file=https://www.concursosfcc.com.br/concursos/scmsp126/edital_de_abertura_21_09_26_publicar_2.pdf"
   ],
-  "visto": "2026-11-21"
+  "visto": "2026-11-23"
  }
 }

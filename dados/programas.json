@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22",
+ "gerado_em": "2026-11-23",
  "programas": [
   {
    "id": "enare-ufal",
@@ -3296,7 +3296,7 @@
      "obs": "O documento oficial diz 'Vagas Disponíveis: 5' para Região Metropolitana de Belém, Dermatologia; o registro anterior (Estratégia MED) falava em 3 vagas e 93 inscritos, 31 c/v. Os 5 primeiros têm bonificação PRMGFC (94,60; 92,40; 90,20; 90,20; 89,10). A lista não separa cotas."
     }
    ],
-   "observacoes": "Quadro 1 do Edital 148/2026 (Região Metropolitana de Belém): Dermatologia tem 5 vagas, todas na coluna UEPA/BEL (D=5, R=0 para Forças Armadas), contempladas pelo QualificaSaúde. FHCGV, FSCMPA (Santa Casa), HOL, HMUE e SESMA não ofertam Dermatologia, e não há Dermatologia em Santarém ou Marabá. O edital não informa o hospital/serviço do PRM. Edital publicado em 29/10/2026; pagamento da taxa até 27/11/2026; início em 01/03/2027. Histórico 2026: as 3 vagas da UEPA Belém foram conferidas no Edital 116/2025 (https://prosel.uepa.br/wp-content/uploads/edital1162025.pdf, oficial). Inscritos e candidatos/vaga (ampla concorrência) vêm de matéria do Estratégia MED que reproduz um PDF de demanda, por isso o selo é secundária. serviço credenciado SBD; não localizei ato da CNRM 2021-2026 para Dermatologia nesta instituição — vínculo como residência MEC NÃO confirmado (pode ser residência MEC com ato anterior a 2021, ou curso de especialização credenciado SBD que não é residência MEC) | SBD lista residentes/especializandos em curso: 5 no 1º ano, 5 no 2º, 5 no 3º (página SBD modificada em 2024-05-24)",
+   "observacoes": "Quadro 1 do Edital 148/2026 (Região Metropolitana de Belém): Dermatologia tem 5 vagas, todas na coluna UEPA/BEL (D=5, R=0 para Forças Armadas), contempladas pelo QualificaSaúde. FHCGV, FSCMPA (Santa Casa), HOL, HMUE e SESMA não ofertam Dermatologia, e não há Dermatologia em Santarém ou Marabá. O edital não informa o hospital/serviço do PRM. Edital publicado em 29/10/2026; pagamento da taxa até 27/11/2026; início em 01/03/2027. Histórico 2026: as 3 vagas da UEPA Belém foram conferidas no Edital 116/2025 (https://prosel.uepa.br/wp-content/uploads/edital1162025.pdf, oficial). Inscritos e candidatos/vaga (ampla concorrência) vêm de matéria do Estratégia MED que reproduz um PDF de demanda, por isso o selo é secundária. I Errata ao Edital 148/2026 (18/11/2026, https://prosel.uepa.br/wp-content/uploads/I-ERRATA-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf): das 5 vagas de Dermatologia (UEPA/Belém), só 3 são contempladas pelo Programa QualificaSaúde; o total de vagas não mudou. serviço credenciado SBD; não localizei ato da CNRM 2021-2026 para Dermatologia nesta instituição — vínculo como residência MEC NÃO confirmado (pode ser residência MEC com ato anterior a 2021, ou curso de especialização credenciado SBD que não é residência MEC) | SBD lista residentes/especializandos em curso: 5 no 1º ano, 5 no 2º, 5 no 3º (página SBD modificada em 2024-05-24)",
    "aviso": null,
    "vagas_cnrm": null,
    "vagas_cnrm_fonte": null,
@@ -10133,6 +10133,18 @@
    },
    "historico": [
     {
+     "ano_ingresso": 2027,
+     "vagas": 3,
+     "inscritos": 337,
+     "candidatos_por_vaga": 112.33,
+     "nota_corte": null,
+     "nota_corte_escala": null,
+     "nota_corte_etapa": null,
+     "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf",
+     "selo": "oficial",
+     "obs": "Total de candidatos inscritos por especialidade (AVANÇASP, 23/11/2026): Dermatologia 337. c/v calculado = 337/3 vagas do edital."
+    },
+    {
      "ano_ingresso": 2026,
      "vagas": 3,
      "inscritos": 385,
@@ -13520,14 +13532,176 @@
    "obs": "Edital COREME HSCC 10/2026 escaneado, lido por OCR. Dermatologia: 3 vagas (parecer 434/2020). Nota final = 1ª fase x 0,9 + 2ª fase x 0,1."
   }
  },
- "mudancas": [],
- "comunicados": [],
+ "mudancas": [
+  {
+   "id": "iamspe-hspe-sp",
+   "grupo": "IAMSPE 2027",
+   "data": "2026-11-23",
+   "tipo": "alterado",
+   "campos": [
+    "série histórica"
+   ],
+   "det": [
+    {
+     "campo": "inscritos (ingresso 2027)",
+     "antes": null,
+     "depois": 337
+    },
+    {
+     "campo": "candidatos por vaga (ingresso 2027)",
+     "antes": null,
+     "depois": 112.33
+    }
+   ],
+   "fonte": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf"
+  }
+ ],
+ "comunicados": [
+  {
+   "data": "2026-11-23",
+   "processo": "IAMSPE 2027",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "pagina": "https://www.avancasp.org.br/informacoes/283/",
+   "url": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/ddcb641c-b639-45ce-ad03-6298f489d7eb.pdf",
+   "titulo": "LISTA DE INSCRITOS 23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "IAMSPE 2027",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "pagina": "https://www.avancasp.org.br/informacoes/283/",
+   "url": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/48304357-86fe-4515-975b-cea465d6ce24.pdf",
+   "titulo": "TOTAL DE CANDIDATOS INSCRITOS 23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "IAMSPE 2027",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "pagina": "https://www.avancasp.org.br/informacoes/283/",
+   "url": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/5df2f4a6-5fdf-404c-96f9-ab014ef84e8a.pdf",
+   "titulo": "LOCAIS DE PROVAS E SALAS 23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "IAMSPE 2027",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "pagina": "https://www.avancasp.org.br/informacoes/283/",
+   "url": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/cc850ceb-9d81-439d-a407-7a816580122e.pdf",
+   "titulo": "EDITAL DE CONVOCAÇÃO PARA AS PROVAS OBJETIVAS 23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "IAMSPE 2027",
+   "programas": [
+    "iamspe-hspe-sp"
+   ],
+   "pagina": "https://www.avancasp.org.br/informacoes/283/",
+   "url": "https://anexos-r2.selecao.net.br/uploads/301/concursos/283/anexos/609ebe1c-e1b6-45dd-a67f-0c09220f7dfb.pdf",
+   "titulo": "EDITAL DE CONVOCAÇÃO PARA O PROCEDIMENTO DE HETEROIDENTIFICAÇÃO 23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "AMRIGS/ACM 2026",
+   "programas": [
+    "hsvp-passofundo-uffs-amrigs",
+    "ghc-conceicao-amrigs",
+    "hsl-pucrs-amrigs",
+    "husm-ufsm-amrigs",
+    "hu-ufsc-florianopolis-amrigs",
+    "univali-itajai-amrigs",
+    "hst-saopedrodealcantara-amrigs"
+   ],
+   "pagina": "https://www.amrigs.org.br/prova/",
+   "url": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/1111_Edital_18-2026_Gabaritos_PreliminaresdasProvasTO_acessodiretoeautoavaliaAAo_6b0493b3d871f.pdf?idpub=511101",
+   "titulo": "Edital nº 18/2026  Divulgação dos Gabaritos Preliminares das Provas Teórico-Objetivas  Acesso Direto e Autoavaliação"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "AMRIGS/ACM 2026",
+   "programas": [
+    "hsvp-passofundo-uffs-amrigs",
+    "ghc-conceicao-amrigs",
+    "hsl-pucrs-amrigs",
+    "husm-ufsm-amrigs",
+    "hu-ufsc-florianopolis-amrigs",
+    "univali-itajai-amrigs",
+    "hst-saopedrodealcantara-amrigs"
+   ],
+   "pagina": "https://www.amrigs.org.br/prova/",
+   "url": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/__FundatecConcursos-AVISOCurrAculoOnline__6b045590aa9e7.pdf?idpub=511090",
+   "titulo": "AVISO! Currículo Online"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "AMRIGS/ACM 2026",
+   "programas": [
+    "hsvp-passofundo-uffs-amrigs",
+    "ghc-conceicao-amrigs",
+    "hsl-pucrs-amrigs",
+    "husm-ufsm-amrigs",
+    "hu-ufsc-florianopolis-amrigs",
+    "univali-itajai-amrigs",
+    "hst-saopedrodealcantara-amrigs"
+   ],
+   "pagina": "https://www.amrigs.org.br/prova/",
+   "url": "https://concursos-publicacoes.s3.amazonaws.com/1111/publico/Anexo_edital23.11.2026_6b0440df3bfd0.pdf",
+   "titulo": "Anexo VI - Tabelas de Instituições Participantes e Especialidades (PRM) - Especialidades com Acesso Direto - Vagas em Primeira Oportunidade; e Anexo VII - Tabel"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "PSU-PA 2027",
+   "programas": [
+    "uepa-pa-psu"
+   ],
+   "pagina": "https://prosel.uepa.br/rm2027/",
+   "url": "https://prosel.uepa.br/wp-content/uploads/I-ERRATA-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf",
+   "titulo": "Clique Aqui"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "PSU-PA 2027",
+   "programas": [
+    "uepa-pa-psu"
+   ],
+   "pagina": "https://prosel.uepa.br/rm2027/",
+   "url": "https://prosel.uepa.br/wp-content/uploads/I-TERMO-ADITIVO-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf",
+   "titulo": "Clique Aqui"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "PSU-BA 2027",
+   "programas": [
+    "santa-izabel-psu-ba"
+   ],
+   "pagina": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+   "url": "https://strixeducacao.com.br/wp-content/uploads/2026/11/ABAEM_2027-RELACAO_DEFINITIVA_APTOS_PRMFC_20261123_1706.pdf",
+   "titulo": "9. RELAÇÃO DEFINITIVA DE CANDIDATOS APTOS À PONTUAÇÃO ADICIONAL - PRMFC -23/11/2026"
+  },
+  {
+   "data": "2026-11-23",
+   "processo": "UFCSPA/Santa Casa POA 2027",
+   "programas": [
+    "ufcspa-santacasa-poa"
+   ],
+   "pagina": "https://fundmed.org.br/evento/residencia-medica-ufcspa-2027/",
+   "url": "https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Cumprimento-Decisao-Judicial-pontuacao-adicional-4.pdf",
+   "titulo": "4º Cumprimento de Liminar"
+  }
+ ],
  "monitor": {
-  "data": "2026-11-21",
+  "data": "2026-11-23",
   "visitados": 35,
   "erros": [
-   "SUS-PE 2027",
    "HNMD (Marinha) 2027",
+   "HU/UEL 2027",
    "UERJ 2027"
   ]
  },
@@ -13543,7 +13717,7 @@
    "dermatologia": "não confirmada: o quadro de vagas sai com o edital completo, previsto para 26/11/2026; a edição 2026 não teve Dermatologia",
    "fonte": "https://med.estrategia.com/portal/noticias/psu-al-2027-edital-resumido-para-residencia-medica-traz-datas-do-processo-seletivo/",
    "selo": "secundaria",
-   "conferido_em": "2026-11-21",
+   "conferido_em": "2026-11-23",
    "obs": "Datas do edital resumido da ALAEM, publicadas por cursinho; o documento oficial não foi localizado."
   }
  ],

@@ -407,7 +407,7 @@
           "ano_ingresso": 2026,
           "vagas": 3,
           "inscritos": 93,
-          "candidatos_por_vaga": 31.0,
+          "candidatos_por_vaga": 31,
           "nota_corte": null,
           "nota_corte_escala": null,
           "nota_corte_etapa": null,
@@ -415,7 +415,7 @@
           "selo": "secundaria"
         }
       ],
-      "observacoes": "Quadro 1 do Edital 148/2026 (Região Metropolitana de Belém): Dermatologia tem 5 vagas, todas na coluna UEPA/BEL (D=5, R=0 para Forças Armadas), contempladas pelo QualificaSaúde. FHCGV, FSCMPA (Santa Casa), HOL, HMUE e SESMA não ofertam Dermatologia, e não há Dermatologia em Santarém ou Marabá. O edital não informa o hospital/serviço do PRM. Edital publicado em 29/10/2026; pagamento da taxa até 27/11/2026; início em 01/03/2027. Histórico 2026: as 3 vagas da UEPA Belém foram conferidas no Edital 116/2025 (https://prosel.uepa.br/wp-content/uploads/edital1162025.pdf, oficial). Inscritos e candidatos/vaga (ampla concorrência) vêm de matéria do Estratégia MED que reproduz um PDF de demanda, por isso o selo é secundária."
+      "observacoes": "Quadro 1 do Edital 148/2026 (Região Metropolitana de Belém): Dermatologia tem 5 vagas, todas na coluna UEPA/BEL (D=5, R=0 para Forças Armadas), contempladas pelo QualificaSaúde. FHCGV, FSCMPA (Santa Casa), HOL, HMUE e SESMA não ofertam Dermatologia, e não há Dermatologia em Santarém ou Marabá. O edital não informa o hospital/serviço do PRM. Edital publicado em 29/10/2026; pagamento da taxa até 27/11/2026; início em 01/03/2027. Histórico 2026: as 3 vagas da UEPA Belém foram conferidas no Edital 116/2025 (https://prosel.uepa.br/wp-content/uploads/edital1162025.pdf, oficial). Inscritos e candidatos/vaga (ampla concorrência) vêm de matéria do Estratégia MED que reproduz um PDF de demanda, por isso o selo é secundária. I Errata ao Edital 148/2026 (18/11/2026, https://prosel.uepa.br/wp-content/uploads/I-ERRATA-AO-EDITAL-No-148-2026-%E2%80%93-UEPA.pdf): das 5 vagas de Dermatologia (UEPA/Belém), só 3 são contempladas pelo Programa QualificaSaúde; o total de vagas não mudou."
     },
     {
       "id": "cesupa-pa",
@@ -577,7 +577,7 @@
           "ano_ingresso": 2027,
           "vagas": 2,
           "inscritos": 144,
-          "candidatos_por_vaga": 72.0,
+          "candidatos_por_vaga": 72,
           "nota_corte": null,
           "nota_corte_escala": null,
           "nota_corte_etapa": null,

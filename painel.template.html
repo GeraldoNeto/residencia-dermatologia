@@ -592,6 +592,13 @@ main:focus{outline:none}
 .lk{color:inherit;text-decoration:none;font:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:left}
 .lk:hover{text-decoration:underline;text-underline-offset:2px}
 .lk:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+/* conta (login Google no site próprio) */
+.conta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;justify-content:flex-end;margin-bottom:8px}
+.conta-txt{font-size:13px;color:var(--muted)}
+.conta-txt b{color:var(--ink);font-weight:600}
+.conta .btn{font-size:13.5px;padding:7px 12px}
+#pl-salvo .btn{font-size:13.5px;padding:5px 10px;margin:0 4px}
+@media (max-width:760px){.conta{justify-content:flex-start}}
 /* seletor de tema */
 .tema{display:inline-flex;border:1px solid var(--line);border-radius:99px;padding:2px;gap:2px;margin-bottom:8px;background:var(--surface-2)}
 .tema button{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:none;border:0;border-radius:99px;padding:4px 11px;cursor:pointer;min-height:28px;display:inline-flex;align-items:center;gap:5px}
@@ -627,7 +634,7 @@ const TEMA_UI = (() => {
       <h1><a href="#visao">Residência em <span>Dermatologia</span></a></h1>
       <p>Programas, editais, datas e concorrência do ciclo de ingresso em março de 2027. Cada número leva a fonte e um selo de origem.</p>
     </div>
-    <div class="atual"><div class="tema" role="group" aria-label="Tema da página"><button type="button" data-tema="auto" title="Segue o tema do aparelho" aria-label="Tema automático, segue o aparelho"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>Auto</button><button type="button" data-tema="light" aria-label="Tema claro"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></g></svg>Claro</button><button type="button" data-tema="dark" aria-label="Tema escuro"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 10.4A6 6 0 0 1 5.6 2.4a6 6 0 1 0 8 8z" fill="currentColor"/></svg>Escuro</button></div><div>Dados conferidos em <b id="gerado"></b><br><span id="hoje-txt"></span></div></div>
+    <div class="atual"><div class="conta" id="conta" hidden></div><div class="tema" role="group" aria-label="Tema da página"><button type="button" data-tema="auto" title="Segue o tema do aparelho" aria-label="Tema automático, segue o aparelho"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>Auto</button><button type="button" data-tema="light" aria-label="Tema claro"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></g></svg>Claro</button><button type="button" data-tema="dark" aria-label="Tema escuro"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 10.4A6 6 0 0 1 5.6 2.4a6 6 0 1 0 8 8z" fill="currentColor"/></svg>Escuro</button></div><div>Dados conferidos em <b id="gerado"></b><br><span id="hoje-txt"></span></div></div>
   </div>
 </header>
 
@@ -1001,7 +1008,7 @@ function rGuia() {
   const term = typeof prazosTerminando === 'function' ? prazosTerminando().itens.length : 0;
   const passos = [
     ['Encontre os programas', 'Veja a lista com todos os programas, ou o mapa. A busca e os filtros ajudam a achar por cidade ou estado.', '#programas', 'Ver os programas', `${P.filter(p => p.tipo !== 'sbd').length} programas no painel`, nFav > 0],
-    ['Guarde os que interessam', 'Toque na ★ ao lado do nome do programa. Tudo o que é pessoal no painel parte dessa lista.', '#programas', 'Escolher programas', nFav ? `${nFav} guardado${nFav > 1 ? 's' : ''}` : 'nenhum guardado ainda', nFav > 0],
+    ['Guarde os que interessam', 'Toque na ★ ao lado do nome do programa. Tudo o que é pessoal no painel parte dessa lista.' + (sb ? ' Entre com Google, no alto da página, para ver a lista no celular e no computador.' : ''), '#programas', 'Escolher programas', nFav ? `${nFav} guardado${nFav > 1 ? 's' : ''}` : 'nenhum guardado ainda', nFav > 0],
     ['Acompanhe prazos e provas', 'Inscrições abertas, provas no mesmo dia e mudanças nos editais aparecem lá, com a fonte oficial.', '#radar', 'Ver prazos e provas', term ? `${term} inscriç${term > 1 ? 'ões terminando' : 'ão terminando'}` : 'nenhum prazo urgente', !term],
     ['Organize suas inscrições', 'Marque em que etapa está cada inscrição, veja quanto vai gastar e os documentos de cada edital.', '#plano', 'Abrir minhas inscrições', procs.length ? `${marcados} de ${procs.length} com etapa marcada` : 'guarde programas primeiro', procs.length > 0 && marcados === procs.length],
     ['Prepare-se para a prova', 'Veja quantas questões de cada área caem e monte um plano de estudo até a data da prova.', '#provas', 'Ir para Estudar', '', false],
@@ -1898,12 +1905,75 @@ function rNovidades(L) {
   $('#novidades').innerHTML = arr.slice(0, 12).map(m => { const p = P.find(x => x.id === m.id); return `<li data-abre="${esc(p.id)}" style="cursor:pointer"><span class="novo-pill">${m.tipo === 'novo' ? 'novo' : 'alterado'} ${esc(fD(m.data))}</span> <b>${lkA(p.id, esc(p.sigla || p.instituicao))}</b> · ${esc(p.cidade)}/${esc(p.uf)}${(m.det || []).length ? ` <span class="sub">${m.det.map(d => `${esc(ROT_CAMPO[d.campo] || d.campo)}: ${esc(detTxt(d))}`).join('; ')}</span>` : m.campos.length ? ` <span class="sub">${esc(m.campos.join(', '))}</span>` : ''}</li>`; }).join('') + `<li style="border-bottom:0"><a href="#radar">Ver todas as mudanças e comunicados em Prazos e provas</a></li>`;
 }
 
+/* salvar na conta: dentro do claude.ai usa a conta do Claude; no site próprio (Vercel) usa login Google pelo Supabase.
+   Sem login, tudo continua salvo no próprio aparelho. */
+const SB_URL = 'https://gbpnpnxgadcsfyiktovl.supabase.co';
+const SB_KEY = 'sb_publishable_Avd9sSBXI2KZBQ5vl65fgQ_UAmORKv7'; // chave pública (feita para ficar na página); o acesso é limitado pelas regras do banco
+let sb = null, sbUser = null, origemConta = 'claude';
+function rConta() {
+  const box = $('#conta'); if (!box) return;
+  if (!sb) { box.hidden = true; return; }
+  box.hidden = false;
+  box.innerHTML = sbUser
+    ? `<span class="conta-txt">Conectada como <b>${esc(sbUser.email || 'sua conta Google')}</b></span><button type="button" class="btn" id="bt-sair">Sair</button>`
+    : `<button type="button" class="btn prim" data-entrar>Entrar com Google</button><span class="conta-txt">para ver sua lista no celular e no computador</span>`;
+}
+async function entrarGoogle() {
+  if (!sb) return;
+  const {error} = await sb.auth.signInWithOAuth({provider: 'google', options: {redirectTo: location.origin + location.pathname}});
+  if (error) { $('#pl-salvo').textContent = 'Não foi possível abrir o login do Google agora. Tente de novo em instantes.'; }
+}
+async function carregaConta() {
+  const ref = {
+    get: async () => {
+      const {data, error} = await sb.from('estado').select('dados').eq('user_id', sbUser.id).maybeSingle();
+      if (error) throw error;
+      return {exists: !!data, data: () => data?.dados || {}};
+    },
+    set: async o => {
+      const {error} = await sb.from('estado').upsert({user_id: sbUser.id, dados: o, atualizado: new Date().toISOString()});
+      if (error) throw error;
+    },
+  };
+  try {
+    const locais = [...fav];
+    const s = await ref.get();
+    nuvem = ref;
+    if (s.exists) {
+      aplica(s.data());
+      // o que foi marcado neste aparelho antes de entrar não se perde: junta com a lista da conta
+      const novos = locais.filter(x => !fav.has(x));
+      if (novos.length) { novos.forEach(x => fav.add(x)); _set('derma-fav', [...fav]); render(); await sobe(); }
+      marcaSalvo('conta');
+    } else await sobe();
+  } catch { nuvem = null; marcaSalvo('erro'); }
+}
+async function iniciaSupabase() {
+  if (window.claude?.use) return; // dentro do claude.ai
+  origemConta = 'google';
+  try {
+    await new Promise((ok, falha) => { const s = document.createElement('script'); s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js'; s.onload = ok; s.onerror = falha; document.head.appendChild(s); });
+    sb = window.supabase.createClient(SB_URL, SB_KEY, {auth: {flowType: 'pkce', detectSessionInUrl: true, persistSession: true, autoRefreshToken: true}});
+    rConta(); marcaSalvo('local');
+    sb.auth.onAuthStateChange((ev, sess) => {
+      const u = sess?.user || null;
+      if (u && /[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
+      if ((u?.id || null) === (sbUser?.id || null)) return;
+      sbUser = u; rConta();
+      if (u) setTimeout(carregaConta, 0); else { nuvem = null; marcaSalvo('local'); }
+    });
+  } catch { sb = null; rConta(); }
+}
+
 /* salvar na conta do Claude (db, área privada de cada pessoa); sem conta, fica no aparelho */
 const SYNC = ['fav', 'cmp', 'pesos', 'chances', 'plano', 'estudo', 'alerta'];
 let nuvem = null, nuvemT = null;
 function marcaSalvo(e) {
-  $('#pl-salvo').textContent = e === 'conta' ? 'Salvo na sua conta do Claude: a lista ★, o andamento, os documentos e o plano aparecem em qualquer aparelho em que você abrir este painel.'
-    : e === 'erro' ? 'Não consegui salvar na sua conta agora; ficou salvo neste aparelho.' : 'Salvo só neste aparelho e navegador.';
+  const qual = origemConta === 'google' ? 'na sua conta Google' : 'na sua conta do Claude';
+  $('#pl-salvo').innerHTML = e === 'conta' ? `Salvo ${qual}: a lista ★, o andamento, os documentos e o plano aparecem em qualquer aparelho em que você entrar.`
+    : e === 'erro' ? 'Não consegui salvar na sua conta agora; ficou salvo neste aparelho. Tente de novo mais tarde.'
+    : sb ? 'Salvo só neste aparelho. <button type="button" class="btn prim" data-entrar>Entrar com Google</button> para ver a lista no celular e no computador.'
+    : 'Salvo só neste aparelho e navegador.';
 }
 marcaSalvo('local');
 const _set = store.set;
@@ -1936,6 +2006,7 @@ function aplica(o) {
     if (s.exists) { aplica(s.data() || {}); marcaSalvo('conta'); } else await sobe();
   } catch { nuvem = null; marcaSalvo('local'); }
 })();
+iniciaSupabase();
 let DL = null;
 (async () => { try { DL = window.claude?.use ? await claude.use('downloads') : null; } catch { DL = null; } if (DL) $('#pl-baixar').hidden = false; })();
 
@@ -2146,6 +2217,10 @@ document.addEventListener('click', e => {
 $('#ap-dias').addEventListener('change', e => { AL.dias = +e.target.value; salvaAL(); rAlerta(); if (vista === 'radar') rRadar(filtrados()); });
 $('#guia').addEventListener('toggle', e => { try { localStorage.setItem('derma-guia', e.target.open ? 'aberto' : 'fechado'); } catch {} });
 $('#bt-mais').onclick = () => { const f = $('#filtros'); f.classList.toggle('mais'); const a = f.classList.contains('mais'); $('#bt-mais').setAttribute('aria-expanded', a); $('#bt-mais').textContent = a ? 'Menos filtros' : 'Mais filtros'; };
+document.addEventListener('click', e => {
+  if (e.target.closest('[data-entrar]')) entrarGoogle();
+  if (e.target.closest('#bt-sair')) sb?.auth.signOut();
+});
 $('#bt-pular').onclick = () => { const m = $('#conteudo'); m.focus({preventScroll: true}); m.scrollIntoView(); };
 const marcaTema = () => document.querySelectorAll('[data-tema]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tema === TEMA_UI.pref));
 document.querySelectorAll('[data-tema]').forEach(b => b.onclick = () => { TEMA_UI.escolhe(b.dataset.tema); marcaTema(); });
